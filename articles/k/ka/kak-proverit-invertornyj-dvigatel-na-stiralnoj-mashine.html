@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как проверить инверторный двигатель стиральной машины: 7 шагов — Стиралка Инфо</title>
+    <meta name="description" content="Пошаговая инструкция по диагностике инверторного мотора стиралки: мультиметром, визуально, через ошибки. Разбор неисправностей LG, Samsung, Bosch и других брендов.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-proverit-invertornyj-dvigatel-na-stiralnoj-mashine.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как проверить инверторный двигатель стиральной машины: 7 шагов">
+    <meta property="og:description" content="Пошаговая инструкция по диагностике инверторного мотора стиралки: мультиметром, визуально, через ошибки. Разбор неисправностей LG, Samsung, Bosch и других брендов.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как проверить инверторный двигатель стиральной машины: 7 шагов</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#1-признаки-неисправности-инверторного-двигателя-когда-нужна-диагностика">1. Признаки неисправности инверторного двигателя: когда нужна диагностика</a></li><li><a href="#2-подготовка-к-диагностике-инструменты-и-меры-безопасности">2. Подготовка к диагностике: инструменты и меры безопасности</a></li><li><a href="#3-визуальный-осмотр-двигателя-и-платы-управления">3. Визуальный осмотр двигателя и платы управления</a></li><li><a href="#4-проверка-обмоток-статора-и-ротора-мультиметром">4. Проверка обмоток статора и ротора мультиметром</a></li><li><a href="#5-диагностика-датчика-холла-и-таходатчика">5. Диагностика датчика Холла и таходатчика</a></li><li><a href="#6-проверка-платы-управления-инверторным-двигателем">6. Проверка платы управления инверторным двигателем</a></li><li><a href="#7-тест-двигателя-под-нагрузкой-без-разборки-машины">7. Тест двигателя под нагрузкой (без разборки машины)</a></li><li><a href="#faq-частые-вопросы-о-проверке-инверторных-двигателей">FAQ: Частые вопросы о проверке инверторных двигателей</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-perezagruzit-programmy-na-stiralnoj-mashine-indezit.html">Как перезагрузить программы на стиральной машине Indesit: инструкция 2026</a></li><li><a href="/articles/k/ka/kak-snyat-blokirovku-ot-detej-na-stiralnoj-mashine-lg-s-sensornym-ekranom.html">Как снять блокировку от детей на стиральной машине LG: сенсор</a></li><li><a href="/articles/k/ka/kak-ustroena-stiralnaya-mashina-indezit.html">Как устроена стиральная машина Indesit: устройство и принцип работы</a></li><li><a href="/articles/k/ka/kak-smenit-yazyk-na-stiralnoj-mashine-hotpoint.html">Как сменить язык на стиральной машине Hotpoint: инструкция</a></li><li><a href="/articles/k/ka/kak-postavit-koltso-na-rezinku-stiralnoj-mashiny.html">Как заменить и поставить уплотнительное кольцо на стиральную машину</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как самостоятельно проверить инверторный двигатель стиральной машины: пошаговое руководство с фото и схемами</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#1-признаки-неисправности-инверторного-двигателя-когда-нужна-диагностика">1. Признаки неисправности инверторного двигателя: когда нужна диагностика</a></li><li><a href="#2-подготовка-к-диагностике-инструменты-и-меры-безопасности">2. Подготовка к диагностике: инструменты и меры безопасности</a></li><li><a href="#3-визуальный-осмотр-двигателя-и-платы-управления">3. Визуальный осмотр двигателя и платы управления</a></li><li><a href="#4-проверка-обмоток-статора-и-ротора-мультиметром">4. Проверка обмоток статора и ротора мультиметром</a></li><li><a href="#5-диагностика-датчика-холла-и-таходатчика">5. Диагностика датчика Холла и таходатчика</a></li><li><a href="#6-проверка-платы-управления-инверторным-двигателем">6. Проверка платы управления инверторным двигателем</a></li><li><a href="#7-тест-двигателя-под-нагрузкой-без-разборки-машины">7. Тест двигателя под нагрузкой (без разборки машины)</a></li><li><a href="#faq-частые-вопросы-о-проверке-инверторных-двигателей">FAQ: Частые вопросы о проверке инверторных двигателей</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Инверторные двигатели пришли на смену традиционным коллекторным моторам и сегодня устанавливаются в 80% современных стиральных машин <em>LG</em>, <em>Samsung</em>, <em>Bosch</em> и <em>Indesit</em>. Их ключевое преимущество — плавный контроль скорости вращения барабана, что снижает износ деталей и уменьшает шум. Однако даже такие надёжные узлы со временем выходят из строя: машина начинает дергаться при отжиме, выдает ошибку <code>UE</code> или <code>E1</code>, либо вообще отказывается запускать программу.</p>
+
+<p>Если ваша стиралка ведёт себя подозрительно, не спешите вызывать мастера. <strong>Большинство неисправностей инверторного двигателя можно диагностировать самостоятельно</strong> с помощью мультиметра, визуального осмотра и анализа кодов ошибок. В этой статье мы разберём <strong>7 проверенных методов проверки</strong>, включая тесты обмоток, датчика Холла и платы управления — с пошаговыми фото и схемами подключения. Вы также узнаете, какие симптомы говорят о <strong>критическом износе мотора</strong>, а когда проблема кроется в электронном модуле.</p>
+
+<p>⚠️ <strong>Важно:</strong> Инверторные двигатели работают под высоким напряжением (до 380В в некоторых моделях). Перед любой диагностикой <strong>обязательно отключите машину от сети</strong> и разрядите конденсаторы, замкнув их контакты отверткой с изолированной ручкой. Не прикасайтесь к плате управления влажными руками — это может вызвать короткое замыкание.</p>
+
+<h2 id="1-признаки-неисправности-инверторного-двигателя-когда-нужна-диагностика">1. Признаки неисправности инверторного двигателя: когда нужна диагностика</h2>
+
+<p>Инверторные моторы редко ломаются внезапно — обычно им предшествуют характерные «симптомы». Вот наиболее частые признаки, которые должны вас насторожить:</p>
+
+<ul>
+  <li>🔄 <strong>Барабан вращается рывками</strong> или не набирает обороты при отжиме (особенно на высоких скоростях).</li>
+  <li>🔊 <strong>Посторонние звуки</strong>: скрежет, визг или гул во время работы (может указывать на износ подшипников или замыкание обмоток).</li>
+  <li>⚡ <strong>Машина выбивает автомат</strong> в щитке при запуске стирки или отжима.</li>
+  <li>📛 <strong>Коды ошибок</strong> на дисплее: <code>UE</code> (дисбаланс), <code>E1</code>/<code>E2</code> (проблемы с мотором), <code>LE</code> (блокировка двигателя) — в зависимости от бренда.</li>
+  <li>🔥 <strong>Запах гари</strong> из-под задней крышки (горелая изоляция обмоток или платы).</li>
+  <li>⏳ <strong>Стирка затягивается</strong> — машина «зависает» на этапе полоскания или отжима.</li>
+</ul>
+
+<p>Если вы наблюдаете хотя бы один из этих признаков, <strong>не откладывайте диагностику</strong>. Инверторные двигатели чувствительны к перегреву: игнорирование проблемы может привести к <mark>полному выходу из строя платы управления или обгоранию обмоток статора</mark>, что потребует дорогостоящего ремонта.</p>
+
+<p>⚠️ <strong>Внимание:</strong> У машин <em>LG</em> с системой <em>Direct Drive</em> (прямой привод) и <em>Samsung</em> с <em>Digital Inverter</em> симптомы неисправности мотора могут совпадать с поломками датчика Холла или таходатчика. Перед разборкой проверьте код ошибки в инструкции к вашей модели!</p>
+
+<h2 id="2-подготовка-к-диагностике-инструменты-и-меры-безопасности">2. Подготовка к диагностике: инструменты и меры безопасности</h2>
+
+<p>Для проверки инверторного двигателя вам понадобятся:</p>
+
+<ul>
+  <li>🔧 <strong>Отвёртки</strong>: крестовая (PH2) и плоская (для снятия крышек).</li>
+  <li>📊 <strong>Мультиметр</strong> с режимами проверки сопротивления (Ω) и напряжения (V).</li>
+  <li>🔍 <strong>Фонарик</strong> или настольная лампа (для осмотра платы и контактов).</li>
+  <li>🧲 <strong>Магнитная отвёртка</strong> (удобно для работы с мелкими винтами).</li>
+  <li>📸 <strong>Смартфон</strong> (чтобы фотографировать расположение проводов перед отключением).</li>
+</ul>
+
+<p>Также подготовьте рабочее место:</p>
+<ol>
+  <li>Отключите машину от сети и перекройте воду.</li>
+  <li>Отодвиньте стиралку от стены, чтобы получить доступ к задней панели.</li>
+  <li>Подстелите под машину картон или ткань — это убережёт пол от царапин.</li>
+  <li>Если двигатель сильно загрязнён, подготовьте <strong>изопропиловый спирт</strong> и кисточку для очистки контактов.</li>
+</ol>
+
+
+<p>Отключить машину от розетки|Разрядить конденсаторы (замкнуть контакты отвёрткой)|Надеть резиновые перчатки|Не работать во влажном помещении|Проверить целостность изоляции на проводах мультиметра--></p>
+
+<p>⚠️ <strong>Внимание:</strong> В некоторых моделях <em>Bosch</em> и <em>Siemens</em> инверторный двигатель подключён к плате управления через разъём с фиксатором. Не тяните за провода — сначала нажмите на защёлку, иначе можно повредить контакты!</p>
+
+<h2 id="3-визуальный-осмотр-двигателя-и-платы-управления">3. Визуальный осмотр двигателя и платы управления</h2>
+
+<p>Начните диагностику с внешнего осмотра. Для этого:</p>
+
+<ol>
+  <li>Снимите заднюю крышку стиральной машины (обычно она крепится на 4–6 винтах).</li>
+  <li>Найдите двигатель — в машинах с <strong>прямым приводом</strong> (например, <em>LG Direct Drive</em>) он расположен непосредственно за барабаном, в моделях с ременной передачей — снизу.</li>
+  <li>Осмотрите коробку передач (если есть), ремень, шкив и сам мотор на предмет:</li>
+</ol>
+
+<div class="pb-table-wrap"><table>
+  <thead>
+    <tr>
+      <th>Элемент</th>
+      <th>Признаки неисправности</th>
+      <th>Что делать</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Обмотки статора</strong></td>
+      <td>Почернение, оплавление изоляции, запах гари</td>
+      <td>Заменить двигатель или перемотать обмотки (требует специалиста)</td>
+    </tr>
+    <tr>
+      <td><strong>Щётки (если есть)</strong></td>
+      <td>Истирание до 50% длины, искрение</td>
+      <td>Заменить щётки (в инверторных моторах щётки часто отсутствуют)</td>
+    </tr>
+    <tr>
+      <td><strong>Подшипники</strong></td>
+      <td>Люфт вала, ржавчина, подтёки смазки</td>
+      <td>Заменить подшипники и сальники</td>
+    </tr>
+    <tr>
+      <td><strong>Плата управления</strong></td>
+      <td>Вздутые конденсаторы, почерневшие дорожки, окисленные контакты</td>
+      <td>Пропаять контакты или заменить плату</td>
+    </tr>
+    <tr>
+      <td><strong>Провода и разъёмы</strong></td>
+      <td>Окисление, оплавление, обрывы</td>
+      <td>Зачистить контакты или заменить жгут</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>Обратите особое внимание на <strong>датчик Холла</strong> (маленькая деталь с проводами, прикреплённая к статору). Если он покрыт грязью или его контакты окислены, мотор может работать нестабильно. Очистите датчик спиртом и проверьте целостность его проводов.</p>
+
+<details class="pb-accordion"><summary>Как отличить инверторный двигатель от коллекторного?</summary><div class="pb-accordion-body"><p>
+<p>Инверторные моторы компактнее, имеют пластиковый корпус с ребрами охлаждения и подключены к плате управления через широкий разъём (4–8 контактов). Коллекторные двигатели обычно цилиндрические, с двумя угольными щётками и двумя клеммами для подключения питания.</p></div></details></p>
+
+<h2 id="4-проверка-обмоток-статора-и-ротора-мультиметром">4. Проверка обмоток статора и ротора мультиметром</h2>
+
+<p>Это самый надёжный способ выявить <strong>обрыв или короткое замыкание</strong> в обмотках. Инструкция подходит для большинства инверторных двигателей, включая модели <em>LG</em>, <em>Samsung</em> и <em>Bosch</em>.</p>
+
+<p><strong>Шаг 1. Отключите двигатель от платы управления.</strong><br>
+<p>Аккуратно отсоедините разъём питания (обычно он зафиксирован защёлкой). Если провода припаяны, отпаяйте их, предварительно сфотографировав схему подключения.</p></p>
+
+<p><strong>Шаг 2. Переведите мультиметр в режим измерения сопротивления (Ω) на предел 200 Ом.</strong></p>
+
+<p><strong>Шаг 3. Проверьте обмотки статора:</strong></p>
+<ul>
+  <li>Прикоснитесь щупами к выводам <strong>U–V, V–W, W–U</strong> (маркировка есть на корпусе двигателя).</li>
+  <li>Сопротивление должно быть <strong>одинаковым</strong> для всех пар (обычно 2–15 Ом, зависит от модели).</li>
+  <li>Если на одной из пар сопротивление <strong>бесконечность (обрыв)</strong> или <strong>0 Ом (замыкание)</strong> — обмотка неисправна.</li>
+</ul>
+
+<p><strong>Шаг 4. Проверьте ротор (если есть доступ к его контактам):</strong></p>
+<ul>
+  <li>Измерьте сопротивление между кольцами ротора. Оно должно быть в пределах <strong>0,1–1 Ом</strong>.</li>
+  <li>Проверьте отсутствие замыкания на корпус: один щуп на кольцо ротора, второй — на металлический вал. Сопротивление должно быть <strong>бесконечным</strong>.</li>
+</ul>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если сопротивление обмоток отличается более чем на 10%, это может указывать на межвитковое замыкание. В таком случае двигатель будет греться и работать нестабильно.</p></aside>
+
+<p>⚠️ <strong>Внимание:</strong> В некоторых инверторных моторах (например, в <em>Samsung Digital Inverter</em>) обмотки подключены через внутреннюю электронику. Если вы не можете найти контакты для прямой проверки, используйте метод диагностики через плату управления (описан в разделе 6).</p>
+
+<h2 id="5-диагностика-датчика-холла-и-таходатчика">5. Диагностика датчика Холла и таходатчика</h2>
+
+<p>Датчик Холла (или таходатчик) отвечает за контроль скорости вращения двигателя. Если он выходит из строя, машина может:</p>
+<ul>
+  <li>Не набирать обороты при отжиме.</li>
+  <li>Вращать барабан рывками.</li>
+  <li>Выдавать ошибку <code>E4</code> или <code>LE</code> (в зависимости от бренда).</li>
+</ul>
+
+<p><strong>Как проверить датчик Холла:</strong></p>
+<ol>
+  <li>Найдите датчик на корпусе двигателя (обычно это небольшая пластиковая деталь с 3–4 проводами).</li>
+  <li>Отсоедините разъём и проверьте сопротивление между контактами:
+    <ul>
+      <li>Между <strong>питанием (+5V)</strong> и <strong>землёй (GND)</strong> — должно быть <strong>5–10 кОм</strong>.</li>
+      <li>Между <strong>сигнальным выводом</strong> и <strong>землёй</strong> — <strong>0,5–2 кОм</strong> (зависит от модели).</li>
+    </ol>
+  </li>
+  <li>Если сопротивление отсутствует или стремится к нулю — датчик неисправен.</li>
+</ul>
+
+<p>В машинах <em>LG</em> датчик Холла часто интегрирован в плату управления двигателем. В этом случае его проверка возможна только <strong>методом замены</strong> на заведомо исправный.</p>
+
+
+<p>LG|Samsung|Bosch/Siemens|Indesit/Ariston|Другой--></p>
+
+<h2 id="6-проверка-платы-управления-инверторным-двигателем">6. Проверка платы управления инверторным двигателем</h2>
+
+<p>Плата управления (инверторный модуль) — это «мозг» двигателя. Она преобразует постоянный ток в переменный и регулирует его частоту. Если все предыдущие тесты не выявили проблем, но мотор работает некорректно, виновата может быть плата.</p>
+
+<p><strong>Признаки неисправности платы:</strong></p>
+<ul>
+  <li>🔥 Почерневшие или вздутые <strong>конденсаторы</strong>.</li>
+  <li>📉 Падение напряжения на выходе (должно быть 220–380В в зависимости от модели).</li>
+  <li>🔌 Отсутствие сигнала на разъёме управления двигателем.</li>
+</ul>
+
+<p><strong>Как проверить плату:</strong></p>
+<ol>
+  <li>Отключите плату от сети и двигателя.</li>
+  <li>Осмотрите её на предмет <strong>прогаров, трещин или окисленных дорожек</strong>.</li>
+  <li>Прозвоните мультиметром <strong>цепи питания</strong> (между контактами <code>L</code> и <code>N</code> должно быть сопротивление ~200–500 Ом).</li>
+  <li>Проверьте <strong>силовые транзисторы</strong> (обычно они установлены на радиаторах). Если они пробиты, мультиметр покажет короткое замыкание.</li>
+</ol>
+
+<p>⚠️ <strong>Внимание:</strong> В платах <em>Samsung</em> и <em>LG</em> часто устанавливаются <strong>IGBT-модули</strong> (например, <code>STGW40H120DF</code>). Их проверка требует специального тестера или осциллографа. Без опыта не рекомендуется пытаться их ремонтировать — лучше заменить плату целиком.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если плата управления имеет видимые повреждения (прогары, вздутые конденсаторы), её ремонт обойдётся дешевле покупки нового двигателя. В 70% случаев достаточно заменить сгоревшие элементы и пропаять контакты.</p></aside>
+
+<h2 id="7-тест-двигателя-под-нагрузкой-без-разборки-машины">7. Тест двигателя под нагрузкой (без разборки машины)</h2>
+
+<p>Если вы не хотите разбирать стиралку, можно проверить двигатель «в полевых условиях»:</p>
+
+<ol>
+  <li>Запустите программу <strong>отжим на максимальных оборотах</strong> (например, 1200–1400 об/мин).</li>
+  <li>Прислушайтесь к работе мотора:
+    <ul>
+      <li>🔊 <strong>Ровный гул</strong> без вибраций — двигатель исправен.</li>
+      <li>🔄 <strong>Рывки или проседание оборотов</strong> — проблема с обмотками или датчиком Холла.</li>
+      <li>🔥 <strong>Запах гари</strong> — короткое замыкание или износ подшипников.</li>
+    </ol>
+  </li>
+  <li>Если машина <strong>выбивает автомат</strong> в щитке — скорее всего, пробита обмотка или силовой транзистор на плате.</li>
+</ul>
+
+<p>Также обратите внимание на <strong>время разгона барабана</strong>:</p>
+<ul>
+  <li>✅ Норма: барабан набирает максимальные обороты за 10–15 секунд.</li>
+  <li>❌ Неисправность: разгон занимает более 20 секунд или сопровождается «проседанием» скорости.</li>
+</ul>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если машина вибрирует при отжиме, но двигатель работает ровно, проблема может быть в <strong>разбалансировке барабана</strong> или износе амортизаторов. Проверьте крепление противовесов и состояние пружин подвески.</p></aside>
+
+<h2 id="faq-частые-вопросы-о-проверке-инверторных-двигателей">FAQ: Частые вопросы о проверке инверторных двигателей</h2>
+
+<details>
+  <summary>Можно ли проверить инверторный двигатель без мультиметра?</summary>
+  <p>Да, но точность диагностики будет ниже. Вы можете:</p>
+  <ul>
+    <li>Осмотреть двигатель на предмет <strong>видимых повреждений</strong> (гарь, оплавление).</li>
+    <li>Прокрутить барабан вручную — если он вращается с <strong>затруднениями</strong>, возможна проблема с подшипниками.</li>
+    <li>Запустить тестовую стирку и прислушаться к <strong>посторонним звукам</strong>.</li>
+  </ul>
+  <p>Однако без мультиметра вы не сможете проверить обмотки и плату управления.</p>
+</details>
+
+<details>
+  <summary>Какое сопротивление обмоток должно быть у инверторного двигателя <em>LG Direct Drive</em>?</summary>
+  <p>Для большинства моделей <em>LG</em> сопротивление между обмотками статора (<strong>U–V, V–W, W–U</strong>) должно быть в пределах <strong>8–12 Ом</strong>. Допустимое отклонение между парами — не более 0,5 Ом. Если разница больше, это указывает на межвитковое замыкание.</p>
+</details>
+
+<details>
+  <summary>Что делать, если мультиметр показывает бесконечность при проверке обмоток?</summary>
+  <p>Бесконечное сопротивление (<strong>обрыв цепи</strong>) означает, что в обмотке произошёл разрыв. Это может быть вызвано:</p>
+  <ul>
+    <li>Перегревом двигателя (например, из-за заклинивания подшипников).</li>
+    <li>Механическим повреждением провода.</li>
+    <li>Коррозией контактов.</li>
+  </ul>
+  <p>В этом случае требуется <strong>замена двигателя</strong> или перемотка обмоток (что часто нерентабельно).</p>
+</details>
+
+<details>
+  <summary>Как отличить неисправность двигателя от проблемы с платой управления?</summary>
+  <p>Проведите тест:</p>
+  <ol>
+    <li>Отключите разъём питания от двигателя.</li>
+    <li>Включите машину и запустите программу стирки.</li>
+    <li>Если плата <strong>не выдаёт ошибку</strong> (например, <code>E1</code> или <code>LE</code>) — проблема в двигателе.</li>
+    <li>Если ошибка появляется <strong>даже без подключённого мотора</strong> — неисправна плата управления.</li>
+  </ol>
+</details>
+
+<details>
+  <summary>Стоит ли ремонтировать инверторный двигатель или лучше купить новый?</summary>
+  <p>Это зависит от характера поломки:</p>
+  <div class="pb-table-wrap"><table>
+    <thead>
+      <tr>
+        <th>Поломка</th>
+        <th>Ремонт</th>
+        <th>Стоимость (примерно)</th>
+        <th>Рекомендация</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Износ подшипников</td>
+        <td>Замена подшипников и сальников</td>
+        <td>1500–3000 ₽</td>
+        <td>✅ Выгодно</td>
+      </tr>
+      <tr>
+        <td>Пробой обмоток</td>
+        <td>Перемотка или замена двигателя</td>
+        <td>4000–8000 ₽</td>
+        <td>❌ Нерентабельно (дешевле купить новый)</td>
+      </tr>
+      <tr>
+        <td>Неисправность датчика Холла</td>
+        <td>Замена датчика</td>
+        <td>500–1500 ₽</td>
+        <td>✅ Выгодно</td>
+      </tr>
+      <tr>
+        <td>Пробой платы управления</td>
+        <td>Ремонт платы (замена элементов)</td>
+        <td>2000–5000 ₽</td>
+        <td>✅ Выгодно, если детали доступны</td>
+      </tr>
+    </tbody>
+  </table></div>
+  <p>Для машин старше 7 лет замена двигателя часто нецелесообразна — дешевле купить новую стиралку.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-perezagruzit-programmy-na-stiralnoj-mashine-indezit.html" class="pb-related-card">
+                <span class="pb-related-title">Как перезагрузить программы на стиральной машине Indesit: инструкция 2026</span>
+                <span class="pb-related-desc">Пошаговое руководство по сбросу и перезагрузке программ на стиральных машинах Indesit. Узнайте, как </span>
+            </a><a href="/articles/k/ka/kak-snyat-blokirovku-ot-detej-na-stiralnoj-mashine-lg-s-sensornym-ekranom.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять блокировку от детей на стиральной машине LG: сенсор</span>
+                <span class="pb-related-desc">Подробная инструкция по разблокировке сенсорной панели LG. Узнайте, как отключить Child Lock, сброси</span>
+            </a><a href="/articles/k/ka/kak-ustroena-stiralnaya-mashina-indezit.html" class="pb-related-card">
+                <span class="pb-related-title">Как устроена стиральная машина Indesit: устройство и принцип работы</span>
+                <span class="pb-related-desc">Подробная схема устройства стиральной машины Indesit. Разбор узлов, датчиков и электроники для диагн</span>
+            </a><a href="/articles/k/ka/kak-smenit-yazyk-na-stiralnoj-mashine-hotpoint.html" class="pb-related-card">
+                <span class="pb-related-title">Как сменить язык на стиральной машине Hotpoint: инструкция</span>
+                <span class="pb-related-desc">Подробная инструкция, как поменять язык на стиральной машине Hotpoint. Сброс настроек, вход в сервис</span>
+            </a><a href="/articles/k/ka/kak-postavit-koltso-na-rezinku-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как заменить и поставить уплотнительное кольцо на стиральную машину</span>
+                <span class="pb-related-desc">Подробная инструкция по замене манжеты люка. Как правильно снять и установить резинку на стиральной </span>
+            </a><a href="/articles/k/ka/kak-zamenit-podshipnik-stiralnoj-mashiny-s-vertikalnoj-zagruzkoj.html" class="pb-related-card">
+                <span class="pb-related-title">Как заменить подшипник в стиральной машине с вертикальной загрузкой</span>
+                <span class="pb-related-desc">Подробная инструкция по замене подшипника в стиральной машине вертикального типа. Разборка бака, под</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как подключить программатор к стиральной машине: пошаговая инструкция — Стиралка Инфо</title>
+    <meta name="description" content="Полное руководство по подключению программатора к стиральной машине. Выбор интерфейса, настройка ПО, чтение ошибок и прошивка модуля управления своими руками.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-podklyuchit-programmator-k-stiralnoj-mashine.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как подключить программатор к стиральной машине: пошаговая инструкция">
+    <meta property="og:description" content="Полное руководство по подключению программатора к стиральной машине. Выбор интерфейса, настройка ПО, чтение ошибок и прошивка модуля управления своими руками.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как подключить программатор к стиральной машине: пошаговая инструкция</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#необходимое-оборудование-и-подготовка-рабочего-места">Необходимое оборудование и подготовка рабочего места</a></li><li><a href="#типы-интерфейсов-и-методов-подключения">Типы интерфейсов и методов подключения</a></li><li><a href="#пошаговая-инструкция-по-подключению-через-isp">Пошаговая инструкция по подключению через ISP</a></li><li><a href="#настройка-программного-обеспечения-и-драйверов">Настройка программного обеспечения и драйверов</a></li><li><a href="#диагностика-и-чтение-кодов-ошибок">Диагностика и чтение кодов ошибок</a></li><li><a href="#процесс-записи-прошивки-и-верификация">Процесс записи прошивки и верификация</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-pomenyat-zamok-stiralnoj-mashiny.html">Как заменить замок стиральной машины: пошаговая инструкция 2026</a></li><li><a href="/articles/k/ka/kak-snyat-shchetki-s-dvigatelya-stiralnoj-mashiny-bosh.html">Как снять щетки с двигателя стиральной машины Bosch: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-sdelat-kalibrovku-stiralnoj-mashiny-samsung.html">Калибровка стиральной машины Samsung: пошаговая инструкция</a></li><li><a href="/articles/s/st/stiralnaya-mashina-malyutka-razobrat-kak-pravilno.html">Как разобрать стиральную машину Малютка: полная инструкция</a></li><li><a href="/articles/k/ka/kak-pomenyat-podshipnik-na-stiralnoj-mashine-lg-s-pryamym-privodom.html">Замена подшипника в стиральной машине LG с прямым приводом: инструкция</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Подключение программатора к стиральной машине: профессиональное руководство</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#необходимое-оборудование-и-подготовка-рабочего-места">Необходимое оборудование и подготовка рабочего места</a></li><li><a href="#типы-интерфейсов-и-методов-подключения">Типы интерфейсов и методов подключения</a></li><li><a href="#пошаговая-инструкция-по-подключению-через-isp">Пошаговая инструкция по подключению через ISP</a></li><li><a href="#настройка-программного-обеспечения-и-драйверов">Настройка программного обеспечения и драйверов</a></li><li><a href="#диагностика-и-чтение-кодов-ошибок">Диагностика и чтение кодов ошибок</a></li><li><a href="#процесс-записи-прошивки-и-верификация">Процесс записи прошивки и верификация</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Современная бытовая техника насыщена сложной электроникой, где <strong>модуль управления</strong> выступает в роли «мозга» всего устройства. Выход из строя программного обеспечения или необходимость глубокой диагностики часто требуют прямого вмешательства в память микроконтроллера. Именно в таких ситуациях перед мастером встает задача, как подключить программатор к стиральной машине, чтобы считать данные или обновить прошивку.</p>
+
+<p>Процесс этот требует не только специализированного оборудования, но и понимания принципов работы цифровых интерфейсов. Ошибки на этом этапе могут привести к необратимому повреждению <em>EEPROM</em> или самого процессора. Поэтому важно заранее изучить теоретическую базу и подготовить рабочее место, исключив риски статического разряда.</p>
+
+<p>В отличие от простой замены деталей, работа с программными кодами подразумевает высокий уровень ответственности. Вы будете взаимодействовать с низкоуровневыми системами, где каждый бит информации имеет значение. Правильное подключение гарантирует успешную диагностику и восстановление функциональности агрегата без необходимости замены дорогостоящих узлов.</p>
+
+<h2 id="необходимое-оборудование-и-подготовка-рабочего-места">Необходимое оборудование и подготовка рабочего места</h2>
+
+<p>Первым шагом является сборка комплекта инструментов, без которых физическое подключение невозможно. Основным элементом здесь выступает сам <strong>адаптер-программатор</strong>, который служит мостом между компьютером и платой управления. Рынок предлагает множество решений, от универсальных устройств вроде <em>TL866</em> до специализированных девайсов, заточенных под конкретные бренды техники.</p>
+
+<p>Кроме аппаратной части, критически важно программное обеспечение. Компьютер или ноутбук должен иметь исправные порты <code>USB</code> и установленную операционную систему, поддерживающую драйверы вашего оборудования. Часто для старых моделей машин требуются специфические версии <em>Windows</em>, что может потребовать использования виртуальных машин.</p>
+
+<blockquote>
+<p>⚠️ Внимание: Перед началом любых работ обязательно отключите стиральную машину от электросети и дождитесь разрядки конденсаторов. Работа под напряжением с подключенным программатором может привести к сгоранию портов компьютера и самой платы управления.</p>
+</blockquote>
+
+<p>Также вам понадобятся вспомогательные материалы для обеспечения надежного контакта. Это могут быть специальные зажимы-клипсы, паяльник с тонким жалом для временной установки контактов, а также лупа или микроскоп для визуального осмотра мелких элементов на плате. Качество соединения напрямую влияет на скорость и успех передачи данных.</p>
+
+<div class="pb-poll" id="poll-e40df6ab"><div class="pb-poll-question">📊 Какой тип подключения вы предпочитаете?</div><div class="pb-poll-option" data-poll="e40df6ab" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Пайка контактов</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="e40df6ab" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Использование клипс</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="e40df6ab" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Готовый разъем JTAG</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="e40df6ab" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Пока не знаю</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="типы-интерфейсов-и-методов-подключения">Типы интерфейсов и методов подключения</h2>
+
+<p>Существует несколько основных способов взаимодействия с памятью модуля, и выбор зависит от архитектуры конкретной модели стиральной машины. Наиболее распространенным методом является прямой доступ к микросхеме памяти через контактные площадки. Этот способ требует точности и часто предполагает выпаивание чипа или использование специальной прижимной клипсы.</p>
+
+<p>Другой популярный метод — использование служебного разъема, часто обозначаемого как <strong>JTAG</strong> или <em>UART</em>. Инженеры закладывают эти порты на заводе для отладки, и грамотный мастер может использовать их для подключения без нарушения целостности корпуса и платы. Это менее инвазивный способ, сохраняющий гарантию на пайку.</p>
+
+<p>Некоторые современные модели имеют встроенный <code>USB-порт</code> или возможность подключения через <em>Wi-Fi модуль</em>, что упрощает задачу. Однако даже в таких случаях часто требуется активация специального режима загрузки, который не доступен в обычном меню пользователя. Понимание различий между этими методами позволяет выбрать оптимальную стратегию ремонта.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Сложность</th>
+<th>Риск повреждения</th>
+<th>Необходимое оборудование</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Прямой доступ (ISP)</td>
+<td>Высокая</td>
+<td>Средний</td>
+<td>Программатор, клипсы/паяльник</td>
+</tr>
+<tr>
+<td>Сервисный разъем (JTAG)</td>
+<td>Средняя</td>
+<td>Низкий</td>
+<td>Адаптер JTAG, схема распиновки</td>
+</tr>
+<tr>
+<td>Внешний USB/Wi-Fi</td>
+<td>Низкая</td>
+<td>Минимальный</td>
+<td>Кабель, спец. ПО производителя</td>
+</tr>
+<tr>
+<td>Замена EEPROM</td>
+<td>Высокая</td>
+<td>Высокий</td>
+<td>Паяльная станция, новая микросхема</td>
+</tr>
+</tbody>
+</table></div>
+
+<h2 id="пошаговая-инструкция-по-подключению-через-isp">Пошаговая инструкция по подключению через ISP</h2>
+
+<p>Метод <strong>ISP (In-System Programming)</strong> является золотым стандартом для большинства ремонтов, так как позволяет работать с микросхемой прямо на плате. Для начала вам необходимо снять модуль управления со стиральной машины и аккуратно вскрыть его корпус, добравшись до печатной платы. Найдите микросхему памяти, обычно это чип с маркировкой <em>24Cxx</em> или <em>25Cxx</em>.</p>
+
+<p>Далее следует самый ответственный этап — обеспечение электрического контакта. Если вы используете клипсу, убедитесь, что ее ножки точно совпадают с выводами микросхемы. Малейший перекос приведет к ошибке чтения. В случае пайки проводов, используйте минимальное количество припоя и работайте быстро, чтобы не перегреть <strong>кристалл</strong>.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Подготовка к ISP-программированию</h4><label class="check-item"><input type="checkbox"><span>Найти даташит микросхемы</span></label><label class="check-item"><input type="checkbox"><span>Очистить контакты от лака</span></label><label class="check-item"><input type="checkbox"><span>Зафиксировать клипсу</span></label><label class="check-item"><input type="checkbox"><span>Проверить полярность подключения</span></label><label class="check-item"><input type="checkbox"><span>Запустить ПО программатора</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<p>После физического подключения проводов программатора к соответствующим пинам (<code>VCC</code>, <code>GND</code>, <code>DATA</code>, <code>CLK</code>), можно подавать питание. Программное обеспечение должно определить устройство. Если этого не происходит, проверьте полярность и наличие короткого замыкания. Часто требуется вручную выставить тип микросхемы в настройках софта.</p>
+
+<blockquote>
+<p>⚠️ Внимание: Типы микросхем памяти могут выглядеть одинаково, но иметь разную распиновку или напряжение питания. Всегда сверяйтесь с технической документацией (datasheet) перед подачей питания, чтобы не сжечь чип.</p>
+</blockquote>
+
+<h2 id="настройка-программного-обеспечения-и-драйверов">Настройка программного обеспечения и драйверов</h2>
+
+<p>Успех операции на 50% зависит от правильной конфигурации программного обеспечения. После установки драйверов для вашего программатора, запустите специализированную утилиту. В интерфейсе программы необходимо выбрать точную модель установленного чипа. Ошибка в выборе серии, например, перепутать <em>24C64</em> и <em>24C128</em>, приведет к некорректному чтению данных.</p>
+
+<p>В настройках часто требуется указать параметры скорости и напряжения. Для старых машин эти значения могут отличаться от стандартных. Некоторые программы предлагают функцию автоопределения, но полагаться на нее полностью не стоит. Лучше вручную проверить соответствие настроек спецификациям производителя электроники.</p>
+
+<p>Важным аспектом является работа с буфером обмена. Перед записью новых данных всегда делайте резервную копию (<strong>Backup</strong>) текущей прошивки. Это «спасательный круг», который позволит вернуть машину к исходному состоянию в случае неудачной перепрошивки. Сохраняйте дампы памяти на несколько носителей.</p>
+
+<details class="pb-accordion"><summary>Что делать если программа не видит программатор?</summary><div class="pb-accordion-body"><p>Если программное обеспечение не обнаруживает устройство, проверьте диспетчер устройств Windows. Возможно, драйвер установился с ошибкой (помечен желтым восклицательным знаком). Попробуйте USB-порт, preferably на задней панели системного блока, или переустановите драйвер в режиме совместимости. Также убедитесь, что в антивирусе добавлено исключение для программы-прошивальщика.</p></div></details>
+
+<h2 id="диагностика-и-чтение-кодов-ошибок">Диагностика и чтение кодов ошибок</h2>
+
+<p>Одной из главных целей подключения программатора является не только перепрошивка, но и глубокая диагностика. Прямой доступ к памяти позволяет увидеть «сырые» коды ошибок, которые не отображаются на дисплее стиральной машины. Анализ этих данных помогает выявить истинную причину неисправности, будь то сбой логики или физический дефект датчика.</p>
+
+<p>При чтении данных вы можете столкнуться с защищенными областями памяти. Некоторые производители шифруют определенные сектора, и попытка их изменения без ключа может заблокировать модуль. Будьте осторожны при редактировании hex-кода, изменяйте только те значения, в которых вы уверены на 100%.</p>
+
+<p>Сравнение считанного дампа с эталонным образцом — мощный метод поиска неисправностей. Различия в контрольных суммах укажут на поврежденные сектора. Если машина ведет себя неадекватно, но аппаратных дефектов нет, скорее всего, проблема кроется именно в программном сбое, который можно исправить записью корректного дампа.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Сохраняйте дампы прошивок от исправных машин той же модели. Созданная вами база «золотых образцов» станет invaluable asset в будущей работе, позволяя быстро восстанавливать технику без поиска файлов в интернете.</p></aside>
+
+<h2 id="процесс-записи-прошивки-и-верификация">Процесс записи прошивки и верификация</h2>
+
+<p>Когда подготовительные этапы завершены и резервная копия создана, можно приступать к записи новой прошивки. В программном обеспечении выберите файл с обновлением и инициируйте процесс записи (<strong>Write</strong> или <em>Program</em>). В это время категорически нельзя прерывать соединение или дергать провода, так как нарушение цикла записи фатально для микросхемы.</p>
+
+<p>После завершения записи обязательно выполните процедуру верификации (<strong>Verify</strong>). Программа заново считает данные с чипа и сравнит их с исходным файлом. Если верификация прошла успешно, вы увидите сообщение об отсутствии ошибок. В противном случае процедуру нужно повторить, возможно, улучшив контакт.</p>
+
+<p>По завершении всех операций аккуратно отключите программатор и соберите модуль управления. Установите плату в стиральную машину и проведите тестовый запуск. Успешная загрузка и отсутствие ошибок на дисплее свидетельствуют о правильности выполненных действий. Если машина заработала, зафиксируйте результат в журнале ремонтов.</p>
+
+<blockquote>
+<p>⚠️ Внимание: Детали распиновки и протоколы обмена данными могут отличаться в зависимости от ревизии платы и года выпуска техники. Всегда сверяйте актуальные схемы для конкретной модели в официальных сервисных мануалах или базах данных производителей.</p>
+</blockquote>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Ключевым моментом успешной прошивки является не скорость, а надежность электрического контакта и наличие резервной копии оригинальной прошивки перед любыми изменениями.</p></aside>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+<summary>Можно ли прошить стиральную машину без программатора?</summary>
+<p>В редких случаях производители предусматривают обновление через USB-порт на корпусе или через сеть, если модуль поддерживает <em>Smart-функции</em>. Однако для полноценного ремонта и восстановления после сбоев памяти внешний программатор практически всегда необходим, так как штатные методы часто блокируются при критических ошибках.</p>
+</details>
+
+<details>
+<summary>Где взять оригинальную прошивку для моей модели?</summary>
+<p>Официальные прошивки обычно доступны только авторизованным сервисным центрам через закрытые порталы. Для независимых мастеров основным источником остаются специализированные форумы, базы данных ремонтников или дампы, снятые с исправных машин-доноров.</p>
+</details>
+
+<details>
+<summary>Что будет, если прервать процесс прошивки?</summary>
+<p>Прерывание записи, особенно на финальной стадии верификации или в момент стирания старых данных, с высокой долей вероятности приведет к «кирпичеванию» модуля. Машина перестанет реагировать на команды, и для восстановления может потребоваться замена микросхемы памяти или всего модуля управления.</p>
+</details>
+
+<details>
+<summary>Подойдет ли универсальный программатор для всех брендов?</summary>
+<p>Универсальные устройства, такие как <em>TL866II Plus</em> или <em>CH341A</em>, поддерживают огромный перечень микросхем, но не все. Для некоторых эксклюзивных или сильно защищенных процессоров могут потребоваться специализированные адаптеры, разработанные конкретно под бренд, например, <em>Bosch</em> или <em>Electrolux</em>.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-pomenyat-zamok-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как заменить замок стиральной машины: пошаговая инструкция 2026</span>
+                <span class="pb-related-desc">Подробное руководство по замене замка люка стиральной машины своими руками: инструменты, разборка, у</span>
+            </a><a href="/articles/k/ka/kak-snyat-shchetki-s-dvigatelya-stiralnoj-mashiny-bosh.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять щетки с двигателя стиральной машины Bosch: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид по замене графитовых щеток на двигателях Bosch. Диагностика, снятие, установка новых д</span>
+            </a><a href="/articles/k/ka/kak-sdelat-kalibrovku-stiralnoj-mashiny-samsung.html" class="pb-related-card">
+                <span class="pb-related-title">Калибровка стиральной машины Samsung: пошаговая инструкция</span>
+                <span class="pb-related-desc">Как правильно откалибровать стиральную машину Samsung своими руками: причины сбоев, инструкция по на</span>
+            </a><a href="/articles/s/st/stiralnaya-mashina-malyutka-razobrat-kak-pravilno.html" class="pb-related-card">
+                <span class="pb-related-title">Как разобрать стиральную машину Малютка: полная инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по разборке стиральной машины Малютка. Узнайте, как снять крышку, бак и двигат</span>
+            </a><a href="/articles/k/ka/kak-pomenyat-podshipnik-na-stiralnoj-mashine-lg-s-pryamym-privodom.html" class="pb-related-card">
+                <span class="pb-related-title">Замена подшипника в стиральной машине LG с прямым приводом: инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по замене подшипника в стиральной машине LG с прямым приводом. Разбор бака, сн</span>
+            </a><a href="/articles/k/ka/kak-snyat-perednyuyu-kryshku-stiralnoj-mashiny-lg.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять переднюю крышку стиральной машины LG: инструкция</span>
+                <span class="pb-related-desc">Подробный гид по демонтажу передней панели стиральной машины LG. Разборка для замены подшипников, ма</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

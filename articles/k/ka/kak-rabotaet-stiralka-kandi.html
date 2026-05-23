@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как работает стиралка Канди: устройство, циклы и диагностика — Стиралка Инфо</title>
+    <meta name="description" content="Подробный разбор принципа работы стиральных машин Candy. Изучаем устройство ТЭНа, мотора, системы дозирования и коды ошибок. Экспертный анализ.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-rabotaet-stiralka-kandi.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как работает стиралка Канди: устройство, циклы и диагностика">
+    <meta property="og:description" content="Подробный разбор принципа работы стиральных машин Candy. Изучаем устройство ТЭНа, мотора, системы дозирования и коды ошибок. Экспертный анализ.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/vybor-i-sravnenie/">Выбор и сравнение</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как работает стиралка Канди: устройство, циклы и диагностика</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#электронное-управление-и-работа-модуля">Электронное управление и работа модуля</a></li><li><a href="#система-забора-и-распределения-воды">Система забора и распределения воды</a></li><li><a href="#нагрев-воды-и-поддержание-температуры">Нагрев воды и поддержание температуры</a></li><li><a href="#механика-вращения-мотор-и-барабан">Механика вращения: мотор и барабан</a></li><li><a href="#слив-воды-и-система-фильтрации">Слив воды и система фильтрации</a></li><li><a href="#диагностика-неисправностей-через-коды-ошибок">Диагностика неисправностей через коды ошибок</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kakie-byvayut-modeli-mashin-stiralnykh.html">Какие бывают модели стиральных машин: виды и особенности</a></li><li><a href="/articles/s/sk/skolko-litrov-potreblyaet-stiralnaya-mashina-avtomat.html">Расход воды стиральной машины: литры, нормы и экономия</a></li><li><a href="/articles/s/st/stiralnaya-mashina-gorenje-gde-sobirayut.html">Где собирают стиральные машины Gorenje: страны производства и заводы</a></li><li><a href="/articles/s/st/stiralnye-mashiny-samsung-kto-proizvodit.html">Кто производит стиральные машины Самсунг: заводы и качество</a></li><li><a href="/articles/g/ga/garantiya-na-stiralnye-mashiny-lg-skolko-let.html">Гарантия на стиральные машины LG: сроки и условия 2026</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как работает стиралка Канди: полный разбор устройства</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#электронное-управление-и-работа-модуля">Электронное управление и работа модуля</a></li><li><a href="#система-забора-и-распределения-воды">Система забора и распределения воды</a></li><li><a href="#нагрев-воды-и-поддержание-температуры">Нагрев воды и поддержание температуры</a></li><li><a href="#механика-вращения-мотор-и-барабан">Механика вращения: мотор и барабан</a></li><li><a href="#слив-воды-и-система-фильтрации">Слив воды и система фильтрации</a></li><li><a href="#диагностика-неисправностей-через-коды-ошибок">Диагностика неисправностей через коды ошибок</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Понимание того, <strong>как работает стиралка Канди</strong>, является ключевым навыком не только для инженеров сервисных центров, но и для каждого владельца, желающего продлить срок службы бытовой техники. Принцип действия современных моделей базируется на сложном взаимодействии механических узлов, электроники и гидравлических систем, которые синхронно выполняют заложенный производителем алгоритм. Именно точная координация всех элементов позволяет эффективно удалять загрязнения, сохраняя структуру ткани.</p>
+
+<p>В отличие от старых советских агрегатов, где весь процесс сводился к простому нагреву и вращению, современные <em>стиральные машины Candy</em> используют интеллектуальные системы взвешивания белья и автоматического дозирования воды. Это означает, что машина сама определяет объем загруженных вещей и корректирует работу двигателя и насоса в реальном времени. Такая автоматизация требует от пользователя лишь базового понимания логики процесса для правильной эксплуатации.</p>
+
+<p>Центральным элементом всей системы является электронный модуль управления, который выступает в роли «мозга» устройства. Он получает сигналы от множества датчиков — от уровня воды в баке до температуры нагрева — и на основе этих данных подает команды исполнительным механизмам. Без корректной работы этого <strong>контроллера</strong> запуск даже простейшего цикла стирки становится невозможным, так как система безопасности блокирует любые действия.</p>
+
+<p>Разбор внутренних процессов начинается с момента подключения шланга к водопроводу и нажатия кнопки старта. В этот момент запускается цепная реакция: открывается впускной клапан, вода устремляется в лоток для порошка, вымывая моющее средство, и попадает непосредственно в барабан. Скорость подачи жидкости строго регламентируется программой, чтобы не допустить перелива или недостаточного замачивания вещей.</p>
+
+<h2 id="электронное-управление-и-работа-модуля">Электронное управление и работа модуля</h2>
+
+<p>Современные модели бренда, такие как серии <em>Candy Smart</em> или <em>Rapid'O</em>, оснащаются sophisticated электронными платами, которые управляют каждым этапом цикла. <strong>Микропроцессор</strong> считывает показания с датчиков давления и температуры, принимая решения о включении нагревательного элемента или изменении направления вращения барабана. Любое отклонение от заданных параметров фиксируется системой и может привести к остановке программы.</p>
+
+<p>Важнейшей функцией модуля является контроль безопасности. Если датчик обнаруживает протечку или критический перегрев, <strong>электроника</strong> мгновенно блокирует работу насоса и ТЭНа. Это предотвращает затопление квартиры или выход из строя дорогостоящих узлов. Пользователь видит результат этой работы на дисплее или через мигание индикаторов, что сигнализирует о необходимости вмешательства.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>При сбоях в электронике часто помогает полный перезапуск: отключите машину от сети на 15-20 минут, чтобы конденсаторы разрядились, и запустите цикл заново.</p></aside>
+
+<p>Стоит отметить, что программное обеспечение модуля может иметь различные версии, зависящие от года выпуска модели. <blockquote>⚠️ Внимание: прошивка модуля управления может отличаться даже у визуально одинаковых моделей, выпущенных в разные месяцы, поэтому при замене платы всегда сверяйте коды совместимости.</blockquote> Это требование обусловлено постоянным совершенствованием алгоритмов стирки производителем.</p>
+
+<h2 id="система-забора-и-распределения-воды">Система забора и распределения воды</h2>
+
+<p>Процесс наполнения бака начинается с открытия <strong>впускного электромагнитного клапана</strong>, который регулирует поток воды из центральной магистрали. Давление в водопроводе может варьироваться, поэтому клапан оснащен механизмом компенсации, обеспечивающим стабную скорость наполнения независимо от напора в кране. Вода проходит через сетчатые фильтры, задерживающие ржавчину и песок.</p>
+
+<p>Далее поток направляется в бункер для моющих средств, где происходит смешивание воды с порошком или гелем. Конструкция лотка <em>Candy</em> разработана так, чтобы минимизировать остаток химии в ячейках после цикла. Смесь подается в бак через специальные патрубки, создавая пену и активный раствор для стирки.</p>
+
+<ul>
+<li>💧 Электромагнитный клапан открывается только по сигналу с платы управления.</li>
+<li>🚿 Вода проходит через рассекатель, чтобы равномерно распределиться по барабану.</li>
+<li>🧼 Моющее средство вымывается под давлением струи, а не просто стекает.</li>
+</ul>
+
+<p>Контроль уровня воды осуществляется с помощью <strong>прессостата</strong> (реле уровня). Этот датчик измеряет давление воздуха в специальной трубке, соединенной с баком. По мере подъема воды давление в трубке растет, и при достижении заданного порога прессостат подает сигнал на модуль о закрытии клапана. Точность этого элемента критически важна для экономии ресурсов.</p>
+
+<h2 id="нагрев-воды-и-поддержание-температуры">Нагрев воды и поддержание температуры</h2>
+
+<p>Одним из самых энергоемких этапов является нагрев воды, за который отвечает <strong>ТЭН</strong> (трубчатый электронагреватель). В машинах Канди он обычно расположен в нижней части бака и погружен в воду. Электроника постоянно мониторит температуру через термодатчик, встроенный непосредственно в корпус нагревателя или расположенный рядом с ним.</p>
+
+<p>Алгоритм работы нагревателя не линейный: сначала идет быстрый нагрев до заданной температуры, затем включается режим поддержания. Если температура падает ниже порога, ТЭН включается на короткое время. Такой подход позволяет экономить электроэнергию и бережно относиться к ткани, избегая резких скачков градусов.</p>
+
+<details class="pb-accordion"><summary>Почему ТЭН может не греть?</summary><div class="pb-accordion-body"><p>Чаще всего причина кроется в накипи, которая действует как теплоизолятор, или в обрыве нихромовой спирали внутри трубки. Также возможен выход из строя термостата, который erroneously сообщает плате, что вода уже горячая.</p></div></details>
+
+<p>Важно учитывать жесткость воды в вашем регионе. <blockquote>⚠️ Внимание: при высокой жесткости воды скорость образования накипи на ТЭНе увеличивается в разы, что может привести к его перегоранию за 6-8 месяцев активной эксплуатации.</blockquote> Регулярное использование средств от накипи или установка магнитных фильтров существенно продлевает жизнь нагревательному элементу.</p>
+
+<h2 id="механика-вращения-мотор-и-барабан">Механика вращения: мотор и барабан</h2>
+
+<p>Сердцем механической части является двигатель, который в современных моделях <em>Candy</em> чаще всего представляет собой инверторный мотор с прямым приводом или классический коллекторный двигатель с ременной передачей. <strong>Инверторные моторы</strong> отличаются низким уровнем шума и высокой энергоэффективностью, так как не имеют трущихся щеток.</p>
+
+<p>Вращение барабана происходит не постоянно в одну сторону. Программа стирки задает сложный ритм: несколько оборотов в одну сторону, пауза для замачивания, затем вращение в обратную сторону. Это необходимо для качественной обработки белья и предотвращения его сбивания в ком. Ремень передачи, если он есть, должен быть правильно натянут.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Тип двигателя</th>
+<th>Уровень шума</th>
+<th>Ресурс щеток</th>
+<th>Энергоэффективность</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Коллекторный</td>
+<td>Высокий</td>
+<td>5-7 лет</td>
+<td>Стандартный</td>
+</tr>
+<tr>
+<td>Инверторный</td>
+<td>Низкий</td>
+<td>Нет щеток</td>
+<td>Высокий</td>
+</tr>
+<tr>
+<td>Асинхронный</td>
+<td>Средний</td>
+<td>Нет щеток</td>
+<td>Средний</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Барабан подвешен на амортизаторах и пружинах, которые гасят вибрации при отжиме. <strong>Балансировка</strong> происходит автоматически: если белье сбилось в комок, машина попытается распушить его несколькими быстрыми вращениями в разные стороны перед началом интенсивного отжима. Это защищает подшипниковый узел от преждевременного износа.</p>
+
+<div class="pb-poll" id="poll-850cee33"><div class="pb-poll-question">📊 Какой тип двигателя у вашей стиральной машины?</div><div class="pb-poll-option" data-poll="850cee33" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Инверторный (прямой привод):Коллекторный (с ремнем):Не знаю, нужно посмотреть:У меня вообще нет стиралки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="слив-воды-и-система-фильтрации">Слив воды и система фильтрации</h2>
+
+<p>После завершения циклов полоскания и основной стирки вступает в работу <strong>сливной насос</strong> (помпа). Его задача — принудительно откачать грязную воду из бака в канализацию. Помпа включается по команде модуля и работает до тех пор, пока датчик уровня не зафиксирует полное опустошение резервуара.</p>
+
+<p>Важнейшим элементом этой системы является сливной фильтр, расположенный в нижней части машины спереди. Он задерживает крупные предметы: монеты, пуговицы, ворс и нитки, которые могут повредить крыльчатку насоса. Регулярная чистка этого узла — обязательное условие стабильной работы.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Регулярное обслуживание сливной системы</h4><label class="check-item"><input type="checkbox"><span>Отключить машину от сети и перекрыть воду:Открыть лючок сливного фильтра:Подставить плоскую емкость для остатков воды:Выкрутить фильтр и очистить от мусора</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 1</div></div>
+
+<p>Шланг слива также играет важную роль. Если он подключен неправильно (например, слишком низко опущен в канализацию без сифона), может происходить эффект самослива, когда вода уходит из машины самотеком во время набора. Это приводит к бесконечному циклу долива и слива, а также перерасходу воды и электричества.</p>
+
+<h2 id="диагностика-неисправностей-через-коды-ошибок">Диагностика неисправностей через коды ошибок</h2>
+
+<p>Современные стиральные машины Канди оснащены развитой системой самодиагностики. При обнаружении любой аномалии — от отсутствия воды до блокировки люка — на дисплее появляется <strong>код ошибки</strong> или начинают мигать определенные индикаторы. Расшифровка этих сигналов позволяет быстро определить узел, требующий внимания.</p>
+
+<p>Например, ошибка, связанная с нагревом, укажет на проблему с ТЭНом или термостатом, а ошибка слива — на засор фильтра или неисправность помпы. Игнорирование этих сигналов может привести к более серьезным поломкам, когда ремонт станет экономически нецелесообразным.</p>
+
+<p>Для точной диагностики часто требуется мультиметр для «прозвонки» цепей. <blockquote>⚠️ Внимание: перед любой диагностикой электрических цепей обязательно отключайте стиральную машину от электросети, чтобы избежать удара током или короткого замыкания.</blockquote> Безопасность при работе с электроприборами стоит на первом месте.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Понимание кодов ошибок позволяет сэкономить время мастера и деньги на диагностике, так как вы сразу знаете, какую деталь искать.</p></aside>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+<summary>Почему стиральная машина Канди не набирает воду?</summary>
+<p>Чаще всего причина кроется в закрытом кране подачи воды, низком давлении в водопроводе или засорении входного фильтра-сеточки. Также возможен выход из строя впускного клапана или прессостата.</p>
+</details>
+
+<details>
+<summary>Что означает мигание всех индикаторов?</summary>
+<p>Одновременное мигание всех лампочек обычно указывает на критическую ошибку электроники или сброс программы. Попробуйте выполнить перезагрузку, отключив питание. Если проблема сохраняется, требуется диагностика модуля управления.</p>
+</details>
+
+<details>
+<summary>Как часто нужно чистить фильтр сливного насоса?</summary>
+<p>Рекомендуется проверять и очищать фильтр не реже одного раза в 3-4 месяца. Если у вас в доме есть домашние животные или вы часто стираете ворсистые ткани, частоту чистки следует увеличить.</p>
+</details>
+
+<details>
+<summary>Можно ли стирать в машине Канди без порошка?</summary>
+<p>Технически машина запустит цикл, но качество стирки будет низким. Однако использование специальных режимов «Полоскание» или «Слив» без моющих средств допускается и иногда необходимо для деликатных тканей.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kakie-byvayut-modeli-mashin-stiralnykh.html" class="pb-related-card">
+                <span class="pb-related-title">Какие бывают модели стиральных машин: виды и особенности</span>
+                <span class="pb-related-desc">Разбираем, какие бывают модели стиральных машин: фронтальные, вертикальные, встраиваемые. Сравнение </span>
+            </a><a href="/articles/s/sk/skolko-litrov-potreblyaet-stiralnaya-mashina-avtomat.html" class="pb-related-card">
+                <span class="pb-related-title">Расход воды стиральной машины: литры, нормы и экономия</span>
+                <span class="pb-related-desc">Сколько литров потребляет стиральная машина автомат? Реальный расход, влияние режимов и советы по эк</span>
+            </a><a href="/articles/s/st/stiralnaya-mashina-gorenje-gde-sobirayut.html" class="pb-related-card">
+                <span class="pb-related-title">Где собирают стиральные машины Gorenje: страны производства и заводы</span>
+                <span class="pb-related-desc">Узнайте, где собирают стиральные машины Gorenje. Полный список заводов в Словении, Сербии, Польше и </span>
+            </a><a href="/articles/s/st/stiralnye-mashiny-samsung-kto-proizvodit.html" class="pb-related-card">
+                <span class="pb-related-title">Кто производит стиральные машины Самсунг: заводы и качество</span>
+                <span class="pb-related-desc">Где собирают стиральные машины Samsung. Обзор заводов в России, Польше, Вьетнаме и Китае. Как узнать</span>
+            </a><a href="/articles/g/ga/garantiya-na-stiralnye-mashiny-lg-skolko-let.html" class="pb-related-card">
+                <span class="pb-related-title">Гарантия на стиральные машины LG: сроки и условия 2026</span>
+                <span class="pb-related-desc">Сколько лет действует гарантия на стиральные машины LG? Разбираем официальные сроки, условия продлен</span>
+            </a><a href="/articles/k/ka/kakaya-sejchas-khoroshaya-stiralnaya-mashina.html" class="pb-related-card">
+                <span class="pb-related-title">Какая стиральная машина сейчас лучшая: выбор 2026</span>
+                <span class="pb-related-desc">Какая стиральная машина сейчас хорошая? Обзор технологий, надежных брендов и критериев выбора в 2026</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как работает стиральная машина Hansa: устройство и принцип действия — Стиралка Инфо</title>
+    <meta name="description" content="Подробный разбор принципа работы стиральной машины Hansa. Устройство, этапы цикла, датчики и электроника. Узнайте, как происходит стирка.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/h/ha/hansa-stiralnaya-mashina-kak-rabotaet.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как работает стиральная машина Hansa: устройство и принцип действия">
+    <meta property="og:description" content="Подробный разбор принципа работы стиральной машины Hansa. Устройство, этапы цикла, датчики и электроника. Узнайте, как происходит стирка.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/drugoe/">Другое</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как работает стиральная машина Hansa: устройство и принцип действия</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#электронное-управление-и-запуск-системы">Электронное управление и запуск системы</a></li><li><a href="#процесс-нагрева-и-preparation-раствора">Процесс нагрева и preparation раствора</a></li><li><a href="#механика-стирки-вращение-и-гидродинамика">Механика стирки: вращение и гидродинамика</a></li><li><a href="#слив-грязной-воды-и-цикл-полоскания">Слив грязной воды и цикл полоскания</a></li><li><a href="#отжим-физика-высоких-скоростей">Отжим: физика высоких скоростей</a></li><li><a href="#завершение-цикла-и-разблокировка">Завершение цикла и разблокировка</a></li><li><a href="#диагностика-и-типичные-сбои-в-работе">Диагностика и типичные сбои в работе</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-ustanovit-stiralnuyu-mashinu-bez-vodoprovoda-v-derevne.html">Стиральная машина без водопровода: установка в деревне</a></li><li><a href="/articles/k/ka/kak-stiralnaya-mashina-opredelyaet-uroven-vody.html">Как стиральная машина определяет уровень воды: устройство и работа</a></li><li><a href="/articles/c/ch/chto-mozhno-sdelat-iz-barabana-so-stiralnoj-mashiny.html">Что сделать из барабана стиральной машины: идеи и чертежи</a></li><li><a href="/articles/c/ch/chto-znachit-v-stiralnykh-mashinakh-a.html">Класс отжима А в стиральных машинах: что это значит</a></li><li><a href="/articles/v/v-/v-kakoj-otsek-stiralnoj-mashiny-nalivat-gel-dlya-stirki.html">В какой отсек стиральной машины наливать гель для стирки: инструкция</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Принцип работы стиральной машины Hansa: от загрузки до отжима</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#электронное-управление-и-запуск-системы">Электронное управление и запуск системы</a></li><li><a href="#процесс-нагрева-и-preparation-раствора">Процесс нагрева и preparation раствора</a></li><li><a href="#механика-стирки-вращение-и-гидродинамика">Механика стирки: вращение и гидродинамика</a></li><li><a href="#слив-грязной-воды-и-цикл-полоскания">Слив грязной воды и цикл полоскания</a></li><li><a href="#отжим-физика-высоких-скоростей">Отжим: физика высоких скоростей</a></li><li><a href="#завершение-цикла-и-разблокировка">Завершение цикла и разблокировка</a></li><li><a href="#диагностика-и-типичные-сбои-в-работе">Диагностика и типичные сбои в работе</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+<p>Современная бытовая техника — это сложный механизм, в котором каждое движение отточено инженерами для достижения максимального результата. Когда вы загружаете белье в люк стиральной машины <em>Hansa</em> и нажимаете кнопку старта, внутри устройства запускается каскад физических и химических процессов. Понимание того, как именно работает этот агрегат, помогает не только эффективнее использовать его возможности, но и бережнее относиться к технике, продлевая срок её службы.</p>
+<p>В основе функционирования любой автоматической машины, включая модели <em>Hansa</em>, лежит строгая последовательность действий, контролируемая электронным модулем. Это не просто вращение барабана в воде, а синхронизированная работа десятков узлов: от нагревательного элемента до системы блокировки люка. Вы можете даже не задумываться об этом, но «мозг» устройства уже рассчитал оптимальное количество воды и время воздействия.</p>
+<p>Знание внутренних процессов позволяет избежать распространенных ошибок эксплуатации. Например, понимание того, как формируется пена или как распределяется вес белья при отжиме, поможет вам правильно подбирать режимы. Давайте разберем детально, что происходит внутри корпуса после включения.</p>
+
+<h2 id="электронное-управление-и-запуск-системы">Электронное управление и запуск системы</h2>
+<p>Всё начинается с момента, когда вы поворачиваете селектор выбора программ или нажимаете кнопку включения. В этот момент электрический ток поступает на <strong>электронный модуль управления</strong>, который является центральным процессором всей системы. Он проводит самодиагностику: проверяет исправность датчиков, состояние ТЭНа, насоса и замка люка. Если все системы в норме, подается сигнал на блокировку двери.</p>
+<p>Замок люка, или устройство блокировки люка (УБЛ), срабатывает практически мгновенно, издавая характерный щелчок. Это критически важный элемент безопасности, который предотвращает открытие двери во время работы с водой. <em>Hansa</em> использует надежные термозамки или электромагнитные блокировки, которые размыкаются только после остывания или снятия напряжения.</p>
+<p>После блокировки модуль управления считывает данные с датчика уровня воды (прессостата) и открывает электромагнитный клапан подачи воды. Вода начинает поступать в лоток для моющих средств, вымывая порошок или гель, и затем стекает в бак. Длительность набора зависит от выбранной программы и давления в водопроводе.</p>
+<ul>
+<li>🔌 <strong>Проверка напряжения:</strong> модуль стабилизирует ток для защиты микросхем.</li>
+<li>🔒 <strong>Блокировка люка:</strong> механическое или магнитное запирание двери.</li>
+<li>💧 <strong>Набор воды:</strong> открытие клапанов горячей и холодной воды (если предусмотрено).</li>
+<li>🧼 <strong>Растворение средства:</strong> поток воды омывает лоток и уносит химию в бак.</li>
+</ul>
+<p><mark>Ключевым моментом старта является успешное прохождение самодиагностики: если хотя бы один датчик не отвечает, цикл стирки не начнется, а на дисплее появится код ошибки.</mark></p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если машина долго набирает воду, проверьте фильтр-сеточку на вливном шланге — часто именно мелкая ржавчина из труб снижает давление, и модуль управления продлевает время набора, ожидая нужного уровня.</p></aside>
+
+<h2 id="процесс-нагрева-и-preparation-раствора">Процесс нагрева и preparation раствора</h2>
+<p>Когда бак наполняется до заданного уровня, прессостат подает сигнал модулю управления о прекращении набора воды. Сразу после этого в дело вступает <strong>ТЭН (трубчатый электронагреватель)</strong>. В современных моделях <em>Hansa</em> часто используются ТЭНы с низким содержанием накипеобразующих солей или с керамическим покрытием, что снижает скорость образования отложений.</p>
+<p>Нагрев воды — энергоемкий процесс, который занимает значительную часть времени цикла. Электроника контролирует температуру с помощью термостата или термистора, закрепленного на нагревательном элементе. Как только вода достигает заданных параметров (например, 40°C для деликатной стирки или 90°C для хлопка), нагрев прекращается, и начинается основной этап.</p>
+<blockquote>⚠️ Внимание: Использование стиральных порошков с хлором при температуре выше 60°C может повредить резиновые уплотнители и пластиковые детали бака, а также вызвать коррозию металлических элементов барабана.</blockquote>
+<p>Параллельно с нагревом может происходить предварительное замачивание, если выбран соответствующий режим. Вода циркулирует, равномерно пропитывая ткань. Эффективность растворения порошка напрямую влияет на качество стирки, поэтому важно использовать качественные моющие средства с низкой пенообразующей способностью для автоматов.</p>
+<details class="pb-accordion"><summary>Почему стирка длится так долго?</summary><div class="pb-accordion-body"><p>Современные стандарты энергоэффективности требуют экономии воды и электричества. Машина греет меньший объем воды дольше, но тщательнее, чтобы достичь того же результата, что и старые модели с большим объемом воды за короткое время.</p></div></details>
+
+<h2 id="механика-стирки-вращение-и-гидродинамика">Механика стирки: вращение и гидродинамика</h2>
+<p>Основной этап стирки — это активное механическое воздействие на белье. Двигатель стиральной машины <em>Hansa</em> (коллекторный или инверторный) начинает вращать барабан. В отличие от ручного режима, здесь вращения чередуются: несколько оборотов в одну сторону, пауза, затем вращение в другую сторону. Это необходимо для предотвращения сбивания белья в ком и обеспечения качественной обработки всех вещей.</p>
+<p>Внутри бака установлены специальные бойники (ребра), которые поднимают мокрое белье вверх. Достигая определенной высоты, вещи падают вниз под действием гравитации. Именно этот удар о воду и дно барабана выбивает грязь из волокон ткани. Чем эффективнее работает эта система, тем лучше результат при меньшем расходе химии.</p>
+<p>Скорость вращения во время стирки обычно невелика — около 40-60 оборотов в минуту. Однако в режиме «Быстрая стирка» или при отжиме частота меняется кардинально. Интеллектуальные системы <em>Hansa</em> могут взвешивать белье и корректировать количество воды и интенсивность движений, чтобы не повредить ткань.</p>
+<ul>
+<li>🔄 <strong>Реверсивное вращение:</strong> предотвращает скручивание вещей в жгут.</li>
+<li>🌊 <strong>Гидромассаж:</strong> подача воды под давлением через отверстия в барабане.</li>
+<li>⚖️ <strong>Балансировка:</strong> датчики контролируют вибрации и распределяют белье.</li>
+<li>🕰️ <strong>Паузы:</strong> короткие остановки для лучшего впитывания раствора.</li>
+</ul>
+<p>Важно не перегружать машину. Если барабан забит битком, белье не сможет падать с бойников, и стирка превратится в простое полоскание в грязной воде. Оптимальная загрузка — когда после укладки вещей остается еще пространство для свободного падения.</p>
+
+<h2 id="слив-грязной-воды-и-цикл-полоскания">Слив грязной воды и цикл полоскания</h2>
+<p>После завершения основного цикла стирки загрязненная вода должна быть удалена из бака. За этот процесс отвечает <strong>сливной насос (помпа)</strong>. Модуль управления подает команду на откачку, и вода через сливной шланг уходит в канализацию. В этот момент важно, чтобы фильтр насоса был чистым, иначе процесс затянется или возникнет ошибка слива.</p>
+<p>Затем следует этап полоскания. Машина снова набирает чистую воду, часто в несколько приемов. Цель этого этапа — полностью вымыть остатки моющего средства и частички грязи из ткани. В моделях <em>Hansa</em> с функцией «Дополнительное полоскание» этот цикл повторяется чаще, что критично для людей с аллергией или чувствительной кожей.</p>
+<p>Во время последнего полоскания может использоваться специальная техника вращения, помогающая расправить вещи перед отжимом. Это снижает количество заломов и облегчает последующую глажку. Вода для последнего полоскания может быть холодной или слегка теплой, в зависимости от программы.</p>
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Этап цикла</th>
+<th>Действие двигателя</th>
+<th>Состояние воды</th>
+<th>Длительность (примерно)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Стирка</td>
+<td>Медленное, реверсивное</td>
+<td>Горячая, с пеной</td>
+<td>30-90 мин</td>
+</tr>
+<tr>
+<td>Слив</td>
+<td>Остановка</td>
+<td>Откачка грязной</td>
+<td>1-3 мин</td>
+</tr>
+<tr>
+<td>Полоскание 1</td>
+<td>Качающее</td>
+<td>Чистая, холодная</td>
+<td>5-10 мин</td>
+</tr>
+<tr>
+<td>Полоскание 2</td>
+<td>Качающее</td>
+<td>Чистая, холодная</td>
+<td>5-10 мин</td>
+</tr>
+</tbody>
+</table></div>
+<p>Качество полоскания напрямую зависит от давления воды в водопроводе и исправности впускных клапанов. Если вода подается слабой струей, процесс может занять больше времени, но результат будет хуже.</p>
+<div class="pb-poll" id="poll-edd6556c"><div class="pb-poll-question">📊 Как часто вы используете режим дополнительного полоскания?</div><div class="pb-poll-option" data-poll="edd6556c" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Ежедневно</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="edd6556c" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Только для детской одежды</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="edd6556c" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Никогда</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="edd6556c" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Только для аллергиков</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="отжим-физика-высоких-скоростей">Отжим: физика высоких скоростей</h2>
+<p>Финальный этап удаления воды — отжим. Это самый динамичный момент работы стиральной машины. Барабан начинает набирать обороты постепенно, проходя через несколько скоростных диапазонов. Это необходимо для того, чтобы распределить белье по внутренней поверхности барабана равномерно.</p>
+<p>Под действием <strong>центробежной силы</strong> вода выталкивается из ткани через перфорацию барабана и стекает в бак, откуда сразу же откачивается насосом. Скорость вращения в моделях <em>Hansa</em> может достигать 1000, 1200 или даже 1400 оборотов в минуту. Чем выше скорость, тем суше белье, но и тем выше риск образования заломов на ткани.</p>
+<blockquote>⚠️ Внимание: При отжиме на высоких оборотах машина может вибрировать. Убедитесь, что транспортные болты сняты, а устройство стоит на ровной твердой поверхности, иначе вибрация повредит подшипниковый узел.</blockquote>
+<p>Система контроля дисбаланса (Unbalanced Control System) постоянно мониторит нагрузку на подшипники. Если белье собралось в один тяжелый ком с одной стороны, модуль управления сбросит обороты, попытается распушить вещиным вращением и повторит попытку отжима. Это защищает машину от разрушения.</p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Максимальная эффективность отжима достигается только при равномерном распределении белья; один тяжелый мокрый джинс, прилипший к стенке, может вызвать сильную вибрацию.</p></aside>
+
+<h2 id="завершение-цикла-и-разблокировка">Завершение цикла и разблокировка</h2>
+<p>После успешного завершения отжима и финального слива воды модуль управления подает сигнал на разблокировку люка. В термозамках необходимо подождать 2-3 минуты, пока биметаллическая пластина остынет и разомкнет контакты. В это время может быть слышен тихий треск или щелчки.</p>
+<p>На дисплее гаснут индикаторы работы, и машина переходит в режим ожидания. Некоторые модели <em>Hansa</em> издают мелодичный сигнал или показывают код окончания программы (например, <code>End</code>). Теперь можно открывать дверь и выгружать чистое белье.</p>
+<p> Это нормально и предусмотрено конструкцией для сохранения эластичности уплотнителей. Однако, если воды много, стоит проверить сливной фильтр.</p>
+<ul>
+<li>🔓 <strong>Разблокировка:</strong> снятие напряжения с УБЛ.</li>
+<li>🔦 <strong>Индикация:</strong> сообщение об окончании на дисплее.</li>
+<li>🚪 <strong>Проветривание:</strong> рекомендуется оставить люк приоткрытым.</li>
+<li>🧹 <strong>Гигиена:</strong> протирание манжеты от остатков влаги.</li>
+</ul>
+<p>Правильное завершение цикла — это также уход за машиной. Оставьте люк и лоток для порошка открытыми на несколько часов, чтобы внутренности просохли. Это предотвратит появление плесени и неприятного запаха.</p>
+
+<h2 id="диагностика-и-типичные-сбои-в-работе">Диагностика и типичные сбои в работе</h2>
+<p>Даже надежная техника <em>Hansa</em> может сталкиваться с проблемами. Понимание принципа работы помогает быстро идентифицировать сбой. Например, если машина набирает воду бесконечно, скорее всего, проблема в прессостате или засоре. Если не греет воду — виноват ТЭН или проводка.</p>
+<p>Современные машины оснащены системой самодиагностики, которая выводит коды ошибок на дисплей. Код <code>E10</code> может означать проблему с водой, а <code>E20</code> — со сливом. Расшифровка этих кодов позволяет принять решение: вызывать мастера или устранить неисправность самостоятельно, например, почистить фильтр.</p>
+<p>Частой ошибкой пользователей является игнорирование странных звуков или вибраций. Скрежет может указывать на попадание постороннего предмета между баком и барабаном, а гул — на износ подшипников. Своевременная реакция спасает от дорогостоящего ремонта.</p>
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Что делать при ошибке?</h4><label class="check-item"><input type="checkbox"><span>Остановить программу</span></label><label class="check-item"><input type="checkbox"><span>Проверить шланги</span></label><label class="check-item"><input type="checkbox"><span>Перезагрузить машину</span></label><label class="check-item"><input type="checkbox"><span>Проверить код ошибки в инструкции</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+<blockquote>⚠️ Внимание: Технические характеристики и коды ошибок могут различаться в зависимости от конкретной серии и года выпуска модели. Всегда сверяйтесь с официальной инструкцией пользователя для вашего устройства.</blockquote>
+<p>Регулярное обслуживание, такое как чистка фильтра насоса и лотка для порошка, значительно снижает риск возникновения серьезных неисправностей. Машина, которая работает в чистоте, служит дольше и стирает лучше.</p>
+
+<details>
+<summary>Почему стиральная машина Hansa долго набирает воду?</summary>
+<p>Это может быть связано с низким давлением в водопроводе, засорением впускного фильтра-сеточки или неисправностью впускного клапана. Также модуль управления может ждать достижения определенного уровня, если датчик загрязнен.</p>
+</details>
+<details>
+<summary>Что означает, если барабан не вращается при запущенной программе?</summary>
+<p>Возможные причины: перегрузка белья, ослабление или износ приводного ремня, неисправность двигателя или щеток, либо сбой в электронном модуле управления.</p></details>
+<details>
+<summary>Нужно ли смазывать подшипники в стиральной машине Hansa?</summary>
+<p>В большинстве современных моделей подшипники запрессованы в неразборный бак и не требуют смазки в течение всего срока службы. Замена производится вместе с баком или требует сложной переборки.</p>
+</details>
+<details>
+<summary>Как часто нужно чистить сливной фильтр?</summary>
+<p>Рекомендуется проверять и чистить сливной фильтр от мусора, монет и ворса каждые 3-6 месяцев активной эксплуатации, чтобы избежать проблем со сливом воды.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-ustanovit-stiralnuyu-mashinu-bez-vodoprovoda-v-derevne.html" class="pb-related-card">
+                <span class="pb-related-title">Стиральная машина без водопровода: установка в деревне</span>
+                <span class="pb-related-desc">Как подключить стиральную машину в частном доме без водопровода? Пошаговая инструкция, выбор насоса,</span>
+            </a><a href="/articles/k/ka/kak-stiralnaya-mashina-opredelyaet-uroven-vody.html" class="pb-related-card">
+                <span class="pb-related-title">Как стиральная машина определяет уровень воды: устройство и работа</span>
+                <span class="pb-related-desc">Подробный разбор принципов, как стиральная машина определяет уровень воды. Датчики, пневматика, част</span>
+            </a><a href="/articles/c/ch/chto-mozhno-sdelat-iz-barabana-so-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Что сделать из барабана стиральной машины: идеи и чертежи</span>
+                <span class="pb-related-desc">Лучшие идеи вторичного использования барабана стиральной машины: мангал, печь, мебель и декор. Подро</span>
+            </a><a href="/articles/c/ch/chto-znachit-v-stiralnykh-mashinakh-a.html" class="pb-related-card">
+                <span class="pb-related-title">Класс отжима А в стиральных машинах: что это значит</span>
+                <span class="pb-related-desc">Узнайте, что означает класс отжима А в стиральных машинах. Сравнение эффективности, влияние на износ</span>
+            </a><a href="/articles/v/v-/v-kakoj-otsek-stiralnoj-mashiny-nalivat-gel-dlya-stirki.html" class="pb-related-card">
+                <span class="pb-related-title">В какой отсек стиральной машины наливать гель для стирки: инструкция</span>
+                <span class="pb-related-desc">Узнайте, в какой отсек лотка заливать жидкий порошок и гель для стирки. Подробная инструкция по лотк</span>
+            </a><a href="/articles/p/po/pochemu-sletaet-baraban-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Почему слетает барабан на стиральной машине: причины и ремонт</span>
+                <span class="pb-related-desc">Подробно разбираем, почему слетает барабан на стиральной машине. Анализ причин: износ подшипников, р</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

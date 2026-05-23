@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как подключить электродвигатель от стиральной машины к 220В — Стиралка Инфо</title>
+    <meta name="description" content="Полная инструкция по подключению двигателя от стиральной машины к сети 220В. Схемы, выбор конденсатора, проверка работоспособности и меры безопасности.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-podklyuchit-elektrodvigatel-ot-stiralnoj-mashiny-k-seti-220.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как подключить электродвигатель от стиральной машины к 220В">
+    <meta property="og:description" content="Полная инструкция по подключению двигателя от стиральной машины к сети 220В. Схемы, выбор конденсатора, проверка работоспособности и меры безопасности.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-nav-active">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/ustanovka-i-podklyuchenie/">Установка и подключение</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как подключить электродвигатель от стиральной машины к 220В</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#определение-типа-электродвигателя">Определение типа электродвигателя</a></li><li><a href="#поиск-и-маркировка-выводов-обмоток">Поиск и маркировка выводов обмоток</a></li><li><a href="#схема-подключения-коллекторного-двигателя">Схема подключения коллекторного двигателя</a></li><li><a href="#запуск-асинхронного-двигателя-через-конденсатор">Запуск асинхронного двигателя через конденсатор</a></li><li><a href="#регулировка-скорости-и-реверс">Регулировка скорости и реверс</a></li><li><a href="#меры-безопасности-и-типичные-ошибки">Меры безопасности и типичные ошибки</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kakogo-tsveta-provod-zemlya-na-stiralnoj-mashine.html">Цвет провода заземления на стиральной машине: как не ошибиться</a></li><li><a href="/articles/k/ka/kakoj-provod-nuzhen-na-stiralnuyu-mashinu.html">Какой провод нужен на стиральную машину: сечение и выбор кабеля</a></li><li><a href="/articles/k/ka/kak-podsoedinit-vilku-k-stiralnoj-mashine.html">Как подсоединить вилку к стиральной машине: инструкция</a></li><li><a href="/articles/k/ka/kak-ustanovit-stiralnuyu-mashinu-svoimi-rukami.html">Как установить стиральную машину своими руками: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-podklyuchit-shlang-slivnoj-k-stiralnoj-mashine.html">Как подключить сливной шланг стиральной машины: инструкция</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как подключить электродвигатель от стиральной машины к сети 220В</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#определение-типа-электродвигателя">Определение типа электродвигателя</a></li><li><a href="#поиск-и-маркировка-выводов-обмоток">Поиск и маркировка выводов обмоток</a></li><li><a href="#схема-подключения-коллекторного-двигателя">Схема подключения коллекторного двигателя</a></li><li><a href="#запуск-асинхронного-двигателя-через-конденсатор">Запуск асинхронного двигателя через конденсатор</a></li><li><a href="#регулировка-скорости-и-реверс">Регулировка скорости и реверс</a></li><li><a href="#меры-безопасности-и-типичные-ошибки">Меры безопасности и типичные ошибки</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+<p>Современные бытовые приборы часто выходят из строя, но их внутренние компоненты могут послужить надежной основой для новых проектов. Особую ценность представляют <strong>электродвигатели</strong>, которые сохраняют работоспособность даже после списания самой стиральной машины. Их часто используют для создания точильных станков, бетономешалок, дровоколов и другого хозяйственного оборудования.</p>
+
+<p>Главная сложность, с которой сталкиваются домашние мастера, заключается в правильном <strong>подключении к сети 220 вольт</strong>. Двигатели разных типов требуют индивидуального подхода, наличия пусковых элементов или специальных регуляторов скорости. Неправильная коммутация может привести к выходу из строя обмоток или, что хуже, к поражению электрическим током.</p>
+
+<p>В этой статье мы детально разберем, как определить тип мотора, найти необходимые контакты и безопасно запустить его для работы в новых условиях. Вы узнаете о нюансах подключения асинхронных и коллекторных агрегатов, а также о том, как изменить направление вращения вала.</p>
+
+<h2 id="определение-типа-электродвигателя">Определение типа электродвигателя</h2>
+<p>Прежде чем браться за провода, необходимо точно идентифицировать устройство, которое вы извлекли из стиральной машины. От этого зависит вся дальнейшая схема сборки. В бытовой технике чаще всего встречаются три основных вида моторов, каждый из которых имеет свои конструктивные особенности.</p>
+
+<p><strong>Асинхронные двигатели</strong> обычно устанавливались в старых моделях стиральных машин. Они отличаются простотой конструкции, низким уровнем шума и долговечностью. Однако их габариты довольно велики, а коэффициент полезного действия ниже, чем у современных аналогов. КПД таких устройств редко превышает 60%.</p>
+
+<p>На смену им пришли <strong>коллекторные двигатели</strong>, которые можно найти в большинстве машин, выпущенных в период с конца 90-х по 2010-е годы. Они компактны, обладают высоким пусковым моментом и легко регулируются по скорости. Характерная черта — наличие щеток, которые со временем требуют замены.</p>
+
+<p>Самыми современными являются <strong>инверторные двигатели</strong> прямого привода. Они часто крепятся непосредственно к барабану без ремня. Запуск таких моторов возможен только через специальный электронный блок управления, который в домашних условиях воспроизвести крайне сложно. Поэтому для самоделок их используют редко.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> Если на шильдике двигателя указана частота вращения 400-600 об/мин, перед вами низкоскоростной мотор для привода насоса. Для станков он не подойдет из-за низкой мощности и специфических характеристик.</p>
+</blockquote>
+
+<p>Для визуального определения типа осмотрите корпус. Наличие графитовых щеток и коллектора (медной контактной площадки) сразу указывает на коллекторный тип. Отсутствие щеток и наличие конденсаторной коробки характерно для асинхронных моделей.</p>
+
+<h2 id="поиск-и-маркировка-выводов-обмоток">Поиск и маркировка выводов обмоток</h2>
+<p>Самый ответственный этап — поиск нужных проводов. В старых машинах провода могли быть обрезаны у самого входа в мотор, поэтому придется вскрывать клеммную колодку или аккуратно разбирать изоляцию. Вам понадобится мультиметр, настроенный на режим измерения сопротивления.</p>
+
+<p>Для <strong>коллекторного двигателя</strong> задача упрощается. У него есть две основные цепи: обмотка статора и обмотка ротора. Обычно они соединены последовательно через щетки. Прозвонив контакты, вы найдете пару с наименьшим сопротивлением — это и есть рабочие выводы. Оставшиеся контакты могут вести на таходатчик или термопредохранитель.</p>
+
+<p>В <strong>асинхронных двигателях</strong> часто бывает две или три обмотки. Основная (рабочая) имеет большее сопротивление, а пусковая — меньшее. Если вы найдете три провода, то общее сопротивление между двумя из них будет суммой сопротивлений остальных пар. Это поможет вычислить общий провод.</p>
+
+<ul>
+<li>🔌 <strong>Таходатчик:</strong> датчик скорости, выдающий импульсы, для простого запуска в сеть 220В не нужен, его провода можно изолировать.</li>
+<li>🌡️ <strong>Термодатчик:</strong> часто встроен в обмотку для защиты от перегрева, имеет высокое сопротивление или размыкается при нагреве.</li>
+<li>⚡ <strong>Заземление:</strong> провод, идущий непосредственно на металлический корпус, его легко отличить визуально.</li>
+</ul>
+
+<p>Если документация утеряна, придется действовать методом проб, но очень осторожно. Кратковременное включение на 1-2 секунды поможет понять, греется ли двигатель и есть ли гудение. Однако лучше сначала найти техническую информацию по маркировке на корпусе.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Используйте изоленту разных цветов для маркировки найденных пар проводов сразу после прозвонки. Это сэкономит время и предотвратит путаницу при финальной сборке схемы.</p></aside>
+
+<h2 id="схема-подключения-коллекторного-двигателя">Схема подключения коллекторного двигателя</h2>
+<p>Запуск коллекторного мотора — наиболее простой вариант для домашней мастерской. Эти устройства изначально рассчитаны на работу от сети постоянного или переменного тока и не требуют сложных пусковых устройств. Схема соединения довольно проста и понятна даже новичкам.</p>
+
+<p>Для вращения вала необходимо подать напряжение на щетки и одну из обмоток статора. Направление вращения зависит от полярности подключения. Если поменять местами выводы обмотки статора относительно щеток, вал начнет крутиться в противоположную сторону.</p>
+
+<pre><code>Сеть 220В (Фаза) --> Вывод щетки 1
+<p>Сеть 220В (Ноль) --> Вывод обмотки статора</p>
+<p>Оставшиеся концы (Щетка 2 и Обмотка) соединяются между собой</code></pre></p>
+
+<p>Важно обеспечить надежную изоляцию всех соединений. Коллекторные двигатели при работе искрят, поэтому не размещайте их вблизи легковоспламеняющихся материалов. Также они создают радиопомехи, поэтому в схему часто добавляют конденсаторы или дроссели.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Проверка перед запуском коллекторного мотора</h4><label class="check-item"><input type="checkbox"><span>Щетки плотно прилегают к коллектору</span></label><label class="check-item"><input type="checkbox"><span>Коллектор очищен от графитовой пыли</span></label><label class="check-item"><input type="checkbox"><span>Подшипники не имеют люфта</span></label><label class="check-item"><input type="checkbox"><span>Провода надежно заизолированы</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<p>Если двигатель гудит, но не вращается, проверьте целостность обмоток. Возможно, межвитковое замыкание или обрыв цепи. В нормальном состоянии мотор должен набирать обороты плавно, без рывков и сильного искрения под щетками.</p>
+
+<h2 id="запуск-асинхронного-двигателя-через-конденсатор">Запуск асинхронного двигателя через конденсатор</h2>
+<p>Асинхронные моторы требуют создания вращающегося магнитного поля для старта. В однофазной сети 220В этого можно добиться только с помощью <strong>пускового конденсатора</strong>. Без него двигатель будет лишь гудеть, а вал останется неподвижным.</p>
+
+<p>Емкость конденсатора рассчитывается исходя из мощности двигателя. Грубая формула гласит: на каждые 100 Ватт мощности требуется примерно 7-10 мкФ емкости. Для двигателя мощностью 200-300 Ватт, типичного для стиральной машины, подойдет конденсатор емкостью 10-20 мкФ.</p>
+
+<p>Рабочее напряжение конденсатора должно быть не менее 400-450 Вольт. Использование элементов с меньшим номиналом приведет к их быстрому выходу из строя и возможному взрыву. Лучше использовать специальные пусковые конденсаторы, рассчитанные на работу в цепях переменного тока.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Мощность двигателя</th>
+<th>Емкость конденсатора (рабочий)</th>
+<th>Емкость конденсатора (пусковой)</th>
+<th>Тип конденсатора</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100-200 Вт</td>
+<td>6-10 мкФ</td>
+<td>15-20 мкФ</td>
+<td>МБГО, МБГЧ</td>
+</tr>
+<tr>
+<td>200-400 Вт</td>
+<td>10-16 мкФ</td>
+<td>25-40 мкФ</td>
+<td>МБГО, МБГЧ</td>
+</tr>
+<tr>
+<td>400-600 Вт</td>
+<td>16-25 мкФ</td>
+<td>40-60 мкФ</td>
+<td>МБГО, МБГЧ</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Существует схема с постоянно включенным конденсатором и схема с отключаемым пусковым элементом. Для самодельных станков, где важна простота, часто используют один рабочий конденсатор. Это немного снижает пусковой момент, но упрощает конструкцию.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> После выключения двигателя конденсатор может сохранять заряд. Перед касанием проводов обязательно разрядите его, замкнув контакты через изолированную отвертку или резистор.</p>
+</blockquote>
+
+<h2 id="регулировка-скорости-и-реверс">Регулировка скорости и реверс</h2>
+<p>Одним из главных преимуществ использования моторов от стиральных машин является возможность управления скоростью. Для коллекторных двигателей это реализуется довольно легко с помощью диммера или специального регулятора оборотов.</p>
+
+<p>Простой диммер для ламп накаливания может работать как регулятор, но он не обеспечивает стабильности под нагрузкой. При сверлении или резке обороты будут падать. Лучше использовать готовые платы регуляторов на базе микросхем или симисторов с обратной связью по таходатчику.</p>
+
+<details class="pb-accordion"><summary>Почему падает мощность при снижении оборотов?</summary><div class="pb-accordion-body"><p>При уменьшении напряжения на коллекторном двигателе падает не только скорость, но и крутящий момент. Для сохранения мощности на низких оборотах требуется сложная система управления с датчиком Холла или тахогенератором.</p></div></details>
+
+<p>Для реверса (изменения направления вращения) в коллекторных моторах достаточно поменять местами выводы щеток относительно обмотки статора. В асинхронных двигателях для этого меняют местами выводы пусковой и рабочей обмоток, но только после полной остановки вала.</p>
+
+<p>Если вы планируете использовать двигатель для тяжелых работ, убедитесь, что система охлаждения эффективна. На низких оборотах встроенный вентилятор работает хуже, и мотор может перегреться даже при небольшой нагрузке.</p>
+
+<div class="pb-poll" id="poll-09bdb10c"><div class="pb-poll-question">📊 Какой тип двигателя вы планируете использовать?</div><div class="pb-poll-option" data-poll="09bdb10c" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Коллекторный (со щетками)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="09bdb10c" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Асинхронный (старый тип)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="09bdb10c" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Инверторный (прямой привод)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="09bdb10c" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Пока не знаю</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="меры-безопасности-и-типичные-ошибки">Меры безопасности и типичные ошибки</h2>
+<p>Работа с электричеством напряжением 220 Вольт несет реальную угрозу жизни. Даже опытные мастера должны соблюдать предельную осторожность. Корпус двигателя и все металлические части станка должны быть надежно заземлены.</p>
+
+<p>Типичная ошибка — использование проводов сечением меньше 1.5 мм² для питания двигателя. Это может привести к нагреву проводки и пожару. Также не стоит скручивать провода без последующей пайки или использования клеммных колодок.</p>
+
+<p>Обязательно установите автоматический выключатель или хотя бы плавкий предохранитель в разрыв фазы. Это защитит сеть от короткого замыкания в случае пробоя изоляции обмоток. Не пренебрегайте этим правилом, даже если подключение временное.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Безопасность превыше всего: любое самодельное устройство должно иметь аварийную кнопку отключения ("грибок") и надежное заземление корпуса.</p></aside>
+
+<p>Проверьте крепление двигателя. При высоких оборотах вибрация может быть значительной. Если мотор закреплен слабо, он может сорваться с креплений, повредив провода или травмировав оператора.</p>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+<summary>Можно ли запустить двигатель от стиральной машины без конденсатора?</summary>
+<p>Асинхронный двигатель без конденсатора не запустится, так как не возникнет вращающий момент. Коллекторный двигатель может работать без конденсатора, но для него потребуется схема управления, если нужна регулировка оборотов. Для простого вращения коллекторному мотору конденсатор не нужен.</p>
+</details>
+
+<details>
+<summary>Почему двигатель гудит, но не крутится?</summary>
+<p>Это признак неисправности пусковой цепи. В асинхронных моторах сгорел конденсатор или оборвана пусковая обмотка. В коллекторных — износились щетки, загрязнен коллектор или есть обрыв в цепи статора. Также возможно заклинивание подшипников.</p>
+</details>
+
+<details>
+<summary>Как изменить направление вращения вала?</summary>
+<p>Для коллекторного двигателя нужно поменять местами два провода, идущие от щеток к обмотке статора (или наоборот). Для асинхронного — изменить подключение пусковой обмотки относительно рабочей. Делать это нужно только при отключенном питании.</p>
+</details>
+
+<details>
+<summary>Какой мощности двигатель подойдет для наждака?</summary>
+<p>Для домашнего точильного станка оптимальна мощность от 200 до 400 Ватт. Двигатели меньшей мощности могут не справиться с заточкой инструмента, а более мощные будут создавать излишнюю вибрацию на легкой станине. Скорость вращения желательна в пределах 1000-1500 об/мин.</p>
+</details>
+
+<details>
+<summary>Опасен ли мотор от стиралки для использования в гараже?</summary>
+<p>Сам по себе мотор безопасен при правильной установке. Опасность представляет пыль (металлическая или деревянная), которая может набиваться внутрь и вызывать замыкание или возгорание. Регулярная чистка и установка защитных кожухов обязательны.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kakogo-tsveta-provod-zemlya-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Цвет провода заземления на стиральной машине: как не ошибиться</span>
+                <span class="pb-related-desc">Какого цвета провод земля на стиральной машине? Полный гид по маркировке кабелей, правилам подключен</span>
+            </a><a href="/articles/k/ka/kakoj-provod-nuzhen-na-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Какой провод нужен на стиральную машину: сечение и выбор кабеля</span>
+                <span class="pb-related-desc">Подробный гид: какой провод выбрать для подключения стиральной машины. Расчет сечения, выбор розетки</span>
+            </a><a href="/articles/k/ka/kak-podsoedinit-vilku-k-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как подсоединить вилку к стиральной машине: инструкция</span>
+                <span class="pb-related-desc">Пошаговое руководство по замене вилки на стиральной машине. Выбор кабеля, схема подключения фазы и з</span>
+            </a><a href="/articles/k/ka/kak-ustanovit-stiralnuyu-mashinu-svoimi-rukami.html" class="pb-related-card">
+                <span class="pb-related-title">Как установить стиральную машину своими руками: пошаговая инструкция</span>
+                <span class="pb-related-desc">Полное руководство: как установить стиральную машину. Подготовка, подключение к водопроводу и канали</span>
+            </a><a href="/articles/k/ka/kak-podklyuchit-shlang-slivnoj-k-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как подключить сливной шланг стиральной машины: инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по установке сливного шланга для стиральной машины. Правила подключения к кана</span>
+            </a><a href="/articles/k/ka/kak-ustanovit-filtr-dlya-stiralki.html" class="pb-related-card">
+                <span class="pb-related-title">Как установить фильтр для стиралки: пошаговая инструкция</span>
+                <span class="pb-related-desc">Узнайте, как правильно установить фильтр для стиральной машины. Подробная инструкция, выбор модели и</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

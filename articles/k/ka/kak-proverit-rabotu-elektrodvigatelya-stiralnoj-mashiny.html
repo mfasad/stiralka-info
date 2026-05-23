@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как проверить электродвигатель стиральной машины: диагностика — Стиралка Инфо</title>
+    <meta name="description" content="Полная инструкция: как прозвонить мотор стиралки мультиметром. Проверка щеток, коллектора и обмоток на межвитковое замыкание.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-proverit-rabotu-elektrodvigatelya-stiralnoj-mashiny.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как проверить электродвигатель стиральной машины: диагностика">
+    <meta property="og:description" content="Полная инструкция: как прозвонить мотор стиралки мультиметром. Проверка щеток, коллектора и обмоток на межвитковое замыкание.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как проверить электродвигатель стиральной машины: диагностика</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#первичный-визуальный-осмотр-и-безопасность">Первичный визуальный осмотр и безопасность</a></li><li><a href="#диагностика-коллекторного-двигателя-щетки-и-коллектор">Диагностика коллекторного двигателя: щетки и коллектор</a></li><li><a href="#проверка-асинхронных-двигателей-и-моторов-с-прямым-приводом">Проверка асинхронных двигателей и моторов с прямым приводом</a></li><li><a href="#прозвонка-обмоток-мультиметром-пошаговая-инструкция">Прозвонка обмоток мультиметром: пошаговая инструкция</a></li><li><a href="#диагностика-таходатчика-и-термозащиты">Диагностика таходатчика и термозащиты</a></li><li><a href="#межвитковое-замыкание-и-сложные-случаи">Межвитковое замыкание и сложные случаи</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-sbrosit-oshibki-na-stiralnoj-mashine-khansa.html">Как сбросить ошибки на стиральной машине Hansa: инструкции</a></li><li><a href="/articles/k/ka/kak-otklyuchit-akvastop-v-stiralnoj-mashine-bosh.html">Как отключить Аквастоп Бош: инструкция и причины поломки</a></li><li><a href="/articles/k/ka/kak-pomenyat-podshipnik-na-stiralnoj-mashine-indezit-na-barabane-svoimi-rukami-poshagovaya-instruktsiya.html">Как поменять подшипник на стиральной машине Indesit: пошаговая инструкция</a></li><li><a href="/articles/s/st/stiralka-elektrolyuks-kak-razobrat.html">Как разобрать стиралку Электролюкс: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-pomenyat-datchik-kholla-na-stiralnoj-mashine-lg.html">Замена датчика Холла в стиральной машине LG: пошаговая инструкция</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Диагностика электродвигателя стиральной машины: пошаговый алгоритм проверки</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#первичный-визуальный-осмотр-и-безопасность">Первичный визуальный осмотр и безопасность</a></li><li><a href="#диагностика-коллекторного-двигателя-щетки-и-коллектор">Диагностика коллекторного двигателя: щетки и коллектор</a></li><li><a href="#проверка-асинхронных-двигателей-и-моторов-с-прямым-приводом">Проверка асинхронных двигателей и моторов с прямым приводом</a></li><li><a href="#прозвонка-обмоток-мультиметром-пошаговая-инструкция">Прозвонка обмоток мультиметром: пошаговая инструкция</a></li><li><a href="#диагностика-таходатчика-и-термозащиты">Диагностика таходатчика и термозащиты</a></li><li><a href="#межвитковое-замыкание-и-сложные-случаи">Межвитковое замыкание и сложные случаи</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Стиральная машина перестала вращать барабан или издает непривычный гул во время работы? Часто источником проблемы становится <strong>электродвигатель</strong>, который является сердцем всего агрегата. Прежде чем вызывать мастера или покупать новую деталь, необходимо провести грамотную диагностику, чтобы точно определить характер неисправности и исключить другие поломки.</p>
+
+<p>Проверка мотора — это процесс, требующий внимательности и базовых навыков работы с измерительными приборами. В этой статье мы разберем, как выявить дефекты в коллекторных и асинхронных двигателях, на что обратить внимание при визуальном осмотре и как правильно использовать <strong>мультиметр</strong> для замера сопротивления обмоток. Точная диагностика позволит вам понять, подлежит ли узел ремонту или требуется полная замена.</p>
+
+<p>Не стоит игнорировать первые признаки нестабильной работы привода. Своевременное выявление проблемы с <em>мотором</em> может спасти другие дорогостоящие узлы стиральной машины от перегрузок. Давайте разберем пошагово, как выполняется проверка технического состояния двигателя в домашних условиях.</p>
+
+<h2 id="первичный-визуальный-осмотр-и-безопасность">Первичный визуальный осмотр и безопасность</h2>
+
+<p>Любая работа с электроприборами начинается с обеспечения безопасности. Категорически запрещается приступать к диагностике, если машина подключена к электрической сети. Необходимо отключить устройство от розетки, перекрыть подачу воды и только после этого снимать заднюю крышку или добираться до двигателя через нижний люк, в зависимости от конструкции модели.</p>
+
+<p>Первое, что бросается в глаза при извлечении мотора — это его внешний вид. Обратите внимание на состояние изоляции проводов и наличие следов гари или копоти. Если вы видите почерневшие участки на обмотках или чувствуете резкий запах паленой пластмассы, это верный признак <strong>межвиткового замыкания</strong> или перегрева.</p>
+
+<blockquote>⚠️ <strong>Внимание:</strong> Перед тем как касаться внутренних компонентов, обязательно разрядите конденсатор (если он есть в цепи) и убедитесь, что на контактах нет остаточного напряжения. Работайте в сухих резиновых перчатках, чтобы избежать удара током.</p>
+
+<p>Также осмотрите крепление двигателя и целостность шкива. Люфт вала или поврежденная посадочная площадка могут вызывать вибрации, которые ошибочно принимают за поломку электрической части. Механические повреждения корпуса часто указывают на падение тяжелых предметов внутрь бака или серьезный дисбаланс при отжиме.</p>
+
+<h2 id="диагностика-коллекторного-двигателя-щетки-и-коллектор">Диагностика коллекторного двигателя: щетки и коллектор</h2>
+
+<p>Коллекторные двигатели наиболее распространены в современных стиральных машинах благодаря своей компактности и высоким оборотам. Главные элементы, подверженные износу в таких моторах — это <strong>графитовые щетки</strong>. Они передают ток на вращающийся якорь и со временем стираются.</p>
+
+<p>Для проверки необходимо извлечь щетки из щеткодержателей. Если длина графитового стержня менее 1,5 см или он раскрошился, деталь требует замены. Важно менять щетки парой, даже если одна из них выглядит лучше другой, чтобы обеспечить равномерный прижим и искрение.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Проверка щеточного узла</h4><label class="check-item"><input type="checkbox"><span>Извлечь щетки из держателей</span></label><label class="check-item"><input type="checkbox"><span>Замерить остаточную длину графита</span></label><label class="check-item"><input type="checkbox"><span>Осмотреть пружину на упругость</span></label><label class="check-item"><input type="checkbox"><span>Проверить легкость хода в держателе</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<p>Второй критический узел — сам <em>коллектор</em> (медные ламели на роторе). В идеале они должны быть чистыми, гладкими и иметь равномерный цвет. Наличие черного налета, борозд или сколов говорит о плохом контакте. Легкий налет можно аккуратно зачистить ластиком или мелкой наждачной бумагой, но глубокие дефекты требуют профессиональной проточки или замены якоря.</p>
+
+<p>Особое внимание уделите запаху. Если от двигателя пахнет гарью, возможно, меж ламелями набилась графитовая пыль, вызывающая короткое замыкание. Тщательная очистка межламелных промежутков деревянной зубочисткой часто возвращает мотору работоспособность.</p>
+
+<h2 id="проверка-асинхронных-двигателей-и-моторов-с-прямым-приводом">Проверка асинхронных двигателей и моторов с прямым приводом</h2>
+
+<p>В стиральных машинах с прямым приводом (Direct Drive) и некоторых моделях старого образца используются асинхронные двигатели. Они считаются более надежными, так как в них отсутствуют щетки и коллектор, которые создают искрение и износ. Однако и они могут выходить из строя.</p>
+
+<p>Основная проблема таких моторов — выход из строя подшипников или обрыв обмоток. Поскольку визуально проверить целостность обмоток невозможно без разбора корпуса, основным инструментом диагностики становится <strong>мультиметр</strong>. Также стоит проверить конденсатор пуска, если он вынесен в отдельный блок.</p>
+
+<p>При прямом приводе двигатель часто интегрирован в конструкцию бака, что усложняет его демонтаж. В таких случаях диагностика проводится через разъемы на электронной плате или непосредственно на клеммах мотора, если есть доступ. Частой неисправностью является пробой изоляции на корпус.</p>
+
+<details class="pb-accordion"><summary>Особенности двигателей с прямым приводом</summary><div class="pb-accordion-body"><p>В моторах Direct Drive часто установлены мощные неодимовые магниты. Будьте осторожны при разборке: пальцы может сильно защемить, а металлические инструменты — примагнитить с большой силой, что приведет к травмам или повреждению обмотки.</p></div></details>
+
+<p>Если двигатель гудит, но не вращается, и при этом слышен характерный гул, возможно, заклинил подшипник ротора. Проверьте свободный ход вала рукой (при отключенном питании). Если вал проворачивается с трудом или рывками, подшипниковый узел требует замены.</p>
+
+<h2 id="прозвонка-обмоток-мультиметром-пошаговая-инструкция">Прозвонка обмоток мультиметром: пошаговая инструкция</h2>
+
+<p>Самый точный способ определить целостность электрической цепи — прозвонить обмотки тестером. Переключите прибор в режим измерения сопротивления (обычно диапазон 200 Ом или 2 кОм). Для начала проверим отсутствие обрыва цепи.</p>
+
+<p>Приложите щупы мультиметра к контактам обмоток. В исправном двигателе прибор должен показать определенное сопротивление. Для разных типов моторов эти значения могут отличаться, но обычно они находятся в диапазоне от 10 до 100 Ом. Если на экране горит единица (бесконечность), значит, в обмотке <strong>обрыв</strong>.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Перед началом измерений всегда проверяйте исправность самого мультиметра, соединив щупы друг с другом. Прибор должен показать ноль или близкое к нулю значение, подтверждая целостность щупов.</p></aside>
+
+<p>Далее необходимо проверить отсутствие короткого замыкания на корпус (пробой изоляции). Переведите мультиметр в режим прозвонки (со звуком) или измерения сопротивления на максимальный предел (2 МОм). Один щуп прижмите к любому контакту двигателя, а второй — к неокрашенной металлической части корпуса.</p>
+
+<p>Если прибор издает писк или показывает низкое сопротивление, значит, изоляция нарушена и ток уходит на корпус. Эксплуатировать такую машину <strong>категорически запрещено</strong> из-за риска поражения электрическим током. Такой двигатель подлежит замене.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Тип проверки</th>
+<th>Нормальное показание</th>
+<th>Признак неисправности</th>
+<th>Действие</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Сопротивление обмоток</td>
+<td>10–100 Ом (зависит от модели)</td>
+<td>Бесконечность (1) или 0 Ом</td>
+<td>Замена обмотки или мотора</td>
+</tr>
+<tr>
+<td>Пробой на корпус</td>
+<td>Бесконечность (нет контакта)</td>
+<td>Звук сигнала или низкое сопротивление</td>
+<td>Срочная замена двигателя</td>
+</tr>
+<tr>
+<td>Термодатчик</td>
+<td>Замкнутая цепь (0 Ом)</td>
+<td>Разрыв цепи</td>
+<td>Замена термопредохранителя</td>
+</tr>
+<tr>
+<td>Таходатчик</td>
+<td>Сопротивление катушки (обычно 50-200 Ом)</td>
+<td>Отсутствие сопротивления</td>
+<td>Замена датчика Холла/тахо</td>
+</tr>
+</tbody>
+</table></div>
+
+<h2 id="диагностика-таходатчика-и-термозащиты">Диагностика таходатчика и термозащиты</h2>
+
+<p>Часто сам двигатель исправен, но машина не работает из-за неисправности датчиков. <strong>Таходатчик</strong> (или датчик Холла) контролирует скорость вращения вала. Если он неисправен, модуль управления не получает сигнал о вращении и блокирует работу программы, думая, что мотор сгорел.</p>
+
+<p>Проверка таходатчика осуществляется прозвонкой его катушки. Сопротивление должно быть в пределах нормы (обычно несколько десятков или сотен Ом). Также важно проверить целостность проводов, идущих от датчика к плате, так как они часто перетираются из-за вибрации.</p>
+
+<blockquote>⚠️ <strong>Внимание:</strong> В некоторых моделях таходатчик встроен непосредственно в корпус двигателя и не подлежит отдельной замене. В таком случае при его неисправности приходится менять весь двигатель в сборе.</p>
+
+<p>Второй важный элемент — <em>термозащита</em>. Это биметаллическая пластина или термопредохранитель, встроенный в обмотки. При перегреве она размыкает цепь. Прозвоните контакты термозащиты: в холодном состоянии они должны быть замкнуты (сопротивление 0 Ом). Если цепь разорвана, двигатель не запустится.</p>
+
+<p>Иногда термозащита "залипает" или срабатывает ложно из-за старения. Если двигатель холодный, но цепь разомкнута, элемент требует замены. Игнорирование этого узла может привести к повторному сгоранию обмоток при следующей попытке запуска.</p>
+
+<div class="pb-poll" id="poll-28cb6dd1"><div class="pb-poll-question">📊 Что чаще всего выходит из строя в двигателе?</div><div class="pb-poll-option" data-poll="28cb6dd1" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Щетки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="28cb6dd1" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Подшипники</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="28cb6dd1" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Обмотки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="28cb6dd1" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Таходатчик</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="28cb6dd1" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Электроника</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="межвитковое-замыкание-и-сложные-случаи">Межвитковое замыкание и сложные случаи</h2>
+
+<p>Самая сложная для диагностики в домашних условиях неисправность — <strong>межвитковое замыкание</strong>. В этом случае изоляция между витками обмотки нарушена, но полного обрыва или пробоя на корпус нет. Мультиметр может показывать нормальное сопротивление, но двигатель будет работать с перегревом, гудеть и выбивать автоматы.</p>
+
+<p>Выявить такую проблему без специального прибора (определителя короткозамкнутых витков) крайне сложно. Косвенным признаком может служить неравномерный нагрев корпуса двигателя после кратковременного включения. Один сектор может быть горячее другого.</p>
+
+<p>Также обратите внимание на искрение под щетками. Если при работе мотора из-под щеток вылетает круговая искра (огненное кольцо) по всему коллектору, это почти гарантированный признак межвиткового замыкания якоря или короткого замыкания в обмотках статора.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Межвитковое замыкание практически невозможно устранить в домашних условиях. Перемотка двигателя экономически нецелесообразна, дешевле и надежнее купить новый или восстановленный мотор.</p></aside>
+
+<p>Если вы подозреваете именно эту неисправность, лучше не рисковать и не пытаться запускать машину повторно. Работа двигателя с короткозамкнутыми витками создает огромную нагрузку на электронную плату управления, что может привести к выходу из строя дорогостоящего модуля.</p>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+<summary>Можно ли проверить двигатель стиральной машины без мультиметра?</summary>
+<p>Полноценно проверить электрическую часть без приборов нельзя. Однако можно провести визуальный осмотр щеток и коллектора, а также проверить свободный ход вала. Также можно аккуратно подать напряжение 12В (не 220В!) на обмотки, чтобы проверить, крутится ли вал, но это требует специальных знаний по схеме подключения.</p>
+</details>
+
+<details>
+<summary>Почему двигатель гудит, но барабан не вращается?</summary>
+<p>Причин может быть несколько: заклинил подшипник барабана, износились щетки двигателя, оборван ремень привода или произошло межвитковое замыкание. Также часто проблема кроется в пусковом конденсаторе (в старых моделях) или неисправности модуля управления.</p>
+</details>
+
+<details>
+<summary>Как часто нужно менять щетки в стиральной машине?</summary>
+<p>Ресурс графитовых щеток обычно составляет 5–7 лет активной эксплуатации. Однако срок службы сильно зависит от частоты стирок, веса белья и качества электросети. Проверять их состояние рекомендуется при появлении искрения или нестабильной работы мотора.</p>
+</details>
+
+<details>
+<summary>Можно ли смазывать подшипники двигателя стиральной машины?</summary>
+<p>В большинстве современных двигателей установлены закрытые подшипники, не требующие обслуживания. Попытка смазать их обычным маслом может привести к вытеканию смазки на обмотки и коллектор, что вызовет короткое замыкание. Если подшипник шумит, его лучше заменить на новый.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-sbrosit-oshibki-na-stiralnoj-mashine-khansa.html" class="pb-related-card">
+                <span class="pb-related-title">Как сбросить ошибки на стиральной машине Hansa: инструкции</span>
+                <span class="pb-related-desc">Полное руководство: как сбросить ошибки на стиральной машине Hansa. Программный и аппаратный сброс, </span>
+            </a><a href="/articles/k/ka/kak-otklyuchit-akvastop-v-stiralnoj-mashine-bosh.html" class="pb-related-card">
+                <span class="pb-related-title">Как отключить Аквастоп Бош: инструкция и причины поломки</span>
+                <span class="pb-related-desc">Подробное руководство: как отключить Аквастоп на стиральной машине Бош. Коды ошибок, замена шланга, </span>
+            </a><a href="/articles/k/ka/kak-pomenyat-podshipnik-na-stiralnoj-mashine-indezit-na-barabane-svoimi-rukami-poshagovaya-instruktsiya.html" class="pb-related-card">
+                <span class="pb-related-title">Как поменять подшипник на стиральной машине Indesit: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробная инструкция, как заменить подшипник барабана в стиральной машине Индезит своими руками. Фот</span>
+            </a><a href="/articles/s/st/stiralka-elektrolyuks-kak-razobrat.html" class="pb-related-card">
+                <span class="pb-related-title">Как разобрать стиралку Электролюкс: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по разборке стиральных машин Electrolux. Снятие бака, ТЭНа и подшипников. Сове</span>
+            </a><a href="/articles/k/ka/kak-pomenyat-datchik-kholla-na-stiralnoj-mashine-lg.html" class="pb-related-card">
+                <span class="pb-related-title">Замена датчика Холла в стиральной машине LG: пошаговая инструкция</span>
+                <span class="pb-related-desc">Как самостоятельно заменить датчик Холла на стиральной машине LG: признаки неисправности, выбор дета</span>
+            </a><a href="/articles/k/ka/kak-pomenyat-manzhetu-stiralnoj-mashiny-lg.html" class="pb-related-card">
+                <span class="pb-related-title">Как поменять манжету стиральной машины LG: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по замене уплотнительной резины LG. Схемы снятия колец, выбор герметика и уста</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

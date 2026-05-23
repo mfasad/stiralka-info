@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как подключить трёхфазный двигатель стиральной машины: схема — Стиралка Инфо</title>
+    <meta name="description" content="Полная инструкция по подключению 3-фазного двигателя от стиральной машины. Схемы, расчёт конденсаторов, ошибки и меры безопасности.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-podklyuchit-tryokhfaznyj-dvigatel-ot-stiralnoj-mashiny.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как подключить трёхфазный двигатель стиральной машины: схема">
+    <meta property="og:description" content="Полная инструкция по подключению 3-фазного двигателя от стиральной машины. Схемы, расчёт конденсаторов, ошибки и меры безопасности.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-nav-active">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/ustanovka-i-podklyuchenie/">Установка и подключение</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как подключить трёхфазный двигатель стиральной машины: схема</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#особенности-трёхфазных-асинхронных-двигателей">Особенности трёхфазных асинхронных двигателей</a></li><li><a href="#необходимые-инструменты-и-материалы">Необходимые инструменты и материалы</a></li><li><a href="#схемы-подключения-треугольник-и-звезда">Схемы подключения: треугольник и звезда</a></li><li><a href="#расчёт-ёмкости-конденсаторов">Расчёт ёмкости конденсаторов</a></li><li><a href="#пошаговая-инструкция-по-сборке">Пошаговая инструкция по сборке</a></li><li><a href="#запуск-и-тестирование-системы">Запуск и тестирование системы</a></li><li><a href="#возможные-неисправности-и-их-устранение">Возможные неисправности и их устранение</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/g/gd/gde-transportnye-bolty-u-stiralnoj-mashiny.html">Где находятся транспортные болты в стиральной машине — схема и фото</a></li><li><a href="/articles/k/ka/kak-vklyuchit-stiralnuyu-mashinu-vestel-aura.html">Как включить стиральную машину Vestel Aura: запуск и настройка</a></li><li><a href="/articles/k/ka/kakaya-rezba-na-stiralnoj-mashine-dlya-podvoda-vody.html">Какая резьба на стиральной машине: 3/4 или 1/2 дюйма?</a></li><li><a href="/articles/k/ka/kak-stavit-kran-na-stiralnuyu-mashinu.html">Как правильно установить кран для стиральной машины: пошаговая инструкция</a></li><li><a href="/articles/r/ro/rozetki-v-vannoj-dlya-stiralnoj-mashiny-na-kakoj-vysote.html">На какой высоте розетка для стиральной машины в ванной</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как подключить трёхфазный двигатель от стиральной машины</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#особенности-трёхфазных-асинхронных-двигателей">Особенности трёхфазных асинхронных двигателей</a></li><li><a href="#необходимые-инструменты-и-материалы">Необходимые инструменты и материалы</a></li><li><a href="#схемы-подключения-треугольник-и-звезда">Схемы подключения: треугольник и звезда</a></li><li><a href="#расчёт-ёмкости-конденсаторов">Расчёт ёмкости конденсаторов</a></li><li><a href="#пошаговая-инструкция-по-сборке">Пошаговая инструкция по сборке</a></li><li><a href="#запуск-и-тестирование-системы">Запуск и тестирование системы</a></li><li><a href="#возможные-неисправности-и-их-устранение">Возможные неисправности и их устранение</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+<p>Использование электродвигателей от стиральных машин в хозяйственных целях — популярная практика среди домашних мастеров. Часто возникает ситуация, когда вместо привычного однофазного агрегата на руках оказывается <strong>трёхфазный мотор</strong>, который невозможно просто включить в бытовую розетку. Понимание принципов его работы и способов преобразования напряжения открывает возможности для создания самодельных станков, компрессоров или вентиляционных систем.</p>
+
+<p>Основная сложность заключается в том, что бытовая сеть выдаёт 220 вольт, а обмотки двигателя рассчитаны на три фазы по 380 вольт. Для решения этой задачи инженеры и любители разработали несколько проверенных методов, позволяющих запустить агрегат в однофазной сети. <em>Конденсаторный пуск</em> является наиболее распространённым решением, требующим точного расчёта ёмкости.</p>
+
+<p>Прежде чем приступать к сборке схемы, необходимо оценить состояние самого электродвигателя. Старые модели могут иметь повреждённую изоляцию или окисленные контакты, что сделает эксплуатацию опасной. В этом материале мы подробно разберём все этапы подключения, расчёта параметров и меры предосторожности, которые необходимо соблюдать.</p>
+
+<h2 id="особенности-трёхфазных-асинхронных-двигателей">Особенности трёхфазных асинхронных двигателей</h2>
+<p>Трёхфазные асинхронные двигатели, часто устанавливаемые в промышленных стиральных машинах или мощных агрегатах советского производства, обладают рядом конструктивных преимуществ. Их ротор выполнен в виде «беличьей клетки», что делает устройство надёжным и долговечным. Отсутствие щёток исключает искрение и необходимость частого обслуживания, что выгодно отличает их от коллекторных аналогов.</p>
+
+<p>Принцип работы базируется на создании вращающегося магнитного поля статором. Когда на три обмотки подаётся ток со сдвигом фаз, возникает электромагнитная сила, вращающая ротор. В условиях домашней сети, где доступна только одна фаза, необходимо искусственно создать этот сдвиг. Для этого применяются <strong>фазосдвигающие конденсаторы</strong>, имитирующие работу недостающих фаз.</p>
+
+<p>Важно понимать, что при работе от однофазной сети мощность двигателя неизбежно падает. Обычно удаётся достичь лишь 70-80% от номинальной мощности, указанной на шильдике. Однако для большинства самодельных станков, таких как точило или сверлильный станок, этого вполне достаточно для эффективной работы.</p>
+
+<blockquote>⚠️ Внимание: Перед подключением обязательно проверьте целостность обмоток мультиметром. Замыкание на корпус или между обмотками может привести к выходу из строя конденсаторов или поражению электрическим током.</blockquote>
+
+<p>Современные стиральные машины всё чаще оснащаются инверторными двигателями, управление которыми требует сложной электроники. Классические трёхфазные модели встречаются реже, но именно они лучше всего подходят для переделки под стационарное использование в мастерской.</p>
+
+<h2 id="необходимые-инструменты-и-материалы">Необходимые инструменты и материалы</h2>
+<p>Для успешной реализации проекта потребуется не только сам двигатель, но и ряд дополнительных компонентов. Качество сборки напрямую влияет на безопасность и КПД будущей установки. Не стоит экономить на элементах схемы, так как они работают под высоким напряжением.</p>
+
+<ul>
+<li>🔧 Набор отвёрток и пассатижи для механического монтажа и зачистки проводов.</li>
+<li>🔌 Пусковые и рабочие конденсаторы (MBGO, МБГП или специализированные CBB60).</li>
+<li>📏 Мультиметр для прозвонки обмоток и проверки напряжения.</li>
+<li>🧵 Медный провод с изоляцией, рассчитанной на ток не менее 10 ампер.</li>
+<li>🔩 Креёжные элементы: болты, гайки, клеммная колодка.</li>
+</ul>
+
+<p>Особое внимание следует уделить выбору конденсаторов. Они должны быть рассчитаны на рабочее напряжение не менее 450 вольт. Использование конденсаторов с меньшим номиналом напряжения приведёт к их быстрому вздутию и выходу из строя. Ёмкость подбирается экспериментально или расчётным путём в зависимости от мощности мотора.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Используйте конденсаторы в металлическом или прочном пластиковом корпусе, избегая старых бумажных моделей в парафинированной бумаге, которые склонны к высыханию.</p></aside>
+
+<p>Для подключения удобно использовать клеммную колодку, которая обеспечит надёжный контакт и позволит при необходимости быстро разобрать схему. Все соединения должны быть тщательно изолированы, желательно с использованием термоусадочных трубок.</p>
+
+<h2 id="схемы-подключения-треугольник-и-звезда">Схемы подключения: треугольник и звезда</h2>
+<p>Существует два основных способа соединения обмоток трёхфазного двигателя: «звезда» и «треугольник». Выбор схемы зависит от напряжения сети и характеристик самого двигателя. На шильдике обычно указаны оба варианта, например: 220/380 В или 380/660 В.</p>
+
+<p>Если двигатель рассчитан на напряжение 220/380 вольт, то для подключения к однофазной сети 220 вольт обмотки необходимо соединить по схеме «треугольник». В этом случае каждая обмотка будет работать на полном напряжении сети. Если же собрать схему «звезда», двигатель будет работать с пониженной мощностью и может не запуститься под нагрузкой.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Схема «Звезда»</th>
+<th>Схема «Треугольник»</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Напряжение сети</td>
+<td>380 В</td>
+<td>220 В</td>
+</tr>
+<tr>
+<td>Мощность</td>
+<td>Полная</td>
+<td>Полная (при 220В)</td>
+</tr>
+<tr>
+<td>Пусковой ток</td>
+<td>Меньший</td>
+<td>Больший</td>
+</tr>
+<tr>
+<td>Применение</td>
+<td>Промышленные сети</td>
+<td>Бытовые сети</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Для реализации схемы «треугольник» концы обмоток соединяются последовательно: начало первой с концом второй, начало второй с концом третьей и так далее. Точки соединения подключаются к фазе, нулю и конденсатору. Важно правильно определить начала и концы обмоток, чтобы вращение происходило в нужную сторону.</p>
+
+<div class="pb-poll" id="poll-952fc14b"><div class="pb-poll-question">📊 Какой тип двигателя вы планируете подключать?</div><div class="pb-poll-option" data-poll="952fc14b" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Асинхронный 3-фазный</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="952fc14b" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Коллекторный</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="952fc14b" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Инверторный</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="952fc14b" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Не знаю, посмотрю в документации</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="расчёт-ёмкости-конденсаторов">Расчёт ёмкости конденсаторов</h2>
+<p>Ключевым моментом в подключении является правильный расчёт ёмкости рабочего и пускового конденсаторов. Недостаточная ёмкость приведёт к тому, что двигатель не сможет развить нужную мощность и будет гудеть. Избыточная ёмкость вызовет перегрев обмоток и преждевременный износ изоляции.</p>
+
+<p>Для расчёта ёмкости рабочего конденсатора (Ср) существует эмпирическая формула, зависящая от мощности двигателя. На каждые 100 ватт мощности обычно требуется около 7 микрофарад ёмкости. Пусковой конденсатор (Сп) необходим только в момент запуска и должен иметь ёмкость в 2-3 раза большую, чем рабочий.</p>
+
+<pre><code>Ср = (2800 * I) / U
+<p>Где:</p>
+<p>I — ток потребления (А)</p>
+<p>U — напряжение сети (В)</p>
+</code></pre>
+
+<p>Если расчёт по формуле кажется сложным, можно воспользоваться упрощённым правилом: на каждые 100 Вт мощности двигателя берётся 7 мкФ рабочего конденсатора. Например, для мотора мощностью 500 Вт потребуется примерно 35 мкФ. Пусковой конденсатор в этом случае должен быть около 70-100 мкФ.</p>
+
+<blockquote>⚠️ Внимание: Параметры конденсаторов могут варьироваться в зависимости от нагрузки на валу двигателя. Рекомендуется подбирать ёмкость опытным путём, начиная с минимальных значений и контролируя температуру корпуса мотора.</blockquote>
+
+<p>Конденсаторы можно соединять параллельно для увеличения общей ёмкости. При параллельном соединении ёмкости суммируются, а рабочее напряжение остаётся равным напряжению одного конденсатора в цепи.</p>
+
+<h2 id="пошаговая-инструкция-по-сборке">Пошаговая инструкция по сборке</h2>
+<p>Процесс подключения требует внимательности и соблюдения последовательности действий. Ошибка на любом этапе может привести к короткому замыканию. Перед началом работ убедитесь, что электричество в сети полностью отключено.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Чек-лист подготовки</h4><label class="check-item"><input type="checkbox"><span>Проверить маркировку на шильдике двигателя</span></label><label class="check-item"><input type="checkbox"><span>Подготовить конденсаторы нужной ёмкости</span></label><label class="check-item"><input type="checkbox"><span>Зачистить концы проводов</span></label><label class="check-item"><input type="checkbox"><span>Подготовить мультиметр для проверки</span></label><label class="check-item"><input type="checkbox"><span>Осмотреть клеммную коробку на наличие сколов</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<p>Сначала определите выводы обмоток. Если маркировка стёрлась, придётся «прозванивать» обмотки мультиметром в режиме измерения сопротивления. Сопротивление между началом и концом одной обмотки будет минимальным, а между разными обмотками — бесконечным (если они не соединены внутри).</p>
+
+<p>Соберите схему «треугольник», соединив выводы обмоток соответствующим образом. Подключите рабочий конденсатор параллельно одной из обмоток. Пусковой конденсатор подключается через кнопку без фиксации, которая будет замыкать цепь только в момент старта.</p>
+
+<p>После сборки схемы проведите визуальный осмотр всех соединений. Убедитесь, что нет оголённых проводов, которые могут коснуться корпуса двигателя. Закрепите конденсаторы на диэлектрической основе рядом с двигателем, чтобы избежать вибрации.</p>
+
+<details class="pb-accordion"><summary>Что делать, если двигатель гудит, но не вращается?</summary><div class="pb-accordion-body"><p>Если двигатель гудит, но вал стоит на месте, возможно, не хватает пускового момента. Попробуйте кратковременно подключить пусковой конденсатор большей ёмкости. Также проверьте, не заклинило ли подшипники и свободно ли вращается вал от руки.</p></div></details>
+
+<h2 id="запуск-и-тестирование-системы">Запуск и тестирование системы</h2>
+<p>Первый запуск следует проводить с соблюдением мер предосторожности. Не прикасайтесь к токоведущим частям и держите палец на кнопке аварийного отключения. Включите питание и кратковременно нажмите кнопку пуска.</p>
+
+<p>Если двигатель запустился и работает ровно, без сильного гудения и вибрации, можно отпускать кнопку пуска. Пусковой конденсатор должен отключиться, и двигатель продолжит работу на рабочем конденсаторе. Дайте мотору поработать несколько минут вхолостую.</p>
+
+<p>Контролируйте температуру корпуса. Если через 10-15 минут работы рука еле выдерживает касание к корпусу, значит, ёмкость рабочего конденсатора подобрана неверно или двигатель перегружен. В этом случае схему необходимо доработать.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Успешный запуск характеризуется уверенным набором оборотов и отсутствием посторонних шумов, кроме равномерного гула работающего электромотора.</p></aside>
+
+<p>Проверьте направление вращения вала. Если оно противоположно требуемому, поменяйте местами подключение одного из концов обмотки или переключите конденсатор на другую пару выводов.</p>
+
+<h2 id="возможные-неисправности-и-их-устранение">Возможные неисправности и их устранение</h2>
+<p>В процессе эксплуатации могут возникнуть различные проблемы, указывающие на ошибки в монтаже или неисправность компонентов. Самая частая проблема — двигатель не запускается или сразу выбивает автомат защиты.</p>
+
+<p>Если мотор гудит, но не крутится, возможно, пробит пусковой конденсатор или он имеет недостаточную ёмкость. Также причиной может быть механический заклинивание подшипников. Проверьте свободный ход вала рукой при отключенном питании.</p>
+
+<p>Сильный нагрев двигателя может свидетельствовать о межвитковом замыкании в обмотках или слишком большой ёмкости рабочего конденсатора. В первом случае двигатель подлежит перемотке или замене, во втором — требуется замена конденсатора на менее ёмкий.</p>
+
+<details>
+<summary>Как определить начала и концы обмоток без маркировки?</summary>
+<p>Для этого можно использовать метод «прозвонки» батарейкой и милливольтметром. Подключите батарейку к одной обмотке, а к другой — милливольтметр. В момент подключения батарейки стрелка прибора отклонится. Запомните полярность. Повторите для третьей обмотки. Обмотки, где стрелка отклоняется в одну сторону при подключении «плюса» батарейки к началу, имеют одинаковую маркировку начал.</p>
+</details>
+
+<details>
+<summary>Можно ли использовать один конденсатор вместо двух?</summary>
+<p>Теоретически можно, если двигатель маломощный и запускается без нагрузки. Однако для надёжного старта под нагрузкой пусковой конденсатор обязателен. Его отсутствие приведёт к тому, что двигатель будет долго разгоняться и может сгореть при пуске.</p>
+</details>
+
+<details>
+<summary>Какой запас прочности нужен конденсаторам?</summary>
+<p>Рекомендуется выбирать конденсаторы с рабочим напряжением минимум в 1.5 раза выше напряжения сети, то есть не менее 350-400 Вольт для сети 220В. Это обеспечит долгий срок службы и защиту от скачков напряжения.</p>
+</details>
+
+<details>
+<summary>Почему двигатель сильно вибрирует после подключения?</summary>
+<p>Вибрация может быть вызвана дисбалансом ротора, износом подшипников или неправильной схемой подключения обмоток. Также проверьте надёжность крепления двигателя к станине — иногда достаточно просто подложить резиновые прокладки.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/g/gd/gde-transportnye-bolty-u-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Где находятся транспортные болты в стиральной машине — схема и фото</span>
+                <span class="pb-related-desc">Пошаговое руководство с фото: как найти и снять транспортные болты в стиральных машинах Samsung, LG,</span>
+            </a><a href="/articles/k/ka/kak-vklyuchit-stiralnuyu-mashinu-vestel-aura.html" class="pb-related-card">
+                <span class="pb-related-title">Как включить стиральную машину Vestel Aura: запуск и настройка</span>
+                <span class="pb-related-desc">Подробная инструкция по первому запуску Vestel Aura. Как включить питание, выбрать программу и запус</span>
+            </a><a href="/articles/k/ka/kakaya-rezba-na-stiralnoj-mashine-dlya-podvoda-vody.html" class="pb-related-card">
+                <span class="pb-related-title">Какая резьба на стиральной машине: 3/4 или 1/2 дюйма?</span>
+                <span class="pb-related-desc">Узнайте, какая резьба на шланге стиральной машины: 3/4 или 1/2 дюйма. Разбор стандартов подключения,</span>
+            </a><a href="/articles/k/ka/kak-stavit-kran-na-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Как правильно установить кран для стиральной машины: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по выбору и монтажу крана для стиральной машины: виды кранов, инструменты, схе</span>
+            </a><a href="/articles/r/ro/rozetki-v-vannoj-dlya-stiralnoj-mashiny-na-kakoj-vysote.html" class="pb-related-card">
+                <span class="pb-related-title">На какой высоте розетка для стиральной машины в ванной</span>
+                <span class="pb-related-desc">Узнайте, на какой высоте ставить розетку для стиральной машины. Нормы ПУЭ, правила безопасности и сх</span>
+            </a><a href="/articles/k/ka/kak-postirat-veshchi-v-stiralnoj-mashine-bez-vodoprovoda.html" class="pb-related-card">
+                <span class="pb-related-title">Как постирать в машине без водопровода: полная инструкция</span>
+                <span class="pb-related-desc">Пошаговое руководство по подключению стиральной машины без центрального водопровода. Насосы, баки, п</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

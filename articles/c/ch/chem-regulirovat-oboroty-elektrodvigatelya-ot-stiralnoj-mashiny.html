@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Чем регулировать обороты электродвигателя стиральной машины — Стиралка Инфо</title>
+    <meta name="description" content="Узнайте, чем регулировать обороты электродвигателя от стиральной машины. Схемы, тиристорные схемы и Arduino для управления скоростью.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/c/ch/chem-regulirovat-oboroty-elektrodvigatelya-ot-stiralnoj-mashiny.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Чем регулировать обороты электродвигателя стиральной машины">
+    <meta property="og:description" content="Узнайте, чем регулировать обороты электродвигателя от стиральной машины. Схемы, тиристорные схемы и Arduino для управления скоростью.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Чем регулировать обороты электродвигателя стиральной машины</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#типология-двигателей-и-особенности-управления">Типология двигателей и особенности управления</a></li><li><a href="#тиристорные-регуляторы-как-бюджетное-решение">Тиристорные регуляторы как бюджетное решение</a></li><li><a href="#системы-с-обратной-связью-на-таходатчике">Системы с обратной связью на таходатчике</a></li><li><a href="#использование-arduino-для-точного-контроля">Использование Arduino для точного контроля</a></li><li><a href="#сравнительная-таблица-методов-регулировки">Сравнительная таблица методов регулировки</a></li><li><a href="#практические-советы-по-сборке-и-безопасности">Практические советы по сборке и безопасности</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-proverit-dvigatel-stiralnoj-mashiny-na-rabotosposobnost-ot-seti.html">Как проверить двигатель стиральной машины: полная инструкция</a></li><li><a href="/articles/n/ne/ne-otkryvaetsya-stiralnaya-mashina-ariston-posle-stirki-chto-delat.html">Не открывается стиральная машина Аристон: причины и решение</a></li><li><a href="/articles/k/ka/kak-snyat-bak-na-stiralnoj-mashine-zanussi.html">Как снять бак на стиральной машине Zanussi: пошаговая инструкция</a></li><li><a href="/articles/c/ch/chto-mozhno-sdelat-iz-dvigatelya-ot-stiralnoj-mashiny-svoimi-rukami.html">Что сделать из двигателя от стиральной машины: идеи самоделок</a></li><li><a href="/articles/k/ka/kak-dostat-tenu-iz-stiralnoj-mashiny-lg.html">Как достать тен из стиральной машины LG: пошаговая инструкция</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Управление скоростью вращения двигателя стиральной машины</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#типология-двигателей-и-особенности-управления">Типология двигателей и особенности управления</a></li><li><a href="#тиристорные-регуляторы-как-бюджетное-решение">Тиристорные регуляторы как бюджетное решение</a></li><li><a href="#системы-с-обратной-связью-на-таходатчике">Системы с обратной связью на таходатчике</a></li><li><a href="#использование-arduino-для-точного-контроля">Использование Arduino для точного контроля</a></li><li><a href="#сравнительная-таблица-методов-регулировки">Сравнительная таблица методов регулировки</a></li><li><a href="#практические-советы-по-сборке-и-безопасности">Практические советы по сборке и безопасности</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Использование двигателей от автоматических стиральных машин в бытовых станках, точильных аппаратах или самодельных токарных станках стало повсеместной практикой. Высокий крутящий момент и компактные размеры делают их идеальными кандидатами для модернизации гаражных мастерских. Однако для полноценной работы мастеру необходимо точно знать, <strong>чем регулировать обороты электродвигателя</strong>, чтобы обеспечить стабильную работу самодельного устройства.</p>
+
+<p>Проблема заключается в том, что прямое подключение к бытовой сети в 220 Вольт выдает максимальную скорость, что часто избыточно для тонких работ. Без правильного <em>регулятора</em> невозможно добиться плавного разгона или снижения скорости вращения шпинделя. В этой статье мы детально разберем доступные методы, проверенные схемы и нюансы настройки различных типов моторов, используемых в современной бытовой технике.</p>
+
+<h2 id="типология-двигателей-и-особенности-управления">Типология двигателей и особенности управления</h2>
+
+<p>Прежде чем приступать к сборке управляющей схемы, необходимо идентифицировать тип установленного мотора. От этого напрямую зависит выбор метода регулировки и сложность реализации проекта. В стиральных машинах разных годов выпуска и ценовых категорий применялись три основных вида приводов.</p>
+
+<p>Наиболее распространенными являются коллекторные двигатели. Они легко узнаваемы по наличию щеток и характерному звуку при работе. Их главное преимущество для самодельщиков — возможность относительно простой регулировки скорости путем изменения напряжения. <strong>Коллекторный мотор</strong> отлично держит нагрузку и способен развивать высокие обороты, что делает его универсальным решением для большинства задач.</p>
+
+<p>Более современные модели оснащены асинхронными или инверторными двигателями. Управление ими требует сложной электроники, так как простая подача переменного напряжения здесь не работает. Для таких агрегатов необходимы частотные преобразователи или специализированные контроллеры, считывающие положение ротора.</p>
+
+<p>Существует также разделение по способу крепления и наличию таходатчика. Наличие датчика Холла или тахогенератора критически важно для систем с обратной связью, позволяя поддерживать постоянную скорость даже под нагрузкой. Без учета этого элемента схема может работать нестабильно или двигатель будет дергаться.</p>
+
+<div class="pb-poll" id="poll-3457255a"><div class="pb-poll-question">📊 Какой двигатель вы планируете использовать в своем проекте?</div><div class="pb-poll-option" data-poll="3457255a" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Коллекторный от старой машины</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="3457255a" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Инверторный (прямой привод)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="3457255a" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Асинхронный с ременной передачей</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="3457255a" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Затрудняюсь ответить</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="тиристорные-регуляторы-как-бюджетное-решение">Тиристорные регуляторы как бюджетное решение</h2>
+
+<p>Самым доступным и распространенным способом управления скоростью коллекторного двигателя является использование тиристорных схем. Принцип их работы базируется на изменении формы синусоиды питающего напряжения. Тиристор"отрезает" часть полуволны, тем самым уменьшая среднюю мощность, подаваемую на обмотки.</p>
+
+<p>Для реализации такой схемы вам понадобится несколько ключевых компонентов: тиристор (например, <em>КУ202Н</em> или более мощный <em>BT138</em>), симистор, диод и набор резисторов с конденсаторами. Сборка происходит на печатной плате или монтажном столе. Важно правильно рассчитать мощность элементов, чтобы они не сгорели при пиковых нагрузках.</p>
+
+<blockquote>⚠️ Внимание: Тиристорные схемы создают сильные электромагнитные помехи, которые могут работу радиоприемников и другой электроники. Обязательно используйте дроссели и конденсаторы фильтрации на входе питания.</blockquote>
+
+<p>Главным недостатком такого метода является потеря крутящего момента на низких оборотах. Двигатель может гудеть и греться, если попытаться сильно снизить скорость без обратной связи. Тем не менее, для простых задач, таких как заточка ножей или привод вентилятора, этого вполне достаточно.</p>
+
+<details class="pb-accordion"><summary>Схема простейшего регулятора</summary><div class="pb-accordion-body"><p>Для сборки базового регулятора соедините тиристор последовательно с двигателем. Управляющий электрод тиристора подключите через переменный резистор к сети. Это позволит менять угол открытия тиристора и, соответственно, скорость вращения.</p></div></details>
+
+<h2 id="системы-с-обратной-связью-на-таходатчике">Системы с обратной связью на таходатчике</h2>
+
+<p>Для профессионального использования, где требуется стабильность вращения под нагрузкой, необходимо использовать схемы с обратной связью. В этом случае <strong>таходатчик</strong>, установленный на валу двигателя, генерирует импульсы, частота которых зависит от скорости вращения. Эти сигналы поступают на управляющую микросхему.</p>
+
+<p>Электроника сравнивает реальную скорость с заданной пользователем. Если нагрузка на валу возрастает и обороты падают, контроллер автоматически увеличивает напряжение питания, компенсируя просадку. Это позволяет сверлить отверстия или точить металл без"провалов" мощности.</p>
+
+<p>Реализация такой системы возможна на базе специализированных плат от стиральных машин (например, модули <em>Arçelik</em>, <em>Indesit</em> или <em>Beko</em>). Эти модули уже содержат всю необходимую логику. Вам остается лишь правильно подключить выводы двигателя и таходатчика к соответствующим клеммам платы.</p>
+
+<p>При работе с готовыми модулями важно соблюдать полярность и напряжение питания управляющей части. Часто требуется отдельный блок питания на 12 или 24 Вольта для логики, в то время как силовая часть запитывается от сети 220В.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если вы используете родной модуль управления, попробуйте найти схему распиновки именно для вашей модели стиральной машины в интернете. Это сэкономит время на"прозвонке" контактов мультиметром.</p></aside>
+
+<h2 id="использование-arduino-для-точного-контроля">Использование Arduino для точного контроля</h2>
+
+<p>Для энтузиастов электроники и робототехники идеальным решением станет использование микроконтроллера <em>Arduino</em>. Это позволяет создать полностью программируемый привод с цифровым дисплеем, кнопками управления и даже подключением к компьютеру. Вы получаете полный контроль над алгоритмами работы.</p>
+
+<p>Связка Arduino + драйвер двигателя (например, на базе <strong>L298N</strong> или мощных MOSFET-транзисторов) позволяет реализовать ШИМ-регулировку (широтно-импульсную модуляцию). В отличие от тиристорной схемы, здесь можно сохранять высокий крутящий момент даже на минимальных скоростях.</p>
+
+<p>Алгоритм работы системы с Arduino выглядит следующим образом:</p>
+<ul>
+<li>📡 Микроконтроллер считывает сигналы с таходатчика или энкодера.</li>
+<li>🧮 Процессор вычисляет текущую скорость и сравнивает её с целевым значением.</li>
+<li>⚡ На основе ошибки регулятор корректирует скважность ШИМ-сигнала.</li>
+<li>🔄 Цикл повторяется тысячи раз в секунду, обеспечивая плавность хода.</li>
+</ul>
+
+<p>Такой подход требует навыков программирования на языке C++ (среда Arduino IDE) и понимания основ электротехники. Однако результат превосходит все ожидания: вы получаете устройство промышленного уровня сложности за минимальные деньги.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Что нужно для сборки на Arduino</h4><label class="check-item"><input type="checkbox"><span>Плата Arduino Uno или Nano</span></label><label class="check-item"><input type="checkbox"><span>Драйвер двигателя (MOSFET или L298N)</span></label><label class="check-item"><input type="checkbox"><span>Таходатчик или энкодер</span></label><label class="check-item"><input type="checkbox"><span>Блок питания для логики (5-12В)</span></label><label class="check-item"><input type="checkbox"><span>Потенциометр или энкодер для ввода скорости</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<h2 id="сравнительная-таблица-методов-регулировки">Сравнительная таблица методов регулировки</h2>
+
+<p>Чтобы вам было проще выбрать подходящий вариант, мы подготовили сводную таблицу характеристик различных способов управления. Она поможет взвесить все"за" и"против" перед началом сборки.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Сложность</th>
+<th>Стабильность под нагрузкой</th>
+<th>Стоимость</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Реостатный</td>
+<td>Низкая</td>
+<td>Плохая</td>
+<td>Высокая</td>
+</tr>
+<tr>
+<td>Тиристорный</td>
+<td>Средняя</td>
+<td>Средняя</td>
+<td>Низкая</td>
+</tr>
+<tr>
+<td>Плата от СМ</td>
+<td>Низкая</td>
+<td>Высокая</td>
+<td>Средняя</td>
+</tr>
+<tr>
+<td>Arduino + драйвер</td>
+<td>Высокая</td>
+<td>Отличная</td>
+<td>Средняя</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Как видно из таблицы, реостатный метод, несмотря на простоту, является наименее эффективным из-за огромных потерь энергии в виде тепла. Тиристорные схемы — это"золотая середина" для бытовых нужд. Платы от стиральных машин — лучший вариант для тех, кто не хочет паять сложные схемы. Arduino — выбор для максимального функционала.</p>
+
+<blockquote>⚠️ Внимание: При использовании любых методов регулировки убедитесь, что система охлаждения двигателя (вентилятор на валу) эффективна. На низких оборотах штатная крыльчатка может не справляться с отводом тепла, и мотор перегреется.</blockquote>
+
+<h2 id="практические-советы-по-сборке-и-безопасности">Практические советы по сборке и безопасности</h2>
+
+<p>Сборка регулятора скорости — это работа с высоким напряжением, опасным для жизни. Все соединения должны быть надежно изолированы, а сама схема помещена в диэлектрический корпус. Не допускайте попадания металлической стружки или влаги на контакты.</p>
+
+<p>Для подключения двигателя используйте провода с сечением, соответствующим току потребления. Для двигателей стиральных машин это обычно от 2 до 4 Ампер, но пусковые токи могут быть выше. Рекомендуется использовать медный провод сечением не менее 1.5 мм².</p>
+
+<p>Если вы используете самодельную плату, установите предохранитель в разрыв фазы. Это защитит проводку в случае короткого замыкания внутри регулятора. Также не лишним будет установка теплоотводов (радиаторов) на силовые элементы — тиристоры и транзисторы.</p>
+
+<p>В процессе эксплуатации периодически проверяйте состояние щеток коллекторного двигателя. При использовании регулятора скорости износ щеток может происходить неравномерно или ускоряться из-за искрения на низких оборотах.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Безопасность превыше всего: всегда обесточивайте устройство перед любыми манипуляциями с проводкой и проверяйте отсутствие напряжения на контактах мультиметром.</p></aside>
+
+<details>
+<summary>Можно ли регулировать скорость асинхронного двигателя простым диммером?</summary>
+<p>Нет, обычные диммеры или тиристорные регуляторы, предназначенные для коллекторных моторов, не подходят для асинхронных двигателей. Асинхронный мотор требует изменения частоты питающего напряжения, а не только амплитуды. Для этого необходим частотный преобразователь (инвертор).</p>
+</details>
+
+<details>
+<summary>Почему двигатель гудит на низких оборотах?</summary>
+<p>Гудение возникает из-за искажения синусоиды напряжения (при тиристорном управлении) или недостаточного крутящего момента. Также причиной может быть отсутствие нагрузки на валу или неисправность подшипников. Попробуйте добавить нагрузку или использовать схему с обратной связью.</p>
+</details>
+
+<details>
+<summary>Как определить выводы таходатчика?</summary>
+<p>Таходатчик обычно имеет два провода, идущие отдельной небольшой колодкой. Прозвоните их мультиметром в режиме измерения сопротивления: вы должны видеть небольшое сопротивление (несколько десятков или сотен Ом). При вращении вала мультиметр в режиме измерения напряжения покажет скачки ЭДС.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-proverit-dvigatel-stiralnoj-mashiny-na-rabotosposobnost-ot-seti.html" class="pb-related-card">
+                <span class="pb-related-title">Как проверить двигатель стиральной машины: полная инструкция</span>
+                <span class="pb-related-desc">Детальное руководство по диагностике мотора стиралки. Проверка щеток, обмоток и коллектора мультимет</span>
+            </a><a href="/articles/n/ne/ne-otkryvaetsya-stiralnaya-mashina-ariston-posle-stirki-chto-delat.html" class="pb-related-card">
+                <span class="pb-related-title">Не открывается стиральная машина Аристон: причины и решение</span>
+                <span class="pb-related-desc">Не открывается дверца стиральной машины Ariston после стирки? Разбираем причины блокировки люка, спо</span>
+            </a><a href="/articles/k/ka/kak-snyat-bak-na-stiralnoj-mashine-zanussi.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять бак на стиральной машине Zanussi: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по извлечению бака из стиральной машины Занусси. Разборка, снятие противовесов</span>
+            </a><a href="/articles/c/ch/chto-mozhno-sdelat-iz-dvigatelya-ot-stiralnoj-mashiny-svoimi-rukami.html" class="pb-related-card">
+                <span class="pb-related-title">Что сделать из двигателя от стиральной машины: идеи самоделок</span>
+                <span class="pb-related-desc">Практическое руководство: что можно сделать из двигателя от стиральной машины своими руками. Схемы, </span>
+            </a><a href="/articles/k/ka/kak-dostat-tenu-iz-stiralnoj-mashiny-lg.html" class="pb-related-card">
+                <span class="pb-related-title">Как достать тен из стиральной машины LG: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по демонтажу ТЭНа в стиральных машинах LG: инструменты, порядок действий, типи</span>
+            </a><a href="/articles/g/gd/gde-nakhoditsya-predokhranitel-v-stiralnoj-mashine-bosch.html" class="pb-related-card">
+                <span class="pb-related-title">Где предохранитель в стиральной машине Bosch: схема и поиск</span>
+                <span class="pb-related-desc">Пошаговая инструкция, где искать предохранитель в стиральных машинах Bosch разных моделей. Фото, схе</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Запуск инверторного двигателя стиральной машины: инструкция — Стиралка Инфо</title>
+    <meta name="description" content="Как запустить инверторный двигатель от стиральной машины своими руками. Схема подключения, управление через Arduino и устранение ошибок.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-zapustit-invertornyj-dvigatel-ot-stiralnoj-mashiny.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Запуск инверторного двигателя стиральной машины: инструкция">
+    <meta property="og:description" content="Как запустить инверторный двигатель от стиральной машины своими руками. Схема подключения, управление через Arduino и устранение ошибок.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-nav-active">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/ustanovka-i-podklyuchenie/">Установка и подключение</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Запуск инверторного двигателя стиральной машины: инструкция</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#классификация-и-особенности-моторов-с-прямым-приводом">Классификация и особенности моторов с прямым приводом</a></li><li><a href="#необходимые-компоненты-для-создания-управляющей-системы">Необходимые компоненты для создания управляющей системы</a></li><li><a href="#схема-подключения-и-распиновка-контактов">Схема подключения и распиновка контактов</a></li><li><a href="#программная-настройка-и-алгоритмы-управления">Программная настройка и алгоритмы управления</a></li><li><a href="#диагностика-неисправностей-при-запуске">Диагностика неисправностей при запуске</a></li><li><a href="#техника-безопасности-и-меры-предосторожности">Техника безопасности и меры предосторожности</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-ustanovit-nalivnoj-shlang-dlya-stiralnoj-mashiny.html">Установка наливного шланга для стиральной машины: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-vklyuchit-stiralnuyu-mashinu-bosh-maks.html">Как включить стиральную машину Bosch Maxx: запуск и настройки</a></li><li><a href="/articles/k/ka/kak-krepyatsya-rakoviny-nad-stiralnoj-mashinoj-v-vannoj.html">Раковина над стиральной машиной: виды креплений и монтаж</a></li><li><a href="/articles/k/ka/kak-vybrat-uzo-na-stiralnuyu-mashinu.html">Как выбрать УЗО для стиральной машины: ток, тип и схема</a></li><li><a href="/articles/k/ka/kakoj-tok-stiralnaya-mashina.html">Какой ток потребляет стиральная машина: амперы, ватты и сила пускового тока</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Запуск инверторного двигателя стиральной машины</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#классификация-и-особенности-моторов-с-прямым-приводом">Классификация и особенности моторов с прямым приводом</a></li><li><a href="#необходимые-компоненты-для-создания-управляющей-системы">Необходимые компоненты для создания управляющей системы</a></li><li><a href="#схема-подключения-и-распиновка-контактов">Схема подключения и распиновка контактов</a></li><li><a href="#программная-настройка-и-алгоритмы-управления">Программная настройка и алгоритмы управления</a></li><li><a href="#диагностика-неисправностей-при-запуске">Диагностика неисправностей при запуске</a></li><li><a href="#техника-безопасности-и-меры-предосторожности">Техника безопасности и меры предосторожности</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Использование комплектующих от бытовой техники для создания станков, сверлильных установок или приводов — популярное направление в домашней мастерской. Особый интерес у самодельщиков вызывают современные моторы с прямым приводом, которые устанавливаются в агрегаты LG, Bosch, Samsung и других известных брендов. Эти устройства обладают высоким крутящим моментом, низким уровнем шума и компактным корпусом, что делает их идеальными кандидатами для модернизации гаражного оборудования.</p>
+
+<p>Однако, в отличие от классических коллекторных моделей, управление инверторным двигателем требует более сложного подхода. Простое подключение к сети 220 вольт здесь не сработает, так как для работы необходима прецизионная электроника, преобразующая постоянный ток в трехфазный переменный с изменяемой частотой. В этой статье мы разберем технические нюансы, способы коммутации и методы контроля работы мотора.</p>
+
+<p>Прежде чем приступать к сборке схемы, необходимо четко понимать, с каким именно типом мотора вы имеете дело. Инверторные двигатели делятся на две основные категории по конструкции ротора, и методы их управления существенно различаются. Ошибка в определении типа может привести к выходу из строя дорогостоящей электроники или полной неработоспособности системы.</p>
+
+<h2 id="классификация-и-особенности-моторов-с-прямым-приводом">Классификация и особенности моторов с прямым приводом</h2>
+
+<p>Первое, что нужно сделать — внимательно изучить маркировку на корпусе устройства. Чаще всего в стиральных машинах встречаются асинхронные двигатели с короткозамкнутым ротором или синхронные моторы с постоянными магнитами (PMSM). Асинхронные модели менее чувствительны к качеству управляющего сигнала, но требуют точного подбора конденсаторов или сложных частотных преобразователей для эффективной работы на низких оборотах.</p>
+
+<p>Синхронные моторы, часто называемые BLDC (Brushless DC) или PMSM, содержат мощные неодимовые магниты в роторе. Они обеспечивают высокий КПД и точное позиционирование, но категорически не будут работать без специализированного контроллера, отслеживающего положение ротора. <strong>Холостой ход</strong> для таких устройств невозможен без подачи управляющих импульсов на обмотки статора.</p>
+
+<ul>
+<li>🔌 <strong>Количество проводов:</strong> обычно от 6 до 12 контактов в разъеме, включая силовые фазы и сигналы датчиков.</li>
+<li>🧲 <strong>Тип ротора:</strong> наличие магнитов проверяется вращением вала рукой (ощущаются «щелчки» магнитного залипания).</li>
+<li>📡 <strong>Датчики:</strong> внутри часто встроен тахогенератор или датчики Холла для обратной связи по скорости.</li>
+</ul>
+
+<p>Важно отметить, что современные моторы часто интегрированы непосредственно в барабан или крепятся к его задней стенке, что complicates их демонтаж, но упрощает конструкцию привода в целом. При извлечении двигателя из стиральной машины убедитесь, что вы сохранили оригинальный разъем или аккуратно вызвонили контакты мультиметром.</p>
+
+<h2 id="необходимые-компоненты-для-создания-управляющей-системы">Необходимые компоненты для создания управляющей системы</h2>
+
+<p>Для успешного запуска вам потребуется собрать или приобрести комплектующие, которые заменят родную плату управления стиральной машины. Основным элементом здесь выступает микроконтроллер или специализированная плата драйвера. Наиболее доступным и гибким решением для экспериментов является связка <em>Arduino</em> (или совместимых плат) и мощного MOSFET-моста.</p>
+
+<p>Ключевым элементом схемы является <strong>драйвер двигателя</strong>, который принимает слабые сигналы от микроконтроллера и коммутирует высокие токи в обмотках. Для мощных моторов от стиральных машин (обычно 400-800 Вт) стандартных Arduino Shield будет недостаточно, потребуется внешний блок питания и транзисторные ключи с радиаторами охлаждения.</p>
+
+<blockquote>
+<p>⚠️ Внимание: Напряжение питания драйвера и микроконтроллера должно быть строго разделено гальванической развязкой. Подача 12-24 вольт на логические выводы Arduino приведет к мгновенному сгоранию контроллера.</p>
+</blockquote>
+
+<p>Также вам понадобится источник постоянного тока. В зависимости от номинального напряжения двигателя, это может быть аккумуляторная батарея 12В/24В или блок питания от компьютера (используя линии 12В). Для тестирования алгоритмов управления часто используют низковольтные источники, чтобы минимизировать риски при отладке кода.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Используйте лабораторный блок питания с ограничением по току на этапе отладки — это спасет транзисторы при ошибках в монтаже или коде.</p></aside>
+
+<h2 id="схема-подключения-и-распиновка-контактов">Схема подключения и распиновка контактов</h2>
+
+<p>Определение назначения контактов — самый критичный этап. Стандартной цветовой маркировки не существует, поэтому придется использовать мультиметр в режиме прозвонки. Силовые обмотки обычно имеют низкое сопротивление (менее 100 Ом) и соединены по схеме «звезда» или «треугольник». Датчики Холла имеют три провода: питание (5В), земля и сигнальный.</p>
+
+<p>Ниже приведена таблица, помогающая идентифицировать группы контактов на примере типичного 12-контактного разъема:</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Группа контактов</th>
+<th>Сопротивление</th>
+<th>Назначение</th>
+<th>Примерное напряжение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Силовые (U, V, W)</td>
+<td>10-50 Ом</td>
+<td>Питание обмоток</td>
+<td>12-48 В (PWM)</td>
+</tr>
+<tr>
+<td>Датчики Холла</td>
+<td>Высокое</td>
+<td>Позиция ротора</td>
+<td>5 В (логика)</td>
+</tr>
+<tr>
+<td>Тахогенератор</td>
+<td>50-200 Ом</td>
+<td>Измерение скорости</td>
+<td>Переменное</td>
+</tr>
+<tr>
+<td>Термодатчик</td>
+<td>Зависит от T</td>
+<td>Защита от перегрева</td>
+<td>Сигнал</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>После идентификации выводов необходимо соединить фазы мотора с соответствующими выходами драйвера. Порядок подключения фаз (A, B, C) важен для направления вращения. Если после запуска мотор дергается или гудит, но не вращается, попробуйте поменять местами любые две фазные линии.</p>
+
+<details class="pb-accordion"><summary>Что делать, если контактов больше 12?</summary><div class="pb-accordion-body"><p>В некоторых моделях двигателей может быть выведено отдельное заземление корпуса, несколько температурных сенсоров или дополнительные обмотки торможения. Лишние контакты, не участвующие в основной схеме вращения, можно изолировать.</p></div></details>
+
+<h2 id="программная-настройка-и-алгоритмы-управления">Программная настройка и алгоритмы управления</h2>
+
+<p>«Мозгом» системы выступает программный код, загруженный в микроконтроллер. Для управления трехфазным мотором используется метод широтно-импульсной модуляции (PWM). Суть метода заключается в быстром переключении транзисторов, что создает эффект синусоидального тока в обмотках. Частота переключения обычно составляет от 16 кГц до 32 кГц.</p>
+
+<p>Существует два основных подхода к управлению: сенсорный и бессенсорный. Сенсорный метод опирается на показания датчиков Холла, встроенных в двигатель. Это наиболее надежный вариант для старта, так как контроллер точно знает положение ротора в любой момент времени. Библиотека <code>SimpleFOC</code> для Arduino значительно упрощает реализацию этого алгоритма.</p>
+
+<ul>
+<li>📉 <strong>Инициализация:</strong> поиск начального положения ротора перед запуском.</li>
+<li>🚀 <strong>Разгон:</strong> плавное увеличение частоты PWM во избежание потери шагов.</li>
+<li>🛑 <strong>Торможение:</strong> реверс тока или короткое замыкание обмоток для быстрой остановки.</li>
+</ul>
+
+<p>При написании кода важно предусмотреть защиту от перегрузок. Если двигатель заклинит, ток в обмотках возрастет многократно, что приведет к тепловому разрушению транзисторов. Программный лимит тока должен отключать питание при достижении пороговых значений.</p>
+
+<div class="pb-poll" id="poll-fdb7da47"><div class="pb-poll-question">📊 Какой микроконтроллер вы планируете использовать?</div><div class="pb-poll-option" data-poll="fdb7da47" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Arduino Uno</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="fdb7da47" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Arduino Mega</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="fdb7da47" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">STM32</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="fdb7da47" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Raspberry Pi Pico</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="fdb7da47" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Готовый драйвер</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="диагностика-неисправностей-при-запуске">Диагностика неисправностей при запуске</h2>
+
+<p>Даже при правильной сборке схемы первый запуск может не увенчаться успехом. Часто наблюдаются ситуации, когда мотор издает гудящий звук, вибрирует, но вал остается неподвижным. Это указывает на рассинхронизацию магнитного поля статора и положения ротора. В таких случаях необходимо проверить работу датчиков Холла осциллографом или мультиметром.</p>
+
+<p>Другая распространенная проблема — перегрев драйвера. Это происходит, если выбранные транзисторы не справляются с током или недостаточна площадь радиаторов. Также причиной может быть «мертвое время» (dead time) в программе — слишком малый интервал между выключением одного ключа и включением другого, что вызывает сквозные токи.</p>
+
+<blockquote>
+<p>⚠️ Внимание: При появлении запаха гари или дыма немедленно обесточьте схему. Продолжение работы может привести к возгоранию пластиковых элементов или взрыву конденсаторов.</p>
+</blockquote>
+
+<p>Если двигатель работает рывками на низких оборотах, попробуйте увеличить напряжение питания или изменить алгоритм старта. Иногда требуется вручную провернуть вал, чтобы система «схватилась» и вошла в резонанс.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Диагностика неработающего мотора</h4><label class="check-item"><input type="checkbox"><span>Проверить напряжение на входе драйвера</span></label><label class="check-item"><input type="checkbox"><span>Прозвонить обмотки на КЗ</span></label><label class="check-item"><input type="checkbox"><span>Проверить сигналы датчиков Холла</span></label><label class="check-item"><input type="checkbox"><span>Убедиться в наличии PWM на выходах</span></label><label class="check-item"><input type="checkbox"><span>Проверить код на наличие ошибок компиляции</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<h2 id="техника-безопасности-и-меры-предосторожности">Техника безопасности и меры предосторожности</h2>
+
+<p>Работа с электричеством высокой мощности требует строгого соблюдения правил безопасности. Инверторные двигатели стиральных машин могут потреблять ток до 10-15 Ампер. Такое значение смертельно опасно для человека при прямом контакте. Все соединения силовой части должны быть надежно изолированы термоусадкой или специальными клеммами.</p>
+
+<p>Особое внимание уделите механическому креплению. При резком старте или торможении возникает значительный реактивный момент. Если двигатель не закреплен жестко на станине, он может вырвать крепления и травмировать оператора или повредить соседнее оборудование.</p>
+
+<p> Перед любыми манипуляциями с проводами обязательно разряжайте их через резистор или лампу накаливания.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Безопасность превыше всего: никогда не прикасайтесь к токоведущим частям под напряжением и используйте диэлектрические перчатки при тестировании высоковольтных узлов.</p></aside>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+<summary>Можно ли запустить инверторный двигатель напрямую от 220В?</summary>
+<p>Нет, это невозможно. Двигателю требуется трехфазное питание с изменяемой частотой. Прямое подключение к сети 220В приведет лишь к гудению и eventual сгоранию обмоток, так как в них потечет ток короткого замыкания.</p>
+</details>
+
+<details>
+<summary>Какой мощности блок питания нужен для двигателя 500 Вт?</summary>
+<p>Необходим запас мощности минимум 20-30%. Для мотора 500 Вт ищите блок питания на 12В/50А или 24В/25А. Слабый блок будет уходить в защиту при каждой попытке старта под нагрузкой.</p>
+</details>
+
+<details>
+<summary>Почему мотор дергается при запуске?</summary>
+<p>Скорее всего, неверно определен начальный угол ротора или неправильно подключены фазы. Также причиной может быть слишком резкая подача управляющего сигнала без плавного разгона.</p>
+</details>
+
+<details>
+<summary>Где взять готовую плату управления?</summary>
+<p>Можно использовать платы от электро-велосипедов (мощностью 500-1000 Вт), которые часто имеют встроенные датчики Холла и поддержку рекуперации. Также популярны платы на базе чипов DRV8301 или DRV8302.</p>
+</details>
+
+<details>
+<summary>Нужен ли таходатчик для работы?</summary>
+<p>Для базового вращения без контроля точной скорости — нет, достаточно датчиков Холла. Однако для реализации режима стирки с точным поддержанием оборотов или функции взвешивания белья тахогенератор необходим.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-ustanovit-nalivnoj-shlang-dlya-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Установка наливного шланга для стиральной машины: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство, как подключить наливной шланг к стиральной машине. Выбор длины, герметизация,</span>
+            </a><a href="/articles/k/ka/kak-vklyuchit-stiralnuyu-mashinu-bosh-maks.html" class="pb-related-card">
+                <span class="pb-related-title">Как включить стиральную машину Bosch Maxx: запуск и настройки</span>
+                <span class="pb-related-desc">Подробная инструкция, как включить стиральную машину Бош Макс. Настройка программ, запуск по таймеру</span>
+            </a><a href="/articles/k/ka/kak-krepyatsya-rakoviny-nad-stiralnoj-mashinoj-v-vannoj.html" class="pb-related-card">
+                <span class="pb-related-title">Раковина над стиральной машиной: виды креплений и монтаж</span>
+                <span class="pb-related-desc">Подробный гид по креплению раковины над стиральной машиной. Выбор кронштейнов, монтаж сифона, устано</span>
+            </a><a href="/articles/k/ka/kak-vybrat-uzo-na-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Как выбрать УЗО для стиральной машины: ток, тип и схема</span>
+                <span class="pb-related-desc">Полное руководство по выбору УЗО для стиральной машины. Расчет номинала, выбор типа А или АС, схемы </span>
+            </a><a href="/articles/k/ka/kakoj-tok-stiralnaya-mashina.html" class="pb-related-card">
+                <span class="pb-related-title">Какой ток потребляет стиральная машина: амперы, ватты и сила пускового тока</span>
+                <span class="pb-related-desc">Узнайте, какой ток потребляет стиральная машина в разных режимах. Расчет пускового тока, влияние ТЭН</span>
+            </a><a href="/articles/k/ka/kak-podklyuchit-stiralnuyu-mashinu-bez-vody.html" class="pb-related-card">
+                <span class="pb-related-title">Как подключить стиральную машину без водопровода: 4 способа</span>
+                <span class="pb-related-desc">Подробный гид, как подключить стиральную машину без центрального водопровода. Резервуары, насосы, ко</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

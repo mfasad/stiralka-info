@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Ремонт платы стиральной машины: диагностика и замена своими руками — Стиралка Инфо</title>
+    <meta name="description" content="Как отремонтировать электронный модуль стиральной машины. Поиск неисправностей, коды ошибок, замена деталей и проверка микросхем.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-remontirovat-platy-stiralnykh-mashin.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Ремонт платы стиральной машины: диагностика и замена своими руками">
+    <meta property="og:description" content="Как отремонтировать электронный модуль стиральной машины. Поиск неисправностей, коды ошибок, замена деталей и проверка микросхем.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Ремонт платы стиральной машины: диагностика и замена своими руками</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#принципы-работы-и-устройство-модуля-управления">Принципы работы и устройство модуля управления</a></li><li><a href="#первичная-диагностика-и-визуальный-осмотр">Первичная диагностика и визуальный осмотр</a></li><li><a href="#типичные-неисправности-и-методы-их-устранения">Типичные неисправности и методы их устранения</a></li><li><a href="#инструменты-и-материалы-для-ремонта">Инструменты и материалы для ремонта</a></li><li><a href="#процесс-замены-электронных-компонентов">Процесс замены электронных компонентов</a></li><li><a href="#тестирование-и-запуск-после-ремонта">Тестирование и запуск после ремонта</a></li><li><a href="#профилактика-поломок-электронного-блока">Профилактика поломок электронного блока</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-pomenyat-uplotnitelnuyu-rezinku-na-stiralnoj-mashine-bosh.html">Как заменить уплотнительную резинку на стиральной машине Bosch: пошаговый гайд</a></li><li><a href="/articles/p/po/popala-v-baraban-stiralnoj-mashiny-kostochka-ot-lifchika-kak-dostat.html">Косточка от лифчика в барабане стиральной машины: как достать</a></li><li><a href="/articles/k/ka/kak-snyat-naruzhnyj-podshipnik-na-stiralnoj-mashine.html">Как снять наружный подшипник на стиральной машине: инструкция</a></li><li><a href="/articles/k/ka/kak-smazat-podshipniki-na-stiralnoj-mashine-lg.html">Как смазать подшипники на стиральной машине LG: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-otkrutit-shlang-podachi-vody-v-stiralnoj-mashine-esli-on-prikipel.html">Прикипел шланг стиральной машины: как открутить без повреждений</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Ремонт платы стиральной машины: пошаговое руководство</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#принципы-работы-и-устройство-модуля-управления">Принципы работы и устройство модуля управления</a></li><li><a href="#первичная-диагностика-и-визуальный-осмотр">Первичная диагностика и визуальный осмотр</a></li><li><a href="#типичные-неисправности-и-методы-их-устранения">Типичные неисправности и методы их устранения</a></li><li><a href="#инструменты-и-материалы-для-ремонта">Инструменты и материалы для ремонта</a></li><li><a href="#процесс-замены-электронных-компонентов">Процесс замены электронных компонентов</a></li><li><a href="#тестирование-и-запуск-после-ремонта">Тестирование и запуск после ремонта</a></li><li><a href="#профилактика-поломок-электронного-блока">Профилактика поломок электронного блока</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Внезапная остановка стиральной машины в разгар цикла или отказ от включения часто указывают на сбой в работе электронного блока управления. Именно <strong>электронный модуль</strong> принимает сигналы от датчиков и управляет всеми узлами агрегата, поэтому его поломка парализует работу всей системы. Многие владельцы техники сразу вызывают мастера или планируют покупку нового оборудования, полагая, что восстановить сложную электронику в домашних условиях невозможно.</p>
+<p>Однако статистика сервисных центров показывает, что более 60% поломок плат поддаются ремонту при наличии базовых навыков пайки и понимания принципов работы электрических цепей. Прежде чем искать дорогостоящую замену, стоит провести тщательную визуальную диагностику и проверить ключевые элементы схемы на предмет обрывов, замыканий или термических повреждений. <em>Инверторные двигатели</em> и современные системы защиты часто требуют специфического подхода, но базовые принципы диагностики остаются схожими для большинства брендов.</p>
+<p>В этой статье мы разберем алгоритм действий, который позволит вам определить причину отказа электроники и, возможно, восстановить работоспособность устройства без привлечения сторонних специалистов. Важно понимать, что работа с высоким напряжением требует соблюдения строгих мер безопасности, поэтому игнорировать правила электробезопасности категорически нельзя.</p>
+
+<h2 id="принципы-работы-и-устройство-модуля-управления">Принципы работы и устройство модуля управления</h2>
+<p>Электронный блок управления, часто называемый «мозгом» стиральной машины, представляет собой сложную печатную плату с распаянными на ней радиоэлементами. Основой служит микропроцессор, который считывает показания с <strong>тензодатчиков</strong>, термостатов и датчика уровня воды, формируя управляющие сигналы для насосов, ТЭНа и мотора. Вся эта система работает в агрессивной среде с перепадами температур и влажности, что накладывает особые требования к качеству изоляции и защите контактов.</p>
+<p>Плата состоит из нескольких ключевых зон: силовой части, где происходит коммутация высоких токов, и логической части, отвечающей за обработку данных. Сигналы между ними передаются через оптронные пары, обеспечивающие гальваническую развязку и защищающие чувствительную микроэлектронику от скачков напряжения в сети. Нарушение целостности этих связей часто приводит к хаотичному поведению машины.</p>
+<blockquote>
+<p>⚠️ Внимание: Перед снятием крышки модуля обязательно отключите стиральную машину от электросети и подождите 10-15 минут для разряда конденсаторов. Остаточное напряжение может быть опасным для жизни.</p>
+</blockquote>
+<p>Современные модели, такие как <em>Bosch Serie 6</em> или <em>LG Direct Drive</em>, часто используют интегрированные модули, где плата залита компаундом для защиты от вибрации. Это усложняет ремонт, так как требует аккуратного удаления защитного слоя для доступа к контактам. В то же время, модульные системы старых моделей позволяют легко извлекать плату для inspection без демонтажа дополнительных элементов.</p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Сфотографируйте расположение всех шлейфов и проводов перед их отключением. Это поможет избежать ошибок при обратной сборке, когда одинаковые разъемы можно перепутать.</p></aside>
+
+<h2 id="первичная-диагностика-и-визуальный-осмотр">Первичная диагностика и визуальный осмотр</h2>
+<p>Первым этапом восстановления всегда должен быть тщательный внешний осмотр. Снимите плату и расположите её на светлом столе, используя лупу для увеличения мелких деталей. Ищите следы <strong>копоти</strong>, вздутия конденсаторов, почернения дорожек или наличия окислов, которые могут свидетельствовать о попадании влаги. Часто причина отказа кроется в элементарном обрыве контакта или сгоревшем предохранителе.</p>
+<p>Особое внимание уделите местам пайки силовых элементов и разъемам подключения. Термические нагрузки приводят к образованию микротрещин в припое, что вызывает intermittent faults (плавающие неисправности), когда машина то работает, то останавливается. Прозвонка мультиметром в режиме проверки сопротивления поможет выявить такие скрытые дефекты.</p>
+<div class="pb-poll" id="poll-c71dd0ea"><div class="pb-poll-question">📊 С какой проблемой при диагностике вы столкнулись?</div><div class="pb-poll-option" data-poll="c71dd0ea" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Плата сгорела полностью</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="c71dd0ea" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Машина включается, но не стирает</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="c71dd0ea" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Появился запах гари</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="c71dd0ea" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Слышен треск или щелчки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="c71dd0ea" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Нет реакции на кнопки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+<p>Если визуальных дефектов нет, необходимо проверить целостность предохранителей и варисторов. Эти элементы принимают на себя первый удар при скачках напряжения в сети. Замена сгоревшего предохранителя на аналогичный по току и габаритам часто возвращает устройство к жизни, но важно убедиться, что причина скачка устранена.</p>
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Первичный осмотр платы</h4><label class="check-item"><input type="checkbox"><span>Отключить питание и снять модуль</span></label><label class="check-item"><input type="checkbox"><span>Снять пластиковый корпус модуля</span></label><label class="check-item"><input type="checkbox"><span>Осмотреть плату при хорошем освещении с лупой</span></label><label class="check-item"><input type="checkbox"><span>Проверить предохранитель мультиметром на обрыв</span></label><label class="check-item"><input type="checkbox"><span>Понюхать плату на предмет запаха гари</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<h2 id="типичные-неисправности-и-методы-их-устранения">Типичные неисправности и методы их устранения</h2>
+<p>Наиболее распространенной проблемой является выход из строя симисторов управления двигателем или ТЭНом. Эти полупроводниковые ключи работают в тяжелых тепловых режимах и часто пробиваются, замыкая цепь. При пробое симистора машина может перестать греть воду или, наоборот, греть её постоянно, не выключая нагрев.</p>
+<p>Второй частой причиной сбоев являются вздувшиеся электролитические конденсаторы в блоке питания модуля. Вытекание электролитарует дорожки платы, вызывая коррозию и обрывы. Замена конденсаторов требует внимания к полярности и выбору элементов с подходящим напряжением и емкостью.</p>
+<p>Третья группа проблем связана с нарушением контактов в разъемах или обрывом дорожек из-за вибрации. Восстановление дорожек осуществляется с помощью тонкого медного провода и паяльника, а зачистка контактов разъемов улучшает передачу сигналов.</p>
+<details class="pb-accordion"><summary>Секрет ремонта вздутых конденсаторов</summary><div class="pb-accordion-body"><p>При замене конденсаторов выбирайте модели с температурой 105°C вместо стандартных 85°C. Они служат значительно дольше в условиях нагрева внутри стиральной машины.</p></div></details>
+
+<h2 id="инструменты-и-материалы-для-ремонта">Инструменты и материалы для ремонта</h2>
+<p>Для качественного восстановления электроники вам понадобится не только паяльник, но и набор специализированных инструментов. Базовый набор включает в себя мультиметр для измерения напряжения и сопротивления, а также паяльную станцию с регулировкой температуры для работы с чувствительными компонентами.</p>
+<p>Важно использовать качественный припой с флюсом, который обеспечивает надежное соединение и предотвращает окисление. Для очистки платы от остатков флюса и загрязнений необходим спирт или специальный очиститель контактов, который не оставляет токопроводящего налета.</p>
+<p>Ниже приведена таблица основных инструментов и их назначения, которая поможет подготовить рабочее место:</p>
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Инструмент</th>
+<th>Назначение</th>
+<th>Важность</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Мультиметр</td>
+<td>Прозвонка цепей, замер напряжения</td>
+<td>Критично</td>
+</tr>
+<tr>
+<td>Паяльная станция</td>
+<td>Демонтаж и пайка элементов</td>
+<td>Высокая</td>
+</tr>
+<tr>
+<td>Лупа или микроскоп</td>
+<td>Визуальный осмотр мелких деталей</td>
+<td>Средняя</td>
+</tr>
+<tr>
+<td>Оловосос</td>
+<td>Удаление старого припоя</td>
+<td>Высокая</td>
+</tr>
+<tr>
+<td>Изопропиловый спирт</td>
+<td>Очистка платы от флюса</td>
+<td>Средняя</td>
+</tr>
+</tbody>
+</table></div>
+<p>Не забывайте о средствах индивидуальной защиты. Работа с паяльником и химическими веществами требует хорошей вентиляции помещения и, желательно, использования защитных очков. Пары флюса могут быть вредны для здоровья при длительном вдыхании.</p>
+
+<h2 id="процесс-замены-электронных-компонентов">Процесс замены электронных компонентов</h2>
+<p>Замена симисторов или конденсаторов требует аккуратности и навыка работы с паяльником. Сначала необходимо прогреть контакты элемента до плавления припоя, затем быстро удалить деталь. При установке нового компонента важно не перегреть его, так как это может привести к внутреннему разрушению структуры полупроводника.</p>
+<p>При пайке микросхем и процессоров используется метод «волны» или паяльный фен, что требует высокой квалификации. Если у вас нет опыта работы с SMD-компонентами, лучше ограничиться заменой крупных элементов или обратиться к профессионалам для сложных случаев.</p>
+<blockquote>
+<p>⚠️ Внимание: Неправильная пайка может привести к короткому замыканию и полному выходу из строя не только модуля, но и других узлов стиральной машины. Тренируйтесь на старых платах.</p>
+</blockquote>
+<p>После замены компонентов необходимо тщательно промыть место пайки спиртом, удаляя остатки флюса. Кислотные остатки могут со временем вызвать коррозию и повторную поломку. Затем плата сушится и проверяется на наличие «соплей» припоя, которые могут замыкать соседние контакты.</p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Качество пайки определяет надежность ремонта. Холодная пайка или избыток припоя — частые причины повторных обращений в сервис.</p></aside>
+
+<h2 id="тестирование-и-запуск-после-ремонта">Тестирование и запуск после ремонта</h2>
+<p>Перед установкой отремонтированной платы обратно в машину проведите тестовое включение на столе. Подключите модуль к сети и проверьте, загорелись ли индикаторы, работает ли дисплей. Отсутствие дыма и запаха — хороший знак, но не гарантия полной исправности.</p>
+<p>Установив плату на место, подключите все шлейфы и запустите тестовый режим стирки без белья. Наблюдайте за работой насосов, нагревом воды и вращением барабана. Любые отклонения в звуке или последовательности действий могут указывать на остаточные проблемы.</p>
+<p>Если машина прошла полный цикл без ошибок, можно считать ремонт успешным. Однако в первые несколько стирок рекомендуется периодически проверять модуль на нагрев и отсутствие посторонних запахов, чтобы убедиться в стабности работы восстановленных узлов.</p>
+
+<h2 id="профилактика-поломок-электронного-блока">Профилактика поломок электронного блока</h2>
+<p>Чтобы продлить жизнь электронике стиральной машины, обеспечьте стабильное напряжение в сети. Использование сетевого фильтра или стабилизатора напряжения защитит модуль от скачков и помех, которые являются главной причиной выхода из строя чувствительных компонентов.</p>
+<p>Регулярно проверяйте состояние проводки и заземления в месте установки машины. Плохой контакт или отсутствие заземления может привести к накоплению статического электричества, которое негативно влияет на работу микропроцессоров.</p>
+<p>Также важно следить за герметичностью корпуса и отсутствием протечек воды. Попадание даже небольшого количества влаги на плату может вызвать короткое замыкание. Если вы заметили конденсат или капли воды, немедленно отключите машину и просушите внутренности.</p>
+<details class="pb-accordion"><summary>Влияние влажности</summary><div class="pb-accordion-body"><p>В ванных комнатах с плохой вентиляцией влажность может достигать 90%. Это приводит к окислению контактов даже без прямого попадания воды. Проветривание после стирки обязательно.</p></div></details>
+
+<details>
+<summary>Можно ли заменить сгоревший модуль на универсальный?</summary>
+<p>Да, существуют универсальные модули, которые подходят для многих моделей стиральных машин. Однако их установка требует переподключения проводов и настройки параметров под конкретную модель, что может быть сложно для новичка. Кроме того, функционал универсальных блоков часто ограничен по сравнению с оригинальными.</p>
+</details>
+
+<details>
+<summary>Сколько стоит ремонт платы по сравнению с покупкой новой?</summary>
+<p>Ремонт платы обычно обходится в 30-50% от стоимости нового оригинального модуля. Если поврежден сам процессор или сгорела дорожка в многослойной плате, ремонт может быть экономически нецелесообразен, и проще купить новый блок или б/у аналог.</p>
+</details>
+
+<details>
+<summary>Почему после замены платы машина пишет ошибку?</summary>
+<p>Новая плата может требовать настройки или калибровки. В некоторых моделях необходимо войти в сервисный режим и запустить процедуру адаптации. Также ошибка может возникать, если не исправлена первопричина поломки (например, неисправный ТЭН пробивает на корпус).</p>
+</details>
+
+<details>
+<summary>Опасно ли самостоятельно менять конденсаторы на плате?</summary>
+<p>Если у вас есть навыки работы с паяльником и вы соблюдаете технику безопасности, риск минимален. Главная опасность — поражение током при работе с включенным прибором или повреждение соседних элементов перегревом. Всегда разряжайте конденсаторы перед началом работ.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-pomenyat-uplotnitelnuyu-rezinku-na-stiralnoj-mashine-bosh.html" class="pb-related-card">
+                <span class="pb-related-title">Как заменить уплотнительную резинку на стиральной машине Bosch: пошаговый гайд</span>
+                <span class="pb-related-desc">Пошаговая инструкция по замене манжеты люка стиральной машины Bosch своими руками. Выбор резинки, де</span>
+            </a><a href="/articles/p/po/popala-v-baraban-stiralnoj-mashiny-kostochka-ot-lifchika-kak-dostat.html" class="pb-related-card">
+                <span class="pb-related-title">Косточка от лифчика в барабане стиральной машины: как достать</span>
+                <span class="pb-related-desc">Косточка от лифчика попала в стиральную машину? Узнайте, как безопасно извлечь инородный предмет чер</span>
+            </a><a href="/articles/k/ka/kak-snyat-naruzhnyj-podshipnik-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять наружный подшипник на стиральной машине: инструкция</span>
+                <span class="pb-related-desc">Подробное руководство, как снять наружный подшипник стиральной машины. Замена сальника, выборка обой</span>
+            </a><a href="/articles/k/ka/kak-smazat-podshipniki-na-stiralnoj-mashine-lg.html" class="pb-related-card">
+                <span class="pb-related-title">Как смазать подшипники на стиральной машине LG: пошаговая инструкция</span>
+                <span class="pb-related-desc">Узнайте, как смазать подшипник стиральной машины LG своими руками. Подробный разбор замены, выбор см</span>
+            </a><a href="/articles/k/ka/kak-otkrutit-shlang-podachi-vody-v-stiralnoj-mashine-esli-on-prikipel.html" class="pb-related-card">
+                <span class="pb-related-title">Прикипел шланг стиральной машины: как открутить без повреждений</span>
+                <span class="pb-related-desc">Шланг подачи воды в стиральной машине прикипел? Узнайте проверенные способы откручивания, список инс</span>
+            </a><a href="/articles/k/ka/kak-razobrat-stiralnuyu-mashinu-bosh-maks-5.html" class="pb-related-card">
+                <span class="pb-related-title">Как разобрать стиральную машину Бош Макс 5: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по разборке стиральной машины Bosch Maxx 5. Снятие бака, замена подшипников, Т</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

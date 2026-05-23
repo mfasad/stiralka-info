@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как работает нагрев воды в стиральной машине: устройство ТЭНа — Стиралка Инфо</title>
+    <meta name="description" content="Подробный разбор принципа работы нагревателя стиральной машины. Типы ТЭНов, температурные режимы, защита от накипи и диагностика неисправностей.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-rabotaet-nagrev-vody-v-stiralnoj-mashine.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как работает нагрев воды в стиральной машине: устройство ТЭНа">
+    <meta property="og:description" content="Подробный разбор принципа работы нагревателя стиральной машины. Типы ТЭНов, температурные режимы, защита от накипи и диагностика неисправностей.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/neispravnosti-i-prichiny/">Неисправности и причины</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как работает нагрев воды в стиральной машине: устройство ТЭНа</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#конструкция-и-типы-нагревательных-элементов">Конструкция и типы нагревательных элементов</a></li><li><a href="#физика-процесса-от-команды-до-пара">Физика процесса: от команды до пара</a></li><li><a href="#роль-термостатов-и-температурных-датчиков">Роль термостатов и температурных датчиков</a></li><li><a href="#влияние-накипи-на-эффективность-нагрева">Влияние накипи на эффективность нагрева</a></li><li><a href="#энергоэффективность-и-температурные-режимы">Энергоэффективность и температурные режимы</a></li><li><a href="#диагностика-неисправностей-системы-нагрева">Диагностика неисправностей системы нагрева</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/p/po/pochemu-ne-otklyuchaetsya-voda-v-stiralnoj-mashine.html">Почему не отключается вода в стиральной машине: диагностика и ремонт</a></li><li><a href="/articles/p/po/pochemu-stiralnaya-mashina-bet-tokom-prichiny-neispravnosti.html">Стиральная машина бьет током: 7 причин и способы устранения</a></li><li><a href="/articles/p/po/pochemu-voda-ne-popadaet-v-baraban-stiralnoj-mashiny.html">Вода не поступает в стиральную машину: 7 причин</a></li><li><a href="/articles/p/pr/prygaet-stiralnaya-mashina-chto-delat-video.html">Прыгает стиральная машина: причины, устранение, видео-инструкция</a></li><li><a href="/articles/s/st/stiralnaya-mashina-ne-otzhimaet-v-chem-prichina-i-chto-delat-kak-ispravit.html">Стиральная машина не отжимает: причины и ремонт своими руками</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как работает нагрев воды в стиральной машине: устройство и принцип действия</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#конструкция-и-типы-нагревательных-элементов">Конструкция и типы нагревательных элементов</a></li><li><a href="#физика-процесса-от-команды-до-пара">Физика процесса: от команды до пара</a></li><li><a href="#роль-термостатов-и-температурных-датчиков">Роль термостатов и температурных датчиков</a></li><li><a href="#влияние-накипи-на-эффективность-нагрева">Влияние накипи на эффективность нагрева</a></li><li><a href="#энергоэффективность-и-температурные-режимы">Энергоэффективность и температурные режимы</a></li><li><a href="#диагностика-неисправностей-системы-нагрева">Диагностика неисправностей системы нагрева</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>В основе эффективной стирки лежит не только механическое вращение барабана, но и температурная обработка белья. Именно горячая вода активирует химические компоненты порошков и гелей, позволяя им расщеплять сложные загрязнения, жиры и белковые соединения. <strong>Процесс нагрева</strong> является ключевым этапом любой стирки, от которого напрямую зависит качество результата и гигиеническая чистота вещей. Без этого этапа современные моющие средства теряют до 80% своей эффективности.</p>
+
+<p>Понимание того, как именно техника греет воду, помогает владельцам экономить электроэнергию и продлевать срок службы агрегата. <em>Нагревательный элемент</em> (ТЭН) — это расходная деталь, которая испытывает колоссальные нагрузки в каждом цикле. Знание физики процесса позволяет избежать распространенных ошибок, таких как стирка при неподходящей температуре или игнирование профилактических чисток.</p>
+
+<p>В данной статье мы детально разберем конструкцию нагревателя, логику работы температурных датчиков и влияние жесткости воды на скорость выхода из строя оборудования. Вы узнаете, почему программа "Хлопок 90°" длится дольше, чем "Синтетика 40°", и как <strong>электронный модуль</strong> управляет этим процессом с точностью до градуса.</p>
+
+<h2 id="конструкция-и-типы-нагревательных-элементов">Конструкция и типы нагревательных элементов</h2>
+
+<p>Сердцем системы нагрева является ТЭН — трубчатый электронагреватель. Конструктивно он представляет собой нихромовую спираль, запрессованную в металлическую трубку. Пространство между спиралью и стенками трубки заполнено диэлектриком, обычно оксидом магния, который проводит тепло, но изолирует электричество. <strong>Мощность ТЭНа</strong> в бытовых моделях варьируется от 1,2 до 2,5 кВт, что напрямую влияет на скорость достижения заданной температуры.</p>
+
+<p>Существует два основных типа нагревателей, применяемых в современной технике. <em>Открытый ТЭН</em> имеет прямой контакт спирали с водой через перфорированный кожух, что обеспечивает быстрый нагрев, но способствует быстрому образованию накипи. <strong>Закрытый ТЭН</strong> (часто с керамическим покрытием или в виде пластины) не контактирует с водой напрямую, нагревая её через стенку бака или специальный кожух. Это снижает образование отложений, но увеличивает время нагрева.</p>
+
+<blockquote>
+<p>⚠️ Внимание: При замене ТЭНа критически важно обращать внимание на его длину и наличие посадочного места под датчик температуры. Установка неподходящей модели может привести к перегреву и плавлению пластиковых деталей бака.</p>
+</blockquote>
+
+<p>Современные модели часто оснащаются ТЭНами с покрытием из никеля или титана. Такие покрытия создают гладкую поверхность, к которой солям жесткости труднее прикрепиться. <strong>Теплоотдача</strong> у таких элементов выше, что позволяет снизить энергопотребление при сохранении эффективности стирки.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Выбор между открытым и закрытым ТЭном — это компромисс между скоростью нагрева и долговечностью элемента в условиях жесткой воды.</p></aside>
+
+<h2 id="физика-процесса-от-команды-до-пара">Физика процесса: от команды до пара</h2>
+
+<p>Процесс нагрева запускается не мгновенно после включения программы. Сначала <strong>электронный контроллер</strong> считывает показания датчика уровня воды. Только убедившись, что барабан заполнен достаточным количеством жидкости, модуль подает напряжение на контакты ТЭНа. Если запустить нагрев "на сухую", элемент сгорит за доли секунды.</p>
+
+<p>Вода обладает высокой теплоемкостью, поэтому для её нагрева требуется значительное количество энергии и времени. <em>Циклический нагрев</em> происходит следующим образом: ТЭН работает до достижения верхней границы температурного диапазона, затем отключается. Вода остывает (отдавая тепло белью и стенкам бака), и при падении температуры ниже нижнего порога нагрев включается снова. Этот процесс повторяется в течение всей основной стирки.</p>
+
+<p>Скорость нагрева зависит от нескольких факторов:</p>
+<ul>
+<li>🌡️ Исходная температура воды из водопровода (зимой она холоднее, греть дольше).</li>
+<li>💧 Объем набранной воды (режим "Эко" часто использует меньше воды, но греет её интенсивнее).</li>
+<li>🧺 Теплоемкость загруженного белья (мокрое холодное белье резко снижает температуру).</li>
+<li>⚡ Напряжение в электрической сети (при низком напряжении мощность ТЭНа падает).</li>
+</ul>
+
+<p>Важно отметить, что <strong>термодатчик</strong> (термистор) постоянно мониторит состояние среды. Его сопротивление меняется в зависимости от температуры, и модуль управления интерпретирует эти изменения, принимая решение о включении или выключении реле.</p>
+
+<h2 id="роль-термостатов-и-температурных-датчиков">Роль термостатов и температурных датчиков</h2>
+
+<p>За точность поддержания температуры отвечает не только ТЭН, но и система контроля. В современных машинах используются <em>NTC-термисторы</strong>, сопротивление которых падает при нагреве. Они обеспечивают высокую точность измерений, позволяя машине работать в узком температурном коридоре, например, 40±2°C.</p>
+
+<p>Существует также механическая защита — <strong>аварийный термостат</em>. Это устройство размыкает цепь питания ТЭНа, если температура воды достигнет критических значений (обычно выше 95°C), предотвращая закипание воды и разрушение пластикового бака. В отличие от электронного датчика, аварийный термостат часто требует ручного сброса или замены после срабатыв.</p>
+
+<p>Расположение датчика также имеет значение. В одних моделях он встроен непосредственно в тело ТЭНа, в других — установлен в отдельном отверстии бака или даже в патрубке сливного шланга. <strong>Калибровка</em> показаний датчика заложена в алгоритмы работы процессора, и при его замене может потребоваться сброс ошибок.</p>
+
+<details class="pb-accordion"><summary>Почему датчик врет?</summary><div class="pb-accordion-body"><p>Со временем термистор может покрываться тонким слоем накипи или окисляться, что искажает передаваемые данные. Машина "думает", что вода холоднее, чем есть на самом деле, и греет сильнее, или наоборот — недогревает.</p></div></details>
+
+<p>Некорректная работа датчика приводит к тому, что <em>режимы стирки</strong> перестают соответствовать заявленным. Вещи могут садиться от перегрева или оставаться грязными из-за недостаточной активации порошка.</p>
+
+<h2 id="влияние-накипи-на-эффективность-нагрева">Влияние накипи на эффективность нагрева</h2>
+
+<p>Главным врагом системы нагрева является жесткая вода. Соли кальция и магния (карбонаты) при нагревании выпадают в осадок, образуя твердый слой на поверхности ТЭНа. Этот слой, называемый <strong>накипью</em>, обладает низкой теплопроводностью.</p>
+
+<p>Чем толще слой накипи, тем хуже тепло передается воде. ТЭН вынужден работать дольше и при более высокой собственной температуре, чтобы нагреть воду до заданного уровня. Это приводит к перегреву нихромовой спирали внутри трубки и её eventual перегоранию. <em>Слой накипи</em> в 1 мм увеличивает расход электроэнергии до 10%.</p>
+
+<p>Для борьбы с этим явлением производители используют различные методы:</p>
+<ul>
+<li>🧪 Полифосфатные фильтры (смягчители), устанавливаемые на заливной шланг.</li>
+<li>🌐 Специальные покрытия ТЭНов, отталкивающие соли.</li>
+<li>🔄 Режимы самоочистки, предполагающие кратковременный нагрев до высоких температур для разрушения структуры солей.</li>
+</ul>
+
+<blockquote>
+<p>⚠️ Внимание: Использование агрессивных кислот (лимонная кислота в больших дозах) для удаления накипи может повредить резиновые уплотнители и манжету люка. Следуйте инструкциям производителя средств для чистки.</p>
+</blockquote>
+
+<p>Регулярная профилактика позволяет сохранить <strong>теплопроводность</strong> элемента и избежать дорогостоящего ремонта. Визуальный осмотр ТЭНа при чистке фильтра или разборе машины даст точную картину состояния системы.</p>
+
+<h2 id="энергоэффективность-и-температурные-режимы">Энергоэффективность и температурные режимы</h2>
+
+<p>Нагрев воды потребляет до 80% всей электроэнергии, расходуемой стиральной машиной за цикл. Поэтому производители стремятся оптимизировать этот процесс. Современные стандарты энергоэффективности (класс А и выше) требуют минимизации затрат.</p>
+
+<p>Технология <em>Eco Bubble</em> или аналогичные системы позволяют эффективно стирать при более низких температурах (30-40°C) за счет активного пенообразования. В таких режимах ТЭН работает кратковременно или не включается вовсе, если температура забора воды достаточно высока. <strong>Экономия энергии</strong> достигается за счет сокращения времени работы нагревателя.</p>
+
+<p>Сравнение температурных режимов и их влияния на расход:</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Режим стирки</th>
+<th>Температура</th>
+<th>Время нагрева</th>
+<th>Энергопотребление</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Быстрая 15'</td>
+<td>30°C</td>
+<td>Минимальное</td>
+<td>Низкое</td>
+</tr>
+<tr>
+<td>Деликатная</td>
+<td>30-40°C</td>
+<td>Среднее</td>
+<td>Среднее</td>
+</tr>
+<tr>
+<td>Хлопок Эко</td>
+<td>40-60°C</td>
+<td>Длительное (плавное)</td>
+<td>Оптимизированное</td>
+</tr>
+<tr>
+<td>Хлопок 90°C</td>
+<td>90-95°C</td>
+<td>Максимальное</td>
+<td>Высокое</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Использование режима <code>90°C</code> оправдано только для дезинфекции постельного белья или полотенец. Для повседневной стирки достаточно 40-60°C, что существенно снижает нагрузку на <strong>нагревательный элемент</strong> и бюджет.</p>
+
+<div class="pb-poll" id="poll-11ee0bcf"><div class="pb-poll-question">📊 При какой температуре вы чаще всего стираете?</div><div class="pb-poll-option" data-poll="11ee0bcf" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">30 градусов (Эко)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="11ee0bcf" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">40 градусов (Стандарт)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="11ee0bcf" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">60 градусов (Сильные загрязнения)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="11ee0bcf" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">90 градусов (Дезинфекция)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="11ee0bcf" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Только холодная вода</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="диагностика-неисправностей-системы-нагрева">Диагностика неисправностей системы нагрева</h2>
+
+<p>Если стиральная машина перестала греть воду, это можно заметить по нескольким признакам. Стирка проходит в холодной воде, порошок плохо растворяется, а вещи остаются холодными на ощупь в середине цикла. Часто на дисплее появляется <strong>код ошибки</strong>, специфичный для вашей модели (например, E10, F05, HE и т.д.).</p>
+
+<p>Наиболее частая причина — перегорание спирали ТЭНа. Проверить это можно мультиметром в режиме прозвонки: если прибор показывает обрыв (бесконечность), элемент неисправен. Также возможно короткое замыкание на корпус, что опасно для пользователя.</p>
+
+<p>Чек-лист первичной диагностики:</p>
+<ul>
+<li>🔌 Проверьте, поступает ли напряжение на контакты ТЭНа во время работы.</li>
+<li>🔍 Осмотрите ТЭН на наличие видимых вздутий, трещин или пробоев.</li>
+<li>📟 Проверьте сопротивление термистора (оно должно меняться при нагреве).</li>
+<li>🧹 Убедитесь, что контакты не окислены и надежно зафиксированы.</li>
+</ul>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Диагностика ТЭНа</h4><label class="check-item"><input type="checkbox"><span>Отключить машину от сети</span></label><label class="check-item"><input type="checkbox"><span>Снять заднюю крышку</span></label><label class="check-item"><input type="checkbox"><span>Отсоединить провода</span></label><label class="check-item"><input type="checkbox"><span>Прозвонить мультиметром</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<p>Вторая по частоте проблема — неисправность <em>реле нагрева</em> на плате управления или обрыв проводки. Если ТЭН цел, но не греет, проблема кроется в цепи управления. В таких случаях требуется профессиональная диагностика электроники.</p>
+
+<blockquote>
+<p>⚠️ Внимание: Перед любыми работами внутри корпуса стиральной машины обязательно отключите её от электросети. Остаточное напряжение в конденсаторах или наличие воды могут привести к поражению током.</p>
+</blockquote>
+
+<p>Своевременная замена вышедшего из строя элемента восстановит функциональность машины. Важно использовать оригинальные запчасти или качественные аналоги с идентичными характеристиками мощности и геометрии.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>При установке нового ТЭНа слегка смажьте резиновый уплотнитель мыльным раствором — это облегчит монтаж и предотвратит повреждение манжеты.</p></aside>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+<summary>Почему машина греет воду дольше обычного?</summary>
+<p>Это может быть вызвано низким напряжением в сети, неисправностью ТЭНа (частичное короткое замыкание витков) или толстым слоем накипи, который препятствует теплоотдаче. Также возможно, что забит заливной фильтр, и вода набирается слишком медленно, смешиваясь с уже нагретой.</p>
+</details>
+
+<details>
+<summary>Можно ли стирать без ТЭНа?</summary>
+<p>Да, многие современные модели имеют режим "Стирка без нагрева" или позволяют выбирать температуру 20°C. Однако для отстирывания жирных пятен и дезинфекции холодная вода неэффективна. Машина будет работать, но качество стирки снизится.</p>
+</details>
+
+<details>
+<summary>Как часто нужно менять ТЭН?</summary>
+<p>Срок службы ТЭНа зависит от жесткости воды и частоты стирок. В среднем, при использовании смягчителей воды и профилактике, элемент служит 5-7 лет. Без ухода он может выйти из строя через 2-3 года.</p>
+</details>
+
+<details>
+<summary>Опасно ли использовать ТЭН с трещиной на кожухе?</summary>
+<p>Категорически опасно. Трещина нарушает герметичность, вода попадает на нихромовую спираль, что вызывает короткое замыкание и риск удара током. Такой ТЭН подлежит немедленной замене.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/p/po/pochemu-ne-otklyuchaetsya-voda-v-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Почему не отключается вода в стиральной машине: диагностика и ремонт</span>
+                <span class="pb-related-desc">Стиральная машина не перекрывает воду? Разбираем причины неисправности клапана, ошибки электроники и</span>
+            </a><a href="/articles/p/po/pochemu-stiralnaya-mashina-bet-tokom-prichiny-neispravnosti.html" class="pb-related-card">
+                <span class="pb-related-title">Стиральная машина бьет током: 7 причин и способы устранения</span>
+                <span class="pb-related-desc">Почему стиральная машина бьет током при касании? Разбираем основные причины пробоя корпуса, ошибки з</span>
+            </a><a href="/articles/p/po/pochemu-voda-ne-popadaet-v-baraban-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Вода не поступает в стиральную машину: 7 причин</span>
+                <span class="pb-related-desc">Почему вода не набирается в барабан? Полный разбор причин: от закрытого крана до поломки клапана. Ин</span>
+            </a><a href="/articles/p/pr/prygaet-stiralnaya-mashina-chto-delat-video.html" class="pb-related-card">
+                <span class="pb-related-title">Прыгает стиральная машина: причины, устранение, видео-инструкция</span>
+                <span class="pb-related-desc">Сильно скачет стиральная машина при отжиме? Узнайте, как устранить вибрацию своими руками. Пошаговая</span>
+            </a><a href="/articles/s/st/stiralnaya-mashina-ne-otzhimaet-v-chem-prichina-i-chto-delat-kak-ispravit.html" class="pb-related-card">
+                <span class="pb-related-title">Стиральная машина не отжимает: причины и ремонт своими руками</span>
+                <span class="pb-related-desc">Почему стиральная машина перестала отжимать бельё? 7 основных причин неисправности и пошаговые инстр</span>
+            </a><a href="/articles/p/pr/prichiny-pochemu-stiralnaya-mashina-ne-greet-vodu-pri-stirke.html" class="pb-related-card">
+                <span class="pb-related-title">Почему стиральная машина не греет воду: 7 причин и ремонт</span>
+                <span class="pb-related-desc">Стиральная машина не греет воду? Разбираем основные причины: от ТЭНа до датчиков. Диагностика неиспр</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

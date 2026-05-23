@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Двигатель от стиральной машины как генератор 220В: схема — Стиралка Инфо</title>
+    <meta name="description" content="Как сделать генератор из двигателя стиральной машины на 220В. Инструкция по переделке асинхронных и коллекторных моторов своими руками.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/d/dv/dvigatel-ot-stiralnoj-mashiny-kak-generator-220v.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Двигатель от стиральной машины как генератор 220В: схема">
+    <meta property="og:description" content="Как сделать генератор из двигателя стиральной машины на 220В. Инструкция по переделке асинхронных и коллекторных моторов своими руками.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Двигатель от стиральной машины как генератор 220В: схема</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#выбор-подходящего-двигателя-для-переделки">Выбор подходящего двигателя для переделки</a></li><li><a href="#принцип-работы-и-физические-основы">Принцип работы и физические основы</a></li><li><a href="#необходимые-инструменты-и-материалы">Необходимые инструменты и материалы</a></li><li><a href="#схема-подключения-и-расчет-конденсаторов">Схема подключения и расчет конденсаторов</a></li><li><a href="#процесс-сборки-и-настройки-генератора">Процесс сборки и настройки генератора</a></li><li><a href="#меры-безопасности-и-типичные-ошибки">Меры безопасности и типичные ошибки</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/g/gd/gde-v-stiralnoj-mashine-beko-nakhoditsya-ten.html">Где находится ТЭН в стиральной машине Beko: фото и схема</a></li><li><a href="/articles/k/ka/kak-otkryt-stiralnuyu-mashinu-beko-vo-vremya-stirki.html">Как открыть стиральную машину Beko во время стирки — безопасные способы</a></li><li><a href="/articles/k/ka/kak-sdelat-iz-staroj-stiralnoj-mashiny-koptilnyu.html">Коптильня из старой стиральной машины: пошаговая инструкция 2026</a></li><li><a href="/articles/k/ka/kak-postavit-manzhetu-na-stiralnuyu-mashinu.html">Как заменить манжету на стиральной машине: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-odet-koltso-na-rezinku-stiralnoj-mashiny.html">Как надеть кольцо на резинку стиральной машины: пошаговое руководство</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Двигатель от стиральной машины как генератор 220В</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#выбор-подходящего-двигателя-для-переделки">Выбор подходящего двигателя для переделки</a></li><li><a href="#принцип-работы-и-физические-основы">Принцип работы и физические основы</a></li><li><a href="#необходимые-инструменты-и-материалы">Необходимые инструменты и материалы</a></li><li><a href="#схема-подключения-и-расчет-конденсаторов">Схема подключения и расчет конденсаторов</a></li><li><a href="#процесс-сборки-и-настройки-генератора">Процесс сборки и настройки генератора</a></li><li><a href="#меры-безопасности-и-типичные-ошибки">Меры безопасности и типичные ошибки</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Стиральная машина вышла из строя, а двигатель остался целым? Это отличная возможность превратить ненужный узел в источник энергии. <strong>Переделка двигателя в генератор</strong> — популярное решение для дачи или гаража, позволяющее получить напряжение 220 вольт без подключения к сети. Однако процесс этот требует понимания принципов работы электромеханических систем и соблюдения техники безопасности.</p>
+
+<p>Не каждый мотор подойдет для таких целей. Ключевую роль играет тип обмотки и наличие встроенных элементов, таких как <em>конденсаторы</em> или магниты. В этой статье мы разберем, как превратить мотор в источник тока, какие схемы использовать и каких ошибок стоит избегать при сборке самодельной электростанции.</p>
+
+<p>Прежде чем приступать к работе, оцените свои навыки работы с электричеством. <strong>Высокое напряжение</strong> опасно для жизни, и любые эксперименты требуют осторожности. Если вы новичок в электротехнике, внимательно изучите теоретическую часть перед сборкой схемы.</p>
+
+<h2 id="выбор-подходящего-двигателя-для-переделки">Выбор подходящего двигателя для переделки</h2>
+
+<p>Основой вашей мини-электростанции станет мотор. Чаще всего в стиральных машинах встречаются <strong>асинхронные</strong> и <strong>коллекторные</strong> двигатели. Каждый из них имеет свои особенности конструкции, которые определяют способ их переделки в генераторное устройство.</p>
+
+<p>Асинхронные моторы ценятся за надежность и простоту. Они не имеют щеток, что снижает износ, но для генерации тока им требуется <em>инерция вращения</em> и правильная схема подключения конденсаторов. Такие агрегаты часто встречаются в старых моделях стиральных машин.</p>
+
+<p>Коллекторные двигатели более компактны и могут развивать высокие обороты. Однако для работы в режиме генератора им часто требуется доработка или использование инвертора. В современных машинах они встречаются чаще всего.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> Не пытайтесь использовать двигатель с поврежденной обмоткой или оплавленным коллектором. Генерация тока создаст дополнительную нагрузку, что приведет к полному сгоранию узла.</p>
+</blockquote>
+
+<div class="pb-poll" id="poll-f5a9d1c7"><div class="pb-poll-question">📊 Какой двигатель у вас в наличии?</div><div class="pb-poll-option" data-poll="f5a9d1c7" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Асинхронный (старый)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="f5a9d1c7" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Коллекторный (современный)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="f5a9d1c7" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Не знаю, нужно посмотреть</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="f5a9d1c7" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Пока нет, ищу информацию</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="принцип-работы-и-физические-основы">Принцип работы и физические основы</h2>
+
+<p>В основе процесса лежит явление <strong>электромагнитной индукции</strong>. Когда ротор двигателя вращается быстрее, чем магнитное поле статора, происходит генерация электроэнергии. Для запуска этого процесса ротор должен вращаться со скоростью, превышающей синхронную частоту.</p>
+
+<p>В обычном режиме мотор потребляет ток из сети. В режиме генератора он сам становится источником. Для этого необходимо создать начальное магнитное поле, которое часто обеспечивается остаточной намагниченностью ротора или внешними <strong>конденсаторами</strong>.</p>
+
+<p>Важно понимать разницу между <em>постоянным</em> и <em>переменным током</em>. Стиральные машины обычно работают на переменном токе частотой 50 Гц. При переделке важно сохранить эти параметры, чтобы подключать стандартные бытовые приборы.</p>
+
+<p>КПД самодельного генератора редко достигает 100%. Часть энергии всегда теряется на трение, нагрев обмоток и сопротивление проводов. Поэтому рассчитывать на полную автономность не стоит, но запитать освещение или зарядить аккумуляторы вполне реально.</p>
+
+<details class="pb-accordion"><summary>Почему двигатель греется при работе генератором?</summary><div class="pb-accordion-body"><p>При работе в режиме генерации токи могут превышать номинальные значения, особенно при неправильном подборе конденсаторов. Это вызывает повышенный нагрев обмоток. Для снижения температуры рекомендуется установить принудительное охлаждение или ограничить нагрузку.</p></div></details>
+
+<h2 id="необходимые-инструменты-и-материалы">Необходимые инструменты и материалы</h2>
+
+<p>Для успешной реализации проекта вам потребуется набор инструментов и комплектующих. Без них сборка качественной схемы невозможна, а результат может быть нестабильным.</p>
+
+<ul>
+<li>🔧 <strong>Мультиметр</strong> — для измерения напряжения и проверки целостности обмоток.</li>
+<li>🔌 <strong>Конденсаторы</strong> — бумажные или керамические, рассчитанные на напряжение не менее 400В.</li>
+<li>🔩 <strong>Ремень и шкивы</strong> — для передачи вращения от двигателя внутреннего сгорания или ветряка.</li>
+<li>🛠️ <strong>Изоляционные материалы</strong> — кембрики, изолента, термоусадка для защиты контактов.</li>
+</ul>
+
+<p>Особое внимание уделите выбору <strong>конденсаторов</strong>. Их емкость напрямую влияет на выходное напряжение и частоту тока. Некачественные элементы могут взорваться под нагрузкой.</p>
+
+<p>Также вам понадобится надежное основание для крепления двигателя. Вибрации при работе могут разрушить контакты, поэтому используйте жесткие <em>металлические кронштейны</em>.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Подготовка к сборке</h4><label class="check-item"><input type="checkbox"><span>Проверить сопротивление обмоток</span></label><label class="check-item"><input type="checkbox"><span>Подобрать конденсаторы нужной емкости</span></label><label class="check-item"><input type="checkbox"><span>Найти шкивы для ременной передачи</span></label><label class="check-item"><input type="checkbox"><span>Подготовить место для монтажа</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<h2 id="схема-подключения-и-расчет-конденсаторов">Схема подключения и расчет конденсаторов</h2>
+
+<p>Самый важный этап — это электрическая схема. Для асинхронного двигателя чаще всего используется схема с <strong>треугольником</strong> или <strong>звездой</strong>. Выбор зависит от напряжения сети и конструкции обмоток.</p>
+
+<p>Емкость конденсаторов рассчитывается по формуле, зависящей от мощности мотора. Обычно на 1 кВт мощности требуется около 28 мкФ для схемы треугольника. Если емкость будет слишком низкой, генерация не запустится.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Мощность мотора (кВт)</th>
+<th>Емкость конденсатора (мкФ)</th>
+<th>Тип соединения</th>
+<th>Выходное напряжение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5</td>
+<td>14-18</td>
+<td>Треугольник</td>
+<td>220В</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>28-35</td>
+<td>Треугольник</td>
+<td>220В</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>42-50</td>
+<td>Треугольник</td>
+<td>220В</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>56-70</td>
+<td>Треугольник</td>
+<td>220В</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>При соединении обмоток в <em>звезду</em> емкость конденсаторов должна быть в 1.73 раза больше, чем для треугольника. Это позволяет запустить генерацию при меньших оборотах, но КПД системы падает.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> Конденсаторы должны быть рассчитаны на напряжение выше 400В. Использование конденсаторов на 160В или 250В приведет к их мгновенному выходу из строя и возможному взрыву.</p>
+</blockquote>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Используйте параллельное соединение нескольких конденсаторов меньшей емкости, если не можете найти один большой. Суммарная емкость при параллельном соединении складывается.</p></aside>
+
+<h2 id="процесс-сборки-и-настройки-генератора">Процесс сборки и настройки генератора</h2>
+
+<p>Сборка начинается с механического крепления двигателя. Убедитесь, что вал вращается свободно, без биения. Любые перекосы приведут к быстрому износу подшипников.</p>
+
+<p>Далее подключите конденсаторы к выводам обмоток согласно выбранной схеме. Используйте надежные клеммники. Скрутки проводов в высоковольтных цепях недопустимы — они греются и искрят.</p>
+
+<p>Для запуска системы необходимо раскрутить ротор до номинальных оборотов. Это можно сделать с помощью бензинового двигателя или ветряной установки. После достижения нужной скорости в обмотках появится напряжение.</p>
+
+<p>Проверьте параметры тока мультиметром. Если напряжение ниже 220В, попробуйте увеличить емкость конденсаторов или добавить обороты. Если выше — уменьшите емкость или сбросьте газ на приводе.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Стабильность напряжения зависит от постоянства оборотов двигателя-привода. Используйте регулятор оборотов для поддержания частоты 50 Гц.</p></aside>
+
+<h2 id="меры-безопасности-и-типичные-ошибки">Меры безопасности и типичные ошибки</h2>
+
+<p>Работа с электричеством требует строгого соблюдения правил. Самодельный генератор не имеет защитных автоматов, как промышленные аналоги, поэтому риск перегрузки высок.</p>
+
+<p>Всегда заземляйте корпус двигателя. Статическое электричество и пробой изоляции могут привести к удару током при касании металлических частей.</p>
+
+<ul>
+<li>⚡ Не подключайте генератор к домашней сети без <strong>рубильника перекидного типа</strong>. Это может привести к пожару или поражению электриков, работающих на линии.</li>
+<li>🔥 Следите за температурой двигателя. Если он сильно греется, отключите нагрузку.</li>
+<li>💧 Защищайте установку от влаги. Вода и электричество несовместимы.</li>
+</ul>
+
+<p>Частая ошибка — попытка запитать мощные приборы (сварку, насосы) слабым мотором. Это приводит к падению частоты и "заваливанию" напряжения, что может сжечь подключенную технику.</p>
+
+<details>
+<summary>Можно ли использовать двигатель от стиральной машины с электронным управлением?</summary>
+<p>Двигатели с электронным управлением (часто бесколлекторные инверторные) крайне сложно переделать в генераторы без сложной электроники. Они требуют специфических сигналов для работы и не генерируют ток при простом вращении вала. Лучше использовать старые асинхронные модели.</p>
+</details>
+
+<details>
+<summary>Какое максимальное напряжение можно получить?</summary>
+<p>Теоретически можно получить и 380В, если позволяет обмотка и схема подключения. Однако для бытовых нужд стандарт — 220В. Превышение напряжения опасно для изоляции и подключенных приборов.</p>
+</details>
+
+<details>
+<summary>Нужен ли стабилизатор напряжения?</summary>
+<p>Да, использование простого стабилизатора или хотя бы вольтметра с возможностью ручной регулировки оборотов крайне желательно. Скачки напряжения могут повредить чувствительную электронику.</p>
+</details>
+
+<p>Помните, что характеристики двигателей и требования к безопасности могут меняться в зависимости от модели и года выпуска техники. Перед началом работ сверяйтесь с технической документацией на конкретный узел.</p></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/g/gd/gde-v-stiralnoj-mashine-beko-nakhoditsya-ten.html" class="pb-related-card">
+                <span class="pb-related-title">Где находится ТЭН в стиральной машине Beko: фото и схема</span>
+                <span class="pb-related-desc">Узнайте, где расположен ТЭН в стиральных машинах Beko. Подробная инструкция по поиску, демонтажу и п</span>
+            </a><a href="/articles/k/ka/kak-otkryt-stiralnuyu-mashinu-beko-vo-vremya-stirki.html" class="pb-related-card">
+                <span class="pb-related-title">Как открыть стиральную машину Beko во время стирки — безопасные способы</span>
+                <span class="pb-related-desc">Забыли вещь в барабане или срочно нужно остановить стирку? Узнайте, как разблокировать дверцу Beko в</span>
+            </a><a href="/articles/k/ka/kak-sdelat-iz-staroj-stiralnoj-mashiny-koptilnyu.html" class="pb-related-card">
+                <span class="pb-related-title">Коптильня из старой стиральной машины: пошаговая инструкция 2026</span>
+                <span class="pb-related-desc">Как переделать старую стиральную машину в коптильню: материалы, схемы, советы по безопасности и копч</span>
+            </a><a href="/articles/k/ka/kak-postavit-manzhetu-na-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Как заменить манжету на стиральной машине: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид по замене уплотнительной резинки люка. Узнайте, как снять старую манжету, установить н</span>
+            </a><a href="/articles/k/ka/kak-odet-koltso-na-rezinku-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как надеть кольцо на резинку стиральной машины: пошаговое руководство</span>
+                <span class="pb-related-desc">Подробная инструкция с фото и советами, как правильно установить уплотнительное кольцо на манжету ба</span>
+            </a><a href="/articles/k/ka/kak-pomenyat-khomut-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как поменять хомут на стиральной машине: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид по замене хомута стиральной машины. Узнайте, как снять старый и установить новый патру</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

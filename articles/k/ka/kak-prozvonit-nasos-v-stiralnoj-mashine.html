@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как прозвонить насос стиральной машины мультиметром: пошаговое руководство — Стиралка Инфо</title>
+    <meta name="description" content="Учимся проверять сливной насос стиральной машины тестером: схема подключения, нормальные показатели сопротивления, типичные неисправности и их причины. Инструкция с фото и видео для новичков.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-prozvonit-nasos-v-stiralnoj-mashine.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как прозвонить насос стиральной машины мультиметром: пошаговое руководство">
+    <meta property="og:description" content="Учимся проверять сливной насос стиральной машины тестером: схема подключения, нормальные показатели сопротивления, типичные неисправности и их причины. Инструкция с фото и видео для новичков.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как прозвонить насос стиральной машины мультиметром: пошаговое руководство</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#какие-инструменты-понадобятся-для-прозвонки-насоса">Какие инструменты понадобятся для прозвонки насоса</a></li><li><a href="#где-находится-насос-в-стиральной-машине-и-как-к-нему-добраться">Где находится насос в стиральной машине и как к нему добраться</a></li><li><a href="#схема-подключения-насоса-какие-контакты-прозванивать">Схема подключения насоса: какие контакты прозванивать</a></li><li><a href="#пошаговая-инструкция-как-прозвонить-насос-мультиметром">Пошаговая инструкция: как прозвонить насос мультиметром</a></li><li><a href="#типичные-неисправности-насосов-и-их-признаки">Типичные неисправности насосов и их признаки</a></li><li><a href="#как-проверить-насос-без-мультиметра-альтернативные-методы">Как проверить насос без мультиметра: альтернативные методы</a></li><li><a href="#частые-ошибки-при-прозвонке-насоса-и-как-их-избежать">Частые ошибки при прозвонке насоса и как их избежать</a></li><li><a href="#faq-частые-вопросы-о-проверке-насоса-стиральной-машины">FAQ: Частые вопросы о проверке насоса стиральной машины</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-snyat-zashchitu-ot-detej-na-stiralnoj-mashine-lg-direct-7.html">Как снять защиту от детей на LG Direct 7: инструкция</a></li><li><a href="/articles/k/ka/kak-polnostyu-razobrat-stiralnuyu-mashinu.html">Как полностью разобрать стиральную машину: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-pomenyat-podshipnik-na-barabane-stiralnoj-mashiny-khotpoint-ariston.html">Как поменять подшипник на барабане Hotpoint Ariston: Инструкция</a></li><li><a href="/articles/k/ka/kakie-podshipniki-na-stiralnoj-mashine-indezit-wisl-102.html">Подшипники для Indesit WISL 102: размеры, артикулы, замена</a></li><li><a href="/articles/c/ch/chem-vybit-podshipnik-stiralnoj-mashiny.html">Как выбить подшипник стиральной машины: 5 способов с фото</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как правильно прозвонить насос стиральной машины: инструкция с фото и советами мастеров</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#какие-инструменты-понадобятся-для-прозвонки-насоса">Какие инструменты понадобятся для прозвонки насоса</a></li><li><a href="#где-находится-насос-в-стиральной-машине-и-как-к-нему-добраться">Где находится насос в стиральной машине и как к нему добраться</a></li><li><a href="#схема-подключения-насоса-какие-контакты-прозванивать">Схема подключения насоса: какие контакты прозванивать</a></li><li><a href="#пошаговая-инструкция-как-прозвонить-насос-мультиметром">Пошаговая инструкция: как прозвонить насос мультиметром</a></li><li><a href="#типичные-неисправности-насосов-и-их-признаки">Типичные неисправности насосов и их признаки</a></li><li><a href="#как-проверить-насос-без-мультиметра-альтернативные-методы">Как проверить насос без мультиметра: альтернативные методы</a></li><li><a href="#частые-ошибки-при-прозвонке-насоса-и-как-их-избежать">Частые ошибки при прозвонке насоса и как их избежать</a></li><li><a href="#faq-частые-вопросы-о-проверке-насоса-стиральной-машины">FAQ: Частые вопросы о проверке насоса стиральной машины</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body"><p>Сливной насос (помпа) — один из самых уязвимых узлов стиральной машины. Если вода не сливается, машина издаёт гудение, но не отжимает бельё, или на дисплее горит ошибка типа <code>E21</code> (<em>Samsung</em>), <code>F03</code> (<em>Indesit</em>), <code>OE</code> (<em>LG</em>) — с вероятностью 90% проблема кроется именно в нём. Прозвонка насоса мультиметром поможет точно диагностировать неисправность, не обращаясь в сервисный центр.</p>
+
+<p>В этой статье вы найдёте <strong>пошаговую инструкцию</strong> с фото, как проверить насос стиральной машины на работоспособность, какие параметры считаются нормальными для разных моделей (<em>Bosch</em>, <em>Samsung</em>, <em>LG</em>, <em>Indesit</em>, <em>Ariston</em>), а также <strong>типичные ошибки новичков</strong>, которые могут привести к ложным выводам или повреждению техники. Мы разберём, как прозвонить обмотку насоса, проверить целостность кабелей и даже определить механические неисправности без разборки машины.</p>
+
+<h2 id="какие-инструменты-понадобятся-для-прозвонки-насоса">Какие инструменты понадобятся для прозвонки насоса</h2>
+
+<p>Чтобы самостоятельно проверить сливной насос, достаточно минимального набора инструментов. Большинство из них уже есть в домашнем арсенале:</p>
+
+<ul>
+  <li>🔧 <strong>Мультиметр</strong> (цифровой или стрелочный) с режимом измерения сопротивления (омметр). Подойдёт даже бюджетная модель типа <em>DT-830B</em>.</li>
+  <li>🔌 <strong>Отвёртки</strong>: крестовая (обычно <code>PH2</code>) и плоская (для поддевания защёлок). Для некоторых моделей (<em>Bosch</em>, <em>Siemens</em>) может понадобиться торкс (<code>T20</code>).</li>
+  <li>🔍 <strong>Фонарик</strong> или налобный светильник — насос часто расположен в нижней части машины, где темно.</li>
+  <li>🧲 <strong>Пинцет или пассатижи</strong> — для снятия клемм с контактов насоса.</li>
+  <li>📏 <strong>Плоскогубцы</strong> (опционально) — если нужно провернуть крыльчатку насоса вручную.</li>
+</ul>
+
+<p>Если мультиметра нет, его можно заменить <strong>пробником электрика</strong> (индикаторной отвёрткой) для проверки наличия напряжения на контактах. Однако точную диагностику обрыва или короткого замыкания таким способом провести не удастся.</p>
+
+<blockquote>⚠️ <strong>Внимание:</strong> Не используйте для прозвонки самодельные приборы типа "аркашки" (лампочка + батарейка). Они не показывают точные значения сопротивления и могут давать ложные срабатывания при проверке полупроводниковых элементов, которые часто встречаются в современных насосах с электронным управлением.</blockquote>
+
+<h2 id="где-находится-насос-в-стиральной-машине-и-как-к-нему-добраться">Где находится насос в стиральной машине и как к нему добраться</h2>
+
+<p>В 90% моделей стиральных машин (<em>Samsung</em>, <em>LG</em>, <em>Indesit</em>, <em>Candy</em>) сливной насос расположен в <strong>нижней части корпуса</strong>, ближе к передней панели. Исключение — машины с вертикальной загрузкой (<em>Ariston Margarit</em>, некоторые модели <em>Electrolux</em>), где помпа может находиться сбоку.</p>
+
+<p>Чтобы получить доступ к насосу:</p>
+
+<ol>
+  <li><strong>Отключите машину от сети</strong> и перекройте кран подачи воды.</li>
+  <li>Снимите <strong>нижнюю панель</strong> (у большинства моделей она крепится на защёлках или 2-3 саморезах).</li>
+  <li>Подложите под машину тряпку — из насоса может вытечь остаточная вода.</li>
+  <li>Насос обычно закреплён на <strong>улитке</strong> (пластиковом корпусе с патрубками) 2-3 винтами. Открутите их.</li>
+</ol>
+
+<p>У машин <em>Bosch</em> и <em>Siemens</em> насос может быть спрятан за передней панелью. В этом случае придётся:</p>
+<ul>
+  <li>Снять верхнюю крышку (открутить 2 самореза сзади и сдвинуть её назад).</li>
+  <li>Вынуть лоток для порошка и открутить винты под ним.</li>
+  <li>Аккуратно отщёлкнуть переднюю панель (она держится на пластиковых зажимах).</li>
+</ul>
+
+<div class="pb-poll" id="poll-c576bcdb"><div class="pb-poll-question">📊 Какой марки ваша стиральная машина?</div><div class="pb-poll-option" data-poll="c576bcdb" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Samsung</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="c576bcdb" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">LG</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="c576bcdb" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Bosch/Siemens</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="c576bcdb" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Indesit/Ariston</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="c576bcdb" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Другая</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<p>После демонтажа насоса <strong>не тяните за провода</strong> — они часто припаяны к контактам и могут оторваться. Лучше сразу сфотографируйте схему подключения, чтобы потом не перепутать полярность.</p>
+
+<h2 id="схема-подключения-насоса-какие-контакты-прозванивать">Схема подключения насоса: какие контакты прозванивать</h2>
+
+<p>Сливной насос стиральной машины — это <strong>асинхронный электродвигатель</strong> с двумя обмотками (рабочей и пусковой). На его корпусе обычно есть <strong>3 контакта</strong>:</p>
+
+<ul>
+  <li>🔌 <code>N</code> (нейтраль) — общий контакт.</li>
+  <li>🔌 <code>L</code> (фаза) — питание рабочей обмотки.</li>
+  <li>🔌 <code>P</code> (или <code>S</code>) — пусковая обмотка (иногда подключается через конденсатор).</li>
+</ul>
+
+<p>В большинстве случаев насос подключён по схеме:</p>
+
+<pre><code>
+<p>L -----[ Рабочая обмотка ]---- N</p>
+<p>|</p>
+<p>P ---------------------+</p>
+</code></pre>
+
+<p>Для прозвонки важно знать <strong>сопротивление обмоток</strong>. Нормальные значения для большинства насосов:</p>
+
+<div class="pb-table-wrap"><table>
+  <thead>
+    <tr>
+      <th>Марка насоса</th>
+      <th>Сопротивление рабочей обмотки (L-N), Ом</th>
+      <th>Сопротивление пусковой обмотки (P-N), Ом</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Askoll</em> (устанавливается в <em>Indesit</em>, <em>Ariston</em>)</td>
+      <td>150–200</td>
+      <td>300–400</td>
+    </tr>
+    <tr>
+      <td><em>Copreci</em> (<em>Samsung</em>, <em>LG</em>)</td>
+      <td>180–220</td>
+      <td>350–450</td>
+    </tr>
+    <tr>
+      <td><em>Pluggit</em> (<em>Bosch</em>, <em>Siemens</em>)</td>
+      <td>120–160</td>
+      <td>250–300</td>
+    </tr>
+    <tr>
+      <td><em>Mainox</em> (<em>Candy</em>, <em>Zanussi</em>)</td>
+      <td>170–210</td>
+      <td>320–380</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p><mark>Если сопротивление хотя бы одной обмотки равно 0 (короткое замыкание) или бесконечности (обрыв), насос неисправен и подлежит замене.</mark></p>
+
+<h2 id="пошаговая-инструкция-как-прозвонить-насос-мультиметром">Пошаговая инструкция: как прозвонить насос мультиметром</h2>
+
+<p>Перед началом проверки <strong>отсоедините все провода</strong> от насоса. Если контакты окислены, зачистите их мелкой наждачной бумагой или канцелярским ножом.</p>
+
+
+<p>Отключить машину от сети 220В|</p>
+<p>Слить остаточную воду из насоса (наклонить машину вперёд)|</p>
+<p>Сфотографировать схему подключения проводов|</p>
+<p>Зачистить контакты от окисления (при необходимости)|</p>
+<p>Установить мультиметр в режим измерения сопротивления (2000 Ом)--></p>
+
+<p>Далее следуйте алгоритму:</p>
+
+<ol>
+  <li><strong>Проверка рабочей обмотки (L-N):</strong>
+    <ul>
+      <li>Подключите щупы мультиметра к контактам <code>L</code> и <code>N</code>.</li>
+      <li>Нормальное сопротивление — <strong>150–220 Ом</strong> (см. таблицу выше).</li>
+      <li>Если прибор показывает <code>0</code> — короткое замыкание, <code>1</code> (или <code>OL</code>) — обрыв.</li>
+    </ul>
+  </li>
+  <li><strong>Проверка пусковой обмотки (P-N):</strong>
+    <ul>
+      <li>Подключите щупы к <code>P</code> и <code>N</code>.</li>
+      <li>Норма — <strong>300–450 Ом</strong>.</li>
+      <li>Отклонение более чем на 20% говорит о неисправности.</li>
+    </ol>
+  </li>
+  <li><strong>Проверка на пробой корпуса:</strong>
+    <ul>
+      <li>Переведите мультиметр в режим <code>20 МОм</code>.</li>
+      <li>Поочерёдно проверьте сопротивление между <strong>каждым контактом и металлическим корпусом насоса</strong>.</li>
+      <li>Если сопротивление меньше <code>10 МОм</code> — пробой изоляции, насос опасен для использования.</li>
+    </ol>
+  </li>
+</ul>
+
+<p>Если все три проверки пройдены успешно, но насос не работает, проблема может быть в:</p>
+<ul>
+  <li>🔋 <strong>Конденсаторе</strong> (если он есть в схеме подключения).</li>
+  <li>🔌 <strong>Блоке управления</strong> (не подаётся сигнал на включение).</li>
+  <li>🌀 <strong>Механической блокировке</strong> крыльчатки (попадание постороннего предмета).</li>
+</ul>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если мультиметр показывает сопротивление обмоток в норме, но насос не качает воду, попробуйте вручную провернуть крыльчатку. Если она не вращается — внутри заклинило подшипник или попал мусор (волосы, нитки, монеты).</p></aside>
+
+<h2 id="типичные-неисправности-насосов-и-их-признаки">Типичные неисправности насосов и их признаки</h2>
+
+<p>Прозвонка помогает выявить <strong>электрические неисправности</strong>, но насос может выйти из строя и по механическим причинам. Вот самые распространённые проблемы:</p>
+
+<div class="pb-table-wrap"><table>
+  <thead>
+    <tr>
+      <th>Неисправность</th>
+      <th>Признаки</th>
+      <th>Как диагностировать</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Обрыв обмотки</td>
+      <td>Машина не сливает воду, насос не гудит</td>
+      <td>Мультиметр показывает <code>OL</code> при прозвонке</td>
+    </tr>
+    <tr>
+      <td>Короткое замыкание</td>
+      <td>Выбивает УЗО/автомат при сливе, запах гари</td>
+      <td>Сопротивление обмотки = <code>0 Ом</code></td>
+    </tr>
+    <tr>
+      <td>Заклинивание крыльчатки</td>
+      <td>Насос гудит, но не качает воду</td>
+      <td>Крыльчатка не вращается вручную</td>
+    </tr>
+    <tr>
+      <td>Износ подшипников</td>
+      <td>Сильный шум при работе, вибрация</td>
+      <td>Люфт вала насоса при покачивании</td>
+    </tr>
+    <tr>
+      <td>Пробой на корпус</td>
+      <td>Удар током при касании машины</td>
+      <td>Сопротивление между контактами и корпусом &lt; <code>10 МОм</code></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>Если насос <strong>гудит, но не сливает воду</strong>, в 80% случаев виноват <strong>посторонний предмет</strong> в крыльчатке (пуговицы, монеты, косточки от бюстгальтера). Чтобы проверить это:</p>
+<ol>
+  <li>Снимите насос с улитки.</li>
+  <li>Проверните крыльчатку пальцем — если она не вращается, разберите корпус насоса.</li>
+  <li>Удалите мусор и смажьте вал силиконовой смазкой.</li>
+</ol>
+
+<blockquote>⚠️ <strong>Внимание:</strong> Если при разборке насоса вы обнаружили ржавчину на валу или люфт подшипников, ремонт бессмыслен — деталь подлежит замене. Попытки "восстановить" насос с изношенными подшипниками приводят к протечкам и повторным поломкам в течение 1–3 месяцев.</blockquote>
+
+<h2 id="как-проверить-насос-без-мультиметра-альтернативные-методы">Как проверить насос без мультиметра: альтернативные методы</h2>
+
+<p>Если под рукой нет тестера, работоспособность насоса можно оценить другими способами:</p>
+
+<ul>
+  <li>🔌 <strong>Прямое подключение к 220В:</strong>
+    <ul>
+      <li>Отсоедините насос от машины.</li>
+      <li>Подключите его напрямую к сети через <strong>удлинитель с вилкой</strong> (соблюдайте полярность!).</li>
+      <li>Если насос заработал — проблема в блоке управления или проводке машины.</li>
+    </ul>
+    <blockquote>⚠️ <strong>Внимание:</strong> Этот метод опасен! При подключении держитесь за изолированные части проводов и используйте УЗО. Некачественные насосы (особенно китайские аналоги) могут искрить или задымиться.</blockquote>
+  </li>
+  <li>🔍 <strong>Визуальный осмотр:</strong>
+    <ul>
+      <li>Проверьте целостность проводов (часто они перетираются о корпус).</li>
+      <li>Осмотрите крыльчатку на предмет трещин или сколов.</li>
+      <li>Понюхайте насос — запах гари говорит о сгоревшей обмотке.</li>
+    </ul>
+  </li>
+  <li>🎧 <strong>Прослушивание:</strong>
+    <ul>
+      <li>Включите машину в режиме слива.</li>
+      <li>Если насос <strong>гудит, но не качает</strong> — заклинило крыльчатку.</li>
+      <li>Если <strong>тишина</strong> — нет питания или обрыв обмотки.</li>
+    </ul>
+  </li>
+</ul>
+
+<details class="pb-accordion"><summary>Что делать, если насос работает при прямом подключении, но не работает в машине?</summary><div class="pb-accordion-body"><p>
+<p>Это означает, что проблема не в самом насосе, а в цепи управления. Возможные причины:</p>
+<p>1. <strong>Неисправен блок управления</strong> (не подаёт сигнал на включение насоса).</p>
+<p>2. <strong>Обрыв в проводке</strong> между блоком и насосом.</p>
+<p>3. <strong>Не работает датчик уровня воды</strong> (прессостат), и машина "не понимает", что нужно сливать воду.</p>
+<p>4. <strong>Сгорел симистор</strong> на плате управления, отвечающий за насос.</p>
+<p>Для диагностики потребуется прозвонить провода от блока до насоса и проверить прессостат (его трубку часто засоряет пена или она перегибается).</p></div></details></p>
+
+<h2 id="частые-ошибки-при-прозвонке-насоса-и-как-их-избежать">Частые ошибки при прозвонке насоса и как их избежать</h2>
+
+<p>Даже опытные мастера иногда допускают ошибки, которые приводят к неправильной диагностике. Вот самые распространённые:</p>
+
+<ul>
+  <li>🔋 <strong>Прозвонка под напряжением:</strong>
+    <p>Никогда не проверяйте сопротивление обмоток, если насос подключён к сети. Это не только опасно, но и даст ложные показания (мультиметр может сгореть).</p>
+  </li>
+  <li>📉 <strong>Неправильный диапазон измерений:</strong>
+    <p>Если выставить на мультиметре диапазон <code>200 Ом</code> для проверки пусковой обмотки (сопротивление 350–400 Ом), прибор покажет <code>1</code> (перегрузка). Всегда начинайте с диапазона <code>2000 Ом</code>.</p>
+  </li>
+  <li>🔌 <strong>Игнорирование конденсатора:</strong>
+    <p>В некоторых насосах (<em>Samsung</em>, <em>LG</em>) пусковая обмотка подключается через конденсатор. Если не отсоединить его перед прозвонкой, показания будут неверными.</p>
+  </li>
+  <li>🌀 <strong>Проверка только обмоток:</strong>
+    <p>Даже если обмотки целы, насос может не работать из-за <strong>заклинившего подшипника</strong> или <strong>трещины в крыльчатке</strong>. Всегда проверяйте механическую часть!</p>
+  </li>
+</ul>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если сопротивление обмоток в норме, но насос не качает воду, разберите его и проверьте крыльчатку. Часто под неё наматываются волосы или нитки, блокируя вращение.</p></aside>
+
+<h2 id="faq-частые-вопросы-о-проверке-насоса-стиральной-машины">FAQ: Частые вопросы о проверке насоса стиральной машины</h2>
+
+<details>
+  <summary>Можно ли отремонтировать насос, если сгорела обмотка?</summary>
+  <p>Теоретически можно перемотать обмотку, но на практике это нерентабельно. Стоимость нового насоса (<em>Askoll</em>, <em>Copreci</em>) — от 1500 до 3000 рублей, а перемотка обойдётся в 2–3 раза дороже. К тому же после ремонта надёжность насоса снижается.</p>
+</details>
+
+<details>
+  <summary>Как понять, что насос сгорел, а не блок управления?</summary>
+  <p>Отключите насос от машины и подключите его напрямую к сети 220В (соблюдайте полярность!). Если он не заработает — проблема в нём. Если заработает — ищите неисправность в блоке управления или проводке.</p>
+</details>
+
+<details>
+  <summary>Какое сопротивление должно быть у насоса стиральной машины Bosch?</summary>
+  <p>Для насосов <em>Pluggit</em> (устанавливаются в <em>Bosch</em> и <em>Siemens</em>):
+  <ul>
+    <li>Рабочая обмотка (L-N): <strong>120–160 Ом</strong>.</li>
+    <li>Пусковая обмотка (P-N): <strong>250–300 Ом</strong>.</li>
+  </ul>
+<p>Отклонение более чем на 10% говорит о неисправности.</p></p>
+</details>
+
+<details>
+  <summary>Что делать, если насос гудит, но не качает воду?</summary>
+  <p>Скорее всего, заклинила крыльчатка. Отключите машину, снимите насос и проверните крыльчатку рукой. Если она не вращается:
+  <ol>
+    <li>Разберите насос (обычно он держится на 2–3 саморезах).</li>
+    <li>Удалите мусор (волосы, нитки, пуговицы).</li>
+    <li>Смажьте вал силиконовой смазкой.</li>
+    <li>Проверьте люфт подшипников — если он есть, насос нужно заменить.</li>
+  </ol></p>
+</details>
+
+<details>
+  <summary>Можно ли поставить насос от другой модели стиральной машины?</summary>
+  <p>Можно, если совпадают:
+  <ul>
+    <li>🔌 <strong>Тип подключения</strong> (количество контактов и схема).</li>
+    <li>📏 <strong>Габариты</strong> (диаметр и высота посадочного места).</li>
+    <li>💧 <strong>Производительность</strong> (литров в минуту).</li>
+  </ul>
+<p>Например, насос <em>Askoll M200</em> подходит для большинства моделей <em>Indesit</em> и <em>Ariston</em>, а <em>Copreci 100W</em> — для <em>Samsung</em> и <em>LG</em>. Перед покупкой сверьтесь с каталогом запчастей для вашей модели.</p></p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-snyat-zashchitu-ot-detej-na-stiralnoj-mashine-lg-direct-7.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять защиту от детей на LG Direct 7: инструкция</span>
+                <span class="pb-related-desc">Подробный гид по блокировке кнопок на стиральных машинах LG с Direct Drive. Методы снятия блокировки</span>
+            </a><a href="/articles/k/ka/kak-polnostyu-razobrat-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Как полностью разобрать стиральную машину: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид по полной разборке стиральной машины. Снятие бака, замена подшипников, чистка ТЭНа и у</span>
+            </a><a href="/articles/k/ka/kak-pomenyat-podshipnik-na-barabane-stiralnoj-mashiny-khotpoint-ariston.html" class="pb-related-card">
+                <span class="pb-related-title">Как поменять подшипник на барабане Hotpoint Ariston: Инструкция</span>
+                <span class="pb-related-desc">Пошаговое руководство по замене подшипника в стиральной машине Хотпоинт Аристон. Симптомы поломки, в</span>
+            </a><a href="/articles/k/ka/kakie-podshipniki-na-stiralnoj-mashine-indezit-wisl-102.html" class="pb-related-card">
+                <span class="pb-related-title">Подшипники для Indesit WISL 102: размеры, артикулы, замена</span>
+                <span class="pb-related-desc">Какие подшипники стоят в стиральной машине Indesit WISL 102? Полный разбор типоразмеров, артикулов, </span>
+            </a><a href="/articles/c/ch/chem-vybit-podshipnik-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как выбить подшипник стиральной машины: 5 способов с фото</span>
+                <span class="pb-related-desc">Пошаговая инструкция по демонтажу подшипника из барабана стиральной машины: съемники, молоток, WD-40</span>
+            </a><a href="/articles/k/ka/kak-snyat-verkhnyuyu-kryshku-stiralnoj-mashiny-hotpoint-ariston.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять крышку стиральной машины Hotpoint-Ariston: пошаговый гайд</span>
+                <span class="pb-related-desc">Подробная инструкция с фото и советами, как безопасно демонтировать верхнюю крышку стиральной машины</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

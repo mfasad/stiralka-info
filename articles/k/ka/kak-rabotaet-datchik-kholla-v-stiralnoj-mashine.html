@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как работает датчик Холла в стиральной машине: устройство и проверка — Стиралка Инфо</title>
+    <meta name="description" content="Подробный разбор принципа действия датчика Холла в двигателе стиральной машины. Симптомы поломки, пошаговая инструкция проверки мультиметром.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-rabotaet-datchik-kholla-v-stiralnoj-mashine.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как работает датчик Холла в стиральной машине: устройство и проверка">
+    <meta property="og:description" content="Подробный разбор принципа действия датчика Холла в двигателе стиральной машины. Симптомы поломки, пошаговая инструкция проверки мультиметром.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/neispravnosti-i-prichiny/">Неисправности и причины</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как работает датчик Холла в стиральной машине: устройство и проверка</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#принцип-действия-и-физическая-основа-работы">Принцип действия и физическая основа работы</a></li><li><a href="#конструктивные-особенности-и-расположение-в-сма">Конструктивные особенности и расположение в СМА</a></li><li><a href="#функциональное-назначение-в-системе-управления">Функциональное назначение в системе управления</a></li><li><a href="#типичные-симптомы-неисправности-датчика">Типичные симптомы неисправности датчика</a></li><li><a href="#пошаговая-инструкция-по-проверке-мультиметром">Пошаговая инструкция по проверке мультиметром</a></li><li><a href="#замена-элемента-и-настройка-зазора">Замена элемента и настройка зазора</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-oboznachaetsya-sliv-na-stiralnoj-mashine.html">Как обозначается слив на стиральной машине: расшифровка значков</a></li><li><a href="/articles/r/re/rezinka-stiralnoj-mashiny-porvalas-v-barabane-chto-delat.html">Порвалась резинка в барабане стиральной машины: ремонт и замена</a></li><li><a href="/articles/p/po/pochemu-podtekaet-stiralnaya-mashina-avtomat-snizu-pri-stirke-s-levoj.html">Течет стиральная машина слева снизу: причины и ремонт</a></li><li><a href="/articles/s/st/stiralnaya-mashina-lg-kak-proverit-ten.html">Как проверить ТЭН стиральной машины LG: пошаговая инструкция</a></li><li><a href="/articles/p/po/pochemu-ne-vklyuchaetsya-stiralnaya-mashina-avtomat-prichiny.html">Почему не включается стиральная машина: причины и ремонт</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как работает датчик Холла в стиральной машине: устройство и проверка</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#принцип-действия-и-физическая-основа-работы">Принцип действия и физическая основа работы</a></li><li><a href="#конструктивные-особенности-и-расположение-в-сма">Конструктивные особенности и расположение в СМА</a></li><li><a href="#функциональное-назначение-в-системе-управления">Функциональное назначение в системе управления</a></li><li><a href="#типичные-симптомы-неисправности-датчика">Типичные симптомы неисправности датчика</a></li><li><a href="#пошаговая-инструкция-по-проверке-мультиметром">Пошаговая инструкция по проверке мультиметром</a></li><li><a href="#замена-элемента-и-настройка-зазора">Замена элемента и настройка зазора</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Современная стиральная машина представляет собой сложный электронный механизм, где каждый узел выполняет критически важную функцию. Одним из ключевых элементов управления является <strong>датчик Холла</strong>, который часто называют таходатчиком или тахогенератором, хотя технически это не совсем верно. Именно этот компонент позволяет электронному модулю точно знать скорость вращения двигателя и, исходя из этих данных, регулировать его работу.</p>
+
+<p>Если вы столкнулись с ситуацией, когда барабан вращается рывками, стирка проходит только на низких оборотах или машина вообще перестала отжимать белье, причина часто кроется в неисправности этого узла. Понимание того, как работает <em>датчик Холла</em>, поможет вам быстрее диагностировать проблему и избежать ненужных трат на вызов мастера для простейшей диагностики.</p>
+
+<p>В этой статье мы детально разберем физический принцип действия устройства, его расположение в разных моделях стиральных машин и алгоритм проверки работоспособности своими руками. Вы узнаете, почему этот элемент называют «бесконтактным» и как магнитное поле превращается в электрический сигнал, понятный «мозгам» вашей стиральной машины.</p>
+
+<h2 id="принцип-действия-и-физическая-основа-работы">Принцип действия и физическая основа работы</h2>
+
+<p>Фундаментальной основой работы устройства является одноименный физический эффект, открытый Эдвином Холлом еще в 1879 году. Суть явления заключается в том, что если через проводник или полупроводник, помещенный в магнитное поле, пропускать электрический ток, то на боковых гранях этого проводника возникает поперечная разность потенциалов. Это напряжение, известное как <strong>напряжение Холла</strong>, прямо пропорционально силе магнитного поля и току, протекающему через пластину.</p>
+
+<p>В контексте бытовой техники этот принцип реализован в виде компактной микросхемы. Внутри корпуса датчика находится тонкая полупроводниковая пластина. Когда к ней подводится питание и она попадает в зону действия магнитного поля, на выходе формируется сигнал. В стиральных машинах используется не статичное поле, а изменяющееся: магниты закреплены на вращающемся роторе двигателя.</p>
+
+<details class="pb-accordion"><summary>Почему это называют эффектом Холла?</summary><div class="pb-accordion-body"><p>Эффект назван в честь американского физика Эдвина Герберта Холла, который впервые продемонстрировал это явление в 1879 году, работая в университете Джонса Хопкинса. Он обнаружил, что магнитное поле может влиять на движение электронов в проводнике, создавая поперечное напряжение.</p></div></details>
+
+<p>Ключевым моментом является то, что сигнал на выходе датчика меняется в зависимости от того, как часто магниты проходят мимо чувствительного элемента. Чем выше скорость вращения двигателя, тем чаще меняется магнитное поле, и тем выше частота импульсов на выходе. Электронный модуль считывает эти импульсы и вычисляет точную скорость вращения барабана в реальном времени.</p>
+
+<h2 id="конструктивные-особенности-и-расположение-в-сма">Конструктивные особенности и расположение в СМА</h2>
+
+<p>В большинстве современных стиральных машин, особенно оснащенных двигателями с прямым приводом (Direct Drive) или инверторными моторами, датчик Холла интегрирован непосредственно в конструкцию двигателя. Он представляет собой небольшую пластиковую коробочку с разъемом для подключения проводов, которая крепится к статору двигателя.</p>
+
+<p>Напротив чувствительного элемента на роторе (вращающейся части) закреплен постоянный магнит. При вращении барабана магнит проходит в непосредственной близости от датчика. Расстояние между магнитом и сенсором строго регламентировано производителем, обычно оно составляет несколько миллиметров. Нарушение этого зазора может привести к некорректным показаниям.</p>
+
+<ul>
+    <li>🧲 <strong>Магнит:</strong> Источник магнитного поля, закрепленный на роторе двигателя.</li>
+    <li>📡 <strong>Чувствительный элемент:</strong> Полупроводниковая пластина внутри корпуса, реагирующая на поле.</li>
+    <li>🔌 <strong>Разъем подключения:</strong> Интерфейс для передачи сигнала на электронный модуль управления.</li>
+</ul>
+
+<p>Важно отметить, что в старых моделях с коллекторными двигателями функцию контроля скорости часто выполнял <em>тахогенератор</em> — устройство с катушкой, выдающее переменный ток. Датчик Холла, в отличие от него, выдает цифровой импульсный сигнал, что делает его более точным и надежным. Однако визуально их легко перепутать, поэтому при замене всегда сверяйтесь с каталожным номером детали.</p>
+
+<div class="pb-poll" id="poll-33f8d324"><div class="pb-poll-question">📊 Какой у вас тип двигателя в стиральной машине?</div><div class="pb-poll-option" data-poll="33f8d324" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Коллекторный (со щетками)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="33f8d324" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Прямой привод (Direct Drive)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="33f8d324" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Инверторный (ременной)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="33f8d324" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Не знаю/Затрудняюсь ответить</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="функциональное-назначение-в-системе-управления">Функциональное назначение в системе управления</h2>
+
+<p>Основная задача датчика — обеспечение обратной связи между двигателем и электронным модулем. Без этого компонента «мозги» стиральной машины работали бы вслепую, не зная, с какой скоростью вращается барабан. Это критически важно для реализации различных программ стирки, где требуется точное чередование скоростей.</p>
+
+<p>Например, при деликатной стирке шерсти или шелка модуль должен поддерживать низкие, плавные покачивания. Датчик сообщает модулю, что скорость упала ниже заданной, и тот добавляет мощность. Conversely, при отжиме на высоких оборотах система должна строго контролировать разгон, чтобы избежать дисбаланса и вибрации. Если сигнал с датчика пропадает или становится нестаб<mark>сигнал становится нестабильным, модуль немедленно останавливает программу во избежание поломки</mark>.</p>
+
+<p>Также этот элемент участвует в защите от перегрузок. Если белье скомкалось в один ком, сопротивление вращению резко возрастает. Датчик фиксирует падение скорости, и модуль либо пытается распушить белье реверсивными движениями, либо останавливает цикл, выдавая ошибку.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если стиральная машина начинает отжим, но тут же сбрасывает обороты и начинает крутить белье в разные стороны — это классический симптом потери сигнала скорости.</p></aside>
+
+<h2 id="типичные-симптомы-неисправности-датчика">Типичные симптомы неисправности датчика</h2>
+
+<p>Диагностика любой поломки начинается с наблюдения за поведением техники. Неисправность датчика Холла редко проходит бесследно. Чаще всего стиральная машина ведет себя предсказуемым образом, указывая на проблему с контролем двигателя. Однако симптомы могут варьироваться в зависимости от модели и типа установленного электронного модуля.</p>
+
+<p>Самым частым проявлением является остановка программы на этапе набора скорости для отжима. Машина сливает воду, начинает разгонять барабан, но затем резко останавливается и может начать мигать индикаторами или выводить код ошибки на дисплей. В некоторых случаях барабан может дергаться или вращаться рывками.</p>
+
+<blockquote>⚠️ <strong>Внимание:</strong> Коды ошибок, указывающие на проблемы с двигателем или датчиком, у разных брендов отличаются. Например, у LG это часто F3, F31, у Samsung — 3E, 3E1, у Electrolux — E62. Всегда сверяйтесь с мануалом вашей модели.</blockquote>
+
+<p>Иногда поломка проявляется в том, что машина вообще отказывается запускать двигатель, хотя вода набрана и ТЭН прогрел воду. Модуль, не получая стартового импульса от датчика, блокирует подачу напряжения на обмотки мотора, считая, что система контроля неисправна.</p>
+
+<h2 id="пошаговая-инструкция-по-проверке-мультиметром">Пошаговая инструкция по проверке мультиметром</h2>
+
+<p>Для проведения диагностики вам потребуется мультиметр, способный измерять постоянное напряжение в диапазоне до 20 Вольт. Перед началом любых работ необходимо полностью обесточить стиральную машину, вынув вилку из розетки. Безопасность — приоритет номер один при работе с электроприборами.</p>
+
+<p>Сначала нужно получить доступ к датчику. В машинах с прямым приводом часто достаточно снять заднюю крышку (если она есть) или демонтировать верхнюю панель и боковую стенку. Датчик расположен сзади двигателя, к нему подходят три провода. Обычно это красный (плюс), черный (минус) и желтый или зеленый (сигнальный).</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Подготовка к диагностике</h4><label class="check-item"><input type="checkbox"><span>Отключить машину от сети</span></label><label class="check-item"><input type="checkbox"><span>Снять необходимые панели корпуса</span></label><label class="check-item"><input type="checkbox"><span>Найти датчик на двигателе</span></label><label class="check-item"><input type="checkbox"><span>Подготовить мультиметр</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<p>Проверка производится методом имитации работы. Включите мультиметр в режим измерения постоянного напряжения (<code>DCV 20V</code>). Подключите щупы к контактам питания датчика (плюс и минус). Затем, не подключая датчик к плате управления, подайте на него питание 5-12 Вольт от внешнего источника (можно использовать батарейку или блок питания, если есть навыки), либо, в некоторых схемах, просто прозванивать сопротивление, хотя метод с напряжением надежнее.</p>
+
+<p>Более простой способ, не требующий внешнего питания, если модуль исправен: подключите щупы мультиметра к сигнальному проводу и минусу. Включите машину в сеть (соблюдая осторожность!) и запустите программу. Вращайте барабан рукой. Если датчик исправен, показания на мультиметре должны скакать от 0 до 5-10 Вольт. Если напряжение не меняется или держится на одном уровне — элемент неисправен.</p>
+
+<div class="pb-table-wrap"><table>
+    <thead>
+        <tr>
+            <th>Параметр проверки</th>
+            <th>Нормальное значение</th>
+            <th>Признак неисправности</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Сопротивление между контактами</td>
+            <td>Зависит от модели (обычно кОм)</td>
+            <td>Обрыв (бесконечность) или короткое замыкание (0 Ом)</td>
+        </tr>
+        <tr>
+            <td>Реакция на вращение</td>
+            <td>Напряжение меняется (0 ↔ 5-12В)</td>
+            <td>Напряжение не меняется или скачет хаотично</td>
+        </tr>
+        <tr>
+            <td>Целостность проводов</td>
+            <td>Звонятся без сопротивления</td>
+            <td>Обрыв цепи или замыкание на корпус</td>
+        </tr>
+    </tbody>
+</table></div>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Самый верный признак исправности — изменение напряжения на сигнальном проводе при manual вращении барабана.</p></aside>
+
+<h2 id="замена-элемента-и-настройка-зазора">Замена элемента и настройка зазора</h2>
+
+<p>Если диагностика подтвердила выход из строя <strong>датчика Холла</strong>, его необходимо заменить. Ремонт этого узла невозможен, так как он выполнен в виде герметичного моноблока. Для замены потребуется снять старый датчик, открутив крепежный винт, и установить новый на то же место.</p>
+
+<p>Критически важным моментом является зазор между магнитом на роторе и чувствительной площадкой датчика. Он должен быть минимальным, но без физического контакта. Обычно датчик сам встает на свое место благодаря посадочному отверстию, но в некоторых случаях требуется регулировка. Если зазор будет слишком велик, сигнал будет слабым или пропадет совсем.</p>
+
+<p>После установки соберите машину в обратном порядке и проведите тестовую стирку. Обратите внимание на то, как машина набирает обороты для отжима. Если процесс проходит плавно, без рывков и остановок, а на дисплее не появляются коды ошибок — замена прошла успешно.</p>
+
+<blockquote>⚠️ <strong>Внимание:</strong> При установке нового датчика следите за целостностью проводов. Они не должны касаться горячих частей двигателя или острых кромок корпуса, чтобы избежать перетирания изоляции в будущем.</blockquote>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+    <summary>Можно ли запустить стиральную машину без датчика Холла?</summary>
+    <p>Нет, полноценная стирка невозможна. Электронный модуль не получит сигнал о вращении двигателя и заблокирует программу, выдав ошибку. Некоторые умельцы ставят эмуляторы, но это нестабильное решение, которое может привести к поломке модуля управления.</p>
+</details>
+
+<details>
+    <summary>Чем отличается датчик Холла от тахогенератора?</summary>
+    <p>Тахогенератор — это катушка с магнитом, вырабатывающая переменный ток при вращении. Датчик Холла — это полупроводниковый прибор, работающий от постоянного тока и выдающий цифровой импульсный сигнал. Датчики Холла точнее и долговечнее, так как не имеют трущихся частей.</p>
+</details>
+
+<details>
+    <summary>Почему сгорает датчик Холла?</summary>
+    <p>Основные причины: скачки напряжения в сети, попадание влаги внутрь корпуса датчика, механическое повреждение при транспортировке или неправильной сборке, а также естественный износ электронных компонентов со временем.</p>
+</details>
+
+<details>
+    <summary>Как часто нужно менять этот датчик?</summary>
+    <p>У датчика Холла нет ресурса «в часах», как у щеток двигателя. При нормальных условиях эксплуатации он служит столько же, сколько и сама стиральная машина. Его замена требуется только в случае явной поломки.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-oboznachaetsya-sliv-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как обозначается слив на стиральной машине: расшифровка значков</span>
+                <span class="pb-related-desc">Узнайте, как обозначается слив на стиральной машине. Расшифровка значков на дисплее, поиск фильтра, </span>
+            </a><a href="/articles/r/re/rezinka-stiralnoj-mashiny-porvalas-v-barabane-chto-delat.html" class="pb-related-card">
+                <span class="pb-related-title">Порвалась резинка в барабане стиральной машины: ремонт и замена</span>
+                <span class="pb-related-desc">Что делать, если порвалась резинка в стиральной машине? Пошаговая инструкция по замене уплотнителя, </span>
+            </a><a href="/articles/p/po/pochemu-podtekaet-stiralnaya-mashina-avtomat-snizu-pri-stirke-s-levoj.html" class="pb-related-card">
+                <span class="pb-related-title">Течет стиральная машина слева снизу: причины и ремонт</span>
+                <span class="pb-related-desc">Стиральная машина подтекает снизу слева при стирке? Разбираем 7 причин протечек слева: фильтр, шланг</span>
+            </a><a href="/articles/s/st/stiralnaya-mashina-lg-kak-proverit-ten.html" class="pb-related-card">
+                <span class="pb-related-title">Как проверить ТЭН стиральной машины LG: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по диагностике нагревательного элемента LG. Мультиметром и без приборов. Коды </span>
+            </a><a href="/articles/p/po/pochemu-ne-vklyuchaetsya-stiralnaya-mashina-avtomat-prichiny.html" class="pb-related-card">
+                <span class="pb-related-title">Почему не включается стиральная машина: причины и ремонт</span>
+                <span class="pb-related-desc">Стиральная машина не включается? Разбор всех причин: от скачков напряжения до поломки модуля. Инстру</span>
+            </a><a href="/articles/i/iz/iz-stiralnoj-mashiny-techet-voda-snizu-chto-delat.html" class="pb-related-card">
+                <span class="pb-related-title">Из стиральной машины течет вода: причины и ремонт</span>
+                <span class="pb-related-desc">Почему из стиральной машины течет вода снизу? Полный гид по поиску протечек, диагностике шлангов, по</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

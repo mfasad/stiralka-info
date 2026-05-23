@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как работает прессостат стиральной машины: устройство и диагностика — Стиралка Инфо</title>
+    <meta name="description" content="Подробный разбор того, как работает прессостат стиралки. Устройство, принцип действия, коды ошибок и пошаговая инструкция проверки датчика уровня воды своими руками.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-rabotaet-pressostat-stiralki.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как работает прессостат стиральной машины: устройство и диагностика">
+    <meta property="og:description" content="Подробный разбор того, как работает прессостат стиралки. Устройство, принцип действия, коды ошибок и пошаговая инструкция проверки датчика уровня воды своими руками.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/neispravnosti-i-prichiny/">Неисправности и причины</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как работает прессостат стиральной машины: устройство и диагностика</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#принцип-действия-пневматического-датчика-уровня">Принцип действия пневматического датчика уровня</a></li><li><a href="#конструктивные-особенности-и-типы-датчиков">Конструктивные особенности и типы датчиков</a></li><li><a href="#симптомы-неисправности-и-коды-ошибок">Симптомы неисправности и коды ошибок</a></li><li><a href="#пошаговая-инструкция-по-проверке-мультиметром">Пошаговая инструкция по проверке мультиметром</a></li><li><a href="#замена-датчика-и-типичные-ошибки-при-ремонте">Замена датчика и типичные ошибки при ремонте</a></li><li><a href="#профилактика-и-уход-за-системой-контроля-воды">Профилактика и уход за системой контроля воды</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/c/ch/chto-delat-esli-ne-mozhesh-otkryt-dvertsu-stiralnoj-mashiny.html">Не открывается дверца стиральной машины: 7 способов разблокировки</a></li><li><a href="/articles/k/ka/kak-snyat-blokirovku-so-stiralnoj-mashiny-samsung-eko-babl.html">Как снять блокировку со стиральной машины Samsung Eco Bubble</a></li><li><a href="/articles/l/le/letsya-voda-iz-stiralnoj-mashiny-gde-poroshok.html">Вода из отсека порошка: причины и ремонт своими руками</a></li><li><a href="/articles/k/ku/kuda-delsya-nosok-v-stiralnoj-mashine.html">Куда делся носок в стиральной машине: поиск и причины</a></li><li><a href="/articles/p/po/pochemu-vytekaet-voda-iz-stiralnoj-mashiny-iz-lotka-dlya-poroshka-vo-vremya-stirki.html">Почему вытекает вода из лотка стиральной машины: причины и ремонт</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как работает прессостат стиралки: устройство, диагностика и ремонт</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#принцип-действия-пневматического-датчика-уровня">Принцип действия пневматического датчика уровня</a></li><li><a href="#конструктивные-особенности-и-типы-датчиков">Конструктивные особенности и типы датчиков</a></li><li><a href="#симптомы-неисправности-и-коды-ошибок">Симптомы неисправности и коды ошибок</a></li><li><a href="#пошаговая-инструкция-по-проверке-мультиметром">Пошаговая инструкция по проверке мультиметром</a></li><li><a href="#замена-датчика-и-типичные-ошибки-при-ремонте">Замена датчика и типичные ошибки при ремонте</a></li><li><a href="#профилактика-и-уход-за-системой-контроля-воды">Профилактика и уход за системой контроля воды</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Стирка белья внезапно превратилась в хаос? Машина гудит, но вода не поступает, или, наоборот, барабан переполнен, и программа зависла на старте. Часто виновником таких сбоев становится <strong>прессостат</strong> — небольшой, но критически важный узел, контролирующий уровень жидкости в баке. Понимание того, как именно работает этот датчик, поможет вам быстро диагностировать неисправность и избежать дорогостоящего вызова мастера.</p>
+
+<p>Многие пользователи ошибочно полагают, что вода набирается до тех пор, пока не сработает таймер или поплавковая система, как в бачке унитаза. Однако в современных автоматических машинах, будь то <em>Bosch</em>, <em>LG</em> или <em>Indesit</em>, за этим следит электроника, получающая сигналы от пневматического реле. Если этот элемент выходит из строя, «мозг» стиралки перестает понимать, сколько воды внутри, что приводит к аварийным остановкам или протечкам.</p>
+
+<p>В этой статье мы детально разберем внутреннее устройство датчика, объясним физику его работы и предоставим пошаговый алгоритм проверки мультиметром. Вы узнаете, почему щелчки при наборе воды — это нормальный рабочий звук, а их отсутствие может сигнализировать о поломке. <mark>Точная калибровка давления срабатывания контактов — ключевой фактор, который невозможно восстановить при физическом износе мембраны.</mark></p>
+
+<h2 id="принцип-действия-пневматического-датчика-уровня">Принцип действия пневматического датчика уровня</h2>
+
+<p>Чтобы понять, как работает прессостат, представьте себе перевернутый стакан, опущенный в воду. Воздух внутри него сжимается по мере погружения. Именно этот физический закон лежит в основе работы датчика. Он не контактирует с водой напрямую, а «общается» с ней через воздушную трубку и давление газа внутри замкнутой системы.</p>
+
+<p>В нижней части бака расположен штуцер, к которому подсоединена гибкая трубка. Второй конец этой трубки герметично соединен с входным отверстием корпуса датчика. Когда вода поступает в бак, она поднимается и перекрывает отверстие трубки, начиная сжимать воздух внутри неё. Этот сжатый воздух передается в рабочую камеру <strong>пневмореле</strong>.</p>
+
+<p>Внутри корпуса находится подвижная мембрана или сильфон. Под действием давления воздуха мембрана выгибается и механически воздействует на контактную группу. В зависимости от силы давления (которое прямо пропорционально высоте столба воды), контакты замыкаются или размыкаются, посылая электрический сигнал на модуль управления.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Никогда не пытайтесь регулировать винты на корпусе исправного прессостата — заводская калибровка сбивается мгновенно, и датчик начнет врать.</p></aside>
+
+<p>Существует два основных типа таких устройств, и принцип их внутренней реакции несколько отличается:</p>
+
+<ul>
+<li>🔹 <strong>Механические:</strong> используют физическое движение мембраны для переключения контактов, часто издают слышимый щелчок.</li>
+<li>🔹 <strong>Электронные:</strong> передают данные о давлении в виде частоты или сопротивления, работают бесшумно и точнее.</li>
+<li>🔹 <strong>Комбинированные:</strong> могут иметь несколько пар контактов для разных уровней воды (стирка, полоскание, аварийный слив).</li>
+</ul>
+
+<h2 id="конструктивные-особенности-и-типы-датчиков">Конструктивные особенности и типы датчиков</h2>
+
+<p>Внешне все датчики уровня воды выглядят похоже: пластиковый цилиндр или параллелепипед с разъемом для проводов и патрубком для трубки. Однако внутренняя начинка может кардинально различаться в зависимости от бренда и года выпуска техники. Старые модели <em>Ariston</em> или <em>Candy</em> часто оснащались громоздкими механическими реле, тогда как современные <em>Samsung</em> и <em>Electrolux</em> перешли на компактные электронные модули.</p>
+
+<p>Механический <strong>прессостат</strong> содержит подвижный шток, пружину и контактов. Пружина задает усилие, необходимое для срабатывания. Регулировочный винт, расположенный сверху (часто залитый мастикой), позволяет менять натяжение пружины, но, как упоминалось ранее, вмешиваться в этот процесс без спецоборудования не рекомендуется.</p>
+
+<p>Электронные версии лишены подвижных контактов в классическом понимании. Они преобразуют давление воздуха в изменение индуктивности катушки или емкости конденсатора. Такой сигнал передается на процессор, который точно рассчитывает объем воды. Это позволяет реализовать сложные алгоритмы взвешивания белья и экономии ресурсов.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> При замене датчика обязательно проверяйте длину и диаметр воздушной трубки. Использование трубки неподходящего диаметра приведет к искажению показаний давления и ошибкам набора воды.</p>
+</blockquote>
+
+<p>Также устройства делятся по количеству камер. Однокамерные реагируют на один уровень давления. Двухкамерные (с двумя трубками или разделенной камерой) могут контролировать минимальный и максимальный уровень отдельно, что повышает безопасность эксплуатации.</p>
+
+<div class="pb-poll" id="poll-b7993c4b"><div class="pb-poll-question">📊 Сталкивались ли вы с ошибкой уровня воды в стиральной машине?</div><div class="pb-poll-option" data-poll="b7993c4b" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, вода не набиралась</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="b7993c4b" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, был перелив через край</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="b7993c4b" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Нет, но были щелчки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="b7993c4b" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Пока проблем не было</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="симптомы-неисправности-и-коды-ошибок">Симптомы неисправности и коды ошибок</h2>
+
+<p>Диагностика начинается задолго до разборки машины. Поведение стиралки красноречиво говорит о том, что <strong>реле уровня воды</strong> функционирует некорректно. Электронный блок управления, не получая верных данных, переводит агрегат в аварийный режим и высвечивает код ошибки на дисплее.</p>
+
+<p>Самый частый симптом — машина набирает воду бесконечно, пока не сработает защита от протечек (аква стоп) или вода не польется на пол. Это значит, что контакты не замыкаются, и модуль «думает», что бак пуст. Обратная ситуация — машина набирает очень мало воды или начинает стирку «на сухую», что может привести к перегоранию ТЭНа.</p>
+
+<p>Обратите внимание на характерные звуки. Если вы слышите частые щелчки во время стирки или полоскания, это может указывать на «дребезг» контактов или залипание мембраны. Также на неисправность указывает невозможность включить режим слива, если датчик «залип» в положении «полный бак».</p>
+
+<p>Каждый производитель кодирует проблемы с прессостатом по-своему. Вот таблица распространенных кодов ошибок, связанных с датчиком уровня:</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Бренд</th>
+<th>Код ошибки</th>
+<th>Описание проблемы</th>
+<th>Вероятная причина</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>LG</em></td>
+<td>IE / PE</td>
+<td>Ошибка датчика давления</td>
+<td>Обрыв цепи или залипание</td>
+</tr>
+<tr>
+<td><em>Samsung</em></td>
+<td>E2 / 4E</td>
+<td>Проблема с уровнем воды</td>
+<td>Неверный сигнал прессостата</td>
+</tr>
+<tr>
+<td><em>Bosch / Siemens</em></td>
+<td>E18 / F18</td>
+<td>Проблема слива/набора</td>
+<td>Датчик не видит воду</td>
+</tr>
+<tr>
+<td><em>Indesit / Ariston</em></td>
+<td>F05</td>
+<td>Прессостат залип</td>
+<td>Бак полон, сигнал не идет</td>
+</tr>
+</tbody>
+</table></div>
+
+<details class="pb-accordion"><summary>Почему горят несколько кодов одновременно?</summary><div class="pb-accordion-body"><p>Иногда при поломке прессостата модуль управления может выдавать каскад ошибок, например, одновременно с ошибкой нагрева (ТЭН не погрузился в воду) и ошибкой мотора. Всегда начинайте диагностику с проверки системы набора воды.</p></div></details>
+
+<h2 id="пошаговая-инструкция-по-проверке-мультиметром">Пошаговая инструкция по проверке мультиметром</h2>
+
+<p>Прежде чем покупать новую деталь, необходимо убедиться в её неисправности. Для этого вам понадобится обычный мультиметр, настроенный на режим прозвонки или измерения сопротивления. Помните: все работы проводятся только после отключения машины от электросети!</p>
+
+<p>Сначала доберитесь до датчика. Обычно он расположен в верхней части машины, ближе к задней стенке, и представляет собой круглую «таблетку» с подходящей к ней трубкой. Снимите верхнюю крышку корпуса (обычно держится на двух саморезах сзади), отсоедините фишку с проводами и снимите трубку с патрубка.</p>
+
+<p>Визуально осмотрите трубку. На ней не должно быть трещин, а внутри — воды или конденсата. Если трубка цела, переходите к электрической проверке. Подсоедините щупы мультиметра к контактам разъема датчика (для этого может потребоваться снять сам датчик с корпуса машины, открутив винты).</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Алгоритм проверки прессостата</h4><label class="check-item"><input type="checkbox"><span>Отключить машинку от сети</span></label><label class="check-item"><input type="checkbox"><span>Снять верхнюю крышку</span></label><label class="check-item"><input type="checkbox"><span>Найти датчик и снять фишку</span></label><label class="check-item"><input type="checkbox"><span>Прозвонить контакты мультиметром</span></label><label class="check-item"><input type="checkbox"><span>Подуть в патрубок и послушать щелчки</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<p>Техника проверки зависит от типа датчика:</p>
+
+<ul>
+<li>🔸 <strong>Механика:</strong> в спокойном состоянии контакты могут быть разомкнуты или замкнуты. Если подуть в патрубок (имитируя давление), должен раздаться щелчок, и показания мультиметра измениться (сопротивление упадет до нуля или вырастет до бесконечности).</li>
+<li>🔸 <strong>Электроника:</strong> здесь мультиметр может не показать явного переключения без создания определенного давления. Часто проверяют целостность обмотки катушки — сопротивление должно быть в пределах нескольких сотен Ом. Обрыв или короткое замыкание укажут на поломку.</li>
+</ul>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> При проверке механического датчика ртом дуйте аккуратно, без чрезмерного усилия, чтобы не повредить чувствительную мембрану. Достаточно легкого давления, имитирующего столб воды в 10-15 см.</p>
+</blockquote>
+
+<p>Если мультиметр показывает «единицу» (обрыв) в любом положении или «ноль» (короткое замыкание) постоянно, независимо от подачи воздуха, значит, внутренняя контактная группа сгорела или окислилась. Восстановлению такие узлы не подлежат.</p>
+
+<h2 id="замена-датчика-и-типичные-ошибки-при-ремонте">Замена датчика и типичные ошибки при ремонте</h2>
+
+<p>Если диагностика подтвердила выход из строя, <strong>прессостат</strong> необходимо заменить. Покупать нужно деталь с точно таким же заводским номером (он выбит на корпусе). Внешне похожие датчики могут иметь разное давление срабатывания, что приведет к некорректной работе машины.</p>
+
+<p>Процесс замены прост: открутите крепежные винты, снимите старый датчик, отсоедините трубку и установите новый в обратном порядке. Важно плотно посадить трубку на патрубок, чтобы обеспечить герметичность системы. Часто для надежности место соединения фиксируют хомутом или каплей герметика, хотя штатные защелки обычно держат хорошо.</p>
+
+<p>Одна из частых ошибок — игнорирование состояния самой воздушной трубки. Даже новый, исправный датчик будет врать, если в трубке есть микротрещина или она перегнута. Также внутри трубки может скапливаться конденсат или грязь, создавая «водяную пробку», которая искажает давление.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Главное правило замены — герметичность воздушной магистрали. Любая утечка воздуха сделает работу нового датчика невозможной.</p></aside>
+
+<p>После установки проведите тестовую стирку. Обратите внимание, как быстро машина наберет воду и остановит ли набор в нужный момент. Если все прошло успешно, соберите корпус.</p>
+
+<h2 id="профилактика-и-уход-за-системой-контроля-воды">Профилактика и уход за системой контроля воды</h2>
+
+<p>Хотя прессостат — деталь надежная, срок её службы можно продлить. Основная причина поломок — это не электрика, а загрязнение. Пыль, ворс и мыльный налет со временем оседают на мембране, делая её жесткой и менее чувствительной.</p>
+
+<p>Используйте качественные моющие средства и регулярно (раз в 3-6 месяцев) запускайте цикл очистки барабана при высокой температуре. Это поможет снизить образование отложений внутри бака и штуцера. Также следите за качеством водопроводной воды: жесткая вода быстрее выводит из строя резиновые элементы системы.</p>
+
+<p>Если вы заметили, что машина стала набирать больше воды, чем раньше, не ждите полной поломки. Проверка и продувка трубки на раннем этапе могут спасти датчик от замены. Иногда достаточно просто почистить штуцер в баке от накипи, чтобы восстановить нормальную циркуляцию воздуха.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>При чистке штуцера в баке используйте мягкий ершик и теплую воду с лимонной кислотой. Не ковыряйте отверстие острыми металлическими предметами, чтобы не повредить резьбу или пластик.</p></aside>
+
+<details>
+<summary>Можно ли стирать, если прессостат неисправен, но машина вроде бы работает?</summary>
+<p>Категорически не рекомендуется. Нестабильный уровень воды может привести к попаданию воды на ТЭН (если её мало) и его перегоранию, либо к переливу и затоплению соседей. Кроме того, неправильный уровень воды нарушает алгоритм стирки, и белье останется грязным.</p>
+</details>
+
+<details>
+<summary>Почему после замены датчика машина все равно выдает ошибку?</summary>
+<p>Возможные причины: неисправна сама воздушная трубка (трещина, засор), забит штуцер в баке, окислились контакты в разъеме проводки или, в редких случаях, проблема кроется в самом модуле управления, который не видит сигнал исправного датчика.</p>
+</details>
+
+<details>
+<summary>В чем разница между прессостатом для верхней и фронтальной загрузки?</summary>
+<p>Принцип работы одинаков, но могут отличаться габариты, форма корпуса, длина трубки и, самое главное, калибровка давления. Датчики не всегда взаимозаменяемы даже в рамках одного бренда, если модели относятся к разным сериям.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/c/ch/chto-delat-esli-ne-mozhesh-otkryt-dvertsu-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Не открывается дверца стиральной машины: 7 способов разблокировки</span>
+                <span class="pb-related-desc">Дверца стиральной машины заклинила? Узнайте причины блокировки и пошаговые инструкции по разблокиров</span>
+            </a><a href="/articles/k/ka/kak-snyat-blokirovku-so-stiralnoj-mashiny-samsung-eko-babl.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять блокировку со стиральной машины Samsung Eco Bubble</span>
+                <span class="pb-related-desc">Узнайте, как разблокировать стиральную машину Самсунг Эко Бабл. Сброс Child Lock, устранение зависан</span>
+            </a><a href="/articles/l/le/letsya-voda-iz-stiralnoj-mashiny-gde-poroshok.html" class="pb-related-card">
+                <span class="pb-related-title">Вода из отсека порошка: причины и ремонт своими руками</span>
+                <span class="pb-related-desc">Почему течет вода из порошкоприемника стиральной машины? Разбор причин: засоры, поломка клапана, оши</span>
+            </a><a href="/articles/k/ku/kuda-delsya-nosok-v-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Куда делся носок в стиральной машине: поиск и причины</span>
+                <span class="pb-related-desc">Пропал носок при стирке? Узнайте, где искать потерянную вещь: барабан, фильтр, манжета или бак. Инст</span>
+            </a><a href="/articles/p/po/pochemu-vytekaet-voda-iz-stiralnoj-mashiny-iz-lotka-dlya-poroshka-vo-vremya-stirki.html" class="pb-related-card">
+                <span class="pb-related-title">Почему вытекает вода из лотка стиральной машины: причины и ремонт</span>
+                <span class="pb-related-desc">Вода течет из порошкоприемника стиральной машины? Разбираем причины засора, проблем с давлением и не</span>
+            </a><a href="/articles/p/po/pochemu-iz-stiralnoj-mashiny-idet-par.html" class="pb-related-card">
+                <span class="pb-related-title">Почему из стиральной машины идет пар: причины и решения</span>
+                <span class="pb-related-desc">Идет пар из стиральной машины? Узнайте, норма это или признак поломки. Разбор причин для разных режи</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

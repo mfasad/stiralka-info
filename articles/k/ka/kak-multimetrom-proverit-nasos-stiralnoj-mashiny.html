@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Проверка насоса стиральной машины мультиметром — Стиралка Инфо</title>
+    <meta name="description" content="Пошаговая инструкция, как прозвонить сливной насос мультиметром. Нормы сопротивления обмотки, поиск обрыва и диагностика неисправностей.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-multimetrom-proverit-nasos-stiralnoj-mashiny.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Проверка насоса стиральной машины мультиметром">
+    <meta property="og:description" content="Пошаговая инструкция, как прозвонить сливной насос мультиметром. Нормы сопротивления обмотки, поиск обрыва и диагностика неисправностей.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Проверка насоса стиральной машины мультиметром</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#подготовка-к-диагностике-и-меры-безопасности">Подготовка к диагностике и меры безопасности</a></li><li><a href="#демонтаж-сливного-насоса-для-проверки">Демонтаж сливного насоса для проверки</a></li><li><a href="#настройка-мультиметра-и-выбор-режима-работы">Настройка мультиметра и выбор режима работы</a></li><li><a href="#проверка-обмотки-двигателя-на-обрыв-и-замыкание">Проверка обмотки двигателя на обрыв и замыкание</a></li><li><a href="#диагностика-платы-управления-и-цепи-питания">Диагностика платы управления и цепи питания</a></li><li><a href="#таблица-типовых-неисправностей-и-симптомов">Таблица типовых неисправностей и симптомов</a></li><li><a href="#механическая-проверка-и-устранение-заклинивания">Механическая проверка и устранение заклинивания</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-otkryvaetsya-stiralnaya-mashina-candy-smart.html">Как открыть стиральную машину Candy Smart: аварийное вскрытие и ремонт</a></li><li><a href="/articles/k/ka/kak-otkryt-verkhnyuyu-kryshku-stiralnoj-mashiny-indezit.html">Как открыть верхнюю крышку стиральной машины Indesit: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-zapustit-servisnyj-test-na-stiralnoj-mashine.html">Как запустить сервисный тест стиральной машины: полная инструкция</a></li><li><a href="/articles/k/ka/kak-zamenit-uplotnitelnoe-koltso-na-stiralnoj-mashine.html">Замена уплотнительной манжеты люка стиральной машины: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-pomenyat-podshipniki-na-stiralnoj-mashine-bosh-maks-7.html">Как поменять подшипники на стиральной машине Bosch Max 7: пошаговая инструкция</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как проверить насос стиральной машины мультиметром</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#подготовка-к-диагностике-и-меры-безопасности">Подготовка к диагностике и меры безопасности</a></li><li><a href="#демонтаж-сливного-насоса-для-проверки">Демонтаж сливного насоса для проверки</a></li><li><a href="#настройка-мультиметра-и-выбор-режима-работы">Настройка мультиметра и выбор режима работы</a></li><li><a href="#проверка-обмотки-двигателя-на-обрыв-и-замыкание">Проверка обмотки двигателя на обрыв и замыкание</a></li><li><a href="#диагностика-платы-управления-и-цепи-питания">Диагностика платы управления и цепи питания</a></li><li><a href="#таблица-типовых-неисправностей-и-симптомов">Таблица типовых неисправностей и симптомов</a></li><li><a href="#механическая-проверка-и-устранение-заклинивания">Механическая проверка и устранение заклинивания</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Ситуация, когда стиральная машина перестает сливать воду, а на дисплее загорается код ошибки, часто указывает на выход из строя сливной помпы. Однако прежде чем покупать новую деталь, необходимо точно диагностировать проблему, так как причиной может быть не только сгоревший двигатель, но и засор или проблема с управляющей платой. Использование <strong>мультиметра</strong> позволяет с высокой точностью определить состояние электрической цепи и принять верное решение о ремонте.</p>
+
+<p>В этой статье мы подробно разберем процесс диагностики, начиная с подготовки инструмента и заканчивая интерпретацией полученных показаний. Вы научитесь отличать механический заклинивающий насос от электрического обрыва или межвиткового замыкания. Грамотная проверка <em>сливного насоса</em> сэкономит ваше время и деньги, исключив покупку ненужных запчастей.</p>
+
+<p>Не стоит игнорировать первые признаки неисправности, такие как гудение без вращения крыльчатки или периодические ошибки слива. Своевременная диагностика помогает предотвратить более серьезные поломки, например, выход из строя модуля управления из-за короткого замыкания в цепи помпы. Давайте разберем, как правильно подойти к этому вопросу.</p>
+
+<h2 id="подготовка-к-диагностике-и-меры-безопасности">Подготовка к диагностике и меры безопасности</h2>
+
+<p>Перед началом любых работ по ремонту бытовой техники необходимо полностью обезопасить себя и оборудование. Первым шагом всегда должно быть <strong>отключение прибора от электросети</strong>. Выдерните вилку из розетки, даже если машина выключена кнопкой, так как на плате управления может оставаться остаточное напряжение, опасное для человека и тестера.</p>
+
+<blockquote>⚠️ Внимание: Никогда не проводите замеры сопротивления или целостности цепи на устройстве, находящемся под напряжением. Это гарантированно приведет к перегоранию предохранителей мультим-етра или выходу из строя самого прибора.</blockquote>
+
+<p>Для проведения качественной диагностики вам понадобится стандартный набор инструментов. Основным инструментом станет цифровой мультиметр, способный измерять сопротивление (Ом) и проверять целостность цепи (прозвонка). Также могут потребоваться плоскогубцы, крестовая отвертка и емкость для слива остатков воды из системы.</p>
+
+<p>Доступ к насосу в разных моделях стиральных машин организован по-разному. В большинстве случаев требуется снять нижнюю декоративную панель или полностью демонтировать переднюю стенку корпуса. Если вы владелец техники <em>Bosch</em> или <em>Siemens</em>, доступ часто осуществляется через лючок снизу, тогда как в машинах <em>LG</em> или <em>Samsung</em> иногда приходится снимать переднюю панель целиком.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Перед снятием насоса обязательно подставьте плоскую емкость под патрубки, так как в системе всегда остается около 200-300 мл воды, которая может вылиться при отсоединении шлангов.</p></aside>
+
+<h2 id="демонтаж-сливного-насоса-для-проверки">Демонтаж сливного насоса для проверки</h2>
+
+<p>Чтобы получить доступ к контактам для замера, насос не всегда нужно полностью снимать с машины, но в большинстве случаев это удобнее и безопаснее. Если конструкция позволяет дотянуться щупами до клеммной колодки без демонтажа — воспользуйтесь этой возможностью. Однако для полной уверенности и исключения влияния внешних факторов лучше извлечь узел.</p>
+
+<p>Процесс демонтажа обычно включает откручивание нескольких винтов, крепящих помпу к корпусу или дну бака. После этого необходимо аккуратно отсоединить электрический разъем. Обратите внимание на состояние контактов: наличие окислов, нагара или оплавлений может свидетельствовать о плохом контакте, который и стал причиной неисправности.</p>
+
+<p>При отсоединении шлангов будьте осторожны, чтобы не повредить хомуты. Старые пластиковые хомуты могут треснуть при сжатии плоског-убцами. Если вы планируете устанавливать насос обратно, убедитесь, что уплотнительные резинки целы и не имеют трещин, иначе после сборки вода будет просачиваться наружу.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Порядок демонтажа насоса</h4><label class="check-item"><input type="checkbox"><span>Отключить машину от сети</span></label><label class="check-item"><input type="checkbox"><span>Снять нижнюю панель или переднюю стенку</span></label><label class="check-item"><input type="checkbox"><span>Слить воду через аварийный фильтр</span></label><label class="check-item"><input type="checkbox"><span>Открутить винты крепления помпы</span></label><label class="check-item"><input type="checkbox"><span>Отсоединить электрический разъем и шланги</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<h2 id="настройка-мультиметра-и-выбор-режима-работы">Настройка мультиметра и выбор режима работы</h2>
+
+<p>Для проверки исправности электродвигателя насоса нам потребуется режим измерения сопротивления, обозначенный на приборе символом <code>Ω</code> (Ом). В зависимости от модели вашего тестера, это может быть отдельный сектор или часть общего переключателя. Если мультиметр не имеет автоматического выбора предела измерений, установите диапазон в 2 кОм (2000 Ом).</p>
+
+<p>Также полезен режим"прозвонки", который обозначается символом динамика или звуковой волны. В этом режиме прибор издает непрерывный писк, если сопротивление цепи близко к нулю. Это удобно для быстрой проверки целостности проводов, но для точной диагностики обмоток двигателя все же лучше использовать режим измерения сопротивления.</p>
+
+<p>Перед началом измерений убедитесь, что щупы исправны. Замкните их между собой: на дисплее должны появиться нули или значение, близкое к нулю (0.01–0.05 Ом), и раздался звуковой сигнал. Если прибор показывает единицу или бесконечность при замкнутых щупах, замените их или проверьте предохранитель внутри мультиметра.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Для точной диагностики двигателя насоса критически важно использовать исправный мультиметр с заряженной батареей, так как севший элемент питания дает большую погрешность при малых сопротивлениях.</p></aside>
+
+<h2 id="проверка-обмотки-двигателя-на-обрыв-и-замыкание">Проверка обмотки двигателя на обрыв и замыкание</h2>
+
+<p>Основная задача на этом этапе — измерить сопротивление обмотки статора двигателя. Подключите щупы мультиметра к контактам разъема насоса. Полярность в данном случае не имеет значения, так как мы измеряем активное сопротивление. Нормальное сопротивление исправного двигателя сливного насоса обычно находится в диапазоне от <strong>150 до 350 Ом</strong>.</p>
+
+<p>Если на дисплее мультиметра отображается единица слева (символ бесконечности или <code>OL</code>), это означает обрыв цепи. Внутри обмотки произошел разрыв провода, и ток через нее не течет. Такой насос восстановлению не подлежит и требует замены. Обрыв часто случается из-за перегрева или механического повреждения.</p>
+
+<p>В противоположном случае, если прибор показывает значения, близкие к нулю (например, 1–10 Ом), это свидетельствует о межвитковом замыкании. Витки обмотки замкнулись между собой, сопротивление упало, и при включении такой двигатель будет потреблять огромный ток, греться и гудеть, но не вращаться.</p>
+
+<details class="pb-accordion"><summary>Почему сопротивление может меняться?</summary><div class="pb-accordion-body"><p>Сопротивление обмотки зависит от температуры. Холодный двигатель может показывать одни значения, а нагретый — другие. Однако критическое отличие от нормы (обрыв или ноль) температурой не объясняется.</p></div></details>
+
+<h2 id="диагностика-платы-управления-и-цепи-питания">Диагностика платы управления и цепи питания</h2>
+
+<p>Если сам насос прозванивается нормально (показывает 150–350 Ом), но не работает, проблема может скрываться в цепи управления. Необходимо проверить, приходит ли напряжение на контакты помпы в момент слива. Для этого машину нужно собрать, включить в сеть и запустить режим слива.</p>
+
+<blockquote>⚠️ Внимание: Измерение напряжения 220В производится на включенном в сеть приборе. Будьте предельно осторожны, не касайтесь оголенных металлических частей щупов и проводов руками во избежание удара током.</blockquote>
+
+<p>Переключите мультиметр в режим измерения переменного напряжения (<code>ACV</code> или <code>V~</code>) с пределом не менее 600В. Аккуратно прикоснитесь щупами к контактам разъема, подключенного к насосу, в момент, когда модуль управления должен подать команду на слив. Если насос исправен, вы должны увидеть напряжение сети (около 220В).</p>
+
+<p>Отсутствие напряжения при исправном насосе указывает на неисправность модуля управления или реле, переключающего режимы работы. Часто сгорают симисторы или дорожки на плате, отвечающие за питание помпы. В этом случае требуется ремонт электронного блока или его замена.</p>
+
+<h2 id="таблица-типовых-неисправностей-и-симптомов">Таблица типовых неисправностей и симптомов</h2>
+
+<p>Для удобства систематизации данных, полученных в ходе диагностики, используйте следующую таблицу. Она поможет быстро сопоставить показания прибора с вероятной причиной поломки.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Показания мультиметра</th>
+<th>Режим измерения</th>
+<th>Вероятная причина</th>
+<th>Действие</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>150–350 Ом</td>
+<td>Сопротивление (Ω)</td>
+<td>Обмотка цела, насос исправен</td>
+<td>Проверить механику и плату</td>
+</tr>
+<tr>
+<td>Бесконечность (1 или OL)</td>
+<td>Сопротивление (Ω)</td>
+<td>Обрыв обмотки двигателя</td>
+<td>Замена насоса</td>
+</tr>
+<tr>
+<td>0–10 Ом</td>
+<td>Сопротивление (Ω)</td>
+<td>Межвитковое замыкание</td>
+<td>Замена насоса</td>
+</tr>
+<tr>
+<td>0 Ом (пищит)</td>
+<td>Прозвонка</td>
+<td>Короткое замыкание в цепи</td>
+<td>Проверить провода и разъем</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Важно учитывать, что некоторые современные насосы могут иметь встроенную электронику или термозащиту, что немного меняет характер сопротивления, но базовые принципы диагностики остаются прежними. Если вы сомневаетесь в показаниях, сравните их с данными заведомо исправного аналога.</p>
+
+<div class="pb-poll" id="poll-4633535c"><div class="pb-poll-question">📊 Что показал ваш мультиметр при проверке?</div><div class="pb-poll-option" data-poll="4633535c" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Норма (150-350 Ом)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="4633535c" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Обрыв (Единица)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="4633535c" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Короткое замыкание (Ноль)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="4633535c" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Не умею пользоваться прибором</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="механическая-проверка-и-устранение-заклинивания">Механическая проверка и устранение заклинивания</h2>
+
+<p>Электрическая исправность двигателя еще не гарантирует его нормальную работу. Часто случается так, что обмотка цела, напряжение приходит, но крыльчатка не вращается. Это может быть вызвано механическим заклиниванием (инородным предметом) или износом втулок.</p>
+
+<p>Попробуйте пальцем или отверткой провернуть крыльчатку насоса. Она должна вращаться с легким усилием и без посторонних звуков. Если крыльчатка стоит намертво или вращается с сильным хрустом, возможно, в канал помпы попал мелкий предмет: косточка от бюгальтера, монета или пуговица.</p>
+
+<p>В некоторых моделях насосов, например <em>Askoll</em> или <em>Plaset</em>, можно открутить улитку и прочистить внутренности, не меняя весь узел. Однако если заклинивание произошло из-за износа подшипников скольжения (втулок), то даже после чистки насос будет работать недолго и может снова выйти из строя.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>При сборке смажьте резиновый уплотнитель вала насоса небольшим количеством силиконовой смазки — это продлит срок службы втулок и снизит уровень шума при работе.</p></aside>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+<summary>Можно ли проверить насос мультиметром без снятия его с машины?</summary>
+<p>Да, во многих моделях доступ к контактам разъема открыт через нижний лючок. Однако для точности измерений лучше отсоединить разъем от насоса, чтобы исключить влияние цепи управления модуля на показания сопротивления.</p>
+</details>
+
+<details>
+<summary>Какое сопротивление считается нормой для насоса стиральной машины?</summary>
+<p>Золотым стандартом для большинства бытовых сливных насосов считается диапазон от 150 до 350 Ом. Значения за пределами этого диапазона (особенно ноль или бесконечность) говорят о неисправности электрической части.</p>
+</details>
+
+<details>
+<summary>Почему насос гудит, но не качает воду?</summary>
+<p>Гудение указывает на то, что электричество к двигателю поступает, и магнитное поле создается. Причиной может быть механический заклинивающий, обломанная крыльчатка или заклинившие подшипники вала.</p>
+</details>
+
+<details>
+<summary>Можно ли отремонтировать сгоревшую обмотку насоса?</summary>
+<p>Теоретически перемотка возможна, но на практике это экономически нецелесообразно. Стоимость нового насоса невысока, а качество заводской намотки и балансировки в кустарных условиях повторить практически невозможно.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-otkryvaetsya-stiralnaya-mashina-candy-smart.html" class="pb-related-card">
+                <span class="pb-related-title">Как открыть стиральную машину Candy Smart: аварийное вскрытие и ремонт</span>
+                <span class="pb-related-desc">Подробная инструкция по аварийному открытию стиральной машины Candy Smart. Методы разблокировки люка</span>
+            </a><a href="/articles/k/ka/kak-otkryt-verkhnyuyu-kryshku-stiralnoj-mashiny-indezit.html" class="pb-related-card">
+                <span class="pb-related-title">Как открыть верхнюю крышку стиральной машины Indesit: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гайд, как снять верхнюю крышку стиральной машины Индезит своими руками. Схема крепежей, ин</span>
+            </a><a href="/articles/k/ka/kak-zapustit-servisnyj-test-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как запустить сервисный тест стиральной машины: полная инструкция</span>
+                <span class="pb-related-desc">Узнайте, как запустить сервисный тест на стиральной машине для диагностики неисправностей. Подробные</span>
+            </a><a href="/articles/k/ka/kak-zamenit-uplotnitelnoe-koltso-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Замена уплотнительной манжеты люка стиральной машины: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид по замене уплотнительного кольца стиральной машины. Разбор типов манжет, алгоритм снят</span>
+            </a><a href="/articles/k/ka/kak-pomenyat-podshipniki-na-stiralnoj-mashine-bosh-maks-7.html" class="pb-related-card">
+                <span class="pb-related-title">Как поменять подшипники на стиральной машине Bosch Max 7: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид по замене подшипников в стиральных машинах Bosch Max 7. Разборка бака, выбор деталей, </span>
+            </a><a href="/articles/k/ka/kak-sbrosit-stiralku-indezit.html" class="pb-related-card">
+                <span class="pb-related-title">Как сбросить стиралку Indesit: 5 способов для всех моделей</span>
+                <span class="pb-related-desc">Пошаговая инструкция по сбросу настроек стиральной машины Indesit: жесткий и мягкий сброс, ошибки, к</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

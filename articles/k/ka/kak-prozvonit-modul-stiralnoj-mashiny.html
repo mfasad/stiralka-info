@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как прозвонить модуль стиральной машины: пошаговая инструкция — Стиралка Инфо</title>
+    <meta name="description" content="Узнайте, как прозвонить модуль стиральной машины мультиметром. Диагностика дорожек, транзисторов и симисторов своими руками с фото и схемами.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-prozvonit-modul-stiralnoj-mashiny.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как прозвонить модуль стиральной машины: пошаговая инструкция">
+    <meta property="og:description" content="Узнайте, как прозвонить модуль стиральной машины мультиметром. Диагностика дорожек, транзисторов и симисторов своими руками с фото и схемами.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как прозвонить модуль стиральной машины: пошаговая инструкция</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#подготовка-к-диагностике-и-меры-безопасности">Подготовка к диагностике и меры безопасности</a></li><li><a href="#извлечение-электронного-модуля-из-корпуса">Извлечение электронного модуля из корпуса</a></li><li><a href="#визуальный-осмотр-печатной-платы">Визуальный осмотр печатной платы</a></li><li><a href="#проверка-силовых-элементов-симисторы-и-реле">Проверка силовых элементов: симисторы и реле</a></li><li><a href="#диагностика-цепей-питания-и-микропроцессора">Диагностика цепей питания и микропроцессора</a></li><li><a href="#типичные-ошибки-при-самостоятельной-проверке">Типичные ошибки при самостоятельной проверке</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-otremontirovat-uplotnitelnuyu-rezinku-na-stiralnoj-mashine.html">Как заменить уплотнительную резинку люка стиральной машины</a></li><li><a href="/articles/k/ka/kak-snyat-podshipnik-s-barabana-stiralnoj-mashiny-lg.html">Как снять подшипник с барабана стиральной машины LG</a></li><li><a href="/articles/k/ka/kak-otkryt-dver-stiralnoj-mashiny-esli-ona-zablokirovalas.html">Как разблокировать дверь стиральной машины: 7 способов без мастера</a></li><li><a href="/articles/k/ka/kak-rabotaet-dver-v-stiralnoj-mashine.html">Как работает дверь стиральной машины: устройство и принцип действия</a></li><li><a href="/articles/k/ka/kak-razblokirovat-bosch-serie-6-stiralnuyu-mashinu.html">Как разблокировать стиральную машину Bosch Serie 6: коды и методы</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Диагностика модуля управления стиральной машины: как прозвонить плату</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#подготовка-к-диагностике-и-меры-безопасности">Подготовка к диагностике и меры безопасности</a></li><li><a href="#извлечение-электронного-модуля-из-корпуса">Извлечение электронного модуля из корпуса</a></li><li><a href="#визуальный-осмотр-печатной-платы">Визуальный осмотр печатной платы</a></li><li><a href="#проверка-силовых-элементов-симисторы-и-реле">Проверка силовых элементов: симисторы и реле</a></li><li><a href="#диагностика-цепей-питания-и-микропроцессора">Диагностика цепей питания и микропроцессора</a></li><li><a href="#типичные-ошибки-при-самостоятельной-проверке">Типичные ошибки при самостоятельной проверке</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Стиральная машина внезапно перестала выполнять команды, мигает индикаторами или вовсе не включается? В большинстве случаев виновником неисправности становится <strong>электронный модуль управления</strong>, который является «мозгом» всей системы. Прежде чем нести технику в сервисный центр или покупать дорогостоящую запчасть, стоит провести самостоятельную диагностику. Это позволит точно определить характер поломки и принять взвешенное решение о ремонте.</p>
+
+<p>Процедура проверки, или в просторечии «прозвонка», требует наличия базовых знаний в электронике и специального инструмента. Вам предстоит проверить целостность электрических цепей, работоспособность силовых элементов и отсутствие коротких замыканий. <em>Мультиметр</em> станет вашим главным помощником в этом процессе, позволяя измерять сопротивление, напряжение и прозванивать проводимость.</p>
+
+<p>Не стоит бояться сложной терминологии, так как алгоритм действий довольно логичен и последователен. Мы разберем, как безопасно извлечь плату, на что обратить внимание при визуальном осмотре и как правильно использовать измерительный прибор для тестирования различных компонентов. Грамотная диагностика сэкономит вам время и деньги, исключив замену исправных деталей.</p>
+
+<h2 id="подготовка-к-диагностике-и-меры-безопасности">Подготовка к диагностике и меры безопасности</h2>
+
+<p>Первым шагом перед началом любых работ является полное отключение стиральной машины от электрической сети. <strong>Безопасность</strong> — это приоритет номер один, так как модуль управления находится под высоким напряжением. Даже после выключения из розетки некоторые конденсаторы могут сохранять заряд, поэтому дайте технике постоять 10-15 минут перед началом разборки.</p>
+
+<p>Для проведения качественной диагностики вам потребуется набор инструментов. Обязательно подготовьте крестовую и шлицевую отвертки для снятия крышек, а также плоскогубцы для работы с хомутами. Основным инструментом станет цифровой <em>мультиметр</em>, переключенный в режим измерения сопротивления или прозвонки.</p>
+
+<blockquote>
+<p>⚠️ Внимание: Работы с электроникой проводите только на сухой поверхности и при хорошем освещении. Влажные руки или мокрый пол могут стать причиной поражения электрическим током даже при низком напряжении в цепях управления.</p>
+</blockquote>
+
+<p>Важно обеспечить удобное рабочее место, где вы сможете разложить детали в порядке их снятия. Это поможет избежать потери винтов и путаницы при обратной сборке. Сфотографируйте расположение всех разъемов и шлейфов перед их отсоединением — это упростит процесс монтажа исправной платы.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Используйте магнитный лоток или приклейте скотчем винты разных размеров к листу бумаги с подписями, чтобы не перепутать крепеж при сборке корпуса.</p></aside>
+
+<h2 id="извлечение-электронного-модуля-из-корпуса">Извлечение электронного модуля из корпуса</h2>
+
+<p>Доступ к плате управления у разных производителей реализован по-разному. У моделей <em>Indesit</em> и <em>Ariston</em> модуль часто расположен в верхней части корпуса под крышкой, тогда как у <em>Bosch</em> и <em>Siemens</em> он может находиться в нижней части фронтальной панели. Вам придется снять верхнюю крышку, открутив два винта сзади, или демонтировать цокольную панель.</p>
+
+<p>После получения доступа к контейнеру с платой, аккуратно отсоедините все подходящие разъемы. <strong>Шлейфы</strong> и клеммники могут быть защелкнуты специальными фиксаторами, которые нужно отгибать осторожно, чтобы не сломать пластик. Запомните или сфотографируйте, какой провод куда подключен, особенно если речь идет о контактах двигателя или ТЭНа.</p>
+
+<ul>
+<li>🔌 Отсоедините основной сетевой кабель и заземление.</li>
+<li>📸 Сделайте фото подключения всех шлейфов перед снятием.</li>
+<li>🔧 Открутите винты крепления пластикового короба модуля.</li>
+<li>💧 Проверьте контейнер на наличие следов влаги или коррозии.</li>
+</ul>
+
+<p>Сам модуль обычно крепится на защелках или винтах внутри пластикового бокса. Аккуратно разомкните корпус, стараясь не повредить пластиковые фиксаторы, которые со временем становятся хрупкими. Если плата залита компаундом (защитным лаком), диагностика может быть затруднена, и потребуется частичное удаление покрытия.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Алгоритм снятия модуля</h4><label class="check-item"><input type="checkbox"><span>Отключить от сети</span></label><label class="check-item"><input type="checkbox"><span>Снять верхнюю крышку</span></label><label class="check-item"><input type="checkbox"><span>Отсоединить все разъемы</span></label><label class="check-item"><input type="checkbox"><span>Открутить крепления бокса</span></label><label class="check-item"><input type="checkbox"><span>Извлечь плату</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<h2 id="визуальный-осмотр-печатной-платы">Визуальный осмотр печатной платы</h2>
+
+<p>Прежде чем брать в руки мультиметр, проведите тщательный визуальный осмотр печатной платы. Часто причины неисправности видны невооруженным глазом. Ищите следы <strong>копоти</strong>, почерневшие участки текстолита или вздувшиеся конденсаторы. Любое изменение цвета элемента свидетельствует о его перегреве и вероятном выходе из строя.</p>
+
+<p>Обратите особое внимание на дорожки и места пайки. Микротрещины в пайке ножек мощных элементов — частая причина нестабильной работы стиральной машины. Вибрация при отжиме со временем нарушает контакт, что приводит к искрению и прогарам. Также проверьте наличие окислов, особенно если машина стояла во влажном помещении.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Элемент</th>
+<th>Признак неисправности</th>
+<th>Вероятная причина</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Конденсатор</td>
+<td>Вздутие, подтек электролита</td>
+<td>Скачки напряжения, перегрев</td>
+</tr>
+<tr>
+<td>Резистор</td>
+<td>Потемнение, обрыв</td>
+<td>Короткое замыкание в цепи</td>
+</tr>
+<tr>
+<td>Дорожка</td>
+<td>Разрыв, почернение</td>
+<td>Механическое повреждение, ток КЗ</td>
+</tr>
+<tr>
+<td>Симистор</td>
+<td>Трещина корпуса, запах гари</td>
+<td>Перегрузка по току</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Если визуально дефектов не найдено, это не означает исправность модуля. Скрытые неисправности, такие как пробой полупроводников или нарушение внутренних связей в микросхемах, можно выявить только прибором. Однако наличие явных следов горения часто делает дальнейшую диагностику бессмысленной — такой модуль проще заменить или отдать в профессиональный ремонт.</p>
+
+<details class="pb-accordion"><summary>Что делать, если дорожки сгорели?</summary><div class="pb-accordion-body"><p>Восстановление сгоревших дорожек возможно при наличии навыков пайки. Зачищают поврежденный участок, лудят его и напаивают медный проводок, восстанавливая электрическую связь. Однако это временное решение, если не устранена причина перегрузки.</p></div></details>
+
+<h2 id="проверка-силовых-элементов-симисторы-и-реле">Проверка силовых элементов: симисторы и реле</h2>
+
+<p>Основную нагрузку в стиральной машине несут силовые элементы: симисторы управления двигателем и ТЭНом, а также реле. Именно они чаще всего выходят из строя. Для проверки симистора необходимо переключить мультиметр в режим <strong>прозвонки диодов</strong> или измерения сопротивления.</p>
+
+<p>Прозвоните выводы симистора. В исправном состоянии сопротивление между управляющим электродом и катодом должно быть отличным от нуля и бесконечности (зависит от типа симистора), а между анодом и катодом — стремиться к бесконечности в обоих направлениях. Если прибор показывает ноль (короткое замыкание) или постоянный писк, элемент <em>пробит</em>.</p>
+
+<blockquote>
+<p>⚠️ Внимание: При проверке силовых ключей обязательно выпаивайте их из платы или отключайте одну из ножек. Иначе вы можете получить ложные показания из-за влияния других элементов схемы.</p>
+</blockquote>
+
+<p>Реле проверяется проще: прозванивается катушка управления (должно быть сопротивление в сотни Ом) и контакты (в спокойном состоянии разомкнуты или замкнуты в зависимости от типа). При подаче напряжения на катушку (вне платы) должен быть слышен щелчок, и контакты должны менять свое состояние. Отсутствие щелчка или залипание контактов говорит о неисправности реле.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Пробой симистора часто приводит к тому, что ТЭН греет постоянно или двигатель крутится без остановки, даже если машина выключена из сети (пока вилка в розетке).</p></aside>
+
+<h2 id="диагностика-цепей-питания-и-микропроцессора">Диагностика цепей питания и микропроцессора</h2>
+
+<p>Если силовая часть цела, проблема может крыться в цепях питания самого процессора. Модулю необходимы стабильные напряжения, обычно 5В и 12В, которые формируются блоком питания платы. Проверьте наличие этих напряжений на соответствующих выводах при подключении модуля к сети (соблюдая крайнюю осторожность!).</p>
+
+<p>В цепях питания часто стоят <strong>стабилитроны</em> и маломощные транзисторы. Их также необходимо прозвонить. Пробой стабилитрона в цепи 5 вольт приведет к тому, что процессор не запустится, и машина не будет реагировать на кнопки. Также проверьте целостность предохранителя, если он есть на плате.</p>
+
+<p>Микропроцессор (большая черная микросхема) в домашних условиях прозвонить практически невозможно. О его неисправности можно судить косвенно: если питания на входе есть, силовые элементы исправны, но машина не подает признаков жизни или выдает хаотичные ошибки, скорее всего, сгорел <em>CPU</em> или память.</p>
+
+<ul>
+<li>🔋 Проверьте входное напряжение на плату (220В).</li>
+<li>⚡ Измерьте выходные напряжения блока питания (5В, 12В).</li>
+<li>🛡️ Прозвоните защитные диоды и стабилитроны в цепях питания.</li>
+<li>🧠 Оцените состояние кварцевого генератора (редко, но бывает).</li>
+</ul>
+
+<div class="pb-poll" id="poll-7d5b2534"><div class="pb-poll-question">📊 С какой проблемой вы столкнулись чаще всего?</div><div class="pb-poll-option" data-poll="7d5b2534" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Машина не включается</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="7d5b2534" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Горит ошибка</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="7d5b2534" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Не греет воду</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="7d5b2534" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Не крутит барабан</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="7d5b2534" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Шумит при работе</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="типичные-ошибки-при-самостоятельной-проверке">Типичные ошибки при самостоятельной проверке</h2>
+
+<p>Новички часто допускают ошибки, которые могут усугубить ситуацию. Одна из самых распространенных — попытка прозвонить элементы, не отключив модуль от остальной периферии машины. Двигатель, насосы и датчики могут шунтировать цепь, давая ложные показания сопротивления.</p>
+
+<p>Другая ошибка — использование неправильного режима мультиметра. Попытка измерить сопротивление на цепи под напряжением гарантированно выведет прибор из строя. Всегда убеждайтесь, что щупы подключены к правильным гнездам, а переключатель стоит в нужном положении.</p>
+
+<p>Не стоит игнорировать состояние разъемов. Окисленные контакты могут создавать высокое переходное сопротивление, которое воспринимается как обрыв или неисправность датчика. Зачистка контактов спиртом и контактной чистящей жидкостью часто решает проблему без замены деталей.</p>
+
+<blockquote>
+<p>⚠️ Внимание: Не используйте для чистки платы агрессивные растворители или воду. Это может повредить маркировку элементов и смыть защитное покрытие, что приведет к коррозии в будущем.</p>
+</blockquote>
+
+<p>Если после замены сгоревших деталей модуль снова выходит из строя, значит, причина не в самом модуле. Проверьте двигатель на межвитковое замыкание, ТЭН на пробой на корпус и проводку на предмет перетирания. Пока не устранена внешняя причина, установка нового модуля приведет лишь к повторению поломки.</p>
+
+<details class="pb-accordion"><summary>Можно ли восстановить модуль самостоятельно?</summary><div class="pb-accordion-body"><p>Замена симисторов, реле и конденсаторов доступна человеку с паяльником. Ремонт цепей процессора или перепрошивка требуют профессионального оборудования и знаний, здесь лучше обратиться к специалистам.</p></div></details>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+
+<details>
+<summary>Можно ли прозвонить модуль, не снимая его с машины?</summary>
+<p>Теоретически можно проверить некоторые цепи, но это крайне неудобно и опасно. Вы не сможете полноценно осмотреть плату, есть риск короткого замыкания щупами о металлический корпус, а показания будут искажены подключенными узлами машины.</p>
+</details>
+
+<details>
+<summary>Что означает, если мультиметр пищит при прозвонке симистора?</summary>
+<p>Писк в режиме прозвонки обычно означает, что сопротивление близко к нулю, то есть произошло короткое замыкание. Симистор «пробит» и требует замены. Также обязательно проверьте элементы, связанные с ним.</p>
+</details>
+
+<details>
+<summary>Как понять, сгорел процессор или нет?</summary>
+<p>Точно определить это прозвонкой нельзя. Если на плату приходит питание, она не греется в районе процессора, но машина не реагирует ни на что, и при этом заменены все внешние силовые элементы — высока вероятность смерти процессора.</p>
+</details>
+
+<details>
+<summary>Нужно ли смазывать контакты модуля после чистки?</summary>
+<p>Использовать обычную смазку (литол, солидол) нельзя. Для защиты контактов применяют специальные спреи-диэлектрики или контактные смазки, которые не проводят ток и не высыхают со временем.</p>
+</details>
+
+<details>
+<summary>Почему сгорает модуль?</summary>
+<p>Основные причины: скачки напряжения в сети, попадание воды внутрь корпуса машины, износ изоляции двигателя (пробой на корпус), старение элементов или заводской брак.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-otremontirovat-uplotnitelnuyu-rezinku-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как заменить уплотнительную резинку люка стиральной машины</span>
+                <span class="pb-related-desc">Подробная инструкция: как снять и установить манжету люка стиральной машины. Советы по выбору гермет</span>
+            </a><a href="/articles/k/ka/kak-snyat-podshipnik-s-barabana-stiralnoj-mashiny-lg.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять подшипник с барабана стиральной машины LG</span>
+                <span class="pb-related-desc">Подробная инструкция по снятию подшипника с бака стиральной машины LG. Разборка, выбор инструмента и</span>
+            </a><a href="/articles/k/ka/kak-otkryt-dver-stiralnoj-mashiny-esli-ona-zablokirovalas.html" class="pb-related-card">
+                <span class="pb-related-title">Как разблокировать дверь стиральной машины: 7 способов без мастера</span>
+                <span class="pb-related-desc">Дверь стиральной машины не открывается? Узнайте причины блокировки и пошаговые инструкции по разблок</span>
+            </a><a href="/articles/k/ka/kak-rabotaet-dver-v-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как работает дверь стиральной машины: устройство и принцип действия</span>
+                <span class="pb-related-desc">Подробный разбор механизма блокировки люка стиральной машины: от электромагнита до УБЛ. Причины неис</span>
+            </a><a href="/articles/k/ka/kak-razblokirovat-bosch-serie-6-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Как разблокировать стиральную машину Bosch Serie 6: коды и методы</span>
+                <span class="pb-related-desc">Подробная инструкция: как снять блокировку с Bosch Serie 6. Устранение защиты от детей, расшифровка </span>
+            </a><a href="/articles/k/ka/kakoj-kondensator-na-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Конденсатор для стиральной машины: как выбрать и заменить</span>
+                <span class="pb-related-desc">Какой конденсатор нужен для стиральной машины? Типы, параметры, признаки неисправности и пошаговый р</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

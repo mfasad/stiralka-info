@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как проверить датчик температуры стиральной машины мультиметром — Стиралка Инфо</title>
+    <meta name="description" content="Пошаговая инструкция по диагностике термистора (NTC-датчика) стиральной машины с помощью мультиметра. Схемы, нормативы сопротивления и типичные ошибки.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/d/da/datchik-temperatury-stiralnoj-mashiny-kak-proverit-multimetrom.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как проверить датчик температуры стиральной машины мультиметром">
+    <meta property="og:description" content="Пошаговая инструкция по диагностике термистора (NTC-датчика) стиральной машины с помощью мультиметра. Схемы, нормативы сопротивления и типичные ошибки.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как проверить датчик температуры стиральной машины мультиметром</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#где-находится-датчик-температуры-в-стиральной-машине">Где находится датчик температуры в стиральной машине</a></li><li><a href="#какой-мультиметр-нужен-для-проверки">Какой мультиметр нужен для проверки</a></li><li><a href="#пошаговая-инструкция-как-проверить-датчик-температуры">Пошаговая инструкция: как проверить датчик температуры</a></li><li><a href="#типичные-ошибки-при-проверке-датчика">Типичные ошибки при проверке датчика</a></li><li><a href="#как-заменить-датчик-температуры-самостоятельно">Как заменить датчик температуры самостоятельно</a></li><li><a href="#частые-вопросы-о-датчиках-температуры">Частые вопросы о датчиках температуры</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-snyat-blok-upravleniya-stiralnoj-mashiny-ariston.html">Как снять блок управления стиральной машины Аристон: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-snyat-klapan-na-stiralnoj-mashine-indezit.html">Как снять клапан на стиральной машине Indesit: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kakoj-storonoj-stavit-shchetki-v-stiralnoj-mashine.html">Какой стороной ставить щетки в стиральной машине: инструкция</a></li><li><a href="/articles/k/ka/kak-otkryt-lyuk-stiralnoj-mashiny-khotpoint-ariston.html">Как открыть люк стиральной машины Hotpoint Ariston: инструкция</a></li><li><a href="/articles/g/gd/gde-nakhoditsya-predokhranitel-na-stiralnoj-mashine-beko.html">Где находится предохранитель на стиральной машине Beko: поиск и замена</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Проверка датчика температуры стиральной машины мультиметром: инструкция с фото и видео</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#где-находится-датчик-температуры-в-стиральной-машине">Где находится датчик температуры в стиральной машине</a></li><li><a href="#какой-мультиметр-нужен-для-проверки">Какой мультиметр нужен для проверки</a></li><li><a href="#пошаговая-инструкция-как-проверить-датчик-температуры">Пошаговая инструкция: как проверить датчик температуры</a></li><li><a href="#типичные-ошибки-при-проверке-датчика">Типичные ошибки при проверке датчика</a></li><li><a href="#как-заменить-датчик-температуры-самостоятельно">Как заменить датчик температуры самостоятельно</a></li><li><a href="#частые-вопросы-о-датчиках-температуры">Частые вопросы о датчиках температуры</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body"><p>Датчик температуры (термистор или NTC-сенсор) — критически важный элемент стиральной машины, отвечающий за контроль нагрева воды. Если он выходит из строя, техника начинает «глючить»: вода не греется, стирка прерывается с ошибкой, или наоборот — перегревается до кипения, повреждая ткани. Проверка датчика мультиметром занимает 10–15 минут и не требует профессиональных навыков, но экономит сотни рублей на выезде мастера.</p>
+
+<p>В этой статье — <strong>подробный разбор</strong> всех этапов диагностики: от поиска датчика в конкретной модели (<em>Samsung</em>, <em>LG</em>, <em>Indesit</em>, <em>Bosch</em>) до расшифровки показаний мультиметра. Мы разберём <mark>уникальные «подводные камни»</mark>, о которых не пишут в стандартных инструкциях — например, почему сопротивление датчика может «плавать» даже у исправного термистора, и как отличить неисправность сенсора от проблем с ТЭНом или модулем управления.</p>
+
+<h2 id="где-находится-датчик-температуры-в-стиральной-машине">Где находится датчик температуры в стиральной машине</h2>
+
+<p>Локация термистора зависит от конструкции машины. В 90% случаев он встроен непосредственно в <strong>нагревательный элемент (ТЭН)</strong> — маленький пластиковый или металлический цилиндр с двумя проводами, торчащий из корпуса нагревателя. Реже датчик вынесен отдельно и крепится к баку или патрубку.</p>
+
+<p>Как найти:
+<ol>
+  <li><strong>Отключите машину</strong> от сети и слейте воду через аварийный шланг (обычно внизу за лючком).</li>
+  <li>Снимите заднюю крышку (у большинства моделей) или переднюю панель (у машин с вертикальной загрузкой).</li>
+  <li>ТЭН расположен в нижней части бака. Датчик температуры — это деталь с <code>двумя контактами</code>, подключённая к нему.</li>
+</ol>
+</p>
+
+<div class="pb-poll" id="poll-30188008"><div class="pb-poll-question">📊 Какой у вас тип загрузки стиральной машины?</div><div class="pb-poll-option" data-poll="30188008" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Фронтальная</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="30188008" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Вертикальная</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="30188008" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Не знаю</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<p>В машинах <em>Samsung</em> и <em>LG</em> датчик часто спрятан под пластиковой крышкой на лицевой стороне ТЭНа, а в <em>Indesit</em> и <em>Ariston</em> — вынесен на патрубок. У <em>Bosch</em> и <em>Siemens</em> термистор может быть интегрирован в блок управления — в этом случае для проверки потребуется разбирать панель.</p>
+
+<blockquote>⚠️ Внимание: В машинах с <strong>прямым приводом</strong> (например, <em>LG Direct Drive</em>) датчик часто крепится к баку болтом. Не пытайтесь его выкручивать без ключа — рискуете сорвать резьбу.</blockquote>
+
+<h2 id="какой-мультиметр-нужен-для-проверки">Какой мультиметр нужен для проверки</h2>
+
+<p>Подойдёт любой цифровой мультиметр с функцией измерения сопротивления (омметр). Минимальные требования:</p>
+<ul>
+  <li>🔹 Диапазон измерения сопротивления: <code>0–200 кОм</code> (оптимально <code>0–1 МОм</code>).</li>
+  <li>🔹 Точность: ±2% или лучше. Дешёвые модели с погрешностью ±5% могут давать ложные результаты.</li>
+  <li>🔹 Функция «прозвонки» (не обязательна, но упрощает проверку цепи).</li>
+  <li>🔹 Щупы с тонкими наконечниками — для удобного подключения к контактам датчика.</li>
+</ul>
+
+<p>Если у вас аналоговый мультиметр (со стрелкой), проверка возможна, но менее точна из-за инерционности стрелочного механизма. Для <strong>NTC-датчиков</strong> (их большинство в стиральных машинах) критично измерять сопротивление с точностью до десятков ом — аналоговые приборы здесь проигрывают.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Перед проверкой прогрейте мультиметр 5–10 минут в комнате. Резкие перепады температуры (например, если прибор принесли с холода) искажают показания на 5–15%.</p></aside>
+
+<h2 id="пошаговая-инструкция-как-проверить-датчик-температуры">Пошаговая инструкция: как проверить датчик температуры</h2>
+
+<p>Алгоритм проверки одинаков для всех марок стиральных машин, но есть нюансы для конкретных моделей (см. таблицу ниже). Общая схема:</p>
+
+
+<p>Отключить машину от розетки</p>
+<p>Слить остатки воды</p>
+<p>Снять крышку и получить доступ к ТЭНу</p>
+<p>Отсоединить клеммы от датчика (запомнить их расположение!)</p>
+<p>Визуально осмотреть датчик на повреждения--></p>
+
+<h3>1. Визуальный осмотр</h3>
+<p>Перед тем как хвататься за мультиметр, осмотрите датчик:</p>
+<ul>
+  <li>🔍 <strong>Трещины или оплавления</strong> на корпусе — признак перегрева. Такой датчик подлежит замене.</li>
+  <li>🔍 <strong>Окисление контактов</strong> — очистите их спиртом или ластиком. Окислы искажают показания.</li>
+  <li>🔍 <strong>Обрывы проводов</strong> — часто перетираются о корпус машины. Проверьте цепь от датчика до модуля управления.</li>
+</ul>
+
+<h3>2. Измерение сопротивления</h3>
+<p>NTC-датчик (самый распространённый тип) меняет сопротивление в зависимости от температуры. При комнатной температуре (<code>+20…25°C</code>) его сопротивление должно быть в пределах <code>4–7 кОм</code> (точные значения см. в таблице ниже).</p>
+
+<p>Как измерить:
+<ol>
+  <li>Переведите мультиметр в режим омметра (<code>20 кОм</code> или <code>200 кОм</code>).</li>
+  <li>Подключите щупы к контактам датчика (полярность не важна).</li>
+  <li>Запишите показания.</li>
+  <li>Нагрейте датчик (например, подержав в горячей воде <code>+50…60°C</code>) и повторно измерьте сопротивление. Оно должно <strong>уменьшиться</strong> в 2–4 раза.</li>
+</ol>
+</p>
+
+<details class="pb-accordion"><summary>Что если сопротивление не меняется?</summary><div class="pb-accordion-body"><p>
+<p>Если показания остаются статичными при нагреве, датчик неисправен (обрыв или короткое замыкание). Также проверьте цепь от датчика до модуля управления — возможно, проблема в проводах или разъёмах.</p></div></details></p>
+
+<div class="pb-table-wrap"><table>
+  <thead>
+    <tr>
+      <th>Марка машины</th>
+      <th>Тип датчика</th>
+      <th>Сопротивление при +20°C (кОм)</th>
+      <th>Сопротивление при +60°C (кОм)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Samsung</em>, <em>LG</em></td>
+      <td>NTC 10кОм</td>
+      <td>5.5–6.5</td>
+      <td>1.2–1.8</td>
+    </tr>
+    <tr>
+      <td><em>Indesit</em>, <em>Ariston</em></td>
+      <td>NTC 6кОм</td>
+      <td>4.0–5.0</td>
+      <td>0.8–1.2</td>
+    </tr>
+    <tr>
+      <td><em>Bosch</em>, <em>Siemens</em></td>
+      <td>NTC или PTC*</td>
+      <td>4.5–7.0</td>
+      <td>0.9–1.5 (для NTC)</td>
+    </tr>
+    <tr>
+      <td><em>Electrolux</em>, <em>Zanussi</em></td>
+      <td>NTC 5кОм</td>
+      <td>4.5–5.5</td>
+      <td>1.0–1.4</td>
+    </tr>
+  </tbody>
+</table></div>
+<p>* В машинах <em>Bosch/Siemens</em> встречаются PTC-датчики (с положительным температурным коэффициентом). Их сопротивление <strong>увеличивается</strong> при нагреве. Если мультиметр показывает рост значений — это нормально для PTC.</p>
+
+<h3>3. Проверка цепи</h3>
+<p>Если датчик исправен, но машина выдаёт ошибку (например, <code>E05</code> в <em>Indesit</em> или <code>HE</code> в <em>Samsung</em>), проблема может быть в обрыве проводов или окисленных контактах модуля управления. Как проверить:</p>
+<ul>
+  <li>🔧 Отсоедините разъём датчика от платы управления.</li>
+  <li>🔧 Переведите мультиметр в режим «прозвонки» (<code>→|</code>).</li>
+  <li>🔧 Подключите щупы к контактам разъёма на плате. Сопротивление должно быть <code>0–1 Ом</code> (цепь замкнута).</li>
+</ul>
+
+<blockquote>⚠️ Внимание: В машинах с <strong>инверторным управлением</strong> (например, <em>LG AI DD</em>) модуль может блокировать цепь датчика при отключённом питании. В этом случае проверяйте сопротивление непосредственно на контактах термистора, не отсоединяя его от платы.</blockquote>
+
+<h2 id="типичные-ошибки-при-проверке-датчика">Типичные ошибки при проверке датчика</h2>
+
+<p>Даже опытные мастера иногда допускают ошибки, которые ведут к ложным выводам. Вот самые распространённые:</p>
+<ul>
+  <li>🔴 <strong>Игнорирование температуры окружения</strong>. Сопротивление NTC-датчика зависит от комнатной температуры. Если в помещении <code>+15°C</code>, а вы сравниваете с таблицей для <code>+20°C</code>, показания будут завышены.</li>
+  <li>🔴 <strong>Проверка «на весу»</strong>. Держа датчик в руках, вы нагреваете его телом — сопротивление падает, и неисправность можно пропустить. Используйте термометр или мультиметр с функцией измерения температуры.</li>
+  <li>🔴 <strong>Неправильный диапазон мультиметра</strong>. Если выставить предел <code>200 Ом</code> вместо <code>20 кОм</code>, прибор покажет <code>1</code> (перегрузка), и вы решите, что датчик в обрыве.</li>
+  <li>🔴 <strong>Путаница с PTC и NTC</strong>. В внешне одинаковых датчиках разная логика работы. Если не знаете тип — нагрейте сенсор и следите за динамикой сопротивления.</li>
+</ul>
+
+<p>Ещё одна распространённая ошибка — <strong>диагностика датчика без проверки ТЭНа</strong>. Если нагревательный элемент сгорел или покрыт накипью, он может не нагревать воду, и машина будет «думать», что проблема в термисторе. Всегда проверяйте <code>сопротивление ТЭНа</code> (должно быть <code>20–40 Ом</code>) и <code>пробой на корпус</code> (сопротивление между контактами ТЭНа и корпусом машины должно быть <code>∞</code>).</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если датчик исправен, но машина не греет воду — в 80% случаев виноват ТЭН или реле на модуле управления. Проверьте их перед заменой термистора.</p></aside>
+
+<h2 id="как-заменить-датчик-температуры-самостоятельно">Как заменить датчик температуры самостоятельно</h2>
+
+<p>Если проверка подтвердила неисправность, датчик нужно заменить. Стоимость нового термистора — от 300 до 1 500 рублей в зависимости от модели. Для замены понадобятся:</p>
+<ul>
+  <li>🛠️ Отвёртка (крестовая или торкс — зависит от машины).</li>
+  <li>🛠️ Плоскогубцы или пинцет для съёма клемм.</li>
+  <li>🛠️ Термоусадочная трубка или изолента (для изоляции контактов).</li>
+  <li>🛠️ Силиконовая смазка (для уплотнительного кольца, если датчик встроен в ТЭН).</li>
+</ul>
+
+<p>Пошаговая замена:</p>
+<ol>
+  <li>Отключите машину от сети и слейте воду.</li>
+  <li>Снимите крышку и отсоедините клеммы от датчика (сфотографируйте их расположение!).</li>
+  <li>Если датчик встроен в ТЭН:
+    <ul>
+      <li>Открутите гайку крепления ТЭНа (обычно на 8 или 10 мм).</li>
+      <li>Аккуратно подденьте ТЭН отвёрткой и вытащите его вместе с датчиком.</li>
+      <li>Отпаяйте или отрежьте провода старого датчика, подключите новый.</li>
+    </ol>
+  </li>
+  <li>Если датчик отдельный — выкрутите его из посадочного места (иногда требуется ключ на 19 или 22 мм).</li>
+  <li>Установите новый датчик, подключите клеммы и соберите машину в обратном порядке.</li>
+</ul>
+
+<blockquote>⚠️ Внимание: В машинах <em>Bosch</em> и <em>Siemens</em> с системой <em>EcoSilence Drive</em> датчик температуры может быть спарен с датчиком уровня воды. При замене берите оригинальную деталь — аналоги часто несовместимы с электронным модулем.</blockquote>
+
+<p>После замены запустите тестовую стирку на <code>60°C</code> и проверьте:</p>
+<ul>
+  <li>🔹 Вода нагревается до заданной температуры (потрогайте стекло люка через 15 минут после старта).</li>
+  <li>🔹 Нет ошибок на дисплее (например, <code>F05</code> в <em>Indesit</em> или <code>4E</code> в <em>Samsung</em>).</li>
+  <li>🔹 Машина корректно переходит к полосканию (не «зависает» на нагреве).</li>
+</ul>
+
+<h2 id="частые-вопросы-о-датчиках-температуры">Частые вопросы о датчиках температуры</h2>
+
+<details>
+  <summary>Можно ли стирать с неисправным датчиком температуры?</summary>
+  <p>Технически да, но <strong>крайне не рекомендуется</strong>. Без корректных данных о температуре вода может:</p>
+  <ul>
+    <li>🔥 Перегреваться до <code>80–90°C</code>, портя ткани и уплотнители.</li>
+    <li>❄️ Оставаться холодной, из-за чего порошок не растворится, а бельё не отстирается.</li>
+    <li>💥 Привести к срабатыванию защиты и поломке ТЭНа или модуля управления.</li>
+  </ul>
+  <p>Временное решение — стирать в режиме <code>Холодная вода</code> (если он есть), но лучше сразу заменить датчик.</p>
+</details>
+
+<details>
+  <summary>Как отличить неисправность датчика от проблемы с ТЭНом?</summary>
+  <p>Проведите <strong>3 теста</strong>:</p>
+  <ol>
+    <li><strong>Проверьте ТЭН</strong>: сопротивление между его контактами должно быть <code>20–40 Ом</code>, а между контактами и корпусом — <code>∞</code> (нет пробоя).</li>
+    <li><strong>Проверьте датчик</strong> по инструкции выше.</li>
+    <li><strong>Запустите стирку на 90°C</strong> и потрогайте стекло люка через 20 минут:
+      <ul>
+        <li>Если стекло холодное — неисправен <strong>ТЭН</strong> или реле на модуле.</li>
+        <li>Если стекло горячее, но машина выдаёт ошибку — проблема в <strong>датчике</strong> или цепи.</li>
+      </ol>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary>Какое сопротивление должно быть у исправного датчика при 90°C?</summary>
+  <p>Для большинства NTC-датчиков сопротивление при <code>90°C</code> падает до <code>300–800 Ом</code>. Точные значения:</p>
+  <div class="pb-table-wrap"><table>
+    <thead>
+      <tr>
+        <th>Марка</th>
+        <th>Сопротивление при 90°C (Ом)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><em>Samsung</em>, <em>LG</em></td><td>400–600</td></tr>
+      <tr><td><em>Indesit</em>, <em>Ariston</em></td><td>300–500</td></tr>
+      <tr><td><em>Bosch</em>, <em>Siemens</em></td><td>500–800</td></tr>
+    </tbody>
+  </table></div>
+  <p>Если сопротивление выше <code>1 кОм</code> — датчик неисправен или недогрет.</p>
+</details>
+
+<details>
+  <summary>Можно ли почистить датчик температуры, если он загрязнён накипью?</summary>
+  <p>Да, но <strong>только механически</strong>:</p>
+  <ul>
+    <li>🧹 Аккуратно удалите накипь <strong>мягкой щёткой</strong> или ватной палочкой, смоченной в уксусе.</li>
+    <li>🚫 Не используйте абразивы (наждачку, нож) — повредите корпус.</li>
+    <li>🚫 Не макайте датчик в лимонную кислоту — она может разрушить герметик.</li>
+  </ul>
+  <p>После очистки проверьте сопротивление. Если оно не нормализовалось — датчик под замену.</p>
+</details>
+
+<details>
+  <summary>Где купить новый датчик температуры для стиральной машины?</summary>
+  <p>Оригинальные датчики продаются:</p>
+  <ul>
+    <li>🛒 В сервисных центрах бренда (самый надёжный вариант, но дорогой).</li>
+    <li>🛒 На <em>AliExpress</em> или <em>eBay</em> — дешевле, но риск нарваться на подделку. Ищите продавцов с рейтингом выше 98%.</li>
+    <li>🛒 В магазинах запчастей (например, <em>220 Volt</em>, <em>М-Видео</em>, <em>Эльдорадо</em>). Просите сертификат совместимости.</li>
+  </ul>
+  <p>При покупке уточните:
+  <ul>
+    <li>🔹 Точную модель стиральной машины.</li>
+    <li>🔹 Тип датчика (NTC/PTC) и номинальное сопротивление.</li>
+    <li>🔹 Способ крепления (встроенный в ТЭН, на болтах, на защёлках).</li>
+  </ul>
+  </p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-snyat-blok-upravleniya-stiralnoj-mashiny-ariston.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять блок управления стиральной машины Аристон: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид по демонтажу модуля управления стиральной машины Ariston. Разборка корпуса, отключение</span>
+            </a><a href="/articles/k/ka/kak-snyat-klapan-na-stiralnoj-mashine-indezit.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять клапан на стиральной машине Indesit: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид по замене электромагнитного клапана Indesit. Симптомы поломки, коды ошибок, демонтаж и</span>
+            </a><a href="/articles/k/ka/kakoj-storonoj-stavit-shchetki-v-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Какой стороной ставить щетки в стиральной машине: инструкция</span>
+                <span class="pb-related-desc">Подробный гид по установке щеток двигателя стиральной машины. Узнайте, какой стороной ставить графит</span>
+            </a><a href="/articles/k/ka/kak-otkryt-lyuk-stiralnoj-mashiny-khotpoint-ariston.html" class="pb-related-card">
+                <span class="pb-related-title">Как открыть люк стиральной машины Hotpoint Ariston: инструкция</span>
+                <span class="pb-related-desc">Подробное руководство, как разблокировать дверцу Hotpoint Ariston. Методы аварийного открытия, сняти</span>
+            </a><a href="/articles/g/gd/gde-nakhoditsya-predokhranitel-na-stiralnoj-mashine-beko.html" class="pb-related-card">
+                <span class="pb-related-title">Где находится предохранитель на стиральной машине Beko: поиск и замена</span>
+                <span class="pb-related-desc">Подробная инструкция по поиску сетевого предохранителя в стиральных машинах Беко. Схема расположения</span>
+            </a><a href="/articles/k/ka/kak-razobrat-stiralnuyu-mashinu-elektrolyuks.html" class="pb-related-card">
+                <span class="pb-related-title">Как разобрать стиральную машину Electrolux: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство, как разобрать стиральную машину Электролюкс своими руками. Снятие бака, ТЭНа,</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

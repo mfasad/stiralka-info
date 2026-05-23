@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как работает замок стиральной машины Bosch: устройство и ремонт — Стиралка Инфо</title>
+    <meta name="description" content="Подробное руководство по принципу работы замка люка стиральной машины Bosch: схемы, типичные неисправности, диагностика и пошаговый ремонт своими руками.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-rabotaet-zamok-stiralnoj-mashiny-bosh.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как работает замок стиральной машины Bosch: устройство и ремонт">
+    <meta property="og:description" content="Подробное руководство по принципу работы замка люка стиральной машины Bosch: схемы, типичные неисправности, диагностика и пошаговый ремонт своими руками.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как работает замок стиральной машины Bosch: устройство и ремонт</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#устройство-замка-стиральной-машины-bosch-из-чего-состоит-ubl">Устройство замка стиральной машины Bosch: из чего состоит UBL</a></li><li><a href="#принцип-работы-замка-от-закрытия-дверцы-до-разблокировки">Принцип работы замка: от закрытия дверцы до разблокировки</a></li><li><a href="#типичные-неисправности-замка-bosch-симптомы-и-причины">Типичные неисправности замка Bosch: симптомы и причины</a></li><li><a href="#как-проверить-замок-стиральной-машины-bosch-мультиметром">Как проверить замок стиральной машины Bosch мультиметром</a></li><li><a href="#пошаговая-замена-замка-стиральной-машины-bosch-своими-руками">Пошаговая замена замка стиральной машины Bosch своими руками</a></li><li><a href="#частые-ошибки-при-ремонте-замка-и-как-их-избежать">Частые ошибки при ремонте замка и как их избежать</a></li><li><a href="#сервисные-коды-и-сброс-ошибок-блокировки">Сервисные коды и сброс ошибок блокировки</a></li><li><a href="#faq-частые-вопросы-о-замке-стиральной-машины-bosch">FAQ: Частые вопросы о замке стиральной машины Bosch</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-dostat-kostochku-iz-stiralnoj-mashiny-vertikalnoj-zagruzki.html">Как достать косточку из стиральной машины вертикальной загрузки: инструкция</a></li><li><a href="/articles/k/ka/kak-otkryt-dvertsu-v-stiralnoj-mashine-esli-ona-zablokirovana-ariston.html">Как открыть дверцу стиральной машины Аристон, если она заблокирована</a></li><li><a href="/articles/k/ka/kak-snyat-uplotnitelnuyu-rezinku-s-barabana-stiralnoj-mashiny-lg-direct-drive.html">Как снять уплотнительную резинку барабана LG Direct Drive: пошагово</a></li><li><a href="/articles/k/ka/kak-pomenyat-shchetki-na-stiralke-bosh.html">Как поменять щетки на стиралке Бош: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-vytashchit-obojmu-podshipnika-iz-stiralnoj-mashiny-naruzhnuyu-barabana.html">Как вытащить обойму подшипника из барабана стиральной машины: пошагово</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как устроен и работает замок стиральной машины Bosch: от блокировки до разблокировки</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#устройство-замка-стиральной-машины-bosch-из-чего-состоит-ubl">Устройство замка стиральной машины Bosch: из чего состоит UBL</a></li><li><a href="#принцип-работы-замка-от-закрытия-дверцы-до-разблокировки">Принцип работы замка: от закрытия дверцы до разблокировки</a></li><li><a href="#типичные-неисправности-замка-bosch-симптомы-и-причины">Типичные неисправности замка Bosch: симптомы и причины</a></li><li><a href="#как-проверить-замок-стиральной-машины-bosch-мультиметром">Как проверить замок стиральной машины Bosch мультиметром</a></li><li><a href="#пошаговая-замена-замка-стиральной-машины-bosch-своими-руками">Пошаговая замена замка стиральной машины Bosch своими руками</a></li><li><a href="#частые-ошибки-при-ремонте-замка-и-как-их-избежать">Частые ошибки при ремонте замка и как их избежать</a></li><li><a href="#сервисные-коды-и-сброс-ошибок-блокировки">Сервисные коды и сброс ошибок блокировки</a></li><li><a href="#faq-частые-вопросы-о-замке-стиральной-машины-bosch">FAQ: Частые вопросы о замке стиральной машины Bosch</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body"><p>Замок люка стиральной машины <em>Bosch</em> — это не просто механизм, а ключевой элемент безопасности, который предотвращает открытие дверцы во время стирки и отжима. Без правильной работы этого узла техника либо не запустится, либо остановится с ошибкой. Но как именно функционирует этот замок, почему он иногда «заедает» и можно ли починить его самостоятельно?</p>
+
+<p>В этой статье мы разберём устройство замка <strong>UBL</strong> (Unlock Blocking Lock) в стиральных машинах <em>Bosch</em>, объясним, как он взаимодействует с электронным модулем, и покажем типичные поломки — от износа пластиковых деталей до сгорания катушки блокировки. Вы также узнаете, как проверить замок мультиметром, заменить его без вызова мастера и избежать распространённых ошибок при ремонте.</p>
+
+<p>Особое внимание уделим моделям <em>Bosch Serie 4, Serie 6, Serie 8</em> и <em>Maxx</em>, так как их замки имеют конструктивные отличия. Если ваша машина выдаёт ошибку <code>E:02</code>, <code>E:17</code> или просто не блокирует дверцу — здесь вы найдёте пошаговые инструкции с фото и схемами.</p>
+
+<h2 id="устройство-замка-стиральной-машины-bosch-из-чего-состоит-ubl">Устройство замка стиральной машины Bosch: из чего состоит UBL</h2>
+
+<p>Замок люка в стиральных машинах <em>Bosch</em> — это электромеханическое устройство, которое сочетает в себе:</p>
+<ul>
+  <li>🔒 <strong>Механическую часть</strong> — пластиковый или металлический язычок, который фиксирует дверцу.</li>
+  <li>🔌 <strong>Электромагнитную катушку</strong> — отвечает за блокировку/разблокировку по команде модуля управления.</li>
+  <li>📶 <strong>Термоэлемент (биметаллическая пластина)</strong> — разблокирует дверцу при перегреве или отключении питания.</li>
+  <li>🔧 <strong>Микровыключатель</strong> — сигнализирует модулю о закрытом состоянии люка.</li>
+</ul>
+
+<p>В большинстве моделей <em>Bosch</em> используется замок типа <strong>UBL-3</strong> или <strong>UBL-4</strong>, где цифра обозначает количество контактов для подключения к плате управления. Например, в машинах <em>Serie 6</em> часто стоит <strong>UBL-4</strong> с дополнительным контактом для диагностики.</p>
+
+<p>При закрытии дверцы язычок замка попадает в паз на корпусе и удерживается там электромагнитом. Модуль управления получает сигнал от микровыключателя и только после этого запускает программу стирки. Если замок неисправен, машина либо не стартует, либо выдаёт ошибку блокировки.</p>
+
+<details class="pb-accordion"><summary>Чем отличаются замки UBL-3 и UBL-4?</summary><div class="pb-accordion-body"><p>
+<p>UBL-3 имеет 3 контакта: два для питания катушки и один для сигнала микровыключателя. UBL-4 добавляет четвёртый контакт для диагностики состояния замка (например, для определения перегрева термоэлемента). В машинах Bosch с дисплеем UBL-4 позволяет отображать более точные ошибки, например, E:17 вместо общей E:02.</p></div></details></p>
+
+<h2 id="принцип-работы-замка-от-закрытия-дверцы-до-разблокировки">Принцип работы замка: от закрытия дверцы до разблокировки</h2>
+
+<p>Процесс блокировки и разблокировки люка в стиральной машине <em>Bosch</em> состоит из нескольких этапов:</p>
+
+<ol>
+  <li><strong>Закрытие дверцы</strong>: язычок замка входит в паз на корпусе, замыкая контакты микровыключателя. Модуль управления фиксирует сигнал и готовится к блокировке.</li>
+  <li><strong>Блокировка</strong>: по команде платы на катушку подаётся напряжение (обычно <code>220V</code>), и электромагнит притягивает металлический сердечник, фиксируя язычок.</li>
+  <li><strong>Контроль состояния</strong>: модуль постоянно проверяет сигнал с микровыключателя. Если дверца приоткроется, стирка прервётся с ошибкой.</li>
+  <li><strong>Разблокировка</strong>: после окончания программы напряжение с катушки снимается, и пружина возвращает сердечник в исходное положение. В аварийных случаях срабатывает термоэлемент.</li>
+</ol>
+
+<p>В машинах <em>Bosch</em> с функцией <strong>«Дополнительное полоскание»</strong> или <strong>«Отложенный старт»</strong> замок может блокироваться заранее — ещё до начала стирки. Это сделано для предотвращения случайного открытия люка во время ожидания.</p>
+
+<p>Интересный факт: в некоторых моделях <em>Bosch Maxx</em> используется <strong>двойная блокировка</strong> — помимо электромагнита, дверца фиксируется дополнительным пластиковым крючком. Это усложняет ремонт, но повышает надёжность.</p>
+
+<div class="pb-poll" id="poll-2f8ac944"><div class="pb-poll-question">📊 Ваша стиральная машина Bosch выдавала ошибку блокировки?</div><div class="pb-poll-option" data-poll="2f8ac944" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, часто</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="2f8ac944" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, но редко</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="2f8ac944" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Нет, никогда</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="2f8ac944" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Не знаю, что это</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="типичные-неисправности-замка-bosch-симптомы-и-причины">Типичные неисправности замка Bosch: симптомы и причины</h2>
+
+<p>Проблемы с замком люка в стиральных машинах <em>Bosch</em> проявляются по-разному. Вот наиболее распространённые симптомы и их возможные причины:</p>
+
+<div class="pb-table-wrap"><table>
+  <thead>
+    <tr>
+      <th>Симптом</th>
+      <th>Вероятная причина</th>
+      <th>Код ошибки (если есть)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Дверца не блокируется, стирка не начинается</td>
+      <td>Обрыв цепи катушки, износ язычка, поломка микровыключателя</td>
+      <td><code>E:02</code>, <code>E:17</code></td>
+    </tr>
+    <tr>
+      <td>Дверца блокируется, но не разблокируется после стирки</td>
+      <td>Заклинивание сердечника, сгоревший термоэлемент, неисправность модуля</td>
+      <td><code>E:01</code>, <code>E:67</code></td>
+    </tr>
+    <tr>
+      <td>Замок щёлкает, но дверца не фиксируется</td>
+      <td>Износ пластиковых деталей паза, ослабление пружины</td>
+      <td>Без кода или <code>E:02</code></td>
+    </tr>
+    <tr>
+      <td>Машина останавливается с ошибкой в середине цикла</td>
+      <td>Ложное срабатывание микровыключателя, перегрев термоэлемента</td>
+      <td><code>E:18</code>, <code>E:67</code></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<p>Чаще всего замок выходит из строя из-за:</p>
+<ul>
+  <li>🔥 <strong>Перепадов напряжения</strong> — сгорает катушка или термоэлемент.</li>
+  <li>💦 <strong>Попадания влаги</strong> — окисляются контакты микровыключателя.</li>
+  <li>⚙️ <strong>Механического износа</strong> — ломаются пластиковые детали язычка или паза.</li>
+  <li>⚡ <strong>Неисправности модуля управления</strong> — плата не подаёт напряжение на замок.</li>
+</ul>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если замок щёлкает, но дверца не блокируется, попробуйте слегка надавить на неё сверху во время закрытия. Иногда это помогает язычку попасть в паз. Если проблема повторяется — требуется замена замка или паза.</p></aside>
+
+<h2 id="как-проверить-замок-стиральной-машины-bosch-мультиметром">Как проверить замок стиральной машины Bosch мультиметром</h2>
+
+<p>Прежде чем менять замок, его нужно проверить. Для этого понадобится мультиметр и отвёртка. Следуйте инструкции:</p>
+
+<ol>
+  <li><strong>Отключите машину от сети</strong> и снимите верхнюю крышку, открутив два винта сзади.</li>
+  <li>Найдите замок (обычно он расположен справа от люка) и отсоедините от него разъём с проводами.</li>
+  <li>Переведите мультиметр в режим проверки сопротивления (<code>200 Ом</code>).</li>
+  <li>Подключите щупы к контактам катушки (обычно это крайние выводы на разъёме). Сопротивление исправной катушки: <strong><mark>1–1.5 кОм</mark></strong>.</li>
+  <li>Проверьте микровыключатель: при закрытой дверце сопротивление между его контактами должно быть <code>0 Ом</code>, при открытой — <code>∞</code>.</li>
+</ol>
+
+<p>Если сопротивление катушки равно <code>0</code> или <code>∞</code> — она сгорела и требует замены. Если микровыключатель не меняет сопротивление при нажатии — его тоже нужно заменить.</p>
+
+
+<p>Отключить питание машины</p>
+<p>Снять верхнюю крышку</p>
+<p>Отсоединить разъём замка</p>
+<p>Проверить сопротивление катушки (1–1.5 кОм)</p>
+<p>Проверить микровыключатель (0 Ом при закрытии)</p>
+<p>Осмотреть контакты на окисление--></p>
+
+<p>Также осмотрите разъём и провода на предмет окисления или обрыва. Часто проблема кроется не в самом замке, а в плохом контакте.</p>
+
+<blockquote>⚠️ <strong>Внимание:</strong> Если при проверке замок издаёт запах гари или на катушке видны следы оплавления, не пытайтесь его ремонтировать — только замена! Продолжение эксплуатации может привести к короткому замыканию.</blockquote>
+
+<h2 id="пошаговая-замена-замка-стиральной-машины-bosch-своими-руками">Пошаговая замена замка стиральной машины Bosch своими руками</h2>
+
+<p>Если диагностика показала неисправность замка, его нужно заменить. Для этого понадобятся:</p>
+<ul>
+  <li>🔧 Отвёртка крестовая и плоская.</li>
+  <li>🔌 Новый замок (подберите модель по номеру, указанному на старом).</li>
+  <li>🧲 Магнит или пинцет (для удобства крепления мелких деталей).</li>
+</ul>
+
+<p>Инструкция по замене:</p>
+
+<ol>
+  <li>Отключите машину от сети и воды. Слейте остатки воды через аварийный шланг (обычно он находится внизу за маленькой крышкой).</li>
+  <li>Снимите верхнюю крышку, открутив два винта сзади и сдвинув её назад.</li>
+  <li>Открутите винты, удерживающие переднюю панель (они могут быть скрыты под декоративными заглушками).</li>
+  <li>Аккуратно отсоедините разъём замка и выкрутите винты, крепящие его к корпусу.</li>
+  <li>Установите новый замок в обратной последовательности. Убедитесь, что язычок свободно двигается.</li>
+  <li>Подключите разъём и проверьте работу замка, запустив тестовую стирку.</li>
+</ol>
+
+<p>В машинах <em>Bosch Serie 8</em> с сенсорной панелью может потребоваться дополнительное программирование замка через сервисное меню. Для этого:</p>
+<pre><code>1. Включите машину, удерживая кнопки "Старт" и "Отмена" 5 секунд.
+<p>2. Выберите пункт "Сброс замка" (обычно это код 17 или 22).</p>
+<p>3. Подтвердите сброс и перезагрузите машину.</code></pre></p>
+
+<blockquote>⚠️ <strong>Внимание:</strong> В моделях с системой <em>AquaStop</em> при замене замка может сработать защита от протечек. После ремонта проверьте, не горит ли индикатор <code>Аквастоп</code> на панели.</blockquote>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>При замене замка обязательно запомните или сфотографируйте расположение проводов на разъёме. Подключение "наобум" может вывести из строя модуль управления!</p></aside>
+
+<h2 id="частые-ошибки-при-ремонте-замка-и-как-их-избежать">Частые ошибки при ремонте замка и как их избежать</h2>
+
+<p>Даже опытные мастера иногда допускают ошибки при ремонте замка <em>Bosch</em>. Вот самые распространённые из них:</p>
+
+<ul>
+  <li>🔌 <strong>Неправильное подключение разъёма</strong> — перепутанные провода могут сжечь катушку или модуль. Всегда сверяйтесь со схемой!</li>
+  <li>🔧 <strong>Использование неоригинального замка</strong> — дешёвые аналоги часто имеют другое сопротивление катушки, что приводит к ошибкам <code>E:17</code> или <code>E:67</code>.</li>
+  <li>💧 <strong>Игнорирование проверки паза</strong> — если язычок замка не попадает в паз из-за износа, даже новый замок не будет работать.</li>
+  <li>⚡ <strong>Забывают сбросить ошибки</strong> — после замены замка нужно сбросить коды неисправностей через сервисное меню.</li>
+</ul>
+
+<p>Ещё одна типичная проблема — <strong>повреждение уплотнительной резинки</strong> при снятии передней панели. Если резинка порвётся, это приведёт к протечкам. Чтобы избежать этого, аккуратно отгибайте её плоской отвёрткой, предварительно смазав мыльным раствором.</p>
+
+<p>В машинах <em>Bosch Maxx 7</em> и <em>Maxx 8</em> часто встречается проблема с <strong>ложным срабатыванием термоэлемента</strong>. Если замок разблокируется самопроизвольно во время стирки, проверьте термоэлемент мультиметром в режиме проверки диодов. Исправный элемент должен показывать сопротивление <code>0 Ом</code> в холодном состоянии и <code>∞</code> — при нагреве.</p>
+
+<h2 id="сервисные-коды-и-сброс-ошибок-блокировки">Сервисные коды и сброс ошибок блокировки</h2>
+
+<p>Если замок отремонтирован, но машина всё равно выдаёт ошибку, её нужно сбросить. В стиральных машинах <em>Bosch</em> для этого используется сервисное меню. Вот как туда попасть:</p>
+
+<ol>
+  <li>Выключите машину и удерживайте кнопку <code>Старт/Пауза</code> 5 секунд.</li>
+  <li>Не отпуская кнопку, включите машину в сеть.</li>
+  <li>Через 3 секунды отпустите кнопку — машина перейдёт в сервисный режим.</li>
+  <li>Наберите код <code>17</code> (для сброса ошибок замка) или <code>22</code> (для полного сброса).</li>
+  <li>Подтвердите выбор кнопкой <code>Старт</code> и перезагрузите машину.</li>
+</ol>
+
+<p>В некоторых моделях (например, <em>Bosch WAT28460</em>) сервисное меню открывается по-другому:</p>
+<pre><code>1. Включите машину.
+<p>2. Удерживайте кнопки "Температура" и "Отжим" 3 секунды.</p>
+<p>3. Поверните ручку выбора программ в положение "12 часов".</p>
+<p>4. Нажмите "Старт" — машина покажет код последней ошибки.</code></pre></p>
+
+<p>Если после сброса ошибка появляется снова, проблема может быть не в замке, а в модуле управления или проводке. В этом случае потребуется более глубокая диагностика.</p>
+
+<blockquote>⚠️ <strong>Внимание:</strong> Коды сервисного меню могут отличаться в зависимости от года выпуска машины. В моделях старше 2018 года для сброса ошибок иногда требуется специальный ключ-проограмматор.</blockquote>
+
+<h2 id="faq-частые-вопросы-о-замке-стиральной-машины-bosch">FAQ: Частые вопросы о замке стиральной машины Bosch</h2>
+
+<details>
+  <summary>Можно ли открыть дверцу, если замок заклинило, а стирка ещё не закончилась?</summary>
+  <p>Да, но аккуратно. Отключите машину от сети и подождите 5–10 минут — термоэлемент должен разблокировать дверцу. Если не поможет, попробуйте натянуть верёвку или тонкий трос за язычок замка через щель между дверцей и корпусом. В крайнем случае придётся снимать переднюю панель.</p>
+</details>
+
+<details>
+  <summary>Почему новый замок не работает после установки?</summary>
+  <p>Вероятные причины:</p>
+  <ul>
+    <li>Неправильное подключение разъёма (перепутаны провода).</li>
+    <li>Несовместимость модели замка с вашей машиной (проверьте сопротивление катушки).</li>
+    <li>Не сброшены ошибки в памяти машины (нужно зайти в сервисное меню).</li>
+    <li>Проблема в модуле управления (требуется диагностика платы).</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Какой замок купить на замену для Bosch Serie 6?</summary>
+  <p>Для большинства моделей <em>Bosch Serie 6</em> подходят замки:</p>
+  <ul>
+    <li><strong>UBL-4</strong> с 4 контактами (номера: <code>00643606</code>, <code>00643607</code>).</li>
+    <li>Оригинальные замки от <em>Bosch/Siemens</em> (артикулы начинаются с <code>006...</code>).</li>
+  </ul>
+  <p>Не берите дешёвые аналоги без биметаллической пластины — они не обеспечат аварийную разблокировку.</p>
+</details>
+
+<details>
+  <summary>Что делать, если замок щёлкает, но дверца не блокируется?</summary>
+  <p>Скорее всего, проблема в механической части:</p>
+  <ol>
+    <li>Проверьте, не сломан ли пластиковый язычок на дверце.</li>
+    <li>Осмотрите паз на корпусе — возможно, он треснул или деформировался.</li>
+    <li>Попробуйте слегка сдвинуть дверцу вверх-вниз при закрытии — иногда помогает.</li>
+  </ol>
+  <p>Если язычок цел, но не фиксируется, замените замок.</p>
+</details>
+
+<details>
+  <summary>Можно ли отремонтировать сгоревшую катушку замка?</summary>
+  <p>Теоретически можно перемотать катушку, но на практике это нецелесообразно:</p>
+  <ul>
+    <li>Трудно подобрать провод нужного сечения и сопротивления.</li>
+    <li>Новая катушка может не выдержать нагрузки и сгореть снова.</li>
+    <li>Стоимость оригинального замка (~1500–2500 руб.) сопоставима с ценой ремонта.</li>
+  </ul>
+  <p>Лучше купить новый замок — это надёжнее и безопаснее.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-dostat-kostochku-iz-stiralnoj-mashiny-vertikalnoj-zagruzki.html" class="pb-related-card">
+                <span class="pb-related-title">Как достать косточку из стиральной машины вертикальной загрузки: инструкция</span>
+                <span class="pb-related-desc">Косточка попала в стиральную машину вертикального типа? Узнайте, как безопасно извлечь посторонний п</span>
+            </a><a href="/articles/k/ka/kak-otkryt-dvertsu-v-stiralnoj-mashine-esli-ona-zablokirovana-ariston.html" class="pb-related-card">
+                <span class="pb-related-title">Как открыть дверцу стиральной машины Аристон, если она заблокирована</span>
+                <span class="pb-related-desc">Полная инструкция по разблокировке люка стиральных машин Ariston. Причины блокировки, коды ошибок, э</span>
+            </a><a href="/articles/k/ka/kak-snyat-uplotnitelnuyu-rezinku-s-barabana-stiralnoj-mashiny-lg-direct-drive.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять уплотнительную резинку барабана LG Direct Drive: пошагово</span>
+                <span class="pb-related-desc">Подробная инструкция по демонтажу манжеты люка стиральной машины LG. Снятие пружинных хомутов, подго</span>
+            </a><a href="/articles/k/ka/kak-pomenyat-shchetki-na-stiralke-bosh.html" class="pb-related-card">
+                <span class="pb-related-title">Как поменять щетки на стиралке Бош: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробная инструкция по замене щеток двигателя стиральной машины Bosch. Симптомы износа, список инст</span>
+            </a><a href="/articles/k/ka/kak-vytashchit-obojmu-podshipnika-iz-stiralnoj-mashiny-naruzhnuyu-barabana.html" class="pb-related-card">
+                <span class="pb-related-title">Как вытащить обойму подшипника из барабана стиральной машины: пошагово</span>
+                <span class="pb-related-desc">Подробная инструкция с фото и советами экспертов: как демонтировать наружную обойму подшипника из ба</span>
+            </a><a href="/articles/k/ka/kak-proverit-dvigatel-stiralnoj-mashiny-multimetrom-samsung.html" class="pb-related-card">
+                <span class="pb-related-title">Как проверить двигатель стиральной машины Самсунг мультиметром</span>
+                <span class="pb-related-desc">Пошаговая инструкция: диагностика мотора Samsung мультиметром. Замер сопротивления, проверка щеток и</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

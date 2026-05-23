@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как прошить модуль стиральной машины Индезит: полная инструкция — Стиралка Инфо</title>
+    <meta name="description" content="Подробное руководство по прошивке ЭБУ Indesit. Считывание дампа, работа с программатором, устранение ошибок ПО и сброс контроллера.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-proshit-modul-stiralnoj-mashiny-indezit.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как прошить модуль стиральной машины Индезит: полная инструкция">
+    <meta property="og:description" content="Подробное руководство по прошивке ЭБУ Indesit. Считывание дампа, работа с программатором, устранение ошибок ПО и сброс контроллера.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как прошить модуль стиральной машины Индезит: полная инструкция</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#диагностика-и-признаки-необходимости-перепрошивки">Диагностика и признаки необходимости перепрошивки</a></li><li><a href="#необходимое-оборудование-и-подготовка-рабочего-места">Необходимое оборудование и подготовка рабочего места</a></li><li><a href="#извлечение-модуля-и-доступ-к-микросхеме-памяти">Извлечение модуля и доступ к микросхеме памяти</a></li><li><a href="#процесс-считывания-и-записи-данных">Процесс считывания и записи данных</a></li><li><a href="#сборка-пайка-и-первичный-запуск">Сборка, пайка и первичный запуск</a></li><li><a href="#тестирование-и-калибровка-режимов">Тестирование и калибровка режимов</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-snyat-pruzhinu-na-stiralnoj-mashine-samsung.html">Как снять пружину на стиральной машине Самсунг: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-snyat-dvertsu-stiralnoj-mashiny-kandi.html">Как снять дверцу стиральной машины Candy: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-dostat-inorodnyj-predmet-iz-stiralnoj-mashiny.html">Как достать инородный предмет из стиральной машины: инструкция</a></li><li><a href="/articles/k/ka/kak-snyat-kryshku-stiralki-bosh.html">Как снять крышку стиралки Бош: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-uvelichit-uroven-vody-v-stiralnoj-mashine-lg.html">Как увеличить уровень воды в стиральной машине LG: регулировка</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Прошивка модуля стиральной машины Индезит: руководство мастера</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#диагностика-и-признаки-необходимости-перепрошивки">Диагностика и признаки необходимости перепрошивки</a></li><li><a href="#необходимое-оборудование-и-подготовка-рабочего-места">Необходимое оборудование и подготовка рабочего места</a></li><li><a href="#извлечение-модуля-и-доступ-к-микросхеме-памяти">Извлечение модуля и доступ к микросхеме памяти</a></li><li><a href="#процесс-считывания-и-записи-данных">Процесс считывания и записи данных</a></li><li><a href="#сборка-пайка-и-первичный-запуск">Сборка, пайка и первичный запуск</a></li><li><a href="#тестирование-и-калибровка-режимов">Тестирование и калибровка режимов</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Ситуация, когда электроника стиральной машины <em>Indesit</em> перестает корректно реагировать на команды, часто ставит владельца в тупик. Мигают индикаторы, барабан не вращается, или программа зависает на середине цикла. Во многих случаях виновником становится сбой в программном обеспечении управляющего модуля, а не физическая поломка деталей.</p>
+<p>Процедура перепрошивки позволяет восстановить заводские настройки и устранить логические ошибки, накопленные контроллером за годы эксплуатации. Это сложный технический процесс, требующий специфического оборудования и глубокого понимания архитектуры микроконтроллеров. Если вы готовы рискнуть и имеете навыки работы с паяльником, то восстановление функционала возможно без покупки нового блока.</p>
+<p>Стоит понимать, что <strong>перепрошивка модуля</strong> — это крайняя мера, к которой прибегают, когда диагностика исключила поломку датчиков, ТЭНа или двигателя. Часто проблема кроется именно в"мозгах" устройства, которые нуждаются в перезаписи кода. В этом материале мы разберем все этапы процесса, от подготовки инструментов до финального тестирования.</p>
+
+<h2 id="диагностика-и-признаки-необходимости-перепрошивки">Диагностика и признаки необходимости перепрошивки</h2>
+<p>Прежде чем приступать к сложным манипуляциям с паяльником и программатором, необходимо убедиться, что проблема действительно кроется в программном сбое. Симптомы могут быть различными: машина может хаотично менять режимы, отказываться набирать воду или постоянно показывать ошибку, даже если датчики исправны. Например, модель <em>Indesit Wisl 105</em> известна склонностью к"глюкам" памяти при скачках напряжения.</p>
+<p>Обратите внимание на поведение индикаторной панели. Если лампочки мигают в непредусмотренном инструкцией порядке или горят все одновременно, это верный признак corruption данных в EEPROM. Также стоит проверить, реагирует ли машина на сброс настроек стандартным методом (удержание кнопок). Если программный сброс не помогает, вероятно, поврежден сам файл прошивки.</p>
+<blockquote>⚠️ <strong>Внимание:</strong> Если стиральная машина издает посторонние звуки, пахнет горелой проводкой или выбивает автоматический выключатель в щитке, перепрошивка категорически запрещена. В этом случае присутствует физическое замыкание, и запись нового кода может окончательно"убить" плату.</blockquote>
+<p>Важно различать механические неисправности и программные ошибки. Для этого проведите первичную диагностику мультиметром. Если все цепи прозваниваются нормально, а сопротивление элементов соответствует норме, но машина не работает, то <mark>вероятность программного сбоя составляет более 80%</mark>. В таких случаях замена или обновление ПО является единственным разумным решением.</p>
+
+<h2 id="необходимое-оборудование-и-подготовка-рабочего-места">Необходимое оборудование и подготовка рабочего места</h2>
+<p>Для успешного выполнения задачи вам потребуется не только компьютер, но и специализированный hardware. Обычного USB-кабеля будет недостаточно. Основным инструментом станет программатор, совместимый с микросхемами, установленными на платах <em>Indesit</em>. Чаще всего встречаются чипы производства STMicroelectronics или Atmel.</p>
+<p>Вам понадобятся следующие компоненты для сборки стенда:
+<ul>
+ <li>🔌 Программатор (например, TL866II Plus или PonyProg совместимый адаптер).</li>
+ <li>💻 Ноутбук или ПК с операционной системой Windows (предпочтительно версии 7 или 10 для стабильности драйверов).</li>
+ <li>🔧 Паяльное оборудование (фен, паяльник с тонким жалом, флюс, припой).</li>
+ <li>📄 Дамп прошивки, соответствующий конкретной модели и версии платы.</li>
+</ul>
+</p>
+<p>Особое внимание уделите выбору дампа. Прошивка для <em>Indesit WISL 82</em> не подойдет для модели WISL 105, даже если платы визуально похожи. Различия в алгоритмах отжима или температуре могут привести к некорректной работе. Искать файлы следует на специализированных форумах мастеров или в базах данных производителей контроллеров.</p>
+<p>Подготовьте рабочее место: оно должно быть хорошо освещено и защищено от статического электричества. Используйте антистатический коврик и браслет. Микросхемы крайне чувствительны к статическому разряду, который может возникнуть при касании синтетической одежды. Перед началом работ обязательно разрядите статический заряд.</p>
+
+<div class="pb-poll" id="poll-107a2fe4"><div class="pb-poll-question">📊 С каким типом неисправности вы столкнулись?</div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Машина не включается</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Ошибка на дисплее</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Неисправность в процессе стирки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Проблемы с набором воды</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Другое</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="извлечение-модуля-и-доступ-к-микросхеме-памяти">Извлечение модуля и доступ к микросхеме памяти</h2>
+<p>Первый физический этап — демонтаж электронного блока. У стиральных машин <em>Indesit</em> модуль обычно расположен в верхней части корпуса, под верхней крышкой. Отключите аппарат от сети, перекройте воду и снимите верхнюю панель, открутив два винта сзади.</p>
+<p>Аккуратно извлеките модуль, предварительно отсоединив все разъемы. Рекомендуется фотографировать подключение проводов перед отключением, чтобы избежать ошибок при сборке. На плате вам нужно найти микросхему памяти, где хранится код. Обычно это чип в корпусе SOP8 или DIP8 с маркировкой, начинающейся на 24 или 25 (например, 24C16 или 25C128).</p>
+<p>Существует два способа подключения программатора:
+<ol>
+ <li>Без выпаивания (если позволяет конструкция и есть клипса-переходник).</li>
+ <li>С выпаиванием микросхемы (наиболее надежный метод).</li>
+</ol>
+</p>
+<p>Если вы выбрали метод с выпаиванием, используйте термовоздушную паяльную станцию (фен). Установите температуру около 300-320°C и аккуратно прогрейте контакты чипа, пока припой не станет жидким. Снимите микросхему пинцетом, не прилагая чрезмерных усилий, чтобы не повредить дорожки платы. После этого очистите контакты от старого припоя.</p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Используйте сплав Розе или Вуда при выпаивании микросхем — он имеет более низкую температуру плавления и снижает риск перегрева соседних элементов платы.</p></aside>
+
+<h2 id="процесс-считывания-и-записи-данных">Процесс считывания и записи данных</h2>
+<p>После фиксации микросхемы в программаторе или подключения клипсы, запустите программное обеспечение на компьютере. Популярной утилитой является <em>IC-Prog</em> или софт, идущий в комплекте с вашим адаптером. Выберите тип микросхемы из списка, ориентируясь на маркировку корпуса.</p>
+<p>Первым шагом всегда должно быть считывание текущего содержимого (Read). Сохраните этот файл как"backup_original.hex". Это ваша страховка: если новая прошивка окажется нерабочей, вы сможете вернуть всё как было. Убедитесь, что файл считался полностью (без ошибок контрольной суммы).</p>
+<p>Далее следует процедура записи:
+<pre><code>1. Open File (Выбрать файл новой прошивки)
+<p>2. Blank Check (Проверка на пустоту - опционально)</p>
+<p>3. Program (Запись)</p>
+<p>4. Verify (Проверка записанного)</code></pre></p>
+</p>
+<p>Процесс верификации (Verify) критически важен. Программа сравнивает то, что было записано в чип, с исходным файлом на компьютере. Если появилась ошибка"Verify Error", повторите процедуру. Если ошибки повторяются, возможно, микросхема имеет физический износ или плохой контакт с программатором. В таком случае чип памяти лучше заменить на новый.</p>
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Проверка перед записью</h4><label class="check-item"><input type="checkbox"><span>Сделана резервная копия</span></label><label class="check-item"><input type="checkbox"><span>Выбрана верная модель чипа</span></label><label class="check-item"><input type="checkbox"><span>Файл прошивки проверен антивирусом</span></label><label class="check-item"><input type="checkbox"><span>Контакты чистые и обезжиренные</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<h2 id="сборка-пайка-и-первичный-запуск">Сборка, пайка и первичный запуск</h2>
+<p>После успешной записи и проверки верните микросхему на плату. При пайке феном используйте качественный флюс и следите за тем, чтобы под ножками не осталось воздушных пузырей или перемычек. Убедитесь, что ключ микросхемы (точка или вырез) совпадает с маркировкой на плате. Неправильная установка мгновенно выведет чип из строя.</p>
+<p>Тщательно отмойте плату от остатков флюса спиртом или специальным очистителем. Остатки химии могут со временем вызвать коррозию или утечку токов, что приведет к повторному сбою. Визуально осмотрите плату под лупой на предмет оторванных дорожек или"соплей" припоя.</p>
+<p>Таблицаных ошибок при монтаже:
+<div class="pb-table-wrap"><table>
+ <thead>
+ <tr>
+ <th>Ошибка</th>
+ <th>Причина</th>
+ <th>Последствие</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Перегрев чипа</td>
+ <td>Температура фена > 350°C</td>
+ <td>Разрушение внутренней структуры памяти</td>
+ </tr>
+ <tr>
+ <td>Неверная ориентация</td>
+ <td>Ключ не совпадает с платой</td>
+ <td>Короткое замыкание, сгорание чипа</td>
+ </tr>
+ <tr>
+ <td>Замыкание ножек</td>
+ <td>Излишек припоя</td>
+ <td>Нестабильная работа, ошибки чтения</td>
+ </tr>
+ <tr>
+ <td>Плохой контакт</td>
+ <td>Недогрев при пайке</td>
+ <td>Машина не видит модуль</td>
+ </tr>
+ </tbody>
+</table></div>
+</p>
+<p>Установите модуль на место, подключите все разъемы согласно сделанным ранее фото. Только после двойной проверки подключений включите стиральную машину в сеть. Первый запуск может занять больше времени, чем обычно, так как происходит инициализация новых параметров.</p>
+
+<details class="pb-accordion"><summary>Что делать, если машина не запускается после прошивки?</summary><div class="pb-accordion-body"><p>Если после установки модуля машина гудит, но не реагирует на кнопки, возможно, прошивка не подошла по региону или версии. Попробуйте сбросить настройки до заводских (комбинация кнопок часто описана в мануале). Если не помогает — проверьте целостность дорожек под микросхемой.</p></div></details>
+
+<h2 id="тестирование-и-калибровка-режимов">Тестирование и калибровка режимов</h2>
+<p>Успешное включение — это только половина дела. Необходимо проверить работу всех узлов. Запустите режим"Слив" или"Отжим", чтобы убедиться, что мотор реагирует на команды. Затем проверьте набор воды. Если машина набирает воду и крутит барабан вхолостую (без белья), это хороший знак.</p>
+<p>В некоторых случаях после перепрошивки требуется калибровка датчика веса белья (актуально для моделей с функцией <em>Fuzzy Logic</em>). Для этого запустите специальный тестовый режим или просто проведите цикл стирки хлопка при 60 градусах с полным барабаном. Машина сама"запомнит" параметры загрузки.</p>
+<blockquote>⚠️ <strong>Внимание:</strong> Технические характеристики и алгоритмы работы могут отличаться в зависимости от года выпуска и конкретной модификации платы. Всегда сверяйте действия с официальной сервисной документацией для вашей конкретной модели <em>Indesit</em>.</blockquote>
+<p>Обратите внимание на отсутствие ошибок в конце цикла. Если машина завершила программу и разблокировала люк, поздравляем — ремонт пройден успешно. Если же ошибка повторяется, возможно, проблема была не в прошивке, а в самом исполнительном механизме, который модуль исправно пытался запустить.</p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Качественная прошивка не меняет функционал машины, а лишь восстанавливает её штатную работоспособность. Не ждите появления новых режимов после обновления.</p></aside>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+<details>
+ <summary>Можно ли прошить модуль Индезит через USB без выпаивания?</summary>
+ <p>В 95% случаев — нет. Платы стиральных машин не имеют интерфейса для прямой прошивки через внешний USB-порт, как это сделано в телевизорах. Требуется доступ к контактам микросхемы памяти на плате.</p>
+</details>
+<details>
+ <summary>Где взять правильную прошивку для моей модели?</summary>
+ <p>Дампы можно найти на специализированных форумах по ремонту бытовой техники (например, Monitor.net илиные ресурсы). Искать нужно по коду модуля (написан на белой наклейке на плате), а не только по модели машины.</p>
+</details>
+<details>
+ <summary>Сбросит ли прошивка счетчик циклов стирки?</summary>
+ <p>Зависит от дампа. Если вы заливаете"чистый" дамп от новой платы, счетчик может обнулиться. Если вы делаете дамп с другой такой же б/у машины, счетчик сохранится. Полностью обнулить счетчик можно только редактируя HEX-код в редакторе перед записью.</p>
+</details>
+<details>
+ <summary>Что делать, если программатор не видит микросхему?</summary>
+ <p>Проверьте надежность зажима в программаторе. Убедитесь, что выбран правильный тип микросхемы в программе. Попробуйте почистить контакты чипа ластиком или спиртом. Возможно, сама микросхема мертва и требует замены.</p>
+</details>
+<details>
+ <summary>Опасно ли это для новичка?</summary>
+ <p>Да, если нет опыта работы с паяльником и электроникой, высок риск окончательно испортить плату (сорвать дорожки, перегреть чип). В таком случае дешевле и безопаснее купить готовый прошитый модуль.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-snyat-pruzhinu-na-stiralnoj-mashine-samsung.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять пружину на стиральной машине Самсунг: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по замене амортизирующих пружин в СМА Samsung. Разборка корпуса, безопасное сн</span>
+            </a><a href="/articles/k/ka/kak-snyat-dvertsu-stiralnoj-mashiny-kandi.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять дверцу стиральной машины Candy: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробная инструкция по демонтажу люка стиральной машины Candy. Как снять стекло, заменить петли или</span>
+            </a><a href="/articles/k/ka/kak-dostat-inorodnyj-predmet-iz-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как достать инородный предмет из стиральной машины: инструкция</span>
+                <span class="pb-related-desc">Подробное руководство: как извлечь монету, бюстгальтер или кость из барабана. Разбор методов демонта</span>
+            </a><a href="/articles/k/ka/kak-snyat-kryshku-stiralki-bosh.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять крышку стиралки Бош: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробная инструкция, как снять крышку стиралки Бош для ремонта. Разборка верхней и передней панелей</span>
+            </a><a href="/articles/k/ka/kak-uvelichit-uroven-vody-v-stiralnoj-mashine-lg.html" class="pb-related-card">
+                <span class="pb-related-title">Как увеличить уровень воды в стиральной машине LG: регулировка</span>
+                <span class="pb-related-desc">Подробная инструкция, как увеличить набор воды в стиральных машинах LG. Причины малого уровня воды, </span>
+            </a><a href="/articles/k/ka/kak-otkryt-zamok-na-stiralnoj-mashine-kandi.html" class="pb-related-card">
+                <span class="pb-related-title">Как открыть замок стиральной машины Candy: способы, ошибки, ремонт</span>
+                <span class="pb-related-desc">Заблокировалась дверца Candy? Узнайте, как безопасно открыть замок, сбросить ошибку и заменить УБЛ с</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

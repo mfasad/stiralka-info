@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как работает стиральная машина автомат Candy: устройство и принцип — Стиралка Инфо</title>
+    <meta name="description" content="Подробный разбор принципа работы стиральных машин Candy. Устройство узлов, этапы цикла, электроника и типичные неисправности. Экспертный анализ.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-rabotaet-stiralnaya-mashina-avtomat-kandi.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как работает стиральная машина автомат Candy: устройство и принцип">
+    <meta property="og:description" content="Подробный разбор принципа работы стиральных машин Candy. Устройство узлов, этапы цикла, электроника и типичные неисправности. Экспертный анализ.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как работает стиральная машина автомат Candy: устройство и принцип</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#устройство-основных-узлов-стиральной-машины">Устройство основных узлов стиральной машины</a></li><li><a href="#алгоритм-работы-электронного-модуля-управления">Алгоритм работы электронного модуля управления</a></li><li><a href="#гидравлическая-система-набор-циркуляция-и-слив">Гидравлическая система: набор, циркуляция и слив</a></li><li><a href="#механика-вращения-балансировка-и-отжим">Механика вращения: балансировка и отжим</a></li><li><a href="#система-нагрева-воды-и-температурный-контроль">Система нагрева воды и температурный контроль</a></li><li><a href="#типичные-сбои-в-работе-автоматики">Типичные сбои в работе автоматики</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-snyat-klyuch-blokirovki-na-stiralnoj-mashine-bosh.html">Как снять блокировку на стиральной машине Bosch: полное руководство</a></li><li><a href="/articles/k/ka/kak-razobrat-kryshku-vertikalnoj-stiralnoj-mashiny.html">Как разобрать крышку стиральной машины: инструкция</a></li><li><a href="/articles/k/ka/kak-perezagruzit-stiralnuyu-mashinu-gorene.html">Как перезагрузить стиральную машину Горенье: полный сброс</a></li><li><a href="/articles/k/ka/kak-snyat-ten-so-stiralnoj-mashiny-bosh.html">Как снять ТЭН со стиральной машины Bosch: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-snyat-ten-so-stiralnoj-mashiny-atlant.html">Как снять ТЭН со стиральной машины Атлант: инструкция</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как работает стиральная машина автомат Candy: полное руководство</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#устройство-основных-узлов-стиральной-машины">Устройство основных узлов стиральной машины</a></li><li><a href="#алгоритм-работы-электронного-модуля-управления">Алгоритм работы электронного модуля управления</a></li><li><a href="#гидравлическая-система-набор-циркуляция-и-слив">Гидравлическая система: набор, циркуляция и слив</a></li><li><a href="#механика-вращения-балансировка-и-отжим">Механика вращения: балансировка и отжим</a></li><li><a href="#система-нагрева-воды-и-температурный-контроль">Система нагрева воды и температурный контроль</a></li><li><a href="#типичные-сбои-в-работе-автоматики">Типичные сбои в работе автоматики</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Современная бытовая техника представляет собой сложный симбиоз механики, электроники и гидравлики. Стиральная машина <em>Candy</em> не является исключением, представляя собой высокотехнологичное устройство, где каждый узел выполняет строго определенную функцию для достижения идеального результата стирки. Понимание того, как именно работает этот агрегат, позволяет не только бережно относиться к нему, но и своевременно диагностировать возникающие проблемы до того, как они приведут к дорогостоящему ремонту.</p>
+
+<p>В основе функционирования лежит автоматизированный цикл, управляемый электронным модулем, который получает данные от множества датчиков. Именно микропроцессор решает, когда подать воду, как долго греть её и с какой скоростью вращать барабан. <strong>Принцип работы</strong> строится на последовательном выполнении алгоритмов, заложенных в память устройства производителем. Ошибки в работе часто возникают именно тогда, когда показания датчиков перестают соответствовать ожидаемым значениям.</p>
+
+<p>Данная статья призвана раскрыть «внутренний мир» стиральной машины, объясняя физику процессов простым языком. Мы рассмотрим путь воды от входного клапана до слива, разберем механику вращения и уделим особое внимание системе нагрева. Знание этих процессов поможет вам стать более грамотным пользователем техники <em>Candy</em>.</p>
+
+<h2 id="устройство-основных-узлов-стиральной-машины">Устройство основных узлов стиральной машины</h2>
+
+<p>Конструктивно любой автоматический агрегат можно разделить на несколько ключевых систем. Центральным элементом является <strong>электродвигатель</strong>, который через ременную передачу или напрямую (в моделях с прямым приводом) передает вращение на барабан. В машинах <em>Candy</em> чаще всего используются коллекторные двигатели, отличающиеся высокими оборотами и компактными размерами, что позволяет создавать модели с большой загрузкой белья при стандартных габаритах корпуса.</p>
+
+<p>Вторым критически важным узлом является система набора и распределения воды. Она включает в себя впускные клапаны, дозаторы порошка и патрубки. <strong>Датчик уровня воды</strong> (прессостат) постоянно мониторит количество жидкости в баке, посылая сигналы на модуль управления. Без точной работы этой системы невозможна ни стирка, ни полоскание, так как электроника просто не запустит нагрев или вращение при отсутствии необходимого объема воды.</p>
+
+<blockquote>⚠️ Внимание: Любые манипуляции с электрическими компонентами, такими как ТЭН или двигатель, допустимы только после полного отключения устройства от электросети и слива остатков воды.</blockquote>
+
+<p>Третьим ключевым элементом выступает нагревательный элемент или <strong>ТЭН</strong>. В зависимости от выбранной программы, он нагревает воду до заданной температуры, контролируемой термостатом или датчиком температуры. Конструкция бака и барабана также играет важную роль: в современных моделях <em>Candy</em> часто применяются баки из композитных материалов, которые гасят вибрации и снижают уровень шума при отжиме.</p>
+
+<div class="pb-poll" id="poll-850cee33"><div class="pb-poll-question">📊 Какой тип двигателя у вашей стиральной машины?</div><div class="pb-poll-option" data-poll="850cee33" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Коллекторный (с щетками)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="850cee33" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Инверторный (бесщеточный)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="850cee33" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Прямой привод</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="850cee33" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Не знаю, нужно посмотреть в инструкции</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="алгоритм-работы-электронного-модуля-управления">Алгоритм работы электронного модуля управления</h2>
+
+<p>«Мозгом» любой стиральной машины является электронный модуль управления. Именно он координирует работу всех исполнительных механизмов. При включении аппарата происходит самотестирование системы: модуль проверяет целостность цепей, состояние датчиков и блокировку люка. Если все параметры в норме, он открывает <strong>впускной клапан</strong> и начинает набор воды.</p>
+
+<p>Процесс стирки проходит в строгой последовательности, dictated by the firmware. Сначала модуль ожидает сигнала от прессостата о достижении минимального уровня воды, затем активирует ТЭН. Пока вода нагревается, барабан может совершать периодические покачивания для равномерного смачивания белья. Как только температура достигает заданного значения, <strong>термодатчик</strong> подает сигнал, и модуль запускает основной цикл вращения.</p>
+
+<p>Современные модули управления в технике <em>Candy</em> оснащены функцией диагностики. При возникновении сбоя, например, при засоре фильтра или неисправности насоса, процесс останавливается, а на дисплей выводится код ошибки. Это позволяет мастеру или пользователю быстро локализовать проблему. Алгоритм может пытаться компенсировать некоторые неполадки, например, увеличивая время стирки при сильном дисбалансе белья.</p>
+
+<details class="pb-accordion"><summary>Что такое самодиагностика?</summary><div class="pb-accordion-body"><p>Самодиагностика — это встроенная в модуль управления программа, которая в реальном времени опрашивает все датчики. Если значение с датчика выходит за пределы допустимого диапазона (например, ток двигателя слишком высок или вода не греется), модуль фиксирует ошибку и прекращает выполнение программы для предотвращения поломки.</p></div></details>
+
+<h2 id="гидравлическая-система-набор-циркуляция-и-слив">Гидравлическая система: набор, циркуляция и слив</h2>
+
+<p>Гидравлический цикл начинается с открытия электромагнитного клапана, через который вода под давлением водопровода поступает в лоток для моющих средств. Смешиваясь с порошком или гелем, раствор попадает в бак. Важно отметить, что в машинах <em>Candy</em> часто реализована система <strong>Smart Dosing</strong> или аналогичные технологии, позволяющие экономить воду и моющее средство за счет точного дозирования.</p>
+
+<p>Циркуляция воды внутри бака обеспечивается вращением барабана и специальными бойниками (лопастями), которые поднимают белье и позволяют воде свободно проходить сквозь ткань. На этапе полоскания модуль управления несколько раз повторяет цикл набора и слива, чтобы полностью удалить остатки химии. <strong>Сливной насос</strong> (помпа) включается по команде модуля и откачивает воду через фильтр в канализацию.</p>
+
+<ul>
+<li>🚰 <strong>Впускной клапан:</strong> регулирует подачу холодной и горячей воды (если предусмотрено подключение).</li>
+<li>🌀 <strong>Циркуляционный насос:</strong> в некоторых моделях дополнительно прокачивает воду через белье для лучшего вымывания порошка.</li>
+<li>🚿 <strong>Сливная помпа:</strong> обеспечивает откачку грязной воды на разных этапах цикла.</li>
+</ul>
+
+<p>Эффективность гидравлики напрямую влияет на качество стирки. Если фильтр насоса забит или шланг перегнут, модуль зафиксирует ошибку слива. Давление воды в водопроводе также играет роль: слишком низкое давление может привести к тому, что машина будет набирать воду слишком долго или вовсе не начнет стирку, так как клапан не откроется полностью.</p>
+
+<h2 id="механика-вращения-балансировка-и-отжим">Механика вращения: балансировка и отжим</h2>
+
+<p>Механическая часть стиральной машины испытывает колоссальные нагрузки, особенно в режиме отжима. Двигатель раскручивает барабан до speeds, превышающих 1000 оборотов в минуту. В этот момент вступает в работу система балансировки. Если белье распределилось неравномерно, возникает <strong>дисбаланс</strong>, который может привести к сильной вибрации и даже «прыжкам» машины.</p>
+
+<p>Для компенсации этого явления в машинах <em>Candy</em> используются противовесы (бетонные или металлические блоки), прикрепленные к баку, и амортизаторы, гасящие колебания. Электронный модуль отслеывает ток двигателя: резкие скачки потребления энергии свидетельствуют о биении бараб>ана. В таком случае машина может автоматически сбросить обороты, добавить воды для перераспределения вещей или прервать отжим.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Элемент системы</th>
+<th>Функция</th>
+<th>Признаки износа</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Подшипниковый узел</td>
+<td>Обеспечивает свободное вращение барабана</td>
+<td>Гул, шум при отжиме</td>
+</tr>
+<tr>
+<td>Амортизаторы</td>
+<td>Гашение вибраций бака</td>
+<td>Сильная тряска, стук</td>
+</tr>
+<tr>
+<td>Пружины подвеса</td>
+<td>Удержание бака в вертикальном положении</td>
+<td>Перекос бака, провисание</td>
+</tr>
+<tr>
+<td>Сальник</td>
+<td>Герметизация вала от воды</td>
+<td>Течь, ржавчина на валу</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Регулярная проверка устойчивости машины — важный аспект эксплуатации. Если вы заметили, что при отжиме аппарат ведет себя нехарактерно, стоит проверить ножки и равномерность загрузки. <mark>Игнорирование сильного дисбаланса может привести к разрушению подшипникового узла и деформации крестовины барабана.</mark></p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Проверка механики перед запуском</h4><label class="check-item"><input type="checkbox"><span>Проверить устойчивость ножек</span></label><label class="check-item"><input type="checkbox"><span>Убедиться в отсутствии посторонних предметов в барабане</span></label><label class="check-item"><input type="checkbox"><span>Проверить равномерность загрузки белья</span></label><label class="check-item"><input type="checkbox"><span>Убедиться, что транспортировочные болты удалены</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<h2 id="система-нагрева-воды-и-температурный-контроль">Система нагрева воды и температурный контроль</h2>
+
+<p>Нагрев воды — один из самых энергоемких процессов в цикле стирки. <strong>ТЭН</strong> (трубчатый электронагреватель) погружен в воду в нижней части бака. Модуль управления подает напряжение на ТЭН до тех пор, пока датчик температуры не зафиксирует достижение заданного значения. После этого нагрев прекращается, и поддерживающий режим включается лишь периодически для компенсации теплопотерь.</p>
+
+<p>В стиральных машинах <em>Candy</em> часто используются ТЭНы с покрытием, предотвращающим образование накипи, однако жесткая вода все равно остается проблемой. Накипь ухудшает теплоотдачу, заставляя элемент работать дольше и потреблять больше электроэнергии, что может привести к его перегоранию. <strong>Термостат</strong> или электронный датчик (NTC) играет роль предохранителя, не давая воде закипеть внутри бака.</p>
+
+<blockquote>⚠️ Внимание: Характеристики ТЭНа (мощность, длина, форма) должны строго соответствовать модели вашей стиральной машины. Установка неподходящего нагревателя может привести к повреждению бака или модуля управления.</blockquote>
+
+<p>Экономичные программы стирки часто используют более низкие температуры, полагаясь на увеличенное время воздействия и механическое движение, что позволяет бережно относиться к тканям и экономить электричество. Понимание этого принципа помогает выбирать правильные режимы для разных типов загрязнений.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Для продления срока службы ТЭНа рекомендуется раз в 3-4 месяца запускать цикл очистки барабана при температуре 90°C с использованием специальных средств или лимонной кислоты.</p></aside>
+
+<h2 id="типичные-сбои-в-работе-автоматики">Типичные сбои в работе автоматики</h2>
+
+<p>Несмотря на надежность, автоматика может давать сбои. Чаще всего проблемы связаны не с поломкой самого модуля, а с неисправностью исполнительных механизмов или датчиков. Например, если машина не набирает воду, причина может крыться в засорении сеточки <strong>впускного клапана</strong> или отсутствии давления в водопроводе, а не в сгоревшей электронике.</p>
+
+<p>Частой проблемой является ошибка слива. <strong>Сливной насос</strong> может заблокироваться монетой, пуговицей или ворсом. В таких случаях модуль пытается несколько раз запустить помпу, получает отрицательный ответ от прессостата (вода не ушла) и выдает код ошибки. Также встречаются сбои в работе датчика закрытия люка (УБЛ), без сигнала от которого стирка не начнется.</p>
+
+<ul>
+<li>🔌 <strong>Проблемы с питанием:</strong> скачки напряжения могут привести к сбросу настроек или повреждению модуля.</li>
+<li>💧 <strong>Протечки:</strong> попадание воды на контакты вызывает короткое замыкание и хаотичное поведение машины.</li>
+<li>🧶 <strong>Засоры:</strong> влияют на работу датчиков уровня и слива, искажая показания для модуля.</li>
+</ul>
+
+<p>Диагностика современных машин <em>Candy</em> часто возможна через смартфон с помощью NFC-метки (функция <em>NFC Touch</em>). Поднеся телефон к специальной метке на корпусе, можно получить точный код ошибки и рекомендацию по его устранению, что значительно упрощает взаимодействие с сервисной службой или самостоятельный ремонт.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Большинство ошибок автоматики вызвано внешними факторами (засоры, скачки напряжения, проблемы с водоснабжением), а не выходом из строя дорогого электронного модуля.</p></aside>
+
+<details>
+<summary>Почему стиральная машина набирает воду, но не начинает стирку?</summary>
+<p>Чаще всего это означает, что вода не нагрелась до нужной температуры в отведенное время. Причины: неисправен ТЭН, датчик температуры или модуль управления. Также возможно, что прессостат не видит нужного уровня воды.</p>
+</details>
+
+<details>
+<summary>Что означает мигание индикаторов на панели Candy?</summary>
+<p>Комбинации мигающих индикаторов — это код ошибки. Расшифровку можно найти в инструкции или получить через приложение на смартфоне, если модель поддерживает NFC. Каждая комбинация указывает на конкретный узел.</p>
+</details>
+
+<details>
+<summary>Можно ли стирать без нагрева воды?</summary>
+<p>Да, большинство программ позволяют стирать в холодной воде. Однако для активации большинства стиральных порошков и удаления жировых пятен необходим нагрев хотя бы до 40°C.</p>
+</details>
+
+<details>
+<summary>Как часто нужно чистить фильтр сливного насоса?</summary>
+<p>Рекомендуется проверять и чистить фильтр не реже одного раза в 3-4 месяца, или чаще, если в доме есть домашние животные или ворсистые ковры.</p>
+</details>
+
+<details>
+<summary>Влияет ли жесткость воды на работу электроники?</summary>
+<p>Прямого влияния на микросхемы жесткость не оказывает, но накипь на ТЭНе и датчиках меняет их тепловые характеристики, что может привести к некорректным показаниям и перегрузке модуля управления.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-snyat-klyuch-blokirovki-na-stiralnoj-mashine-bosh.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять блокировку на стиральной машине Bosch: полное руководство</span>
+                <span class="pb-related-desc">Подробная инструкция: как разблокировать стиральную машину Bosch. Устранение блокировки люка, Child </span>
+            </a><a href="/articles/k/ka/kak-razobrat-kryshku-vertikalnoj-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как разобрать крышку стиральной машины: инструкция</span>
+                <span class="pb-related-desc">Пошаговая инструкция: как снять верхнюю крышку вертикальной стиральной машины. Разборка корпуса, дос</span>
+            </a><a href="/articles/k/ka/kak-perezagruzit-stiralnuyu-mashinu-gorene.html" class="pb-related-card">
+                <span class="pb-related-title">Как перезагрузить стиральную машину Горенье: полный сброс</span>
+                <span class="pb-related-desc">Подробная инструкция по перезагрузке стиральных машин Gorenje. Как сделать reset, сбросить ошибку и </span>
+            </a><a href="/articles/k/ka/kak-snyat-ten-so-stiralnoj-mashiny-bosh.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять ТЭН со стиральной машины Bosch: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство, как заменить нагревательный элемент в стиралке Бош. Диагностика, список инстр</span>
+            </a><a href="/articles/k/ka/kak-snyat-ten-so-stiralnoj-mashiny-atlant.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять ТЭН со стиральной машины Атлант: инструкция</span>
+                <span class="pb-related-desc">Подробная инструкция: как заменить нагревательный элемент в СМА Атлант. Снятие бака, демонтаж ТЭНа, </span>
+            </a><a href="/articles/s/st/stiralnaya-mashina-kak-snyat-rezinku-s-barabana-veko.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять резинку с барабана стиральной машины VEKO: пошагово</span>
+                <span class="pb-related-desc">Подробная инструкция по демонтажу манжеты люка стиральной машины VEKO своими руками. Схемы, инструме</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

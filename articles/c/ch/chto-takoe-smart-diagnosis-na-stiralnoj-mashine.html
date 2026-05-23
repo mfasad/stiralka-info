@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Smart Diagnosis: что это и как пользоваться кодами ошибок — Стиралка Инфо</title>
+    <meta name="description" content="Подробный разбор технологии Smart Diagnosis в стиральных машинах. Как включить самодиагностику, расшифровать коды ошибок и проверить основные узлы.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/c/ch/chto-takoe-smart-diagnosis-na-stiralnoj-mashine.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Smart Diagnosis: что это и как пользоваться кодами ошибок">
+    <meta property="og:description" content="Подробный разбор технологии Smart Diagnosis в стиральных машинах. Как включить самодиагностику, расшифровать коды ошибок и проверить основные узлы.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-nav-active">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/kody-oshibok/">Коды ошибок</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Smart Diagnosis: что это и как пользоваться кодами ошибок</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#принцип-работы-интеллектуальной-диагностики">Принцип работы интеллектуальной диагностики</a></li><li><a href="#как-запустить-режим-самодиагностики">Как запустить режим самодиагностики</a></li><li><a href="#расшифровка-популярных-кодов-ошибок">Расшифровка популярных кодов ошибок</a></li><li><a href="#таблица-соответствия-ошибок-по-брендам">Таблица соответствия ошибок по брендам</a></li><li><a href="#диагностика-основных-узлов-машины">Диагностика основных узлов машины</a></li><li><a href="#частые-ошибки-пользователей-при-диагностике">Частые ошибки пользователей при диагностике</a></li><li><a href="#когда-необходим-вызов-мастера">Когда необходим вызов мастера</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/c/ch/chto-delat-esli-stiralnaya-mashina-pokazyvaet-de.html">Ошибка DE в стиральной машине: причины и как устранить</a></li><li><a href="/articles/s/st/stiralnaya-mashina-elektrolyuks-oshibka-e20-chto.html">Стиральная машина Electrolux ошибка E20: расшифровка и ремонт</a></li><li><a href="/articles/o/os/oshibka-e08-na-stiralnoj-mashine-candy-chto-eto.html">Ошибка E08 на стиральной машине Candy: причины и устранение</a></li><li><a href="/articles/o/os/oshibka-pf-v-stiralnoj-mashine-lg-chto-eto-oznachaet.html">Ошибка PF в стиральной машине LG: расшифровка и устранение</a></li><li><a href="/articles/k/ka/kak-ispravit-oshibku-ue-v-stiralnoj-mashine-samsung.html">Ошибка UE в стиральной машине Samsung: причины и ремонт</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Smart Diagnosis на стиральной машине: полное руководство</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#принцип-работы-интеллектуальной-диагностики">Принцип работы интеллектуальной диагностики</a></li><li><a href="#как-запустить-режим-самодиагностики">Как запустить режим самодиагностики</a></li><li><a href="#расшифровка-популярных-кодов-ошибок">Расшифровка популярных кодов ошибок</a></li><li><a href="#таблица-соответствия-ошибок-по-брендам">Таблица соответствия ошибок по брендам</a></li><li><a href="#диагностика-основных-узлов-машины">Диагностика основных узлов машины</a></li><li><a href="#частые-ошибки-пользователей-при-диагностике">Частые ошибки пользователей при диагностике</a></li><li><a href="#когда-необходим-вызов-мастера">Когда необходим вызов мастера</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+<p>Современная бытовая техника перестала быть просто набором механических узлов и превратилась в сложный электронный комплекс, требующий квалифицированного подхода к обслуживанию. Владельцы стиральных машин часто сталкиваются с ситуацией, когда устройство внезапно останавливается, а на дисплее загорается загадочное сочетание букв и цифр. Именно здесь на помощь приходит функция <strong>Smart Diagnosis</strong>, позволяющая провести первичную проверку исправности агрегата без вызова мастера.</p>
+
+<p>Эта технология встроена в программное обеспечение большинства современных моделей от ведущих мировых брендов. Она автоматически сканирует состояние датчиков, исполнительных механизмов и электронных плат, выдавая результат в виде понятных пользователю кодов. Понимание принципов работы этой системы позволяет сэкономить значительные средства на диагностике и оперативно устранить мелкие неполадки.</p>
+
+<p>Внедрение интеллектуальных систем контроля стало стандартом отрасли, так как это снижает нагрузку на сервисные центры и повышает прозрачность обслуживания. Если вы заметили, что <em>LG</em>, <em>Samsung</em> или <em>Bosch</em> ведут себя некорректно, первым шагом всегда должен быть запуск режима самотестирования. Это действие безопасно для электроники и не требует специальных инструментов.</p>
+
+<h2 id="принцип-работы-интеллектуальной-диагностики">Принцип работы интеллектуальной диагностики</h2>
+<p>В основе системы лежит постоянный мониторинг электрических параметров ключевых узлов стиральной машины. Микропроцессор в реальном времени считывает данные с температурных сенсоров, тензодатчиков (взвешивание белья), уровнемеров воды и таходатчика двигателя. При обнаружении отклонения от эталонных значений, заложенных производителем, система фиксирует событие и присваивает ему уникальный идентификатор.</p>
+
+<p>Процесс проверки может быть как автоматическим, так и принудительным. В автоматическом режиме <strong>Smart Diagnosis</strong> реагирует на аварийные ситуации: например, если вода не набирается за отведенное время или двигатель не развивает нужные обороты. Принудительный запуск инициируется пользователем через комбинацию кнопок, что позволяет проверить исправность компонентов даже при видимой работе машины.</p>
+
+<blockquote>⚠️ Внимание: Некоторые модели стиральных машин могут не отображать код ошибки сразу, а накапливать их в буфере памяти. Для доступа к истории сбоев может потребоваться вход в сервисное меню, что не рекомендуется делать без опыта.</blockquote>
+
+<p>Важно отметить, что электроника различает типы ошибок. Существуют критические сбои, блокирующие запуск программы, и предупреждения, позволяющие продолжить стирку с ограничениями. Например, при неисправности датчика температуры машина может запретить нагрев воды, но продолжит полоскание в холодной воде, сигнализируя об этом соответствующим кодом.</p>
+
+<div class="pb-poll" id="poll-bbf9d81a"><div class="pb-poll-question">📊 Сталкивались ли вы с кодами ошибок на стиральной машине?</div><div class="pb-poll-option" data-poll="bbf9d81a" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, часто вижу коды на дисплее</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="bbf9d81a" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Было пару раз, но машина работала</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="bbf9d81a" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Никогда не видел, только мигают лампочки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="bbf9d81a" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Машина вообще не включается</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="как-запустить-режим-самодиагностики">Как запустить режим самодиагностики</h2>
+<p>Активация режима проверки зависит от конкретной модели и бренда производителя, так как единого стандарта для всех <em>Whirlpool</em>, <em>Electrolux</em> или <em>Haier</em> не существует. Обычно процедура выполняется на выключенной машине или в режиме ожидания. Необходимо зажать определенную комбинацию кнопок на панели управления и, удерживая их, повернуть селектор программ или нажать кнопку включения.</p>
+
+<p>Часто используется методика последовательного нажатия кнопок в определенном ритме. Например, на некоторых моделях требуется пять раз нажать кнопку «Температура» за три секунды. После успешного ввода команды индикаторы на панели начинают мигать в определенной последовательности, а на дисплее могут появляться тестовые символы. Это означает, что <strong>система диагностики</strong> перешла в активный режим.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Алгоритм запуска диагностики</h4><label class="check-item"><input type="checkbox"><span>Выключить машину из розетки</span></label><label class="check-item"><input type="checkbox"><span>Найти схему комбинаций для вашей модели</span></label><label class="check-item"><input type="checkbox"><span>Зажать нужные кнопки</span></label><label class="check-item"><input type="checkbox"><span>Повернуть ручку программы</span></label><label class="check-item"><input type="checkbox"><span>Дождаться сигнала входа в режим</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<p>Во время прохождения тестов машина может издавать звуки, щелкать клапанами или кратковременно включать насос. Это нормальное явление, свидетельствующее о проверке исполнительных механизмов. Если в ходе теста обнаруживается неисправность, на экране высвечивается код, который необходимо зафиксировать для дальнейшей расшифровки.</p>
+
+
+
+<h2 id="расшифровка-популярных-кодов-ошибок">Расшифровка популярных кодов ошибок</h2>
+<p>Полученный в результате диагностики код является ключом к пониманию проблемы. Производители используют буквенно-цифровые обозначения, где буква часто указывает на узел, а цифры — на тип неисправности. Знание основных кодов позволяет быстро сориентироваться в ситуации.</p>
+
+<p>Рассмотрим наиболее распространенные обозначения, встречающиеся в различных брендах:</p>
+<ul>
+    <li>🚿 <strong>Ошибка подачи воды (E10, 4E, IE):</strong> Машина не набирает воду за отведенное время. Причины: перекрыт кран, слабый напор, засорен фильтр-сеточка или неисправен впускной клапан.</li>
+    <li>🌊 <strong>Ошибка слива (E20, 5E, OE):</strong> Вода не уходит из бака. Причины: засорен сливной фильтр, пережат шланг, неисправен сливной насос или датчик уровня воды.</li>
+    <li>🔥 <strong>Ошибка нагрева (E40, HE, TE):</strong> Вода не нагревается до заданной температуры. Причины: перегорел ТЭН, вышел из строя температурный датчик или реле управления на плате.</li>
+    <li>🌀 <strong>Ошибка двигателя (E60, LE, DE):</strong> Проблемы с вращением барабана. Причины: износ щеток двигателя, обрыв таходатчика или неисправность модуля управления.</li>
+</ul>
+
+<p>Стоит учитывать, что один и тот же код у разных производителей может означать разные вещи, хотя логика часто сохраняется. Например, код <em>IE</em> у <em>LG</em> указывает на проблемы с забором воды, тогда как у других брендов аналогичная ошибка может маркироваться иначе. Всегда сверяйтесь с инструкцией к конкретному устройству.</p>
+
+
+
+<h2 id="таблица-соответствия-ошибок-по-брендам">Таблица соответствия ошибок по брендам</h2>
+<p>Для удобства пользователей приведем сравнительную таблицу кодов, указывающих на проблемы со сливом воды, так как это самая частая причина обращения в сервис. Данные могут варьироваться в зависимости от года выпуска модели.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Бренд</th>
+<th>Код ошибки</th>
+<th>Описание проблемы</th>
+<th>Вероятная причина</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LG</td>
+<td>OE / 5E</td>
+<td>Превышено время слива</td>
+<td>Засор фильтра или насоса</td>
+</tr>
+<tr>
+<td>Samsung</td>
+<td>5E</td>
+<td>Вода не сливается</td>
+<td>Неисправность помпы</td>
+</tr>
+<tr>
+<td>Bosch</td>
+<td>E18 / F18</td>
+<td>Проблема со сливом</td>
+<td>Засор в системе слива</td>
+</tr>
+<tr>
+<td>Indesit</td>
+<td>F05</td>
+<td>Датчик уровня воды</td>
+<td>Залипание реле или датчика</td>
+</tr>
+<tr>
+<td>Electrolux</td>
+<td>E20</td>
+<td>Проблема слива воды</td>
+<td>Засор или поломка насоса</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Использование таблицы позволяет быстро идентифицировать круг проблем, даже если под рукой нет оригинальной инструкции. Однако для точной диагностики всегда лучше обратиться к официальному мануалу, так как модификации моделей могут иметь уникальные коды.</p>
+
+<h2 id="диагностика-основных-узлов-машины">Диагностика основных узлов машины</h2>
+<p>Функция <strong>Smart Diagnosis</strong> позволяет проверить не только наличие ошибок, но и состояние отдельных компонентов. Например, можно проверить работу нагревательного элемента, измерив его сопротивление, или оценить целостность обмоток двигателя. Для этого мультиметр не всегда обязателен, если машина сама проводит тесты.</p>
+
+<p>При проверке двигателя система контролирует его способность набирать обороты и удерживать их под нагрузкой. Если таходатчик выдает сигнал о рассогласовании скорости вращения, машина останавливает программу. В режиме диагностики можно услышать, как мотор пытается раскрутить барабан, что помогает выявить механические заклинивания подшипников.</p>
+
+<blockquote>⚠️ Внимание: Проверка ТЭНа (нагревательного элемента) в режиме диагностики возможна не на всех моделях. На некоторых машинах для проверки нагревателя требуется запустить программу стирки с максимальной температурой и контролировать потребление электроэнергии.</blockquote>
+
+<p>Отдельного внимания заслуживает проверка герметичности. Некоторые продвинутые модели умеют тестировать систему на предмет утечек, контролируя уровень воды в баке в течение определенного времени без вращения барабана. Если уровень падает, система сообщит о потенциальной утечке, даже если визуально воды на полу еще нет.</p>
+
+
+
+<h2 id="частые-ошибки-пользователей-при-диагностике">Частые ошибки пользователей при диагностике</h2>
+<p>Несмотря на простоту системы, пользователи часто допускают ошибки, которые приводят к ложным выводам. Самая распространенная из них — игнирование простых причин, таких как закрытый кран подачи воды или отсутствие электричества в розетке. <strong>Электроника</strong> машины видит отсутствие воды и выдает сложный код, а пользователь начинает искать поломку насоса.</p>
+
+<p>Еще одна ошибка — попытка сбросить ошибку простым выключением машины из сети. Хотя это перезагружает контроллер, оно не устраняет причину сбоя. Если неисправность физическая (сгоревший ТЭН или пробитый подшипник), ошибка вернется сразу же при следующем запуске программы, а в худшем случае может привести к более серьезным последствиям, например, затоплению.</p>
+
+<p>Также пользователи часто путают коды блокировок. Например, индикатор замка люка может мигать не из-за поломки, а из-за того, что в машине осталось давление или высокая температура воды. Система безопасности не откроет дверь, пока параметры не придут в норму, и это не является неисправностью.</p>
+
+
+
+<h2 id="когда-необходим-вызов-мастера">Когда необходим вызов мастера</h2>
+<p>Несмотря на мощные возможности <em>Smart Diagnosis</em>, существуют ситуации, когда самостоятельный ремонт невозможен или опасен. Если диагностика указывает на неисправность электронного модуля управления (платы), замена компонентов требует пайки и глубоких знаний схемотехники. Попытка ремонта своими руками может привести к короткому замыканию.</p>
+
+<p>Также помощь специалиста нужна при замене подшипников барабана. Этот процесс требует полной разборки машины, запрессовки новых подшипников и качественной герметизации бака. Ошибка в сборке приведет к быстрому выходу из строя новых деталей и протечкам.</p>
+
+<ul>
+    <li>🛠️ <strong>Замена модуля управления:</strong> Требуется перепрошивка или точная настройка параметров под конкретный двигатель.</li>
+    <li>🔧 <strong>Ремонт бака:</strong> Трещины в пластиковом баке часто требуют его замены целиком, так как пайка не всегда эффективна.</li>
+    <li>⚡ <strong>Проблемы с проводкой:</strong> Если диагностика показывает хаотичные ошибки разных узлов, возможно, повреждена внутренняя проводка или окислились контакты.</li>
+</ul>
+
+<p>Если после устранения простой причины (чистка фильтра, проверка крана) ошибка продолжает появляться, значит, проблема кроется глубже. В этом случае дальнейшие эксперименты могут быть экономически нецелесообразны по сравнению с вызовом профессионала.</p>
+
+<details>
+<summary>Можно ли полностью отключить диагностику, если она мешает?</summary>
+<p>Отключить систему самодиагностики невозможно, так как она вшита в firmware контроллера. Это важнейшая функция безопасности. Однако можно игнорировать некоторые предупреждения (например, о неполном растворении порошка), но критические ошибки блокируют работу машины принудительно.</p>
+</details>
+
+<details>
+<summary>Почему диагностика показывает ошибку, но машина стирает?</summary>
+<p>Это называется «плавающая неисправность». Датчик иногда дает верный сигнал, а иногда ошибается из-за окисления контактов или нестабильного напряжения. Машина переходит в аварийный режим, продолжая стирку с ограничениями, но фиксирует событие в памяти.</p>
+</details>
+
+<details>
+<summary>Влияет ли жесткая вода на результаты Smart Diagnosis?</summary>
+<p>Да, косвенно. Накипь на ТЭНе искажает теплоотдачу, что может привести к ошибкам нагрева. Засоры в патрубках из-за отложений меняют гидравлическое сопротивление, вызывая ошибки слива или набора воды. Регулярная чистка машины лимонной кислотой помогает избежать ложных срабатываний.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/c/ch/chto-delat-esli-stiralnaya-mashina-pokazyvaet-de.html" class="pb-related-card">
+                <span class="pb-related-title">Ошибка DE в стиральной машине: причины и как устранить</span>
+                <span class="pb-related-desc">Почему стиральная машина показывает DE? Разбираемся с причинами ошибки, инструкциями по устранению и</span>
+            </a><a href="/articles/s/st/stiralnaya-mashina-elektrolyuks-oshibka-e20-chto.html" class="pb-related-card">
+                <span class="pb-related-title">Стиральная машина Electrolux ошибка E20: расшифровка и ремонт</span>
+                <span class="pb-related-desc">Почему горит ошибка E20 на стиралке Электролюкс? Полный разбор причин: засоры, помпа, сливной шланг.</span>
+            </a><a href="/articles/o/os/oshibka-e08-na-stiralnoj-mashine-candy-chto-eto.html" class="pb-related-card">
+                <span class="pb-related-title">Ошибка E08 на стиральной машине Candy: причины и устранение</span>
+                <span class="pb-related-desc">Почему горит E08 на стиралке Candy? Полный гид по диагностике помпы, сливного фильтра и проводки. Ин</span>
+            </a><a href="/articles/o/os/oshibka-pf-v-stiralnoj-mashine-lg-chto-eto-oznachaet.html" class="pb-related-card">
+                <span class="pb-related-title">Ошибка PF в стиральной машине LG: расшифровка и устранение</span>
+                <span class="pb-related-desc">Что означает код ошибки PF на стиральных машинах LG? Подробная инструкция по устранению сбоев питани</span>
+            </a><a href="/articles/k/ka/kak-ispravit-oshibku-ue-v-stiralnoj-mashine-samsung.html" class="pb-related-card">
+                <span class="pb-related-title">Ошибка UE в стиральной машине Samsung: причины и ремонт</span>
+                <span class="pb-related-desc">Почему горит ошибка UE на стиральной машине Samsung? Полный гид по диагностике дисбаланса, проверке </span>
+            </a><a href="/articles/o/os/oshibka-n1-v-stiralnoj-mashine-samsung-chto-znachit.html" class="pb-related-card">
+                <span class="pb-related-title">Ошибка Н1 в стиральной машине Samsung: причины и способы устранения</span>
+                <span class="pb-related-desc">Разбираемся, что означает код ошибки Н1 в стиральных машинах Samsung, почему он появляется и как исп</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

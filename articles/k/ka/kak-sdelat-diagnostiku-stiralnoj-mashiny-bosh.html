@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Диагностика стиральной машины Bosch: коды ошибок и тесты — Стиралка Инфо</title>
+    <meta name="description" content="Подробная инструкция: как запустить самодиагностику стиральной машины Bosch. Расшифровка кодов ошибок, тестовые режимы и алгоритм поиска неисправностей.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-sdelat-diagnostiku-stiralnoj-mashiny-bosh.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Диагностика стиральной машины Bosch: коды ошибок и тесты">
+    <meta property="og:description" content="Подробная инструкция: как запустить самодиагностику стиральной машины Bosch. Расшифровка кодов ошибок, тестовые режимы и алгоритм поиска неисправностей.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Диагностика стиральной машины Bosch: коды ошибок и тесты</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#визуальный-осмотр-и-первичная-проверка-узлов">Визуальный осмотр и первичная проверка узлов</a></li><li><a href="#запуск-режима-самодиагностики-на-моделях-bosch">Запуск режима самодиагностики на моделях Bosch</a></li><li><a href="#расшифровка-кодов-ошибок-и-мигания-индикаторов">Расшифровка кодов ошибок и мигания индикаторов</a></li><li><a href="#проверка-электродвигателя-и-щеток">Проверка электродвигателя и щеток</a></li><li><a href="#диагностика-системы-нагрева-и-тэна">Диагностика системы нагрева и ТЭНа</a></li><li><a href="#анализ-работы-сливного-насоса-и-гидросистемы">Анализ работы сливного насоса и гидросистемы</a></li><li><a href="#частые-вопросы-и-ответы-faq">Частые вопросы и ответы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-snyat-manzhetu-so-stiralnoj-mashiny-ariston.html">Как снять манжету с барабана стиральной машины Ariston: пошагово</a></li><li><a href="/articles/k/ka/kak-snyat-baraban-u-stiralnoj-mashiny-vestel.html">Как снять барабан стиральной машины Vestel: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-otkalibrovat-stiralnuyu-mashinu.html">Как откалибровать стиральную машину: полная инструкция</a></li><li><a href="/articles/c/ch/chem-smazat-val-stiralnoj-mashiny.html">Чем смазать вал стиральной машины: виды смазок и инструкция</a></li><li><a href="/articles/k/ka/kak-slit-vodu-iz-stiralnoj-mashiny-ldzhi.html">Как слить воду из стиральной машины LG: пошаговая инструкция</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как сделать диагностику стиральной машины Bosch: полное руководство</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#визуальный-осмотр-и-первичная-проверка-узлов">Визуальный осмотр и первичная проверка узлов</a></li><li><a href="#запуск-режима-самодиагностики-на-моделях-bosch">Запуск режима самодиагностики на моделях Bosch</a></li><li><a href="#расшифровка-кодов-ошибок-и-мигания-индикаторов">Расшифровка кодов ошибок и мигания индикаторов</a></li><li><a href="#проверка-электродвигателя-и-щеток">Проверка электродвигателя и щеток</a></li><li><a href="#диагностика-системы-нагрева-и-тэна">Диагностика системы нагрева и ТЭНа</a></li><li><a href="#анализ-работы-сливного-насоса-и-гидросистемы">Анализ работы сливного насоса и гидросистемы</a></li><li><a href="#частые-вопросы-и-ответы-faq">Частые вопросы и ответы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Стиральные машины немецкого бренда <em>Bosch</em> заслуженно считаются одними из самых надежных агрегатов на рынке бытовой техники. Однако даже качественная техника со временем может выходить из строя или работать некорректно. В таких случаях первым шагом к восстановлению работоспособности становится грамотная диагностика. Современные модели, такие как <em>Bosch Maxx</em> или <em>Seriy 6</em>, оснащены сложной электроникой, которая сама сигнализирует о проблемах, но часто требуется ручная проверка узлов.</p>
+
+<p>Провести первичное обследование можно самостоятельно, не вызывая мастера сразу же после появления странного звука или отсутствия отжима. <strong>Самодиагностика</strong> позволяет локализовать неисправность: будь то засорившийся фильтр, износ щеток двигателя или проблема с датчиком уровня воды. Понимание принципов работы системы управления поможет сэкономить время и деньги.</p>
+
+<p>В этой статье мы подробно разберем, как войти в сервисный режим, как расшифровать мигание индикаторов и на какие узлы обратить внимание в первую очередь. Важно подходить к процессу системно, соблюдая технику безопасности при работе с электроприборами.</p>
+
+<h2 id="визуальный-осмотр-и-первичная-проверка-узлов">Визуальный осмотр и первичная проверка узлов</h2>
+
+<p>Прежде чем переходить к сложным манипуляциям с электроникой, необходимо провести тщательный внешний осмотр. Часто причина неисправности кроется в банальных вещах, которые легко упустить из виду. Проверьте целостность шлангов подачи воды и слива, убедитесь, что нет протечек под корпусом.</p>
+
+<p>Особое внимание стоит уделить фильтру сливного насоса. Если машина гудит, но не сливает воду, или на дисплее появляется соответствующий код ошибки, именно здесь чаще всего находят монеты, пуговицы и ворс. <strong>Засорение насоса</strong> — самая частая причина остановки цикла стирки.</p>
+
+<ul>
+<li>🔍 Осмотрите барабан на наличие посторонних предметов, которые могли попасть между баком и барабаном.</li>
+<li>🔌 Проверьте целостность сетевого кабеля и надежность подключения вилки в розетку.</li>
+<li>🚰 Убедитесь, что кран подачи воды полностью открыт и напор достаточен.</li>
+</ul>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> Перед любым осмотром внутренних узлов обязательно отключите стиральную машину от электросети. Работа с водой и электричеством требует максимальной осторожности.</p>
+</blockquote>
+
+<p>Если внешние причины исключены, а техника продолжает вести себя странно, переходим к программной части. Электронный модуль управления <em>Bosch</em> хранит историю ошибок, что значительно упрощает поиск дефекта.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Запишите последовательность мигания индикаторов на телефон перед сбросом ошибки — это поможет точно определить код неисправности при расшифровке.</p></aside>
+
+<h2 id="запуск-режима-самодиагностики-на-моделях-bosch">Запуск режима самодиагностики на моделях Bosch</h2>
+
+<p>Для перехода в сервисный режим на разных сериях машин могут использоваться отличающиеся комбинации кнопок. На современных моделях с дисплеем <em>HomeProfessional</em> или <em>Logixx</em> процесс часто скрыт от пользователя, но базовые тесты доступны через стандартные программы.</p>
+
+<p>Классический способ входа в режим тестирования на многих моделях <em>Bosch</em> involves удержание определенных кнопок при повороте селектора. Например, на некоторых моделях нужно одновременно зажать кнопки "Отжим" и "Температура", затем повернуть ручку в положение "Слив" или "Отжим".</p>
+
+<p>После включения машина может начать перебирать все индикаторы или запустить короткий цикл проверки. В этот момент <strong>электронный модуль</strong> проверяет исправность лампочек, целостность цепей нагревателя и двигателя. Если система обнаружит обрыв или короткое замыкание, она перейдет в режим индикации ошибки.</p>
+
+<div class="pb-poll" id="poll-107a2fe4"><div class="pb-poll-question">📊 С каким типом неисправности вы столкнулись?</div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Машина не включается</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Не сливает воду</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Не греет воду</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Сильно вибрирует</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="107a2fe4" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Гудит при отжиме</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<p>Некоторые модели требуют подключения специального тестера или использования режима "Демонстрация", который можно активировровать длительным нажатием комбинации кнопок. Точную последовательность для вашей модели <em>Bosch WIS</em> или <em>WAE</em> лучше искать в техническом мануале.</p>
+
+<h2 id="расшифровка-кодов-ошибок-и-мигания-индикаторов">Расшифровка кодов ошибок и мигания индикаторов</h2>
+
+<p>Стиральные машины <em>Bosch</em> не всегда выводят буквенно-цифровой код на дисплей. В моделях без экрана (серии <em>Classixx</em>, <em>Maxx</em>) информация о неисправности передается через мигание индикаторов. Количество миганий соответствует определенному коду ошибки.</p>
+
+<p>Например, если мигает индикатор "Отжим" 4 раза, а затем пауза, это может указывать на проблемы с сливом воды. Если мигает индикатор температуры — вероятна ошибка нагрева. <strong>Коды ошибок</strong> позволяют точно определить, какой датчик или узел вышел из строя.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Код ошибки</th>
+<th>Описание неисправности</th>
+<th>Вероятная причина</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E18 / F18</td>
+<td>Ошибка слива воды</td>
+<td>Засор фильтра, неисправность насоса</td>
+</tr>
+<tr>
+<td>E01 / F01</td>
+<td>Ошибка модуля управления</td>
+<td>Сбой EEPROM, короткое замыкание</td>
+</tr>
+<tr>
+<td>E23 / F23</td>
+<td>Попадание воды в поддон</td>
+<td>Протечка, сработал Аквастоп</td>
+</tr>
+<tr>
+<td>E67 / F67</td>
+<td>Ошибка двигателя</td>
+<td>Неисправность мотора или модуля</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Для точной расшифровки необходимо знать модель вашего агрегата. Код <em>F05</em> на одной модели может означать одно, а на другой — совершенно иное. Всегда сверяйтесь с технической документацией, прилагаемой к конкретной серии <em>Bosch</em>.</p>
+
+<details class="pb-accordion"><summary>Секрет сброса ошибки</summary><div class="pb-accordion-body"><p>Часто ошибку можно сбросить, выключив машину и включив снова, удерживая кнопку 'Старт' в течение 3-5 секунд. Однако это не устраняет причину поломки.</p></div></details>
+
+<h2 id="проверка-электродвигателя-и-щеток">Проверка электродвигателя и щеток</h2>
+
+<p>Если диагностика указывает на проблемы с вращением барабана или двигатель не запускается, необходимо проверить состояние щеток. Это <strong>расходный материал</strong>, который изнашивается после нескольких лет активной эксплуатации. На машинах <em>Bosch</em> с коллекторными моторами это частая причина остановки.</p>
+
+<p>Для проверки потребуется снять заднюю крышку корпуса и добраться до двигателя. Щетки должны иметь длину не менее 1.5 см. Если они стерты до основания или сколоты, двигатель будет работать нестабально, искрить или не крутить барабан вообще.</p>
+
+<ul>
+<li>🛠️ Снимите ремень привода и проверьте его натяжение и целостность.</li>
+<li>⚡ Прозвоните обмотки двигателя мультиметром на предмет обрыва или замыкания на корпус.</li>
+<li>🔄 Проверьте таходатчик двигателя — маленький элемент, контролирующий скорость вращения.</li>
+</ul>
+
+<p>Замена щеток — процедура, доступная даже новичкам, если соблюдать аккуратность. Важно не повредить ламели коллектора и правильно установить новые графитовые элементы в держатели.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> При работе с двигателем убедитесь, что конденсатор разряжен, чтобы избежать удара током. Не прикасайтесь к контактам голыми руками.</p>
+</blockquote>
+
+<h2 id="диагностика-системы-нагрева-и-тэна">Диагностика системы нагрева и ТЭНа</h2>
+
+<p>Отсутствие нагрева воды — одна из самых распространенных жалоб пользователей. Стирка в холодной воде не удаляет сложные загрязнения, а машина может зависать на этапе нагрева, ожидая повышения температуры. Основной виновник здесь — <strong>ТЭН (трубчатый электронагреватель)</strong>.</p>
+
+<p>Накипь, образующаяся на поверхности нагревательного элемента, приводит к его перегреву и eventual перегоранию. Также причиной может быть неисправность термодатчика, который прикреплен к ТЭНу. Диагностика проводится мультиметром в режиме измерения сопротивления.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Проверка ТЭНа</h4><label class="check-item"><input type="checkbox"><span>Отключить питание:Снять заднюю крышку:Прозвонить контакты ТЭНа:Проверить сопротивление на пробой</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 1</div></div>
+
+<p>Нормальное сопротивление исправного ТЭНа для машины <em>Bosch</em> мощностью 1.9 кВт составляет около 25-30 Ом. Если прибор показывает единицу (обрыв) или ноль (короткое замыкание), элемент подлежит замене. Также проверьте отсутствие пробоя на корпус.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Частые включения и выключения машины в режиме "нагрев" часто свидетельствуют о неисправности термостата или накипи на ТЭНе.</p></aside>
+
+<h2 id="анализ-работы-сливного-насоса-и-гидросистемы">Анализ работы сливного насоса и гидросистемы</h2>
+
+<p>Сливной насос (помпа) обеспечивает удаление грязной воды из бака. Если диагностика показывает ошибку слива, но фильтр чист, проблема может быть в самом насосе или в проводке. Крыльчатка насоса должна вращаться свободно, без заеданий.</p>
+
+<p>Часто встречаются ситуации, когда насос гудит, но не качает воду. Это говорит о том, что моторчик работает, но крыльчатка либо заблокирована посторонним предметом, либо слетела с вала. В редких случаях выходит из строя электронная часть насоса.</p>
+
+<p>Также стоит проверить гофру, соединяющую бак и насос. В изгибах шланга могут застревать мелкие вещи, создавая пробку, которую не видно через фильтр. <strong>Гидросистема</strong> должна быть полностью герметичной и свободной от препятствий.</p>
+
+<p>Если вы заменили насос, но ошибка осталась, проверьте целостность проводов, идущих к нему от модуля управления. Окисление контактов — частая проблема в условиях повышенной влажности.</p>
+
+<h2 id="частые-вопросы-и-ответы-faq">Частые вопросы и ответы (FAQ)</h2>
+
+<details>
+<summary>Как сбросить ошибку на стиральной машине Bosch?</summary>
+<p>Для сброса ошибки попробуйте выключить машину кнопкой питания, затем отключить из розетки на 15-20 минут. После включения запустите программу "Слив" или "Отжим". Если ошибка аппаратная, она появится снова.</p>
+</details>
+
+<details>
+<summary>Что означает мигание всех индикаторов одновременно?</summary>
+<p>Одновременное мигание всех лампочек обычно указывает на серьезную ошибку модуля управления или потерю связи с периферийными устройствами. Требуется глубокая диагностика электроникой.</p>
+</details>
+
+<details>
+<summary>Можно ли стирать, если горит ошибка?</summary>
+<p>Не рекомендуется. Эксплуатация машины с активной ошибкой может привести к усугублению поломки, например, к затоплению квартиры или сгоранию модуля управления.</p>
+</details>
+
+<details>
+<summary>Где найти код модели для поиска инструкции?</summary>
+<p>Код модели (начинается с буквы W, например, WIS...) указан на торце дверцы люка или на задней стенке корпуса на специальной наклейке. Также он есть в гарантийном талоне.</p>
+</details>
+
+<details>
+<summary>Почему машина Bosch не видит режим диагностики?</summary>
+<p>На самых новых моделях доступ к полному сервисному меню может быть закрыт для пользователя и доступен только через специальный тестер мастера. Базовые тесты доступны через комбинации кнопок.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-snyat-manzhetu-so-stiralnoj-mashiny-ariston.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять манжету с барабана стиральной машины Ariston: пошагово</span>
+                <span class="pb-related-desc">Детальная инструкция по демонтажу уплотнительной манжеты на стиральных машинах Ariston. Схемы, инстр</span>
+            </a><a href="/articles/k/ka/kak-snyat-baraban-u-stiralnoj-mashiny-vestel.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять барабан стиральной машины Vestel: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по демонтажу барабана в стиральных машинах Vestel с фото, советами и предупреж</span>
+            </a><a href="/articles/k/ka/kak-otkalibrovat-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Как откалибровать стиральную машину: полная инструкция</span>
+                <span class="pb-related-desc">Узнайте, как откалибровать стиральную машину для точного взвешивания белья. Пошаговая инструкция по </span>
+            </a><a href="/articles/c/ch/chem-smazat-val-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Чем смазать вал стиральной машины: виды смазок и инструкция</span>
+                <span class="pb-related-desc">Подробный гид по выбору смазки для вала стиральной машины. Разбор графитовых, литиевых и силиконовых</span>
+            </a><a href="/articles/k/ka/kak-slit-vodu-iz-stiralnoj-mashiny-ldzhi.html" class="pb-related-card">
+                <span class="pb-related-title">Как слить воду из стиральной машины LG: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробное руководство по аварийному сливу воды из стиральной машины LG. Как открыть фильтр, очистить</span>
+            </a><a href="/articles/k/ka/kak-snyat-lyuk-stiralnoj-mashiny-indezit.html" class="pb-related-card">
+                <span class="pb-related-title">Как снять люк стиральной машины Индезит: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробный гид: как снять люк стиральной машины Индезит своими руками. Разборка, замена замка, регули</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

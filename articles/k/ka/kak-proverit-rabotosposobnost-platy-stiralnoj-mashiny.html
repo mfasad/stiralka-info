@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как проверить плату стиральной машины: диагностика своими руками — Стиралка Инфо</title>
+    <meta name="description" content="Пошаговая инструкция по проверке модуля управления СМА. Методы диагностики без мультиметра и с приборами. Поиск неисправностей и коды ошибок.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-proverit-rabotosposobnost-platy-stiralnoj-mashiny.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как проверить плату стиральной машины: диагностика своими руками">
+    <meta property="og:description" content="Пошаговая инструкция по проверке модуля управления СМА. Методы диагностики без мультиметра и с приборами. Поиск неисправностей и коды ошибок.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/neispravnosti-i-prichiny/">Неисправности и причины</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как проверить плату стиральной машины: диагностика своими руками</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#внешний-осмотр-и-первичная-диагностика-без-приборов">Внешний осмотр и первичная диагностика без приборов</a></li><li><a href="#использование-мультиметра-для-проверки-цепей-питания">Использование мультиметра для проверки цепей питания</a></li><li><a href="#проверка-контактов-и-разъемов-подключения">Проверка контактов и разъемов подключения</a></li><li><a href="#диагностика-через-сервисный-режим-и-коды-ошибок">Диагностика через сервисный режим и коды ошибок</a></li><li><a href="#типичные-неисправности-электронных-компонентов">Типичные неисправности электронных компонентов</a></li><li><a href="#когда-необходим-профессиональный-ремонт-или-замена">Когда необходим профессиональный ремонт или замена</a></li><li><a href="#вопросы-и-ответы-по-диагностике-модуля-управления">Вопросы и ответы по диагностике модуля управления</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/p/po/pochemu-stiralnaya-mashina-gremit-pri-otzhime-i-stuchit-silno.html">Почему стиральная машина стучит и гремит при отжиме: причины и ремонт</a></li><li><a href="/articles/p/po/pochemu-stiralnaya-mashina-ne-vklyuchaetsya-zanussi.html">Стиральная машина Zanussi не включается: причины и ремонт</a></li><li><a href="/articles/k/ks/ksma-stiralnoj-mashiny-chto-eto.html">КСМА стиральной машины: что это, расшифровка и как проверить</a></li><li><a href="/articles/p/po/pochemu-stiralnaya-mashina-vstaet-na-pauzu.html">Почему стиральная машина встает на паузу: причины и решения</a></li><li><a href="/articles/p/po/pochemu-iz-stiralnoj-mashiny-plokho-ukhodit-voda.html">Почему не уходит вода из стиральной машины: причины и ремонт</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как проверить работоспособность платы стиральной машины</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#внешний-осмотр-и-первичная-диагностика-без-приборов">Внешний осмотр и первичная диагностика без приборов</a></li><li><a href="#использование-мультиметра-для-проверки-цепей-питания">Использование мультиметра для проверки цепей питания</a></li><li><a href="#проверка-контактов-и-разъемов-подключения">Проверка контактов и разъемов подключения</a></li><li><a href="#диагностика-через-сервисный-режим-и-коды-ошибок">Диагностика через сервисный режим и коды ошибок</a></li><li><a href="#типичные-неисправности-электронных-компонентов">Типичные неисправности электронных компонентов</a></li><li><a href="#когда-необходим-профессиональный-ремонт-или-замена">Когда необходим профессиональный ремонт или замена</a></li><li><a href="#вопросы-и-ответы-по-диагностике-модуля-управления">Вопросы и ответы по диагностике модуля управления</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Современная стиральная машина представляет собой сложный электронный комплекс, где центральным элементом выступает модуль управления. Именно <strong>электронная плата</strong> отвечает за запуск программ, контроль температуры воды, скорость отжима и балансировку барабана. Когда техника перестает реагировать на кнопки, зависает или выдает непонятные коды ошибок, в первую очередь подозрение падает на этот дорогостоящий узел. Однако паниковать раньше времени не стоит: часто проблема кроется в мелочах, таких как окислившиеся контакты или сбой программного обеспечения.</p>
+
+<p>Диагностика <strong>модуля управления</strong> требует внимательности и базового понимания принципов работы электрических цепей. В отличие от механических поломок, неисправности электроники не всегда видны невооруженным глазом. Важно различать симптомы, указывающие на поломку самого «мозга» машины, и ситуации, когда модуль исправен, но получает неверные сигналы от датчиков. Правильная <strong>проверка платы</strong> позволит избежать лишних трат на покупку нового блока или вызов мастера для элементарной процедуры.</p>
+
+<p>В этой статье мы разберем алгоритм действий, который поможет определить состояние электронного контроллера. Вы узнаете, как провести визуальный осмотр, использовать мультиметр и интерпретировать сигналы индикации. Помните, что любые работы с электроприборами требуют строгого соблюдения техники безопасности. <mark>Перед началом любой диагностики обязательно отключите стиральную машину от электросети, вынув вилку из розетки.</mark></p>
+
+<h2 id="внешний-осмотр-и-первичная-диагностика-без-приборов">Внешний осмотр и первичная диагностика без приборов</h2>
+
+<p>Первым этапом всегда является визуальная оценка состояния платы. Для этого необходимо демонтировать модуль, отсоединив все разъемы и открутив крепежные болты. Осмотр проводите при хорошем освещении, желательно используя увеличительное стекло или лупу. Часто причина отказа кроется в очевидных вещах, которые легко упустить при беглом взгляде. Ищите следы гари, копоти или изменения цвета текстолита.</p>
+
+<p>Особое внимание уделите конденсаторам. На исправной плате их верхушки должны быть плоскими. Если вы заметили вздутие, взрыв или вытекание электролита, это верный признак выхода из строя фильтрующих элементов. Также проверьте целостность пайки контактов, особенно в местах подключения мощных потребителей энергии, таких как ТЭН и двигатель. Микротрещины в пайке могут прерывать цепь при вибрации.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Используйте сухую мягкую кисть для удаления пыли перед осмотром, так как слой грязи может скрывать мелкие трещины или создавать токопроводящие мостики между контактами.</p></aside>
+
+<p>Запах гари — это специфический, но очень информативный индикатор. Если от платы исходит резкий запах паленой пластмассы или химии, скорее всего, перегрелся какой-то компонент. В таких случаях <strong>восстановление платы</strong> может быть экономически нецелесообразным, и проще заменить модуль целиком. Однако, если внешних повреждений нет, переходите к более глубоким методам проверки.</p>
+
+<h2 id="использование-мультиметра-для-проверки-цепей-питания">Использование мультиметра для проверки цепей питания</h2>
+
+<p>Для более точной диагностики вам понадобится <strong>мультиметр</strong>. Этот прибор позволит проверить целостность дорожек и работоспособность ключевых элементов. Начните с проверки предохранителя, если он есть на плате. В режиме прозвонки мультиметр должен издавать звук при касании щупами контактов исправного предохранителя. Отсутствие сигнала говорит о разрыве цепи.</p>
+
+<p>Далее необходимо проверить входное напряжение. Аккуратно подключите плату к сети (соблюдая крайнюю осторожность!) и замерьте напряжение на входе в блок питания модуля. Оно должно соответствовать номиналу в вашей сети, обычно это около 220-230 Вольт. Если напряжения нет на входе в модуль, проблема может быть в сетевом фильтре, шнуре или розетке, а не в самой плате.</p>
+
+<ul>
+<li>🔌 Проверьте целостность сетевого шнура и вилки — часто обрыв происходит у основания.</li>
+<li>⚡ Замерьте напряжение на клеммах блока питания модуля — оно должно быть стабильным.</li>
+<li>🔋 Проверьте выходные напряжения низковольтной части (5В, 12В) — они критичны для работы процессора.</li>
+</ul>
+
+<p>Важно также проверить симисторы и транзисторы, которые управляют исполнительными механизмами. Они часто выходят из строя при скачках напряжения или коротких замыканиях в нагрузке (например, при пробитом ТЭНе). Прозвонка этих элементов требует знания их цоколевки, поэтому рекомендуется сверяться со схемами для конкретных моделей <em>LG</em>, <em>Bosch</em> или <em>Indesit</em>.</p>
+
+<div class="pb-poll" id="poll-d8cf1551"><div class="pb-poll-question">📊 Сталкивались ли вы с выгоранием дорожек на плате стиральной машины?</div><div class="pb-poll-option" data-poll="d8cf1551" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, было вздутие конденсаторов</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="d8cf1551" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Нет, только замена модуля</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="d8cf1551" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Проблемы были в датчиках</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="d8cf1551" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Никогда не разбирал машину</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="проверка-контактов-и-разъемов-подключения">Проверка контактов и разъемов подключения</h2>
+
+<p>Одной из самых частых причин «глюков» стиральной машины является плохой контакт. Окисление контактов в разъемах приводит к тому, что <strong>модуль управления</strong> не получает корректных данных от датчиков уровня воды, температуры или скорости вращения. Визуально окислы выглядят как зеленоватый или белесый налет на металлических контактах.</p>
+
+<p>Для устранения этой проблемы разъемы необходимо аккуратно почистить. Можно использовать специальный спрей для контактов или обычный этиловый спирт. После чистки продуйте разъемы сжатым воздухом. Убедитесь, что «фишки» сидят плотно и имеют характерный щелчок при защелкивании. Люфт в соединении недопустим.</p>
+
+<blockquote>⚠️ Внимание: При чистке контактов не используйте агрессивные растворители или ацетон, они могут расплавить пластиковый корпус разъемов и повредить изоляцию проводов, что приведет к короткому замыканию.</blockquote>
+
+<p>Также проверьте состояние самих проводов, идущих к разъемам. Часто возле входа в пластиковый коннектор провод может переламываться внутри изоляции. Внешне это не видно, но прозвонка мультиметром покажет обрыв. Пошевелите провод у основания разъема во время прозвонки — если контакт то появляется, то пропадает, проводник нуждается в замене.</p>
+
+<h2 id="диагностика-через-сервисный-режим-и-коды-ошибок">Диагностика через сервисный режим и коды ошибок</h2>
+
+<p>Многие современные стиральные машины оснащены функцией самодиагностики. Activировав <strong>сервисный режим</strong>, можно заставить машину пройти тестовый цикл, в ходе которого модуль последовательно проверит все узлы. Способ входа в этот режим различается для разных брендов. Например, у <em>Electrolux</em> это часто комбинация кнопок, а у <em>Samsung</em> — длительное удержание определенных клавиш.</p>
+
+<p>В процессе диагностики на дисплее могут появляться коды ошибок. Расшифровка этих кодов — ключ к пониманию проблемы. Ошибка может указывать не на поломку платы, а на неисправность конкретного датчика, сигнал от которого модуль не может считать. Это позволяет исключить саму плату из списка подозреваемых.</p>
+
+<p>Ниже приведена таблица с примерами распространенных кодов ошибок, связанных с электроникой, для популярных брендов:</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Бренд</th>
+<th>Код ошибки</th>
+<th>Описание проблемы</th>
+<th>Вероятная причина</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Samsung</em></td>
+<td>dE / dC</td>
+<td>Ошибка двери</td>
+<td>Неисправность замка или цепи управления</td>
+</tr>
+<tr>
+<td><em>LG</em></td>
+<td>LE / 8E</td>
+<td>Ошибка двигателя</td>
+<td>Проблемы с таходатчиком или модулем</td>
+</tr>
+<tr>
+<td><em>Bosch</em></td>
+<td>F18 / E18</td>
+<td>Ошибка слива</td>
+<td>Засор или неисправность насоса/платы</td>
+</tr>
+<tr>
+<td><em>Indesit</em></td>
+<td>F05</td>
+<td>Ошибка прессостата</td>
+<td>Залипание контактов или обрыв цепи</td>
+</tr>
+</tbody>
+</table></div>
+
+<details class="pb-accordion"><summary>Как войти в сервисный режим?</summary><div class="pb-accordion-body"><p>Обычно нужно выключить машину, затем зажать комбинацию кнопок (например,"Отжим" и"Температура") и повернуть селектор программ. Точную инструкцию ищите в мануале для вашей модели.</p></div></details>
+
+<h2 id="типичные-неисправности-электронных-компонентов">Типичные неисправности электронных компонентов</h2>
+
+<p>Если визуальный осмотр и простая прозвонка не дали результатов, возможно, проблема кроется в специфических компонентах. Часто из строя выходят варисторы, которые защищают плату от скачков напряжения. При сильном скачке варистор сгорает, замыкая цепь и выжигая предохранитель. Замена варистора и предохранителя часто возвращает машину к жизни.</p>
+
+<p>Еще одна распространенная проблема — выход из строя процессора или микросхемы памяти из-за статического электричества или влаги. В таких случаях машина может включаться, но не реагировать на команды, или цикл стирки будет начинаться и сразу обрываться. Ремонт на компонентном уровне в этом случае сложен и требует профессионального оборудования.</p>
+
+<ul>
+<li>💧 Попадание воды на плату вызывает коррозию и короткие замыкания между дорожками.</li>
+<li>⚡ Скачки напряжения в сети пробивают защитные элементы и силовые ключи.</li>
+<li>🔥 Перегрев из-за плохой вентиляции приводит к отслоению контактов и деградации чипов.</li>
+</ul>
+
+<p>Стоит отметить, что некоторые неисправности могут быть плавающими. Машина работает нормально в холодном состоянии, но после нагреваго элемента отказывает. Это часто указывает на микротрещину в пайке или нестабильную работу полупроводника. Выявить такую проблему сложнее всего, требуется прогрев или охлаждение отдельных участков платы для локализации дефекта.</p>
+
+<h2 id="когда-необходим-профессиональный-ремонт-или-замена">Когда необходим профессиональный ремонт или замена</h2>
+
+<p>Самостоятельный ремонт имеет свои пределы. Если вы обнаружили сгоревший процессор, вздутую микросхему или множественные повреждения дорожек, браться за паяльник без опыта микропайки не рекомендуется. Вы можете усугубить ситуацию, повредив соседние элементы или окончательно выведя модуль из строя.</p>
+
+<p>Кроме того, современные платы часто имеют сложную логику защиты. После замены некоторых компонентов может потребоваться перепрошивка или сброс ошибок через специальный программатор. Без соответствующего ПО и знаний машина не заработает корректно, даже если физически неисправность устранена.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Чек-лист перед вызовом мастера</h4><label class="check-item"><input type="checkbox"><span>Визуальный осмотр выполнен</span></label><label class="check-item"><input type="checkbox"><span>Мультиметр в наличии</span></label><label class="check-item"><input type="checkbox"><span>Сетевой фильтр проверен</span></label><label class="check-item"><input type="checkbox"><span>Датчики прозвонены</span></label><label class="check-item"><input type="checkbox"><span>Коды ошибок расшифрованы</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<p>Также стоит задуматься о замене модуля, если стоимость ремонта превышает 50% от цены нового блока, а возраст машины велик. В старых моделях найти оригинальные запчасти для платы может быть невозможно, а китайские аналоги не всегда отличаются стабильностью работы. В таких случаях замена модуля на новый или восстановленный (б/у в хорошем состоянии) будет более надежным решением.</p>
+
+<blockquote>⚠️ Внимание: Характеристики и расположение элементов на платах могут отличаться даже в рамках одной модели машины, если менялась ревизия производителя. Всегда сверяйте маркировку и внешний вид деталей перед пайкой или заменой.</blockquote>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если после замены предохранителя он сгорает повторно при включении, искать нужно короткое замыкание в цепи (ТЭН, двигатель, проводка), а не менять предохранитель бесконечно.</p></aside>
+
+<h2 id="вопросы-и-ответы-по-диагностике-модуля-управления">Вопросы и ответы по диагностике модуля управления</h2>
+
+<details>
+<summary>Можно ли проверить плату стиральной машины без мультиметра?</summary>
+<p>Полноценно проверить — нет. Без приборов можно провести только визуальный осмотр на предмет гари, вздутия конденсаторов и проверить целостность предохранителя (если он прозрачный). Точная диагностика требует измерения сопротивлений и напряжений.</p>
+</details>
+
+<details>
+<summary>Почему сгорает плата в стиральной машине?</summary>
+<p>Основные причины: скачки напряжения в сети, попадание воды внутрь корпуса, пробой ТЭНа (ток уходит на корпус и в электронику), износ элементов со временем или заводской брак компонентов.</p>
+</details>
+
+<details>
+<summary>Сколько стоит замена модуля управления?</summary>
+<p>Цена зависит от бренда и модели. Оригинальные модули стоят дорого (от 3 до 10 тысяч рублей и выше), универсальные или восстановленные варианты могут быть дешевле. Также нужно учитывать стоимость работ по установке и настройке.</p>
+</details>
+
+<details>
+<summary>Что делать, если машина включается, но не стирает?</summary>
+<p>Это может быть признаком неисправности платы, но также и поломки двигателя, щеток, ремня или блокировки люка. Необходимо слушать, гудит ли мотор, и проверять коды ошибок на дисплее для сужения круга поиска.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/p/po/pochemu-stiralnaya-mashina-gremit-pri-otzhime-i-stuchit-silno.html" class="pb-related-card">
+                <span class="pb-related-title">Почему стиральная машина стучит и гремит при отжиме: причины и ремонт</span>
+                <span class="pb-related-desc">Разбираемся, почему стиральная машина стучит при отжиме. Топ-7 причин шума, способы диагностики и со</span>
+            </a><a href="/articles/p/po/pochemu-stiralnaya-mashina-ne-vklyuchaetsya-zanussi.html" class="pb-related-card">
+                <span class="pb-related-title">Стиральная машина Zanussi не включается: причины и ремонт</span>
+                <span class="pb-related-desc">Почему не включается стиральная машина Занусси? Разбор причин: от розетки до сгоревшего модуля. Подр</span>
+            </a><a href="/articles/k/ks/ksma-stiralnoj-mashiny-chto-eto.html" class="pb-related-card">
+                <span class="pb-related-title">КСМА стиральной машины: что это, расшифровка и как проверить</span>
+                <span class="pb-related-desc">Узнайте, что такое КСМА стиральной машины, зачем она нужна и как проверить датчик мутности. Полное р</span>
+            </a><a href="/articles/p/po/pochemu-stiralnaya-mashina-vstaet-na-pauzu.html" class="pb-related-card">
+                <span class="pb-related-title">Почему стиральная машина встает на паузу: причины и решения</span>
+                <span class="pb-related-desc">Стиральная машина встает на паузу? Разбираем причины: низкое давление воды, засоры, скачки напряжени</span>
+            </a><a href="/articles/p/po/pochemu-iz-stiralnoj-mashiny-plokho-ukhodit-voda.html" class="pb-related-card">
+                <span class="pb-related-title">Почему не уходит вода из стиральной машины: причины и ремонт</span>
+                <span class="pb-related-desc">Вода не сливается из стиральной машины? Полный гид по причинам: засоры, помпа, датчики. Таблица кодо</span>
+            </a><a href="/articles/m/ma/magnit-v-stiralnoj-mashine-gde-nakhoditsya.html" class="pb-related-card">
+                <span class="pb-related-title">Магнит в стиральной машине: где находится и зачем нужен</span>
+                <span class="pb-related-desc">Ищете магнит в стиральной машине? Узнайте точное расположение датчиков Холла, герконов и противовесо</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

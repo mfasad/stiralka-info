@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Электронное управление стиральной машиной: устройство, диагностика — Стиралка Инфо</title>
+    <meta name="description" content="Как работает электронный модуль стиральной машины? Разбор принципов работы, частые поломки, коды ошибок и отличия от механики.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/c/ch/chto-takoe-elektronnoe-upravlenie-stiralnoj-mashinoj.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Электронное управление стиральной машиной: устройство, диагностика">
+    <meta property="og:description" content="Как работает электронный модуль стиральной машины? Разбор принципов работы, частые поломки, коды ошибок и отличия от механики.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/neispravnosti-i-prichiny/">Неисправности и причины</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Электронное управление стиральной машиной: устройство, диагностика</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#архитектура-электронного-модуля-управления">Архитектура электронного модуля управления</a></li><li><a href="#принцип-работы-и-взаимодействие-с-датчиками">Принцип работы и взаимодействие с датчиками</a></li><li><a href="#отличия-электронной-системы-от-механической">Отличия электронной системы от механической</a></li><li><a href="#самодиагностика-и-коды-ошибок">Самодиагностика и коды ошибок</a></li><li><a href="#распространенные-неисправности-электроники">Распространенные неисправности электроники</a></li><li><a href="#советы-по-продлению-срока-службы-модуля">Советы по продлению срока службы модуля</a></li><li><a href="#faq-часто-задаваемые-вопросы">FAQ: Часто задаваемые вопросы</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/p/po/pochemu-stiralnaya-mashina-vodu-nabiraet-i-srazu-slivaet.html">Почему стиральная машина сливает воду: причины и ремонт</a></li><li><a href="/articles/k/ka/kak-stiralnaya-mashina-podogrevaet-vodu.html">Как стиральная машина греет воду: устройство и поломки ТЭНа</a></li><li><a href="/articles/p/po/pochemu-stiralnaya-mashina-ne-vyzhimaet-bele.html">Стиральная машина не выжимает белье: причины и ремонт</a></li><li><a href="/articles/k/ka/kak-proverit-slivnoj-shlang-stiralnoj-mashiny.html">Как проверить сливной шланг стиральной машины: диагностика и ремонт</a></li><li><a href="/articles/k/ka/kak-proverit-zamok-stiralnoj-mashiny-samsung.html">Как проверить замок стиральной машины Самсунг: диагностика и коды ошибок</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Электронное управление стиральной машиной: как это работает</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#архитектура-электронного-модуля-управления">Архитектура электронного модуля управления</a></li><li><a href="#принцип-работы-и-взаимодействие-с-датчиками">Принцип работы и взаимодействие с датчиками</a></li><li><a href="#отличия-электронной-системы-от-механической">Отличия электронной системы от механической</a></li><li><a href="#самодиагностика-и-коды-ошибок">Самодиагностика и коды ошибок</a></li><li><a href="#распространенные-неисправности-электроники">Распространенные неисправности электроники</a></li><li><a href="#советы-по-продлению-срока-службы-модуля">Советы по продлению срока службы модуля</a></li><li><a href="#faq-часто-задаваемые-вопросы">FAQ: Часто задаваемые вопросы</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+<p>Современная бытовая техника давно перестала быть простым механическим устройством, превратившись в сложный вычислительный центр, размещенный в корпусе из нержавеющей стали. <strong>Электронное управление стиральной машиной</strong> — это мозг агрегата, который контролирует каждый этап стирки, от забора воды до отжима белья. Если раньше пользователь поворачивал ручку таймера и слышал тиканье механических шестеренок, то сегодня за всем процессом следит микросхема, обрабатывающая тысячи сигналов в секунду.</p>
+<p>Переход на цифровые технологии позволил внедрить десятки автоматических программ, защиту от протечек и возможность самодиагностики. Понимание принципов работы электронного блока необходимо не только инженерам, но и обычным пользователям, желающим продлить срок службы своей техники. В этой статье мы детально разберем архитектуру системы управления, рассмотрим распространенные неисправности и выясним, почему электроника иногда ведет себя непредсказуемо.</p>
+<p>На первый взгляд может показаться, что сложная электроника — это источник постоянных проблем, однако статистика сервисных центров говорит об обратном. Грамотно спроектированный <em>контроллер</em> способен работать годами без сбоев, если обеспечены стабильные параметры электросети. Давайте разберемся, что именно происходит внутри корпуса, когда вы нажимаете кнопку «Старт».</p>
+
+<h2 id="архитектура-электронного-модуля-управления">Архитектура электронного модуля управления</h2>
+<p>Центральным элементом всей системы является <strong>микропроцессорный модуль</strong>, часто называемый «мозгом» стиральной машины. Это печатная плата, на которой смонтированы различные электронные компоненты: микропроцессор, память, транзисторы, резисторы и конденсаторы. Именно сюда поступает информация со всех датчиков, разбросанных по корпусу машины, и отсюда же рассылаются команды исполнительным механизмам.</p>
+<p>Процессор считывает данные в реальном времени, сравнивая их с заложенными в память алгоритмами. Если фактические параметры (температура, уровень воды, скорость вращения) отклоняются от заданных, система вносит коррективы. Например, если ТЭН нагревает воду медленнее, чем положено по программе, процессор продлит время нагрева, чтобы обеспечить качественную стирку порошком при нужной температуре.</p>
+<blockquote>⚠️ Внимание: Попытка самостоятельного ремонта платы управления без соответствующих навыков и оборудования часто приводит к необратимому выходу из строя дорогостоящих компонентов. Электроника требует стерильной чистоты и точности пайки.</blockquote>
+<p>Важнейшим элементом архитектуры является система связи между модулем управления и периферийными устройствами. Для этого используются специальные жгуты проводов и разъемы, которые должны обеспечивать надежный контакт даже в условиях вибрации. <mark>Критическим узлом является изоляция контактов от влаги, так как окисление разъемов — одна из главных причин сбоев в работе электроники.</mark></p>
+<ul>
+<li>💡 <strong>Микропроцессор</strong> — центральный чип, обрабатывающий все вычисления.</li>
+<li>🔌 <strong>Симисторы и реле</strong> — коммутируют высокое напряжение для двигателя и ТЭНа.</li>
+<li>📡 <strong>Приемник сигнала</strong> — декодирует команды с панели управления.</li>
+<li>💾 <strong>Память (EEPROM)</strong> — хранит программы стирки и настройки даже после выключения.</li>
+</ul>
+
+<h2 id="принцип-работы-и-взаимодействие-с-датчиками">Принцип работы и взаимодействие с датчиками</h2>
+<p>Электронное управление невозможно без обратной связи, которую обеспечивают различные сенсоры. Основным датчиком, регулирующим количество воды, является <strong>прессостат</strong> (датчик уровня воды). Он передает на модуль сигнал о том, что бак наполнен, и только после этого процессор дает команду на включение нагревательного элемента. Это исключает работу ТЭНа «на сухую», что могло бы привести к его мгновенному сгоранию.</p>
+<p>Еще одним ключевым компонентом является датчик температуры (термостат или терморезистор). Он постоянно мониторит нагрев воды. В отличие от старых механических биметаллических пластин, электронный датчик передает точные цифровые данные, позволяя поддерживать температуру с погрешностью в 1-2 градуса. Это особенно важно для деликатных тканей, где перегрев воды недопустим.</p>
+<div class="pb-poll" id="poll-0227f1e0"><div class="pb-poll-question">📊 Как часто вы используете дополнительные функции стирки?</div><div class="pb-poll-option" data-poll="0227f1e0" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Только основные режимы</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="0227f1e0" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Люблю экспериментировать</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="0227f1e0" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Иногда включаю «быструю стирку»</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="0227f1e0" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Пользуюсь таймером отсрочки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+<p>За безопасность вращения барабана отвечает тахогенератор или датчик Холла, установленный на двигателе. Эти устройства сообщают модулю управления точную скорость вращения ротора. Если белье сбилось в ком и барабан не может набрать обороты для отжима, <em>контроллер</em> попытается распушить вещи путем реверсивных движений или снизит скорость, чтобы не повредить подшипники.</p>
+<ul>
+<li>🌡️ <strong>Терморезистор</strong> — измеряет температуру воды в баке.</li>
+<li>💧 <strong>Прессостат</strong> — контролирует уровень жидкости.</li>
+<li>🌀 <strong>Тахогенератор</strong> — следит за оборотами двигателя.</li>
+<li>🚪 <strong>Датчик блокировки люка (УБЛ)</strong> — подтверждает герметичность.</li>
+</ul>
+
+<h2 id="отличия-электронной-системы-от-механической">Отличия электронной системы от механической</h2>
+<p>Главное отличие заключается в гибкости и точности управления процессами. Механический таймер работает по принципу часового механизма: он просто переключает контакты через заданные промежутки времени. <strong>Электронный модуль</strong> действует ситуативно: он можетить таймер, если вода не нагрелась, или продлить полоскание, если датчик пены зафиксировал избыток моющего средства.</p>
+<p>Механические системы подвержены износу подвижных частей: шестеренки стираются, контакты подгорают, пружины ослабевают. Электроника лишена механического износа в традиционном понимании, хотя и подвержена воздействию скачков напряжения. Однако надежность современных плат позволяет им служить дольше, чем механические программаторы, которые часто становились слабым звеном техники 90-х годов.</p>
+<p>Функциональность электронного управления несравнимо выше. Наличие дисплея, возможность выбора точной температуры, скорости отжима и дополнительных опций (например, «легкая глажка» или «защита от детей») реализуются исключительно программным путем. В механике для каждой новой функции потребовалось бы усложнение конструкции таймера, что сделало бы его громоздким и дорогим.</p>
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Характеристика</th>
+<th>Механическое управление</th>
+<th>Электронное управление</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Точность программ</td>
+<td>Низкая (зависит от износа)</td>
+<td>Высокая (цифровая)</td>
+</tr>
+<tr>
+<td>Ремонтопригодность</td>
+<td>Часто требуется замена узла</td>
+<td>Возможна перепрошивка или пайка</td>
+</tr>
+<tr>
+<td>Энергоэффективность</td>
+<td>Средняя</td>
+<td>Высокая (умное управление)</td>
+</tr>
+<tr>
+<td>Диагностика</td>
+<td>Отсутствует</td>
+<td>Самодиагностика и коды ошибок</td>
+</tr>
+</tbody>
+</table></div>
+
+<h2 id="самодиагностика-и-коды-ошибок">Самодиагностика и коды ошибок</h2>
+<p>Одной из самых полезных функций электронного блока является система самодиагностики. При запуске программы модуль проверяет состояние всех ключевых узлов. Если в процессе стирки возникает неисправность, например, не поступает вода или не греется ТЭН, процессор останавливает цикл и выводит на дисплей код ошибки. Это значительно упрощает поиск неисправности для мастера.</p>
+<p>Коды ошибок представляют собой буквенно-цифровые комбинации (например, <code>E10</code>, <code>F05</code>, <code>Err8</code>), значение которых зависит от бренда и модели машины. Расшифровав код, можно понять, какой именно датчик или исполнительный механизм подал сигнал о проблеме. Без этой функции поиск поломки занял бы часы методичного прозванивания цепей.</p>
+<details class="pb-accordion"><summary>Почему коды ошибок разных брендов отличаются?</summary><div class="pb-accordion-body"><p>У каждого производителя (Bosch, Samsung, LG, Electrolux) своя архитектура платы и логика работы ПО. Поэтому код E10 у одной марки может означать проблему с водой, а у другой — с двигателем. Всегда сверяйтесь с инструкцией конкретно вашей модели.</p></div></details>
+<p>Важно понимать, что код ошибки не всегда указывает на поломку самого компонента. Часто проблема кроется в обрыве провода, окислении контактов или временном сбое в сети. <strong>Сброс ошибки</strong> путем выключения машины из розетки на 15-20 минут иногда помогает перезагрузить систему и устранить программный глюк.</p>
+<ul>
+<li>🔍 <strong>Анализ цепи</strong> — модуль проверяет целостность соединений.</li>
+<li>⚡ <strong>Контроль напряжения</strong> — защита от скачков в сети.</li>
+<li>🛑 <strong>Блокировка</strong> — остановка при критических сбоях.</li>
+<li>📝 <strong>Запись в память</strong> — сохранение истории ошибок для мастера.</li>
+</ul>
+
+<h2 id="распространенные-неисправности-электроники">Распространенные неисправности электроники</h2>
+<p>Несмотря на надежность, электронные модули подвержены определенным типам повреждений. Самой частой причиной выхода из строя являются скачки напряжения в электросети. Даже кратковременный импульс может повредить чувствительные микросхемы или «пробить» симисторы, управляющие мощными нагрузками. В таких случаях машина может полностью перестать реагировать на кнопки или, наоборот, включить все индикаторы одновременно.</p>
+<p>Вторым врагом электроники является влага. Микротрещины в патрубках, протечки манжеты люка или просто высокая влажность в ванной комнате приводят к окислению контактов и коррозии дорожек на плате. <em>Конденсат</em>, оседающий на холодных элементах внутри теплой машины, также способен вызвать короткое замыкание.</p>
+<blockquote>⚠️ Внимание: Если вы заметили следы воды внутри корпуса или почувствовали запах гари, немедленно обесточьте устройство. Включение мокрой электроники гарантированно приведет к дорогостоящему ремонту.</blockquote>
+<p>Также встречаются проблемы, связанные с программным обеспечением. Сбои в памяти могут привести к «зависанию» машины, когда она выполняет цикл бесконечно или не реагирует на команды. В таких случаях часто помогает перепрошивка модуля, если его конструкция позволяет это сделать, или замена чипа памяти.</p>
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Первичная диагностика электроники</h4><label class="check-item"><input type="checkbox"><span>Проверить наличие напряжения в розетке</span></label><label class="check-item"><input type="checkbox"><span>Осмотреть плату на предмет гари</span></label><label class="check-item"><input type="checkbox"><span>Проверить целостность проводов</span></label><label class="check-item"><input type="checkbox"><span>Попробовать сбросить ошибку</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<h2 id="советы-по-продлению-срока-службы-модуля">Советы по продлению срока службы модуля</h2>
+<p>Чтобы <strong>электронный блок управления</strong> служил долго, необходимо обеспечить ему стабильные условия работы. В первую очередь это касается качества электропитания. Использование сетевого фильтра или стабилизатора напряжения защитит чувствительную электронику от скачков, которые особенно часты в загородных домах или старых многоквартирных зданиях.</p>
+<p>Важно также следить за исправностью заземления. Отсутствие «земли» приводит к накоплению статического электричества и потенциала на корпусе, что может негативно сказываться на работе датчиков и модуля. Кроме того, заземление необходимо для безопасности пользователя.</p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Не оставляйте стиральную машину включенной в розетку, если не пользуетесь ею длительное время (например, уезжаете в отпуск). Это снизит риск повреждения от грозовых разрядов или скачков в сети.</p></aside>
+<p>Регулярная профилактика также продлевает жизнь технике. Периодическая чистка фильтров, проверка патрубков на предмет трещин и своевременная замена изношенных деталей предотвратят протечки воды на электронные компоненты. Сухость и чистота внутри корпуса — залог здоровья «мозгов» вашей стиральной машины.</p>
+<ul>
+<li>🛡️ <strong>Стабилизатор</strong> — защита от перепадов напряжения.</li>
+<li>⚡ <strong>Заземление</strong> — отвод статики и безопасность.</li>
+<li>🧹 <strong>Чистота</strong> — отсутствие пыли и влаги внутри корпуса.</li>
+<li>🔌 <strong>Качественные розетки</strong> — надежный контакт без искрения.</li>
+</ul>
+
+<h2 id="faq-часто-задаваемые-вопросы">FAQ: Часто задаваемые вопросы</h2>
+<details>
+<summary>Можно ли отремонтировать сгоревший модуль управления?</summary>
+<p>В большинстве случаев ремонт возможен. Специалисты меняют сгоревшие симисторы, резисторы или перепрошивают память. Однако если поврежден сам микропроцессор или дорожки платы, иногда дешевле и надежнее заменить модуль целиком на новый или восстановленный.</p>
+</details>
+<details>
+<summary>Почему машина показывает ошибку после отключения света?</summary>
+<p>Резкое отключение электричества во время работы может вызвать сбой в программе или записать ложную ошибку в память. Попробуйте полностью обесточить машину на 15-20 минут, а затем запустить программу заново. Если ошибка повторяется, требуется диагностика.</p>
+</details>
+<details>
+<summary>Влияет ли жесткая вода на работу электроники?</summary>
+<p>Напрямую — нет, но косвенно — да. Накипь на ТЭНе и датчиках ухудшает теплообмен и искажает показания сенсоров. Модуль, получая неверные данные о температуре, может работать в нештатном режиме, перегреваясь или выдавая ошибки.</p>
+</details>
+<details>
+<summary>Сколько в среднем служит электронный модуль?</summary>
+<p>При соблюдении условий эксплуатации и стабильном напряжении в сети срок службы модуля составляет 10-15 лет и более. Часто сама машина морально или физически изнашивается раньше, чем выходит из строя ее электронная начинка.</p>
+</details>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Электронное управление — это сложный, но надежный механизм, который требует защиты от скачков напряжения и влаги для долгой службы.</p></aside></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/p/po/pochemu-stiralnaya-mashina-vodu-nabiraet-i-srazu-slivaet.html" class="pb-related-card">
+                <span class="pb-related-title">Почему стиральная машина сливает воду: причины и ремонт</span>
+                <span class="pb-related-desc">Стиральная машина набирает воду и сразу сливает? Разбираем 8 причин неисправности: от засоров до пол</span>
+            </a><a href="/articles/k/ka/kak-stiralnaya-mashina-podogrevaet-vodu.html" class="pb-related-card">
+                <span class="pb-related-title">Как стиральная машина греет воду: устройство и поломки ТЭНа</span>
+                <span class="pb-related-desc">Подробно о том, как стиральная машина подогревает воду. Устройство ТЭНа, датчиков, программные алгор</span>
+            </a><a href="/articles/p/po/pochemu-stiralnaya-mashina-ne-vyzhimaet-bele.html" class="pb-related-card">
+                <span class="pb-related-title">Стиральная машина не выжимает белье: причины и ремонт</span>
+                <span class="pb-related-desc">Стиральная машина перестала отжимать белье? Разбираем топ-8 причин: от засора фильтра до поломки ТЭН</span>
+            </a><a href="/articles/k/ka/kak-proverit-slivnoj-shlang-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как проверить сливной шланг стиральной машины: диагностика и ремонт</span>
+                <span class="pb-related-desc">Подробная инструкция: как проверить сливной шланг стиральной машины на засор, пробой и перегиб. Симп</span>
+            </a><a href="/articles/k/ka/kak-proverit-zamok-stiralnoj-mashiny-samsung.html" class="pb-related-card">
+                <span class="pb-related-title">Как проверить замок стиральной машины Самсунг: диагностика и коды ошибок</span>
+                <span class="pb-related-desc">Подробная инструкция, как проверить замок стиральной машины Самсунг. Диагностика UBL, мультиметром и</span>
+            </a><a href="/articles/k/ka/kak-snizit-vibratsiyu-v-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Как снизить вибрацию в стиральной машине: причины и устранение</span>
+                <span class="pb-related-desc">Сильная вибрация стиральной машины при отжиме? Узнайте, как устранить тряску своими руками: от настр</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

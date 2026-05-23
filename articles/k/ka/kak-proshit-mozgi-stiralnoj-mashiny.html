@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Прошивка стиральной машины: как обновить ПО своими руками — Стиралка Инфо</title>
+    <meta name="description" content="Подробная инструкция по перепрошивке стиральных машин Samsung, LG, Bosch. Сброс ошибок, обновление ПО через USB, отладка модуля управления и устранение багов.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-proshit-mozgi-stiralnoj-mashiny.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Прошивка стиральной машины: как обновить ПО своими руками">
+    <meta property="og:description" content="Подробная инструкция по перепрошивке стиральных машин Samsung, LG, Bosch. Сброс ошибок, обновление ПО через USB, отладка модуля управления и устранение багов.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/neispravnosti-i-prichiny/">Неисправности и причины</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Прошивка стиральной машины: как обновить ПО своими руками</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#диагностика-необходимости-обновления-прошивки">Диагностика необходимости обновления прошивки</a></li><li><a href="#подготовка-оборудования-и-программного-обеспечения">Подготовка оборудования и программного обеспечения</a></li><li><a href="#методы-прошивки-usb-uart-и-программатор">Методы прошивки: USB, UART и программатор</a></li><li><a href="#пошаговая-инструкция-прошивки-через-usb">Пошаговая инструкция прошивки через USB</a></li><li><a href="#работа-с-сервисным-режимом-и-отладкой">Работа с сервисным режимом и отладкой</a></li><li><a href="#типичные-ошибки-и-способы-их-устранения">Типичные ошибки и способы их устранения</a></li><li><a href="#вопросы-и-ответы-faq">Вопросы и ответы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/s/st/stiralnaya-mashina-haier-oshibka-err-2-chto-eto.html">Haier ошибка ERR 2: причины, диагностика и ремонт</a></li><li><a href="/articles/p/po/pochemu-ne-prokruchivaetsya-baraban-v-stiralnoj-mashine.html">Почему не прокручивается барабан в стиральной машине: причины</a></li><li><a href="/articles/p/po/potekla-stiralnaya-mashina-kakaya-mozhet-byt-prichina.html">Потекла стиральная машина: причины, поиск и устранение</a></li><li><a href="/articles/k/ka/kak-obmanyvayut-pri-remonte-stiralnykh-mashin.html">Как обманывают при ремонте стиральных машин: схемы мошенников</a></li><li><a href="/articles/i/in/indezit-stiralnaya-mashina-kak-otkryt-dver-posle-stirki.html">Indesit: как открыть дверь стиральной машины после стирки</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как прошить мозги стиральной машины: полное руководство</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#диагностика-необходимости-обновления-прошивки">Диагностика необходимости обновления прошивки</a></li><li><a href="#подготовка-оборудования-и-программного-обеспечения">Подготовка оборудования и программного обеспечения</a></li><li><a href="#методы-прошивки-usb-uart-и-программатор">Методы прошивки: USB, UART и программатор</a></li><li><a href="#пошаговая-инструкция-прошивки-через-usb">Пошаговая инструкция прошивки через USB</a></li><li><a href="#работа-с-сервисным-режимом-и-отладкой">Работа с сервисным режимом и отладкой</a></li><li><a href="#типичные-ошибки-и-способы-их-устранения">Типичные ошибки и способы их устранения</a></li><li><a href="#вопросы-и-ответы-faq">Вопросы и ответы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Современная бытовая техника перестала быть просто набором механических узлов; сегодня это сложные компьютеризированные системы, где за корректность работы всех процессов отвечает программное обеспечение. Владельцы стиральных машин часто сталкиваются с ситуациями, когда аппарат ведет себя странно: зависает на середине цикла, игнорирует команды или выдает необоснованные ошибки. Во многих случаях проблема кроется не в физической поломке датчиков или нагревателей, а в программном сбое, который можно устранить обновлением или переустановкой прошивки.</p>
+
+<p>Процесс перепрошивки <strong>модуля управления</strong> требует осторожности, так как прерывание записи данных может привести к полному отказу электроники. Однако, если подойти к делу грамотно, имея под рукой необходимые инструменты и знания, можно вернуть агрегату заводскую работоспособность без вызова мастера. В этой статье мы подробно разберем, как происходит обновление ПО, какие риски существуют и можно ли выполнить эту процедуру самостоятельно в домашних условиях.</p>
+
+<p>Стоит понимать, что не все модели поддерживают пользовательское обновление через USB-порт или Wi-Fi. Для многих устройств, особенно бюджетного сегмента, потребуется подключение специального диагностического оборудования или пайка контактов на плате. Прежде чем приступать к активным действиям, необходимо точно идентифицировать модель вашей техники и версию установленного микрокода.</p>
+
+<h2 id="диагностика-необходимости-обновления-прошивки">Диагностика необходимости обновления прошивки</h2>
+
+<p>Первым шагом всегда является точная диагностика состояния устройства. Не стоит лезть в программный код, если машина просто нуждается в чистке фильтров или замене подшипников. Программные сбои имеют специфические симптомы, которые отличают их от механических неисправностей. Если вы заметили, что дисплей загорается, но машина не реагирует на кнопки, это явный признак <strong>глюка контроллера</strong>.</p>
+
+<p>Часто после скачков напряжения в сети электроника уходит в защитный режим или сбивает калибровку датчиков. В таких случаях стандартный сброс ошибок может не помочь, так как поврежден сам алгоритм работы. Обновление микропрограммы позволяет заменить поврежденные сектора памяти на исправные, устраняя логические ошибки.</p>
+
+<ul>
+<li> 🔄 Машина самопроизвольно перезагружается во время стирки.</li>
+<li> ⚠️ На дисплее появляются хаотичные символы или нечитаемые иероглифы.</li>
+<li> 🔌 Агрегат не видит подключенные модули (например, дозатор порошка).</li>
+<li> 🚫 Блокировка люка не снимается даже после отключения питания.</li>
+</ul>
+
+<p>Важно отметить, что некоторые бренды, такие как <em>Samsung</em> или <em>LG</em>, имеют встроенные системы самодиагностики, которые могут сами указать на необходимость обновления. Однако, если машина вообще не включается, диагностика возможна только путем подключения к компьютеру через специальный интерфейс.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> Если ваша стиральная машина находится на гарантии, самостоятельная перепрошивка может стать основанием для отказа в бесплатном ремонте. Производители часто пломбируют порты доступа или фиксируют факт вмешательства в лог-файлы.</p>
+</blockquote>
+
+<div class="pb-poll" id="poll-ea1918ee"><div class="pb-poll-question">📊 С какой проблемой вы столкнулись при работе стиральной машины?</div><div class="pb-poll-option" data-poll="ea1918ee" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Машина зависает</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="ea1918ee" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Выдает ошибку кода</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="ea1918ee" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Не включается</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="ea1918ee" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Работает, но с шумами</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="ea1918ee" data-idx="4" onclick="pbPollVote(this)"><span class="pb-poll-label">Другое</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="подготовка-оборудования-и-программного-обеспечения">Подготовка оборудования и программного обеспечения</h2>
+
+<p>Для успешного проведения процедуры вам потребуется не только сама стиральная машина, но и ряд вспомогательных средств. Без качественной подготовки риск превратить исправный прибор в груду металла значительно возрастает. Основным инструментом будет компьютер или ноутбук с операционной системой Windows, так как большинство утилит для прошивки написаны именно под эту платформу.</p>
+
+<p>Вам понадобится скачать актуальную версию прошивки с официального сайта производителя или специализированных форумов ремонтников. Использование файлов из непроверенных источников категорически не рекомендуется, так как в них могут содержаться ошибки или вирусы, способные нарушить работу <strong>EEPROM</strong> памяти.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Что нужно подготовить перед прошивкой</h4><label class="check-item"><input type="checkbox"><span>Ноутбук с Windows 7/10/11</span></label><label class="check-item"><input type="checkbox"><span>USB-кабель или переходник UART</span></label><label class="check-item"><input type="checkbox"><span>Скачанная прошивка (.bin, .hex)</span></label><label class="check-item"><input type="checkbox"><span>Драйверы для конкретной модели</span></label><label class="check-item"><input type="checkbox"><span>Стабилизатор напряжения</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<p>Также критически важен стабильный источник питания. Если в процессе записи данных произойдет скачок напряжения или отключение электричества, микросхема может быть повреждена безвозвратно. В идеале использовать <strong>источник бесперебойного питания</strong> (ИБП) или хотя бы убедиться, что батарея ноутбука полностью заряжена.</p>
+
+<p>Для подключения к плате управления часто требуются специальные кабели. В простых случаях это обычный USB, но чаще всего нужен переходник USB-to-UART или USB-to-CAN, в зависимости от протокола обмена данными, который использует <em>микроконтроллер</em> вашей машины.</p>
+
+<h2 id="методы-прошивки-usb-uart-и-программатор">Методы прошивки: USB, UART и программатор</h2>
+
+<p>Существует несколько основных способов записи нового кода в память стиральной машины. Выбор метода зависит от марки устройства, года выпуска и доступности сервисных портов. Самый простой и безопасный вариант — обновление через USB-порт, если он предусмотрен конструкцией.</p>
+
+<p>Более сложный метод involves direct connection to the board via UART interface. This requires opening the machine and often removing the control module. You need to find specific contact pads on the circuit board labeled as TX, RX, and GND. Connecting to these points allows direct communication with the processor.</p>
+
+<p>Третий метод — использование внешнего программатора. Это устройство подключается напрямую к микросхеме памяти, выпаивать которую обычно не нужно, если есть доступ к контактам. Этот способ применяется, когда программное обеспечение машины полностью "мертво" и не реагирует на стандартные команды загрузки.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Сложность</th>
+<th>Необходимое оборудование</th>
+<th>Риск поломки</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>USB Update</td>
+<td>Низкая</td>
+<td>USB-кабель, Флешка</td>
+<td>Минимальный</td>
+</tr>
+<tr>
+<td>UART Interface</td>
+<td>Средняя</td>
+<td>Переходник USB-UART, Пинцет</td>
+<td>Средний</td>
+</tr>
+<tr>
+<td>EEPROM Programmer</td>
+<td>Высокая</td>
+<td>Программатор, Паяльник</td>
+<td>Высокий</td>
+</tr>
+<tr>
+<td>Wi-Fi Update</td>
+<td>Низкая</td>
+<td>Роутер, Смартфон</td>
+<td>Минимальный</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Для большинства домашних мастеров оптимальным вариантом остается метод USB, если он поддерживается моделью. Он не требует разборки корпуса и минимизирует риск короткого замыкания. Однако, если машина старая, придется прибегать к более трудоемким способам взаимодействия с <strong>платой управления</strong>.</p>
+
+<details class="pb-accordion"><summary>Что такое UART интерфейс?</summary><div class="pb-accordion-body"><p>UART (Universal Asynchronous Receiver-Transmitter) — это последовательный интерфейс, используемый для обмена данными между устройствами. В контексте стиральных машин он позволяет инженерам получать доступ к отладочной консоли микропроцессора, отправляя команды напрямую, минуя стандартный пользовательский интерфейс.</p></div></details>
+
+<h2 id="пошаговая-инструкция-прошивки-через-usb">Пошаговая инструкция прошивки через USB</h2>
+
+<p>Рассмотрим процесс обновления на примере машин, поддерживающих загрузку с внешнего носителя. Это наиболее распространенный сценарий для техники среднего и высокого ценового сегмента последних лет выпуска. Сначала необходимо подготовить файловую систему накопителя.</p>
+
+<p>Возьмите USB-флешку объемом не более 8-16 Гб и отформатируйте её в файловой системе FAT32. Это важно, так как встроенные загрузчики старых машин могут не увидеть файловую систему NTFS или exFAT. Скопируйте файл прошивки в корневую директорию флешки, не помещая его в папки.</p>
+
+<ol>
+<li>Отключите стиральную машину от сети электропитания.</li>
+<li>Вставьте подготовленную флешку в USB-порт на передней панели.</li>
+<li>Зажмите определенную комбинацию кнопок (обычно это "Температура" + "Отжим" или специальная сервисная кнопка).</li>
+<li>Не отпуская кнопки, включите машину в сеть.</li>
+<li>Дождитесь индикации начала процесса (мигание светодиодов или сообщение на экране).</li>
+</ol>
+
+<p>В этот момент <strong>контроллер</strong> считает данные с накопителя и начнет запись в свою память. Ни в коем случае не вынимайте флешку и не выключайте питание до завершения процесса. Машина может несколько раз пикнуть или моргнуть индикаторами, сигнализируя об этапах записи.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если процесс обновления не начинается, попробуйте переименовать файл прошивки в соответствии с требованиями инструкции (например, update.bin или model_number.swl), так как некоторые машины ищут файл строго по имени.</p></aside>
+
+<p>После успешного завершения машина обычно издает длинный звуковой сигнал и переходит в режим ожидания или автоматически перезагружается. Извлеките флешку и проверьте работоспособность всех функций. Если машина ведет себя корректно, значит, <em>микрокод</em> успешно обновлен.</p>
+
+<h2 id="работа-с-сервисным-режимом-и-отладкой">Работа с сервисным режимом и отладкой</h2>
+
+<p>Для более глубокой диагностики и прошивки машин, не имеющих USB-порта, придется использовать сервисный режим. Вход в него осуществляется через специальную комбинацию нажатий на сенсорную панель или поворотом селектора программ в определенной последовательности. Например, на моделях <em>Bosch</em> часто нужно повернуть ручку в положение "Слив" и зажать две кнопки.</p>
+
+<p>В сервисном меню отображается информация о количестве циклов стирки, ошибках в истории и текущей версии ПО. Здесь же может находиться пункт "Software Update" или "Flash Memory". Для активации этого пункта может потребоваться ввод сервисного пароля, который варьируется от бренда к бренду.</p>
+
+<p>Если вы подключаетесь через компьютер с использованием UART-адаптера, вам понадобится терминальная программа, такая как <strong>PuTTY</strong> или <em>HyperTerminal</em>. Настройте скорость соединения (Baud rate), которая обычно составляет 9600, 115200 или 57600 бит в секунду. После подключения вы увидите поток логов загрузки системы.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> При работе с открытой электроникой соблюдайте меры электростатической защиты. Касание контактов платы заряженным телом может мгновенно вывести из строя чувствительные компоненты, и тогда ремонт станет экономически нецелесообразным.</p>
+</blockquote>
+
+<p>В терминале вы можете отправлять команды загрузчику для записи нового образа. Команды зависят от типа загрузчика (например, U-Boot или proprietary loaders). Будьте предельно внимательны при вводе команд, так как ошибка в одном символе может привести к затиранию загрузочного сектора.</p>
+
+<h2 id="типичные-ошибки-и-способы-их-устранения">Типичные ошибки и способы их устранения</h2>
+
+<p>Даже при соблюдении всех инструкций процесс может пойти не по плану. Одна из самых частых проблем — ошибка проверки контрольной суммы (Checksum Error). Это означает, что записанные данные не совпадают с оригиналом, и машина отказывается запускать новый код. В этом случае процедуру нужно повторить, проверив целостность файла прошивки.</p>
+
+<p>Еще одна распространенная ошибка — "Flash Write Fail". Она указывает на физическую проблему с памятью или на то, что файл прошивки не предназначен для данной ревизии платы. Всегда сверяйте номер платы управления, указанный на наклейке, с требованиями к прошивке. <strong>Несовместимость версий</strong> — частая причина неудач.</p>
+
+<ul>
+<li> 📉 <strong>Зависание на 50%:</strong> Часто связано с плохим контактом USB-кабеля или скачком напряжения.</li>
+<li> 🔒 <strong>Ошибка доступа:</strong> Требуется разблокировка загрузчика или ввод мастер-кода.</li>
+<li> 💾 <strong>Недостаточно места:</strong> Флешка слишком большая или файловая система не поддерживается.</li>
+</ul>
+
+<p>Если машина после неудачной прошивки перестала включаться вообще, возможно, потребуется перепайка микросхемы памяти или использование дорогостоящего программатора для восстановления загрузчика. В некоторых случаях помогает длительное (на 15-20 минут) отключение от сети, что позволяет конденсаторам разрядиться и сбросить остаточный заряд с контроллера.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Успех прошивки на 90% зависит от стабильности напряжения в сети и качества USB-кабеля или переходника. Не экономьте на инструментах подключения.</p></aside>
+
+<h2 id="вопросы-и-ответы-faq">Вопросы и ответы (FAQ)</h2>
+
+<details>
+<summary>Можно ли прошить стиральную машину через смартфон?</summary>
+<p>В большинстве случаев — нет. Хотя некоторые современные модели с поддержкой Wi-Fi и IoT (Internet of Things) позволяют обновляться через облако производителя, прямое подключение смартфона для заливки бинарного кода через USB-OTG обычно не поддерживается из-за отсутствия соответствующих драйверов и приложений на стороне Android/iOS.</p>
+</details>
+
+<details>
+<summary>Сбросит ли прошивка настройки пользователя?</summary>
+<p>Да, при обновлении программного обеспечения все пользовательские настройки, такие как предпочтительная температура, скорость отжима и дополнительные опции, скорее всего, будут сброшены до заводских значений. Рекомендуется сфотографировать текущие параметры перед началом процедуры.</p>
+</details>
+
+<details>
+<summary>Где найти официальную прошивку для моей модели?</summary>
+<p>Официальные файлы прошивок редко находятся в открытом доступе на сайтах производителей для конечных пользователей. Их можно найти на специализированных форумах по ремонту бытовой техники, в базах данных сервисных центров или запросить у официального представителя бренда, предоставив серийный номер устройства.</p>
+</details>
+
+<details>
+<summary>Что делать, если после прошивки машина пишет "Error"?</summary>
+<p>Если появилась ошибка, запишите её код. Возможно, версия прошивки некорректна для вашего региона или модификации двигателя. Попробуйте выполнить полный сброс (Hard Reset) согласно инструкции. Если ошибка сохраняется, вероятно, потребуется откат на предыдущую версию ПО или замена модуля управления.</p>
+</details>
+
+<details>
+<summary>Опасно ли это для новичка?</summary>
+<p>Без соответствующих знаний в электронике и понимания работы цифровых систем риск велик. Ошибка может привести к тому, что машина перестанет реагировать на любые команды. Если вы не уверены в своих силах, лучше обратиться в сервисный центр, где используют лицензионное диагностическое оборудование.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/s/st/stiralnaya-mashina-haier-oshibka-err-2-chto-eto.html" class="pb-related-card">
+                <span class="pb-related-title">Haier ошибка ERR 2: причины, диагностика и ремонт</span>
+                <span class="pb-related-desc">Почему горит ошибка ERR 2 на стиральной машине Haier? Полный гид по поиску неисправностей, проверке </span>
+            </a><a href="/articles/p/po/pochemu-ne-prokruchivaetsya-baraban-v-stiralnoj-mashine.html" class="pb-related-card">
+                <span class="pb-related-title">Почему не прокручивается барабан в стиральной машине: причины</span>
+                <span class="pb-related-desc">Барабан не крутится? Узнайте, как диагностировать поломку ремня, двигателя или ТЭНа. Подробное руков</span>
+            </a><a href="/articles/p/po/potekla-stiralnaya-mashina-kakaya-mozhet-byt-prichina.html" class="pb-related-card">
+                <span class="pb-related-title">Потекла стиральная машина: причины, поиск и устранение</span>
+                <span class="pb-related-desc">Потекла стиральная машина? Узнайте основные причины протечек: шланги, манжета, бак. Инструкция по по</span>
+            </a><a href="/articles/k/ka/kak-obmanyvayut-pri-remonte-stiralnykh-mashin.html" class="pb-related-card">
+                <span class="pb-related-title">Как обманывают при ремонте стиральных машин: схемы мошенников</span>
+                <span class="pb-related-desc">Полный разбор схем обмана при ремонте стиральных машин. Как не дать себя обмануть, когда ломают техн</span>
+            </a><a href="/articles/i/in/indezit-stiralnaya-mashina-kak-otkryt-dver-posle-stirki.html" class="pb-related-card">
+                <span class="pb-related-title">Indesit: как открыть дверь стиральной машины после стирки</span>
+                <span class="pb-related-desc">Не открывается дверь стиральной машины Indesit? Инструкция: как разблокировать люк после стирки, сбр</span>
+            </a><a href="/articles/s/st/stiralnaya-mashina-lg-nabiraet-vodu-bez-ostanovki-chto-delat.html" class="pb-related-card">
+                <span class="pb-related-title">Стиральная машина LG набирает воду без остановки: причины и ремонт</span>
+                <span class="pb-related-desc">Почему стиралка LG постоянно заливает воду? Диагностика неисправностей: клапан, прессостат, электрон</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

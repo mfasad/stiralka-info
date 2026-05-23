@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как проверить стабилизаторы стиральной машины: диагностика своими руками — Стиралка Инфо</title>
+    <meta name="description" content="Подробная инструкция, как прозвонить стабилизаторы напряжения на модуле управления стиральной машины мультиметром. Признаки неисправности и замена.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-proverit-stabilizatory-na-stiralnoj-mashine.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как проверить стабилизаторы стиральной машины: диагностика своими руками">
+    <meta property="og:description" content="Подробная инструкция, как прозвонить стабилизаторы напряжения на модуле управления стиральной машины мультиметром. Признаки неисправности и замена.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как проверить стабилизаторы стиральной машины: диагностика своими руками</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#симптомы-неисправности-блока-питания-и-стабилизаторов">Симптомы неисправности блока питания и стабилизаторов</a></li><li><a href="#необходимые-инструменты-и-подготовка-к-диагностике">Необходимые инструменты и подготовка к диагностике</a></li><li><a href="#демонтаж-модуля-управления-и-визуальный-осмотр">Демонтаж модуля управления и визуальный осмотр</a></li><li><a href="#методика-проверки-стабилизаторов-мультиметром">Методика проверки стабилизаторов мультиметром</a></li><li><a href="#таблица-типовых-значений-и-неисправностей">Таблица типовых значений и неисправностей</a></li><li><a href="#замена-компонентов-и-пайка">Замена компонентов и пайка</a></li><li><a href="#профилактика-и-защита-от-скачков-напряжения">Профилактика и защита от скачков напряжения</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/s/sl/slivnoj-shlang-na-stiralnoj-mashine-kak-snyat.html">Сливной шланг стиральной машины: как снять и поменять</a></li><li><a href="/articles/k/ka/kak-ubrat-vibratsii-stiralnoj-mashiny.html">Как убрать вибрацию стиральной машины: причины и решения</a></li><li><a href="/articles/s/sl/sletel-baraban-v-stiralnoj-mashine-chto.html">Слетел барабан в стиральной машине: что делать и как починить</a></li><li><a href="/articles/k/ka/kak-samostoyatelno-slit-vodu-iz-stiralnoj-mashiny.html">Как слить воду из стиральной машины: 5 способов</a></li><li><a href="/articles/k/ka/kak-zakryt-kryshku-stiralnoj-mashiny.html">Как закрыть крышку стиральной машины: 5 способов и причины заклинивания</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Проверка стабилизаторов напряжения в стиральной машине</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#симптомы-неисправности-блока-питания-и-стабилизаторов">Симптомы неисправности блока питания и стабилизаторов</a></li><li><a href="#необходимые-инструменты-и-подготовка-к-диагностике">Необходимые инструменты и подготовка к диагностике</a></li><li><a href="#демонтаж-модуля-управления-и-визуальный-осмотр">Демонтаж модуля управления и визуальный осмотр</a></li><li><a href="#методика-проверки-стабилизаторов-мультиметром">Методика проверки стабилизаторов мультиметром</a></li><li><a href="#таблица-типовых-значений-и-неисправностей">Таблица типовых значений и неисправностей</a></li><li><a href="#замена-компонентов-и-пайка">Замена компонентов и пайка</a></li><li><a href="#профилактика-и-защита-от-скачков-напряжения">Профилактика и защита от скачков напряжения</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Внезапная остановка стиральной машины посреди цикла или отказ в запуске часто вызывают панику. Владельцы бытовой техники сразу начинают искать сложные поломки двигателя или нагревательного элемента, забывая о "мозгах" устройства. Именно электронный модуль управления отвечает за все процессы, и его работоспособность напрямую зависит от качества поступающего питания.</p>
+
+<p>Ключевым элементом защиты электроники в современных моделях <em>LG</em>, <em>Bosch</em> или <em>Indesit</em> является блок стабилизации напряжения. Если машина перестала реагировать на кнопки, а дисплей погас, проблема может крыться в сгоревших компонентах платы. В этой статье мы разберем, как самостоятельно проверить стабилизаторы, чтобы понять, стоит ли нести модуль в сервис или можно восстановить его дома.</p>
+
+<p>Диагностика начинается с внешнего осмотра, но для точного определения неисправности потребуются базовые навыки работы с паяльником и измерительными приборами. <strong>Стабилизатор напряжения</strong> — это компонент, который выравнивает скачки в сети, обеспечивая микросхемы стабильным током. Выход из строя этого узла часто происходит после грозы или аварий в электросети.</p>
+
+<h2 id="симптомы-неисправности-блока-питания-и-стабилизаторов">Симптомы неисправности блока питания и стабилизаторов</h2>
+
+<p>Прежде чем разбирать технику, необходимо убедиться, что симптомы указывают именно на проблему с питанием модуля. Часто пользователи путают поломку платы с неисправностью проводки или розетки. Если при включении вилки в сеть вы не слышите характерного щелчка реле и машина молчит, это первый тревожный знак.</p>
+
+<p>Второй распространенный признак — хаотичное поведение индикаторов. Лампочки могут мигать в произвольном порядке, или на дисплее появляются бессмысленные символы. Это свидетельствует о том, что <strong>микросхемы</strong> получают недостаточное или нестабильное напряжение, из-за чего процессор не может выполнять заложенный алгоритм.</p>
+
+<blockquote>
+<p>⚠️ Внимание: Если вы чувствуете запах гари или видите оплавленный пластик внутри корпуса, немедленно отключите устройство от сети. Эксплуатация такой техники может привести к короткому замыканию и пожару.</p>
+</blockquote>
+
+<p>Иногда машина включается, но отказывается запускать мотор или насос. В таких случаях модуль управления переходит в аварийный режим, блокируя выполнение команд. Проверка цепи питания позволит определить, жив ли сам контроллер или сгорели лишь выходные ключи.</p>
+
+<ul>
+<li>🔌 Полное отсутствие реакции на включение в сеть (нет индикации, нет звука).</li>
+<li>⚡ Мигание всех индикаторов одновременно или в случайном порядке.</li>
+<li>🚫 Отказ запускать двигатель или насос при исправности самих агрегатов.</li>
+<li>👃 Появление запаха горелой электроники при попытке включения.</li>
+</ul>
+
+<div class="pb-poll" id="poll-87837142"><div class="pb-poll-question">📊 Сталкивались ли вы с внезапным отключением света во время стирки?</div><div class="pb-poll-option" data-poll="87837142" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, часто</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="87837142" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Было пару раз</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="87837142" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Никогда не сталкивался</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="87837142" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Не знаю, есть ли перебои в сети</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<h2 id="необходимые-инструменты-и-подготовка-к-диагностике">Необходимые инструменты и подготовка к диагностике</h2>
+
+<p>Для проведения качественной диагностики вам потребуется минимальный набор инструментов, который найдется у любого домашнего мастера. Основным прибором станет мультиметр, способный измерять сопротивление и прозванивать цепи. Без него проверка будет носить лишь поверхностный характер.</p>
+
+<p>Также понадобятся отвертки с разными наконечниками для демонтажа корпуса и извлечения модуля. В некоторых моделях <em>Electrolux</em> или <em>Candy</em> могут потребоваться специальные ключи-звездочки. Не забудьте подготовить паяльник с тонким жалом, если планируется замена компонентов.</p>
+
+<p>Безопасность — превыше всего. Перед началом любых работ убедитесь, что шнур питания извлечен из розетки. Остаточный заряд в конденсаторах может быть опасен, поэтому дайте машине постоять отключенной хотя бы 10-15 минут перед вскрытием.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Инструменты для ремонта</h4><label class="check-item"><input type="checkbox"><span>Мультиметр (тестер)</span></label><label class="check-item"><input type="checkbox"><span>Набор отверток</span></label><label class="check-item"><input type="checkbox"><span>Паяльник и припой</span></label><label class="check-item"><input type="checkbox"><span>Пинцет для мелких деталей</span></label><label class="check-item"><input type="checkbox"><span>Лупа или увеличительное стекло</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 5</div></div>
+
+<h2 id="демонтаж-модуля-управления-и-визуальный-осмотр">Демонтаж модуля управления и визуальный осмотр</h2>
+
+<p>Доступ к электронной плате у разных производителей реализован по-разному. В машинах с вертикальной загрузкой модуль часто расположен в боковой части корпуса. Вам потребуется снять боковую крышку, открутив несколько винтов, и извлечь блок управления из направляющих.</p>
+
+<p>В моделях с фронтальной загрузкой плата обычно находится в верхней части за панелью управления. Здесь процесс сложнее: нужно снять верхнюю крышку, демонтировать лоток для порошка и отщелкнуть пластиковую панель с индикаторами. Будьте аккуратны с пластиковыми защелками, они легко ломаются при неосторожном движении.</p>
+
+<p>После извлечения модуля проведите тщательный визуальный осмотр. Ищите следы копоти, вздутия конденсаторов или почернения текстолита. Часто место пробоя видно невооруженным глазом. Особое внимание уделите зоне, где подходят провода от сети 220 Вольт — именно там расположены входные стабилизаторы.</p>
+
+<p>Если визуально плата выглядит чистой, это не гарантирует ее исправность. Микроскопические трещины в пайке или выгорание внутренних слоев дорожек можно обнаружить только при прозвонке. Однако, наличие явных следов перегрева существенно упрощает поиск неисправности.</p>
+
+<ul>
+<li>🔍 Ищите вздувшиеся конденсаторы с характерными "грибками" на крышке.</li>
+<li>🖌 Проверяйте наличие черного налета вокруг ножек транзисторов.</li>
+<li>🔌 Осмотрите разъемы на предмет окисления или оплавления пластика.</li>
+<li>💡 Обратите внимание на целостность предохранителя (если он в стеклянной колбе).</li>
+</ul>
+
+<details class="pb-accordion"><summary>Почему сгорает плата?</summary><div class="pb-accordion-body"><p>Чаще всего причиной становится не скачок напряжения извне, а пробой ТЭНа или двигателя. Когда изоляция нагревательного элемента нарушается, ток начинает "пробивать" на корпус, создавая перекос фазы и сжигая входные цепи модуля. Поэтому перед установкой новой платы всегда проверяйте ТЭН на пробой мультиметром.</p></div></details>
+
+<h2 id="методика-проверки-стабилизаторов-мультиметром">Методика проверки стабилизаторов мультиметром</h2>
+
+<p>Переходим к самому важному этапу — электрической проверке компонентов. На плате управления обычно установлены линейные стабилизаторы в корпусах типа TO-220 (похожи на транзисторы с тремя ножками) или SMD-компоненты. Наиболее часто встречаются модели с маркировкой <code>7805</code>, <code>7812</code> или их аналоги от разных производителей.</p>
+
+<p>Переведите мультиметр в режим прозвонки диодов или измерения сопротивления. Сначала нужно найти вход и выход стабилизатора. Обычно левая ножка (если смотреть на маркировку) — это вход, средняя — общий провод (земля), а правая — выход. Однако лучше свериться со схемой конкретной модели.</p>
+
+<p>Прозвоните цепь между входом и землей. Если прибор показывает короткое замыкание (пищит или показывает 0 Ом), значит, компонент гарантированно сгорел. Аналогичная проверка проводится между выходом и землей. Нормальное сопротивление должно быть в пределах сотен Ом или килоОм, в зависимости от схемы.</p>
+
+<p>Для более точной диагностики можно подать напряжение на вход стабилизатора от внешнего источника (например, лабораторного блока питания) и замерить напряжение на выходе. Если на входе 15 Вольт, а на выходе вместо 5 или 12 Вольт — 0 или хаотичные значения, стабилизатор требует замены.</p>
+
+<blockquote>
+<p>⚠️ Внимание: При проверке под напряжением соблюдайте максимальную осторожность. Не прикасайтесь к токоведущим частям руками. Используйте изолированные щупы и работайте только одной рукой, держа вторую в кармане, чтобы избежать прохождения тока через сердце.</p>
+</blockquote>
+
+<p>Часто вместе со стабилизатором выгорает и входной конденсатор. Его также нужно проверить на наличие короткого замыкания. Исправный конденсатор при прозвонке должен сначала показать низкое сопротивление, которое затем будет расти. Если сразу звонится как проводник — он пробит.</p>
+
+<h2 id="таблица-типовых-значений-и-неисправностей">Таблица типовых значений и неисправностей</h2>
+
+<p>Для удобства диагностики ниже приведена таблица с основными параметрами популярных стабилизаторов, используемых в стиральных машинах. Эти данные помогут вам быстро сориентироваться, какое напряжение должно быть на выходе компонента.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Маркировка</th>
+<th>Тип напряжения</th>
+<th>Выходное напряжение (В)</th>
+<th>Типичная неисправность</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LM7805</td>
+<td>Положительное</td>
+<td>5.0 В</td>
+<td>Короткое замыкание на выходе</td>
+</tr>
+<tr>
+<td>LM7812</td>
+<td>Положительное</td>
+<td>12.0 В</td>
+<td>Отсутствие напряжения на выходе</td>
+</tr>
+<tr>
+<td>LM7905</td>
+<td>Отрицательное</td>
+<td>-5.0 В</td>
+<td>Пробой корпуса на землю</td>
+</tr>
+<tr>
+<td>LM7912</td>
+<td>Отрицательное</td>
+<td>-12.0 В</td>
+<td>Перегрев и обрыв цепи</td>
+</tr>
+<tr>
+<td>AMS1117</td>
+<td>Low Drop</td>
+<td>3.3 В</td>
+<td>Нестабильное выходное напряжение</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Запомните, что маркировка <mark>78xx</mark> всегда указывает на положительную полярность, а <mark>79xx</mark> — на отрицательную. Последовательность цифр определяет вольтаж. Путать их нельзя, так как установка стабилизатора с неправильной полярностью мгновенно выведет из строя остальные компоненты платы.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если сгорел стабилизатор, всегда проверяйте цепь после него. Часто высокое напряжение успевает пройти дальше и повредить процессор или память, что делает ремонт экономически нецелесообразным.</p></aside>
+
+<h2 id="замена-компонентов-и-пайка">Замена компонентов и пайка</h2>
+
+<p>Если диагностика подтвердила выход из строя стабилизатора, его необходимо заменить. Для этого понадобится паяльник мощностью 40-60 Вт, припой и флюс. Аккуратно нагрейте ножки старого компонента и удалите его. Зачистите отверстия в плате от остатков припоя.</p>
+
+<p>При установке нового элемента важно соблюдать полярность. Вставьте стабилизатор в плату так, чтобы маркировка совпадала с оригинальным положением. Надежно припаяйте ножки, избегая образования "соплей" припоя, которые могут вызвать замыкание между соседними дорожками.</p>
+
+<p>После пайки рекомендуется промыть место соединения спиртом или специальным очистителем контактов, чтобы удалить остатки флюса. Кислота, содержащаяся в флюсе, со временем может разъесть медные дорожки, вызвав повторную поломку.</p>
+
+<p>Некоторые мастера советуют устанавливать радиаторы на мощные стабилизаторы, даже если их не было в оригинале. Это улучшит теплоотвод и продлит срок службы компонента, особенно в условиях жаркого лета или установки машины на кухне.</p>
+
+<ul>
+<li>🔥 Используйте качественный припой с канифолью внутри.</li>
+<li>🧹 Очищайте плату после пайки для предотвращения коррозии.</li>
+<li>📏 Проверяйте длину ножек — они не должны касаться других элементов.</li>
+<li>🛡 Рассмотрите возможность установки дополнительного термоинтерфейса.</li>
+</ul>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Если у вас нет опыта пайки мелких деталей, лучше купите готовый модуль управления для вашей модели. Стоимость платы часто сопоставима с услугой профессионального ремонта, а риск допустить ошибку при пайке сводится к нулю.</p></aside>
+
+<h2 id="профилактика-и-защита-от-скачков-напряжения">Профилактика и защита от скачков напряжения</h2>
+
+<p>После успешного ремонта хочется защитить технику от повторения ситуации. Скачки напряжения в наших сетях — явление частое и опасное. Лучшим решением станет установка реле контроля напряжения на ввод в квартиру или дом.</p>
+
+<p>Также можно использовать сетевые фильтры с функцией стабилизации, хотя для мощных потребителей вроде стиральных машин их эффективность ограничена. Главное правило — не включать машину во время грозы или когда соседи выполняют сварочные работы.</p>
+
+<p>Регулярно проверяйте заземление розетки, в которую включена стиральная машина. Отсутствие заземления приводит к накоплению статического заряда на корпусе и электронике, что повышает чувствительность модуля к помехам в сети.</p>
+
+<details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/s/sl/slivnoj-shlang-na-stiralnoj-mashine-kak-snyat.html" class="pb-related-card">
+                <span class="pb-related-title">Сливной шланг стиральной машины: как снять и поменять</span>
+                <span class="pb-related-desc">Подробная инструкция, как снять сливной шланг со стиральной машины. Разбор моделей Bosch, LG, Samsun</span>
+            </a><a href="/articles/k/ka/kak-ubrat-vibratsii-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как убрать вибрацию стиральной машины: причины и решения</span>
+                <span class="pb-related-desc">Сильно трясется стиральная машина? Узнайте, как устранить вибрацию, выровнять технику и проверить по</span>
+            </a><a href="/articles/s/sl/sletel-baraban-v-stiralnoj-mashine-chto.html" class="pb-related-card">
+                <span class="pb-related-title">Слетел барабан в стиральной машине: что делать и как починить</span>
+                <span class="pb-related-desc">Слетел барабан в стиральной машине? Узнайте причины поломки, симптомы и пошаговую инструкцию по заме</span>
+            </a><a href="/articles/k/ka/kak-samostoyatelno-slit-vodu-iz-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как слить воду из стиральной машины: 5 способов</span>
+                <span class="pb-related-desc">Подробная инструкция: как принудительно слить воду из стиральной машины. Чистка сливного насоса, про</span>
+            </a><a href="/articles/k/ka/kak-zakryt-kryshku-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Как закрыть крышку стиральной машины: 5 способов и причины заклинивания</span>
+                <span class="pb-related-desc">Не закрывается крышка стиральной машины? Узнайте, как правильно закрыть люк фронтальной и вертикальн</span>
+            </a><a href="/articles/k/ka/kak-ustranit-shum-stiralnoj-mashiny-pri-otzhime.html" class="pb-related-card">
+                <span class="pb-related-title">Как устранить шум стиральной машины при отжиме: причины и ремонт</span>
+                <span class="pb-related-desc">Почему стиральная машина гудит при отжиме? Полный гид по поиску неисправностей, замене подшипников и</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

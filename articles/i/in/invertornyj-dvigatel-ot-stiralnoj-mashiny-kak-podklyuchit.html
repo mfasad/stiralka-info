@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Инверторный двигатель от стиральной машины: как подключить своими руками — Стиралка Инфо</title>
+    <meta name="description" content="Подробная инструкция: как подключить инверторный двигатель от стиральной машины. Схемы, распиновка контактов, настройка регулятора оборотов и меры безопасности.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/i/in/invertornyj-dvigatel-ot-stiralnoj-mashiny-kak-podklyuchit.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Инверторный двигатель от стиральной машины: как подключить своими руками">
+    <meta property="og:description" content="Подробная инструкция: как подключить инверторный двигатель от стиральной машины. Схемы, распиновка контактов, настройка регулятора оборотов и меры безопасности.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-nav-active">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/ustanovka-i-podklyuchenie/">Установка и подключение</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Инверторный двигатель от стиральной машины: как подключить своими руками</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#отличия-инверторного-мотора-от-коллекторного-аналога">Отличия инверторного мотора от коллекторного аналога</a></li><li><a href="#необходимые-инструменты-и-компоненты-для-запуска">Необходимые инструменты и компоненты для запуска</a></li><li><a href="#идентификация-контактов-и-распиновка-разъема">Идентификация контактов и распиновка разъема</a></li><li><a href="#схема-подключения-к-контроллеру-управления">Схема подключения к контроллеру управления</a></li><li><a href="#настройка-и-первый-запуск-системы">Настройка и первый запуск системы</a></li><li><a href="#проблемы-при-подключении-и-методы-их-решения">Проблемы при подключении и методы их решения</a></li><li><a href="#faq-часто-задаваемые-вопросы">FAQ: Часто задаваемые вопросы</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/k/ka/kak-ispolzovat-stiralnuyu-mashinu-bez-podklyucheniya-k-vodoprovodu.html">Стиральная машина без водопровода: 5 проверенных способов</a></li><li><a href="/articles/m/ma/manzheta-dlya-sliva-stiralnoj-mashiny-v-kanalizatsiyu-kak-ustanovit.html">Манжета для слива стиральной машины: как установить в канализацию</a></li><li><a href="/articles/k/ka/kak-zavodit-stiralnuyu-mashinu.html">Как завести стиральную машину: пошаговая инструкция запуска</a></li><li><a href="/articles/k/ku/kuda-sypat-poroshok-v-stiralnoj-mashine-candy-smart.html">Куда сыпать порошок в стиральной машине Candy Smart: схема лотка</a></li><li><a href="/articles/k/ka/kak-soedinit-stiralnuyu-mashinu-s-sushilnoj-raznykh-proizvoditelej.html">Как соединить стиральную и сушильную машину разных брендов: гид</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Инверторный двигатель от стиральной машины как подключить</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#отличия-инверторного-мотора-от-коллекторного-аналога">Отличия инверторного мотора от коллекторного аналога</a></li><li><a href="#необходимые-инструменты-и-компоненты-для-запуска">Необходимые инструменты и компоненты для запуска</a></li><li><a href="#идентификация-контактов-и-распиновка-разъема">Идентификация контактов и распиновка разъема</a></li><li><a href="#схема-подключения-к-контроллеру-управления">Схема подключения к контроллеру управления</a></li><li><a href="#настройка-и-первый-запуск-системы">Настройка и первый запуск системы</a></li><li><a href="#проблемы-при-подключении-и-методы-их-решения">Проблемы при подключении и методы их решения</a></li><li><a href="#faq-часто-задаваемые-вопросы">FAQ: Часто задаваемые вопросы</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+<p>Современные бытовые приборы часто выходят из строя, оставляя после себя вполне рабочие узлы, которые могут обрести вторую жизнь. Особый интерес для домашних мастеров представляют <strong>инверторные двигатели</strong>, извлекаемые из стиральных машин, так как они обладают высоким КПД, низким уровнем шума и возможностью плавной регулировки скорости. Однако, в отличие от классических коллекторных моторов, эти агрегаты требуют особого подхода к коммутации.</p>
+
+<p>Прямое подключение к бытовой сети 220 Вольт невозможно и приведет к необратимому повреждению обмоток, так как для работы требуется преобразование тока и сложная система управления. Вам придется собрать или приобрести специальный контроллер, который будет имитировать работу штатной электроники стиральной машины. В этой статье мы разберем технические нюансы подключения, схемы распайки разъемов и методы безопасного запуска агрегата для использования в самодельных станках или вентиляционных системах.</p>
+
+<p>Прежде чем приступать к монтажу, необходимо четко понимать разницу между типами моторов, так как методы их управления кардинально отличаются. Если вы перепутаете <em>Direct Drive</em> с обычным асинхронником, результат будет плачевным. Правильная идентификация типа двигателя — это первый и самый важный шаг на пути к успешной реализации вашего проекта.</p>
+
+<h2 id="отличия-инверторного-мотора-от-коллекторного-аналога">Отличия инверторного мотора от коллекторного аналога</h2>
+<p>Главное визуальное и конструктивное отличие заключается в отсутствии щеточно-коллекторного узла. В классических моделях графитовые щетки постоянно трутся о коллектор, создавая искрение и шум, тогда как в инверторных вариантах магнитное поле создается электроникой. Это делает их долговечными, но значительно усложняет процесс запуска без родного блока управления.</p>
+
+<p>Инверторные двигатели делятся на два основных типа: с ременным приводом и прямого действия (<em>Direct Drive</em>). Первые конструктивно похожи на обычные моторы, но лишены щеток, а вторые часто имеют уникальную форму "блина" и крепятся непосредственно к барабану. Для подключения своими руками чаще всего используют именно ременные варианты, так как их проще закрепить на раме самодельного станка.</p>
+
+<ul>
+<li>🔇 <strong>Уровень шума:</strong> Инверторные модели работают практически бесшумно, в то время как коллекторные издают характерный свист при высоких оборотах.</li>
+<li>⚡ <strong>Эффективность:</strong> Потери энергии на трение щеток отсутствуют, что повышает общий КПД системы на 15-20%.</li>
+<li>🛠 <strong>Ресурс:</strong> Отсутствие быстроизнашивающихся механических контактов увеличивает срок службы в разы.</li>
+</ul>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> Попытка подать напряжение 220В напрямую на клеммы инверторного двигателя приведет к мгновенному сгоранию обмоток статора. Электроника обязательна.</p>
+</blockquote>
+
+<p>Стоит также отметить, что многие современные инверторные моторы являются трехфазными синхронными машинами с постоянными магнитами на роторе. Это означает, что для их вращения необходимо подавать на обмотки статора трехфазное напряжение с изменяемой частотой и фазой, что умеет делать только специализированный драйвер.</p>
+
+<h2 id="необходимые-инструменты-и-компоненты-для-запуска">Необходимые инструменты и компоненты для запуска</h2>
+<p>Для успешной реализации проекта вам потребуется не только сам двигатель, но и ряд дополнительных компонентов, обеспечивающих его стабную работу. Основным элементом станет <strong>регулятор оборотов</strong> или полноценный инверторный преобразователь частоты. Можно попытаться использовать родной блок управления стиральной машины, если он сохранился и вы умеете программировать его или подавать нужные сигналы.</p>
+
+<p>В качестве альтернативы часто используются готовые промышленные контроллеры, предназначенные для электровелосипедов или маломощного электроинструмента. Важно, чтобы номинальное напряжение и ток контроллера соответствовали параметрам вашего двигателя. Обычно на шильдике указана мощность, например, 400-800 Вт, и напряжение.</p>
+
+<div class="pb-poll" id="poll-f7c3d4f5"><div class="pb-poll-question">📊 Какой двигатель вы планируете подключать?</div><div class="pb-poll-option" data-poll="f7c3d4f5" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">С ременным приводом (обычный вид)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="f7c3d4f5" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Direct Drive (крепится к барабану)</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="f7c3d4f5" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Не знаю, нужно определение</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="f7c3d4f5" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Пока только планирую купить</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+
+<p>Не забудьте подготовить качественный блок питания для управляющей электроники, если она требует отдельного низковольтного напряжения (часто 12В или 5В). Также понадобятся мультиметр для прозвонки контактов, набор отверток, паяльник и термоусадка для изоляции соединений.</p>
+
+<ul>
+<li>🔌 <strong>Контроллер:</strong> Устройство управления, преобразующее постоянный или однофазный переменный ток в трехфазный.</li>
+<li>🔋 <strong>Блок питания:</strong> Стабилизированный источник напряжения для логической части схемы.</li>
+<li>🔩 <strong>Крепеж:</strong> Болты, гайки и переходные муфты для фиксации вала двигателя.</li>
+</ul>
+
+<p>Особое внимание уделите проводке. Сечение проводов должно быть достаточным для прохождения тока без нагрева. Для двигателей мощностью до 1 кВт обычно достаточно медного провода сечением 1.5 кв. мм, но лучше брать с запасом.</p>
+
+<h2 id="идентификация-контактов-и-распиновка-разъема">Идентификация контактов и распиновка разъема</h2>
+<p>Самый сложный этап — определить назначение контактов на колодке двигателя. Производители стиральных машин, такие как LG, Samsung или Electrolux, используют разные цветовые маркировки и конфигурации разъемов. Стандартной цветовой схемы не существует, поэтому придется действовать методом исключения и прозвонки.</p>
+
+<p>В первую очередь найдите контакты таходатчика. Это датчик Холла, который сообщает контроллеру о скорости вращения вала. Обычно это два или три тонких провода. Сопротивление между ними может быть различным, но часто они звонятся как обычная катушка или имеют специфическое сопротивление в несколько сотен Ом.</p>
+
+<details class="pb-accordion"><summary>Как найти таходатчик мультиметром?</summary><div class="pb-accordion-body"><p>Включите мультиметр в режим измерения сопротивления. Перебирайте пары контактов на разъеме двигателя. Таходатчик часто показывает сопротивление в диапазоне 50-200 Ом (для катушечных) или ведет себя как диод. Главное отличие — эти контакты не являются силовыми обмотками.</p></div></details>
+
+<p>Оставшиеся контакты — это силовые обмотки статора. Их обычно шесть (для трех фаз), и они могут быть объединены в звезду или треугольник внутри корпуса. Ваша задача — найти пары, принадлежащие одной фазе. Сопротивление обмоток должно быть одинаковым для всех фаз, что легко проверяется тестером.</p>
+
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Тип контакта</th>
+<th>Количество проводов</th>
+<th>Характерное сопротивление</th>
+<th>Назначение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Силовые обмотки</td>
+<td>6 (3 пары)</td>
+<td>Низкое (10-50 Ом)</td>
+<td>Питание двигателя</td>
+</tr>
+<tr>
+<td>Таходатчик (Холла)</td>
+<td>2-3</td>
+<td>Среднее (50-500 Ом)</td>
+<td>Контроль скорости</td>
+</tr>
+<tr>
+<td>Термозащита</td>
+<td>2</td>
+<td>Близко к 0 Ом</td>
+<td>Защита от перегрева</td>
+</tr>
+<tr>
+<td>Заземление</td>
+<td>1</td>
+<td>На корпус</td>
+<td>Безопасность</td>
+</tr>
+</tbody>
+</table></div>
+
+<p>Если двигатель оснащен системой блокировки люка или другими сервисными функциями, их контакты можно игнорировать, так как для работы самого мотора они не нужны. Главное — не перепутать их с силовыми выводами.</p>
+
+<h2 id="схема-подключения-к-контроллеру-управления">Схема подключения к контроллеру управления</h2>
+<p>После того как контакты идентифицированы, можно приступать к соединению двигателя с выбранным контроллером. Если вы используете универсальный драйвер для бесщеточных моторов (BLDC), схема подключения будет зависеть от его конкретной модели. Чаще всего требуется соединить три фазных провода двигателя с соответствующими выходами контроллера (U, V, W).</p>
+
+<p>Подключение таходатчика критически важно. Без сигнала обратной связи контроллер не сможет синхронизировать частоту вращения магнитного поля с положением ротора, и двигатель будет дергаться или гудеть, но не запустится. Подключите провода датчика Холла к входам <code>Hall Sensor</code> на плате управления.</p>
+
+<pre><code>Пример подключения (условный):
+<p>Двигатель Фаза A -> Контроллер U</p>
+<p>Двигатель Фаза B -> Контроллер V</p>
+<p>Двигатель Фаза C -> Контроллер W</p>
+<p>Датчик +5В -> Контроллер +5В</p>
+<p>Датчик GND -> Контроллер GND</p>
+<p>Датчик Signal -> Контроллер Signal</code></pre></p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> Полярность подключения датчика Холла имеет значение. Если двигатель не запускается, попробуйте поменять местами сигнальный провод и землю или провод питания, но не перепутайте силовые фазы.</p>
+</blockquote>
+
+<p>Для подачи команды на запуск обычно требуется замкнуть управляющий контакт на корпус или подать на него напряжение 5-12 Вольт, в зависимости от логики контроллера. Некоторые платы имеют потенциометр для ручной регулировки скорости, что очень удобно для тестирования.</p>
+
+<h2 id="настройка-и-первый-запуск-системы">Настройка и первый запуск системы</h2>
+<p>Первый запуск — самый ответственный момент. Не закрепляйте двигатель жестко сразу, лучше держите его в руках или зафиксируйте loosely, чтобы иметь возможность быстро отключить питание в случае нештатной ситуации. Включите блок питания и подайте сигнал запуска.</p>
+
+<p>Если двигатель начал плавно набирать обороты — поздравляем, вы все сделали правильно. Если же слышен гул, рывки или запах гари, немедленно обесточьте систему. Проверьте подключение фаз: иногда их порядок (A-B-C) нужно изменить на контроллере, чтобы вращение пошло в нужную сторону.</p>
+
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Чек-лист перед запуском</h4><label class="check-item"><input type="checkbox"><span>Проверить надежность всех соединений</span></label><label class="check-item"><input type="checkbox"><span>Убедиться в отсутствии короткого замыкания</span></label><label class="check-item"><input type="checkbox"><span>Проверить напряжение на входе контроллера</span></label><label class="check-item"><input type="checkbox"><span>Установить минимальную скорость вращения</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<p>Настройка максимальных оборотов осуществляется через регулировку входного напряжения на управляющем входе или через программное обеспечение, если контроллер поддерживает подключение к ПК. Для станков важно настроить плавный разгон, чтобы избежать рывков при старте.</p>
+
+<ul>
+<li>🚀 <strong>Плавный старт:</strong> Убедитесь, что двигатель набирает скорость без рывков.</li>
+<li>🌡 <strong>Температурный контроль:</strong> После 5 минут работы проверьте нагрев корпуса и контроллера.</li>
+<li>🔊 <strong>Акустический тест:</strong> Посторонних вибраций и воя быть не должно.</li>
+</ul>
+
+<p>Если вы используете двигатель <em>Direct Drive</em>, имейте в виду, что они часто имеют многополюсную конструкцию и требуют контроллеров, поддерживающих большое количество пар полюсов. Обычные драйверы от скутеров могут не подойти без перепрошивки.</p>
+
+<h2 id="проблемы-при-подключении-и-методы-их-решения">Проблемы при подключении и методы их решения</h2>
+<p>Наиболее частая проблема — двигатель гудит, но не вращается. Это почти всегда указывает на ошибку в подключении обмоток или неисправность датчика положения ротора. Проверьте целостность проводов таходатчика и правильность подключения фаз. Иногда помогает перепайка любых двух силовых проводов между собой.</p>
+
+<p>Другая распространенная ситуация — двигатель запускается, но быстро останавливается или работает нестабильно. Причиной может быть недостаточная мощность блока питания. В момент старта ток потребления может в 3-5 раз превышать номинальный, и если блок питания уходит в защиту, мотор глохнет.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Используйте блок питания с запасом по току минимум 30% от номинала двигателя. Это обеспечит стабильный пуск под нагрузкой и продлит жизнь электронике.</p></aside>
+
+<p>Перегрев контроллера свидетельствует о плохом охлаждении или несоответствии токовых характеристик. Мощные инверторные двигатели требуют установки радиаторов и активных вентиляторов на силовые ключи управляющей платы.</p>
+
+<blockquote>
+<p>⚠️ <strong>Внимание:</strong> Технические характеристики двигателей разных производителей (LG, Samsung, Haier) могут отличаться. Всегда сверяйтесь с маркировкой на конкретном изделии, так как универсальных решений для всех моделей не существует.</p>
+</blockquote>
+
+<p>Если двигатель оснащен встроенной системой диагностики, он может выдавать коды ошибок через мигание индикатора на плате (если она осталась). Расшифровку кодов можно найти в сервисных мануалах конкретной модели стиральной машины.</p>
+
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Успех подключения инверторного двигателя на 90% зависит от правильного подбора контроллера и точного определения контактов таходатчика.</p></aside>
+
+<h2 id="faq-часто-задаваемые-вопросы">FAQ: Часто задаваемые вопросы</h2>
+<details>
+<summary>Можно ли подключить инверторный двигатель напрямую к 220В?</summary>
+<p>Нет, это невозможно. Инверторный двигатель требует трехфазного питания с изменяемой частотой, которое формирует специальный контроллер. Прямое подключение приведет к сгоранию обмоток.</p>
+</details>
+
+<details>
+<summary>Где взять схему подключения для двигателя LG или Samsung?</summary>
+<p>Универсальных схем нет. Необходимо искать сервисный мануал (Service Manual) для конкретной модели стиральной машины, откуда был извлечен мотор. Часто информацию можно найти по коду модели, указанному на шильдике.</p>
+</details>
+
+<details>
+<summary>Какой контроллер лучше выбрать для самодельного станка?</summary>
+<p>Для простых задач подойдут универсальные драйверы для BLDC моторов с регулировкой по потенциометру. Для сложных проектов с сохранением функций стирки потребуется перепрошивка родной платы или использование Arduino с специализированными shield-ами.</p>
+</details>
+
+<details>
+<summary>Почему двигатель дергается при запуске?</summary>
+<p>Скорее всего, неправильно подключен или не работает датчик Холла (таходатчик). Контроллер не видит положение ротора и не может правильно синхронизировать подачу напряжения на обмотки.</p>
+</details>
+
+<details>
+<summary>Безопасно ли использовать такие двигатели в домашних мастерских?</summary>
+<p>Да, при соблюдении правил электробезопасности. Инверторные двигатели даже безопаснее коллекторных, так как не искрят. Главное — обеспечить надежное заземление и защиту от поражения током.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/k/ka/kak-ispolzovat-stiralnuyu-mashinu-bez-podklyucheniya-k-vodoprovodu.html" class="pb-related-card">
+                <span class="pb-related-title">Стиральная машина без водопровода: 5 проверенных способов</span>
+                <span class="pb-related-desc">Как подключить и пользоваться стиральной машиной без водопровода: пошаговые инструкции, выбор техник</span>
+            </a><a href="/articles/m/ma/manzheta-dlya-sliva-stiralnoj-mashiny-v-kanalizatsiyu-kak-ustanovit.html" class="pb-related-card">
+                <span class="pb-related-title">Манжета для слива стиральной машины: как установить в канализацию</span>
+                <span class="pb-related-desc">Правильная манжета для слива стиральной машины в канализацию. Инструкция по установке сифона, выбор </span>
+            </a><a href="/articles/k/ka/kak-zavodit-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Как завести стиральную машину: пошаговая инструкция запуска</span>
+                <span class="pb-related-desc">Узнайте, как правильно завести стиральную машину после покупки. Инструкция по установке, удалению тр</span>
+            </a><a href="/articles/k/ku/kuda-sypat-poroshok-v-stiralnoj-mashine-candy-smart.html" class="pb-related-card">
+                <span class="pb-related-title">Куда сыпать порошок в стиральной машине Candy Smart: схема лотка</span>
+                <span class="pb-related-desc">Подробная инструкция: куда засыпать порошок в стиральной машине Candy Smart. Разбор отсеков, дозиров</span>
+            </a><a href="/articles/k/ka/kak-soedinit-stiralnuyu-mashinu-s-sushilnoj-raznykh-proizvoditelej.html" class="pb-related-card">
+                <span class="pb-related-title">Как соединить стиральную и сушильную машину разных брендов: гид</span>
+                <span class="pb-related-desc">Подробная инструкция по установке колонны. Крепление разных производителей, выбор адаптера, правила </span>
+            </a><a href="/articles/k/ka/kak-polzovatsya-stiralnoj-mashinoj-bez-vodoprovoda.html" class="pb-related-card">
+                <span class="pb-related-title">Стирка без водопровода: подключение машины на даче</span>
+                <span class="pb-related-desc">Пошаговая инструкция, как пользоваться стиральной машиной без водопровода. Подача воды из бака, насо</span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

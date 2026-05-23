@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
+    <title>Как перепрограммировать стиральную машину Bosch: сброс и настройки — Стиралка Инфо</title>
+    <meta name="description" content="Полная инструкция по перепрограммированию стиральных машин Bosch. Сброс ошибок, вход в тестовый режим и калибровка модуля управления своими руками.">
+    <link rel="canonical" href="https://stiralka-info.vercel.app/articles/k/ka/kak-pereprogrammirovat-stiralnuyu-mashinu-bosh.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Как перепрограммировать стиральную машину Bosch: сброс и настройки">
+    <meta property="og:description" content="Полная инструкция по перепрограммированию стиральных машин Bosch. Сброс ошибок, вход в тестовый режим и калибровка модуля управления своими руками.">
+    <meta property="og:locale" content="ru_RU">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+    
+</head>
+<body class="pb-body">
+    
+    <div class="pb-topbar"></div>
+    <header class="pb-header">
+        <div class="pb-container pb-header-inner">
+            <a href="/" class="pb-logo">
+                <span class="pb-logo-icon">🧺</span>
+                <span class="pb-logo-text">Стиралка Инфо</span>
+            </a>
+            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
+            <nav class="pb-nav" id="pbMainNav">
+                <a href="/category/remont-svoimi-rukami/" class="pb-nav-active">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
+<div class="pb-nav-dropdown">
+            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
+            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
+<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
+<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
+<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
+<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
+<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
+<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
+<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
+<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+        </div>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="pb-breadcrumbs" aria-label="Навигация">
+        <div class="pb-container"><a href="/">Главная</a><span class="pb-bc-sep">/</span><a href="/category/remont-svoimi-rukami/">Ремонт своими руками</a><span class="pb-bc-sep">/</span><span class="pb-bc-current">Как перепрограммировать стиральную машину Bosch: сброс и настройки</span></div>
+    </nav>
+
+    <main class="pb-main">
+        <div class="pb-container">
+            <div class="pb-article-layout">
+                <aside class="pb-sidebar">
+                    
+                    <nav class="pb-sidebar-search"><div class="pb-search-box"><input type="text" id="globalSearchInput" placeholder="🔍 Поиск..." autocomplete="off"><div class="search-dropdown" id="globalSearchDropdown"></div></div></nav>
+                    <nav class="pb-sidebar-toc"><h3>📋 Содержание</h3><ul><li><a href="#симптомы-необходимости-сброса-настроек">Симптомы необходимости сброса настроек</a></li><li><a href="#базовый-сброс-hard-reset-для-всех-моделей">Базовый сброс (Hard Reset) для всех моделей</a></li><li><a href="#вход-в-сервисный-тестовый-режим">Вход в сервисный (тестовый) режим</a></li><li><a href="#сброс-ошибки-e18-и-других-кодов">Сброс ошибки E18 и других кодов</a></li><li><a href="#калибровка-веса-белья-и-датчиков">Калибровка веса белья и датчиков</a></li><li><a href="#программные-сбои-модулей-e-control">Программные сбои модулей E-Control</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></nav>
+                    
+                    <nav class="pb-sidebar-related"><h3>📰 Похожие статьи</h3><ul><li><a href="/articles/n/ne/ne-slivaet-stiralnaya-mashina-lg-chto-delat.html">Не сливает стиральная машина LG: причины и ремонт</a></li><li><a href="/articles/s/st/stiralnaya-mashina-indezit-kak-pomenyat-amortizatory.html">Замена амортизаторов в стиральной машине Indesit: пошаговая инструкция</a></li><li><a href="/articles/k/ka/kak-postavit-rezinku-na-stiralnuyu-mashinu.html">Как поставить резинку на стиральную машину: пошаговая инструкция</a></li><li><a href="/articles/c/ch/chem-zakleit-kozhukh-stiralnoj-mashiny.html">Чем заклеить кожух стиральной машины: лучшие клеи</a></li><li><a href="/articles/c/ch/chem-smazyvat-remen-stiralnoj-mashiny.html">Чем смазать ремень стиральной машины: 5 проверенных средств</a></li></ul></nav>
+                    
+                </aside>
+                <article class="pb-article">
+                    <h1>Как перепрограммировать стиральную машину Bosch: пошаговое руководство</h1>
+                    <nav class="pb-mobile-toc"><details><summary>📋 Содержание</summary><ul><li><a href="#симптомы-необходимости-сброса-настроек">Симптомы необходимости сброса настроек</a></li><li><a href="#базовый-сброс-hard-reset-для-всех-моделей">Базовый сброс (Hard Reset) для всех моделей</a></li><li><a href="#вход-в-сервисный-тестовый-режим">Вход в сервисный (тестовый) режим</a></li><li><a href="#сброс-ошибки-e18-и-других-кодов">Сброс ошибки E18 и других кодов</a></li><li><a href="#калибровка-веса-белья-и-датчиков">Калибровка веса белья и датчиков</a></li><li><a href="#программные-сбои-модулей-e-control">Программные сбои модулей E-Control</a></li><li><a href="#часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</a></li></ul></details></nav>
+                    
+                    <div class="pb-article-body">
+
+<p>Современная бытовая техника Bosch славится своей надежностью, но даже самые продвинутые электронные модули управления иногда дают сбой. Пользователи часто путают программную ошибку с поломкой двигателя или нагревателя, хотя в реальности системе просто требуется перезагрузка или сброс накопленных данных. <strong>Перепрограммирование</strong> в бытовом понимании чаще всего означает сброс настроек до заводских параметров или вход в сервисный режим для устранения ложных сигналов.</p>
+<p>Владельцы агрегатов <em>Maxx</em>, <em>Logixx</em> или <em>Piece</em> могут столкнуться с ситуацией, когда машина перестает реагировать на команды или бесконечно крутит барабан. Прежде чем вызывать мастера, стоит попытаться самостоятельно реанимировать <strong>электронный контроллер</strong>. Это действие не требует сложного оборудования, но demandaт точного соблюдения последовательности действий.</p>
+<p>В этой статье мы разберем реальные способы взаимодействия с управляющим блоком. Вы узнаете, как отличить программный глюк от физической неисправности и какие комбинации кнопок помогут вернуть технику к жизни. Важно понимать, что глубокая перепрошивка чипа памяти возможна только в сервисных центрах, но 90% проблем решаются стандартными процедурами сброса.</p>
+
+<h2 id="симптомы-необходимости-сброса-настроек">Симптомы необходимости сброса настроек</h2>
+<p>Определить, что стиральной машине Bosch требуется именно программное вмешательство, можно по ряду характерных признаков. Часто устройство продолжает работать, но делает это некорректно, игнорируя выбранные пользователем режимы. <strong>Логическая ошибка</strong> контроллера может проявляться в хаотичном переключении индикаторов или отказе от запуска цикла.</p>
+<p>Если вы заметили, что агрегат внезапно перестал запоминать последние настройки или начал самопроизвольно менять температуру воды, это тревожный сигнал. Также стоит обратить внимание на поведение дисплея: мигающие символы без вывода конкретного кода ошибки часто указывают на сбой в работе <strong>микропроцессора</strong>.</p>
+<blockquote>
+<p>⚠️ Внимание: Если на дисплее горит код ошибки, связанный с утечкой воды (E15, E16) или перегревом, простой сброс настроек не устранит физическую причину проблемы.</p>
+</blockquote>
+<p>Перечислим основные ситуации, когда рекомендуется выполнить процедуру перезагрузки системы:</p>
+<ul>
+<li>💡 Стиральная машина зависла в середине цикла и не реагирует на кнопки управления.</li>
+<li>💡 После скачка напряжения в сети устройство отказывается запускать любые программы.</li>
+<li>💡 Индикаторы горят хаотично, создавая эффект «елочной гирлянды».</li>
+<li>💡 Машина не сливает воду, хотя насос исправен (сбой логики работы помпы).</li>
+</ul>
+<div class="pb-poll" id="poll-d5de94b0"><div class="pb-poll-question">📊 Сталкивались ли вы с зависанием стиральной машины Bosch?</div><div class="pb-poll-option" data-poll="d5de94b0" data-idx="0" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, висла на середине стирки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="d5de94b0" data-idx="1" onclick="pbPollVote(this)"><span class="pb-poll-label">Да, не включалась после скачка света</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="d5de94b0" data-idx="2" onclick="pbPollVote(this)"><span class="pb-poll-label">Нет, работает идеально</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div><div class="pb-poll-option" data-poll="d5de94b0" data-idx="3" onclick="pbPollVote(this)"><span class="pb-poll-label">Были другие странные глюки</span><span class="pb-poll-bar"></span><span class="pb-poll-pct"></span></div></div>
+<p>Важно отметить, что модели с системой <em>Home Connect</em> могут требовать дополнительного сброса сетевых настроек. В таких случаях программный сбой может блокировать удаленное управление, даже если сама стирка проходит нормально.</p>
+
+<h2 id="базовый-сброс-hard-reset-для-всех-моделей">Базовый сброс (Hard Reset) для всех моделей</h2>
+<p>Самый простой и безопасный способ попытаться исправить работу техники — выполнить полный сброс памяти. Эта процедура не затрагивает заводскую прошивку, а лишь очищает оперативную память контроллера от временных ошибок. Для моделей <em>Bosch Classixx</em> и более новых серий алгоритм действий практически идентичен.</p>
+<p>Сначала необходимо полностью обесточить устройство. Выдерните шнур питания из розетки и подождите минимум 15-20 минут. Это время необходимо для того, чтобы конденсаторы на плате управления полностью разрядились. Только после этого можно снова подключить машину к сети.</p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Для полного разряда конденсаторов на плате управления оставьте машину выключенной из розетки на 30 минут, особенно если перед этим была попытка запуска.</p></aside>
+<p>Далее следует выполнить последовательность действий для принудительной инициализации:</p>
+<ul>
+<li>🔄 Убедитесь, что бак пуст и дверца люка плотно закрыта.</li>
+<li>🔄 Переведите селектор выбора программ в положение «Выключено».</li>
+<li>🔄 Нажмите и удерживайте кнопку «Старт/Пауза» в течение 5-7 секунд.</li>
+<li>🔄 Если на дисплее появились нули или мигающие индикаторы — сброс прошел успешно.</li>
+</ul>
+<p>В некоторых случаях, особенно на старых моделях, требуется комбинация кнопок. Попробуйте одновременно зажать кнопки «Отжим» и «Температура» при повороте ручки включения. <strong>Системная логика</strong> Bosch часто реагирует на такие сочетания как на команду очистки буфера ошибок.</p>
+<blockquote>
+<p>⚠️ Внимание: Не пытайтесь выполнять сброс, если в барабане находится белье с водой. Это может привести к блокировке люка и необходимости аварийного слива.</p>
+</blockquote>
+<p>Если после выполнения этих действий машина включилась и позволяет выбрать программу, проблема была вызвана временным сбоем напряжения. Однако, если симптомы повторились через несколько стирок, потребуется более глубокая диагностика.</p>
+
+<h2 id="вход-в-сервисный-тестовый-режим">Вход в сервисный (тестовый) режим</h2>
+<p>Для более продвинутых пользователей существует возможность входа в сервисный режим, который предназначен для диагностики узлов машины инженерами. В этом режиме можно проверить работу <strong>ТЭНа</strong>, скорость вращения двигателя и исправность клапанов подачи воды. Вход в этот режим осуществляется через специальную комбинацию.</p>
+<p>Процедура входа требует точности и скорости. Убедитесь, что машина выключена. Затем необходимо зажать определенную комбинацию кнопок (зависит от серии) и, не отпуская их, повернуть ручку выбора программ в положение «Слив» или «Отжим».</p>
+<pre><code>Комбинация для серий Maxx/Logixx:
+<p>1. Выключить машину.</p>
+<p>2. Зажать кнопку "Супер 30/60" (или аналог с изображением спирали).</p>
+<p>3. Повернуть ручку в положение "Слив".</p>
+<p>4. Отпустить кнопку через 2-3 секунды.</code></pre></p>
+<p>После успешного входа все индикаторы могут загореться одновременно, а селектор программ станет неактивным. Управление осуществляется кнопками дополнительных функций. Например, кнопка «Температура» может включать нагрев, а кнопка «Отжим» — вращать барабан с определенной скоростью.</p>
+<details class="pb-accordion"><summary>Что будет если нажать лишнюю кнопку в сервисном режиме?</summary><div class="pb-accordion-body"><p>В большинстве случаев ничего страшного не произойдет, система просто проигнорирует команду. Однако, активация функции "Аква-стоп" в тестовом режиме откроет клапан подачи воды, что может привести к затоплению, если шланг не подключен или поврежден.</p></div></details>
+<p>Выход из сервисного режима обычно осуществляется поворотом ручки в положение «Выключено». Если машина осталась в режиме диагностики, попробуйте полностью отключить питание на 10 минут.</p>
+<p>Использование тестового режима позволяет выявить, какой именно узел не получает команды от платы. Если в режиме теста двигатель крутится, а в обычном режиме стоит, значит, проблема в <strong>программном обеспечении</strong> или датчиках, а не в самом моторе.</p>
+
+<h2 id="сброс-ошибки-e18-и-других-кодов">Сброс ошибки E18 и других кодов</h2>
+<p>Одной из самых распространенных проблем, требующей вмешательства в настройки, является ошибка E18 (или F18), указывающая на проблемы с открытием люка или сливом воды. Часто этот код загорается из-за того, что система «запомнила» ошибку, хотя физически препятствие уже устранено.</p>
+<p>Для сброса этого конкретного кода на многих моделях Bosch применяется метод «танца с бубном», который на самом деле является скрытой командой перезагрузки контроллера замка. Необходимо выключить машину, затем одновременно зажать две любые кнопки (кроме «Вкл/Выкл») и, удерживая их, включить аппарат.</p>
+<div class="pb-table-wrap"><table>
+<thead>
+<tr>
+<th>Код ошибки</th>
+<th>Описание проблемы</th>
+<th>Метод сброса</th>
+<th>Вероятность успеха</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E18 / F18</td>
+<td>Ошибка открытия люка</td>
+<td>Комбинация кнопок + выключение</td>
+<td>Высокая</td>
+</tr>
+<tr>
+<td>E06 / F06</td>
+<td>Неисправность двигателя</td>
+<td>Полный сброс питания (30 мин)</td>
+<td>Средняя</td>
+</tr>
+<tr>
+<td>E21 / F21</td>
+<td>Ошибка слива воды</td>
+<td>Очистка фильтра + сброс</td>
+<td>Высокая</td>
+</tr>
+<tr>
+<td>E15 / F15</td>
+<td>Активация Аква-стопа</td>
+<td>Требуется просушка модуля</td>
+<td>Низкая</td>
+</tr>
+</tbody>
+</table></div>
+<p>Важно понимать, что таблица выше дает лишь ориентировочные данные. Модули управления разных годов выпуска могут реагировать на сброс по-разному. <strong>Электронная плата</strong> может требовать двукратного повторения процедуры для подтверждения очистки памяти.</p>
+<p>Если после сброса ошибка E18 появляется снова при первой же попытке старта, проблема кроется в механике: сломан язычок замка, поврежден провод или неисправен сам замок (УБЛ). В этом случае перепрограммирование бессмысленно.</p>
+<div class="pb-steps"><h4 class="pb-steps-title">☑️ Действия при ошибке E18</h4><label class="check-item"><input type="checkbox"><span>Проверить, не застряла ли манжета в люке</span></label><label class="check-item"><input type="checkbox"><span>Почистить фильтр сливного насоса</span></label><label class="check-item"><input type="checkbox"><span>Выполнить полный сброс питания</span></label><label class="check-item"><input type="checkbox"><span>Проверить целостность проводов УБЛ</span></label><div class="check-progress">Выполнено: <span class="check-count">0</span> / 4</div></div>
+
+<h2 id="калибровка-веса-белья-и-датчиков">Калибровка веса белья и датчиков</h2>
+<p>Современные машины Bosch оснащены функцией автоматического определения веса белья (Autoweigh). Если эта функция работает некорректно, машина может набирать слишком мало воды или неправильно рассчитывать время стирки. В таких случаях полезна процедура калибровки, которую можно инициировать вручную.</p>
+<p>Для запуска калибровки машина должна быть пуста. Выберите режим «Хлопок» при температуре 90 градусов, но не запускайте стирку сразу. На некоторых моделях с дисплеем <em>Display</em> нужно удерживать кнопку «Старт» в течение 10 секунд до появления специального символа.</p>
+<p>В процессе калибровки барабан будет несколько раз проворачиваться в разные стороны, а затем может набраться и слиться вода. <strong>Сенсорные датчики</strong> в этот момент считывают сопротивление двигателя и уровень воды, обновляя базовые значения в памяти контроллера.</p>
+<blockquote>
+<p>⚠️ Внимание: Во время калибровки не открывайте дверцу и не отключайте машину от сети. Прерывание процесса может привести к некорректным показаниям веса в будущем.</p>
+</blockquote>
+<p>Если после калибровки машина все еще неправильно дозирует воду, возможно, загрязнен прессостат (датчик уровня воды) или в трубке, идущей к нему, находится вода. В таком случае требуется физическая чистка системы контроля уровня.</p>
+
+<h2 id="программные-сбои-модулей-e-control">Программные сбои модулей E-Control</h2>
+<p>В последних моделях Bosch используются модули управления серии E-Control, которые отличаются высокой степенью интеграции. Сбои в этих системах часто связаны не с физическим повреждением, а с рассинхронизацией данных между процессором и памятью.</p>
+<p>Пользователи иногда сталкиваются с ситуацией, когда машина «забывает» настройки Wi-Fi или перестает видеть приложение <em>Home Connect</em>. В этом случае помогает сброс сетевых настроек, который выполняется длительным удержанием кнопки подключения к сети (обычно 10-15 секунд) до звукового сигнала.</p>
+<p>Более сложные случаи, такие как «кирпичевание» модуля после неудачного обновления, в домашних условиях не решаются. <strong>Микропрограммное обеспечение</strong> (firmware) зашито в энергонезависимую память и требует специального программатора для перезаписи.</p>
+<aside class="pb-callout pb-callout-note"><span class="pb-callout-icon">💡</span><p>Сложные программные сбои модулей E-Control, связанные с повреждением прошивки, невозможно устранить кнопками — требуется замена или перепайка чипа в сервисе.</p></aside>
+<p>Тем не менее, стоит проверить актуальность информации о вашей модели. Интерфейсы и методы сброса могут изменяться в новых сериях техники.</p>
+<blockquote>
+<p>Производители могут изменять логику работы электронных модулей в новых партиях техники. Если описанные комбинации не работают, сверьтесь с официальной инструкцией для вашей конкретной модели (E-Nr), так как алгоритмы могут отличаться.</p>
+</blockquote>
+<p>Иногда помогает «циклический» запуск: включение машины, выбор программы, ожидание 30 секунд, выключение. Повторение этого цикла 3-4 раза может «встряхнуть» логику контроллера и устранить зависание.</p>
+
+<h2 id="часто-задаваемые-вопросы-faq">Часто задаваемые вопросы (FAQ)</h2>
+<details>
+<summary>Можно ли прошить стиральную машину Bosch через USB?</summary>
+<p>Нет, в бытовых моделях Bosch отсутствует порт USB для прошивки пользователем. Обновление программного обеспечения возможно только в авторизованных сервисных центрах через специальный разъем на плате с использованием дорогостоящего оборудования.</p>
+</details>
+<details>
+<summary>Сбросится ли счетчик циклов стирки после перепрограммирования?</summary>
+<p>Обычный сброс ошибок (Hard Reset) не влияет на счетчик циклов. Он хранится в отдельной ячейке памяти. Обнуление счетчика возможно только при замене модуля или использовании инженерного софта, что не рекомендуется делать без необходимости.</p>
+</details>
+<details>
+<summary>Что делать, если после сброса машина гудит, но не крутится?</summary>
+<p>Это может указывать на клин двигателя или износ щеток. Программный сброс здесь не поможет. Необходимо проверить, свободно ли вращается барабан вручную при выключенной машине. Если есть заклинивание, требуется механический ремонт.</p>
+</details>
+<details>
+<summary>Поможет ли перепрограммирование, если машина не греет воду?</summary>
+<p>Только в том случае, если сгорел ТЭН из-за скачка напряжения и контроллер «запомил» эту ошибку как блокирующую. Если ТЭН цел, но не греет, проблема в самом нагревателе, проводке или реле на плате, а не в программе.</p>
+</details></div>
+                    
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <section class="pb-related-bottom">
+        <div class="pb-container">
+            <h2 class="pb-related-heading">📖 Читайте также</h2>
+            <div class="pb-related-list"><a href="/articles/n/ne/ne-slivaet-stiralnaya-mashina-lg-chto-delat.html" class="pb-related-card">
+                <span class="pb-related-title">Не сливает стиральная машина LG: причины и ремонт</span>
+                <span class="pb-related-desc">Стиральная машина LG не сливает воду? Разбираем причины, коды ошибок и способы чистки сливного насос</span>
+            </a><a href="/articles/s/st/stiralnaya-mashina-indezit-kak-pomenyat-amortizatory.html" class="pb-related-card">
+                <span class="pb-related-title">Замена амортизаторов в стиральной машине Indesit: пошаговая инструкция</span>
+                <span class="pb-related-desc">Узнайте, как заменить амортизаторы в стиральной машине Indesit. Подробный разбор симптомов, инструме</span>
+            </a><a href="/articles/k/ka/kak-postavit-rezinku-na-stiralnuyu-mashinu.html" class="pb-related-card">
+                <span class="pb-related-title">Как поставить резинку на стиральную машину: пошаговая инструкция</span>
+                <span class="pb-related-desc">Узнайте, как правильно заменить уплотнительную манжету люка своими руками. Подробный разбор типов кр</span>
+            </a><a href="/articles/c/ch/chem-zakleit-kozhukh-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Чем заклеить кожух стиральной машины: лучшие клеи</span>
+                <span class="pb-related-desc">Ищете, чем заклеить кожух стиральной машины? Обзор термостойких клеев, эпоксидных смол и герметиков </span>
+            </a><a href="/articles/c/ch/chem-smazyvat-remen-stiralnoj-mashiny.html" class="pb-related-card">
+                <span class="pb-related-title">Чем смазать ремень стиральной машины: 5 проверенных средств</span>
+                <span class="pb-related-desc">Какую смазку выбрать для ремня стиральной машины: силикон, литол или специальные составы? Инструкции</span>
+            </a><a href="/articles/k/ka/kak-iz-dvigatelya-ot-stiralnoj-mashiny-avtomat-sdelat-nazhdak-svoimi-rukami.html" class="pb-related-card">
+                <span class="pb-related-title">Наждак из двигателя стиральной машины своими руками: пошаговая инструкция</span>
+                <span class="pb-related-desc">Подробная схема подключения и сборки точильного станка из мотора стиралки-автомат. Схемы, советы по </span>
+            </a></div>
+        </div>
+    </section>
+
+    <footer class="pb-footer">
+        <div class="pb-container">
+            <div class="pb-footer-top">
+                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
+                <p class="pb-footer-desc"></p>
+            </div>
+            <div class="pb-footer-links">
+                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
+                <div class="pb-footer-info">
+                    <a href="/">Главная</a> · 
+                    <a href="/about.html">О проекте</a> · 
+                    <a href="/contact.html">Контакты</a> · 
+                    <a href="/privacy.html">Конфиденциальность</a>
+                </div>
+            </div>
+            <div class="pb-footer-bottom">
+                <p>© Стиралка Инфо. Все права защищены.</p>
+                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
+                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
+                title="LiveInternet: показано число посетителей за сегодня"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
+                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
+                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
+            </div>
+        </div>
+    </footer>
+    <div id="cookie-consent" class="pb-cookie">
+        <div class="pb-cookie-inner">
+            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
+            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+    <script>
+    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
+        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+    });
+    // Dropdown menu toggle (click for touch devices)
+    document.querySelectorAll('.pb-dropdown-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            btn.closest('.pb-nav-dropdown').classList.toggle('pb-dd-open');
+        });
+    });
+    document.addEventListener('click', () => {
+        document.querySelectorAll('.pb-nav-dropdown.pb-dd-open').forEach(d => d.classList.remove('pb-dd-open'));
+    });
+    (function() {
+        const popup = document.getElementById('cookie-consent');
+        const btn = document.getElementById('cookie-accept');
+        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
+            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
+            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
+        }
+    })();
+    </script>
+    <script>
+    function pbPollVote(el) {
+        var poll = el.closest('.pb-poll');
+        if (poll.classList.contains('voted')) return;
+        poll.classList.add('voted');
+        el.classList.add('selected');
+        var opts = poll.querySelectorAll('.pb-poll-option');
+        var n = opts.length;
+        var raw = [];
+        var sum = 0;
+        for (var i = 0; i < n; i++) {
+            var v = Math.random() * 50 + 5;
+            if (opts[i] === el) v += 30;
+            raw.push(v);
+            sum += v;
+        }
+        var pcts = raw.map(function(v) { return Math.round(v / sum * 100); });
+        var diff = 100 - pcts.reduce(function(a,b){ return a+b; }, 0);
+        pcts[Array.from(opts).indexOf(el)] += diff;
+        setTimeout(function() {
+            opts.forEach(function(opt, i) {
+                opt.querySelector('.pb-poll-bar').style.width = pcts[i] + '%';
+                opt.querySelector('.pb-poll-pct').textContent = pcts[i] + '%';
+            });
+        }, 50);
+    }
+    </script>
+    
+    <script src="/static/js/inject.js" defer></script>
+</body>
+</html>

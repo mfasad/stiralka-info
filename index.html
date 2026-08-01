@@ -1,352 +1,171 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🧺</text></svg>">
-    <title>Стиралка Инфо — Полное руководство по ремонту, эксплуатации и выбору стиральных машин всех брендов.</title>
-    <meta name="description" content="Полное руководство по ремонту, эксплуатации и выбору стиральных машин всех брендов.">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://stiralka-info.vercel.app/">
-
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Стиралка Инфо">
-    <meta property="og:description" content="Полное руководство по ремонту, эксплуатации и выбору стиральных машин всех брендов.">
-    <meta property="og:locale" content="ru_RU">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Стиралка Инфо",
-        "url": "https://stiralka-info.vercel.app/",
-        "description": "Полное руководство по ремонту, эксплуатации и выбору стиральных машин всех брендов.",
-        "inLanguage": "ru",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://stiralka-info.vercel.app/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
-    }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стиралка Инфо — ремонт, ошибки и уход за стиральной машиной</title>
+  <meta name="description" content="Понятные инструкции по диагностике и ремонту стиральных машин, расшифровка кодов ошибок, подключение, чистка, режимы стирки и выбор техники.">
+  <link rel="canonical" href="https://stiralka-info.vercel.app/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css?v=1779575086">
+  <link rel="stylesheet" href="/static/css/home-service-route.css?v=1">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Стиралка Инфо","url":"https://stiralka-info.vercel.app/","potentialAction":{"@type":"SearchAction","target":"https://stiralka-info.vercel.app/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
 </head>
-<body class="pb-body">
-    <div class="pb-topbar"></div>
-    <header class="pb-header">
-        <div class="pb-container pb-header-inner">
-            <a href="/" class="pb-logo">
-                <span class="pb-logo-icon">🧺</span>
-                <span class="pb-logo-text">Стиралка Инфо</span>
-            </a>
-            <button class="pb-menu-btn" aria-label="Меню" id="pbMenuBtn">☰</button>
-            <nav class="pb-nav" id="pbMainNav">
-                <a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a>
-<a href="/category/kody-oshibok/">⚠️ Коды ошибок</a>
-<a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a>
-<a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a>
-<div class="pb-nav-dropdown">
-            <button class="pb-dropdown-toggle">📂 Все разделы ▾</button>
-            <div class="pb-dropdown-menu"><a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">🛠️ Ремонт своими руками</a>
-<a href="/category/kody-oshibok/" class="pb-dropdown-item">⚠️ Коды ошибок</a>
-<a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">✨ Чистка и уход</a>
-<a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">🔌 Установка и подключение</a>
-<a href="/category/rezhimy-stirki/" class="pb-dropdown-item">⏱️ Режимы стирки</a>
-<a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">👕 Правила стирки вещей</a>
-<a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">💧 Неисправности и причины</a>
-<a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">🏆 Выбор и сравнение</a>
-<a href="/category/drugoe/" class="pb-dropdown-item">📁 Другое</a></div>
+<body class="pb-body sr-body">
+  <div class="pb-topbar"></div>
+  <header class="pb-header sr-header">
+    <div class="pb-container pb-header-inner">
+      <a href="/" class="pb-logo sr-logo"><span class="sr-logo-mark">◎</span><span class="pb-logo-text">Стиралка Инфо</span></a>
+      <button class="pb-menu-btn" aria-label="Открыть меню" aria-expanded="false" aria-controls="pbMainNav" id="pbMenuBtn">☰</button>
+      <nav class="pb-nav" id="pbMainNav">
+        <a href="/category/remont-svoimi-rukami/">Ремонт</a>
+        <a href="/category/kody-oshibok/">Коды ошибок</a>
+        <a href="/category/chistka-i-ukhod/">Чистка и уход</a>
+        <a href="/category/ustanovka-i-podklyuchenie/">Подключение</a>
+        <div class="pb-nav-dropdown">
+          <button class="pb-dropdown-toggle">Все разделы ▾</button>
+          <div class="pb-dropdown-menu">
+            <a href="/category/remont-svoimi-rukami/" class="pb-dropdown-item">Ремонт своими руками</a>
+            <a href="/category/kody-oshibok/" class="pb-dropdown-item">Коды ошибок</a>
+            <a href="/category/chistka-i-ukhod/" class="pb-dropdown-item">Чистка и уход</a>
+            <a href="/category/ustanovka-i-podklyuchenie/" class="pb-dropdown-item">Установка и подключение</a>
+            <a href="/category/rezhimy-stirki/" class="pb-dropdown-item">Режимы стирки</a>
+            <a href="/category/pravila-stirki-veshchej/" class="pb-dropdown-item">Правила стирки вещей</a>
+            <a href="/category/neispravnosti-i-prichiny/" class="pb-dropdown-item">Неисправности и причины</a>
+            <a href="/category/vybor-i-sravnenie/" class="pb-dropdown-item">Выбор и сравнение</a>
+          </div>
         </div>
-            </nav>
-        </div>
-    </header>
+      </nav>
+    </div>
+  </header>
 
-    <!-- BLOCK 1: Hero -->
-    <section class="pb-hp-hero">
-        <div class="pb-hp-hero-bg"></div>
-        <div class="pb-container pb-hp-hero-inner">
-            <div class="pb-hp-hero-icon-wrap"><span class="pb-hp-hero-icon">🧺</span></div>
-            <h1>Стиралка Инфо — <span class="pb-hp-hero-accent">ремонт без мастеров</span></h1>
-            <p class="pb-hp-hero-desc">Полное руководство по восстановлению и уходу за стиральными машинами любых брендов.</p>
-            <div class="pb-hp-hero-search">
-                <div class="pb-search-box">
-                    <input type="text" id="globalSearchInput" placeholder="🔍 Найти статью..." autocomplete="off">
-                    <div class="search-dropdown" id="globalSearchDropdown"></div>
-                </div>
+  <main class="sr-main">
+    <section class="sr-hero">
+      <div class="sr-hero-photo" aria-hidden="true"></div>
+      <div class="pb-container sr-hero-grid">
+        <div class="sr-hero-copy">
+          <span class="sr-kicker">Справочник по стиральным машинам</span>
+          <h1>Поймите, что случилось со стиральной машиной</h1>
+          <p>Начните с симптома, кода на дисплее или нужной операции. Объясняем, что можно проверить самостоятельно и когда лучше остановиться.</p>
+          <div class="sr-search-wrap">
+            <label for="globalSearchInput">Поиск по инструкциям</label>
+            <div class="pb-search-box sr-search-box">
+              <input type="text" id="globalSearchInput" placeholder="Например: не сливает воду" autocomplete="off">
+              <button type="button" class="sr-search-button" aria-label="Найти">→</button>
+              <div class="search-dropdown" id="globalSearchDropdown"></div>
             </div>
-            <div class="pb-hp-hero-pills">
-                <a href="/category/remont-svoimi-rukami/" class="pb-hero-pill">🛠️ Ремонт своими руками</a> <a href="/category/kody-oshibok/" class="pb-hero-pill">⚠️ Коды ошибок</a> <a href="/category/chistka-i-ukhod/" class="pb-hero-pill">✨ Чистка и уход</a> <a href="/category/ustanovka-i-podklyuchenie/" class="pb-hero-pill">🔌 Установка и подключение</a> <a href="/category/rezhimy-stirki/" class="pb-hero-pill">⏱️ Режимы стирки</a> <a href="/category/pravila-stirki-veshchej/" class="pb-hero-pill">👕 Правила стирки вещей</a> <a href="/category/neispravnosti-i-prichiny/" class="pb-hero-pill">💧 Неисправности и причины</a> <a href="/category/vybor-i-sravnenie/" class="pb-hero-pill">🏆 Выбор и сравнение</a> <a href="/category/drugoe/" class="pb-hero-pill">📁 Другое</a>
-            </div>
+          </div>
+          <div class="sr-safety"><strong>Сначала безопасность.</strong> Отключите машину от сети и перекройте воду перед осмотром.</div>
         </div>
+        <nav class="sr-route-panel" aria-label="Быстрый выбор проблемы">
+          <span class="sr-panel-label">С чего начать</span>
+          <a href="/category/neispravnosti-i-prichiny/"><b>01</b><span><strong>Не сливает или не набирает</strong><small>Фильтр, насос, шланги и клапан</small></span><i>↗</i></a>
+          <a href="/category/kody-oshibok/"><b>02</b><span><strong>Показывает код ошибки</strong><small>Расшифровка по бренду и модели</small></span><i>↗</i></a>
+          <a href="/category/neispravnosti-i-prichiny/"><b>03</b><span><strong>Шумит, прыгает или течёт</strong><small>Причины по характеру симптома</small></span><i>↗</i></a>
+          <a href="/category/remont-svoimi-rukami/"><b>04</b><span><strong>Нужно заменить деталь</strong><small>Разборка и проверка узлов</small></span><i>↗</i></a>
+        </nav>
+      </div>
     </section>
 
-    <!-- BLOCK 2: Trust line -->
-    <div class="pb-hp-trust-line">
-        <div class="pb-container">
-            <div class="pb-hp-trust-items">
-                <span class="pb-hp-trust-item">✓ Проверено экспертами</span>
-                <span class="pb-hp-trust-sep">·</span>
-                <span class="pb-hp-trust-item">✓ Обновляемые материалы</span>
-                <span class="pb-hp-trust-sep">·</span>
-                <span class="pb-hp-trust-item">✓ Без лишней воды</span>
-                <span class="pb-hp-trust-sep">·</span>
-                <span class="pb-hp-trust-item">✓ Бесплатный доступ</span>
-            </div>
-        </div>
-    </div>
-
-    <main class="pb-main">
-        <div class="pb-container">
-
-            <!-- BLOCK 3: Feature Grid -->
-            <section class="pb-hp-section" data-animate>
-                <div class="pb-hp-features">
-                    <div class="pb-hp-feature-card"><div class="pb-hp-feature-icon">🔍</div><div class="pb-hp-feature-title">Точная диагностика</div><div class="pb-hp-feature-desc">Узнайте причину поломки по звуку или коду</div></div>
-<div class="pb-hp-feature-card"><div class="pb-hp-feature-icon">🛠️</div><div class="pb-hp-feature-title">Ремонт без переплат</div><div class="pb-hp-feature-desc">Инструкции для замены узлов своими руками дома</div></div>
-<div class="pb-hp-feature-card"><div class="pb-hp-feature-icon">🧼</div><div class="pb-hp-feature-title">Защита от накипи</div><div class="pb-hp-feature-desc">Проверенные методы чистки ТЭНа и барабана</div></div>
-                </div>
-            </section>
-
-            <!-- BLOCK 4: Categories -->
-            <section class="pb-hp-section" data-animate>
-                <h2 class="pb-hp-section-title">📂 Разделы</h2>
-                <div class="pb-hp-cat-list">
-                    <a href="/category/remont-svoimi-rukami/" class="pb-hp-cat-card" style="--cat-hue:129">
-            <span class="pb-hp-cat-emoji">🛠️</span>
-            <span class="pb-hp-cat-name">Ремонт своими руками</span>
-            <span class="pb-hp-cat-desc">Пошаговые инструкции по самостоятельному устранению поломок</span>
-        </a>
-<a href="/category/kody-oshibok/" class="pb-hp-cat-card" style="--cat-hue:145">
-            <span class="pb-hp-cat-emoji">⚠️</span>
-            <span class="pb-hp-cat-name">Коды ошибок</span>
-            <span class="pb-hp-cat-desc">Расшифровка кодов ошибок для всех популярных брендов</span>
-        </a>
-<a href="/category/chistka-i-ukhod/" class="pb-hp-cat-card" style="--cat-hue:209">
-            <span class="pb-hp-cat-emoji">✨</span>
-            <span class="pb-hp-cat-name">Чистка и уход</span>
-            <span class="pb-hp-cat-desc">Эффективные методы чистки и профилактики накипи</span>
-        </a>
-<a href="/category/ustanovka-i-podklyuchenie/" class="pb-hp-cat-card" style="--cat-hue:163">
-            <span class="pb-hp-cat-emoji">🔌</span>
-            <span class="pb-hp-cat-name">Установка и подключение</span>
-            <span class="pb-hp-cat-desc">Правила монтажа и подключения к коммуникациям</span>
-        </a>
-<a href="/category/rezhimy-stirki/" class="pb-hp-cat-card" style="--cat-hue:337">
-            <span class="pb-hp-cat-emoji">⏱️</span>
-            <span class="pb-hp-cat-name">Режимы стирки</span>
-            <span class="pb-hp-cat-desc">Обзор программ стирки и их правильное использование</span>
-        </a>
-<a href="/category/pravila-stirki-veshchej/" class="pb-hp-cat-card" style="--cat-hue:304">
-            <span class="pb-hp-cat-emoji">👕</span>
-            <span class="pb-hp-cat-name">Правила стирки вещей</span>
-            <span class="pb-hp-cat-desc">Советы по бережной стирке различных тканей</span>
-        </a>
-<a href="/category/neispravnosti-i-prichiny/" class="pb-hp-cat-card" style="--cat-hue:270">
-            <span class="pb-hp-cat-emoji">💧</span>
-            <span class="pb-hp-cat-name">Неисправности и причины</span>
-            <span class="pb-hp-cat-desc">Диагностика проблем и поиск причин неисправностей</span>
-        </a>
-<a href="/category/vybor-i-sravnenie/" class="pb-hp-cat-card" style="--cat-hue:357">
-            <span class="pb-hp-cat-emoji">🏆</span>
-            <span class="pb-hp-cat-name">Выбор и сравнение</span>
-            <span class="pb-hp-cat-desc">Объективные обзоры и сравнение моделей техники</span>
-        </a>
-<a href="/category/drugoe/" class="pb-hp-cat-card" style="--cat-hue:260">
-            <span class="pb-hp-cat-emoji">📁</span>
-            <span class="pb-hp-cat-name">Другое</span>
-            <span class="pb-hp-cat-desc">Прочие полезные статьи о стиральных машинах</span>
-        </a>
-
-                </div>
-            </section>
-
-            <!-- BLOCK 5: Intro + Trust -->
-            <section class="pb-hp-section pb-hp-intro-trust" data-animate>
-        <div class="pb-container">
-            <div class="pb-hp-two-col">
-                <div class="pb-hp-col">
-                    <h2 class="pb-hp-col-title">📖 О проекте</h2>
-                    <p>Стиралка Инфо — это специализированный ресурс, созданный для продления жизни вашей бытовой техники без лишних затрат. Мы собираем проверенные инструкции по ремонту, расшифровкам ошибок и правильному уходу за стиральными машинами любых производителей.</p>
-                </div>
-                <div class="pb-hp-col">
-                    <h2 class="pb-hp-col-title">🛡️ Почему нам доверяют</h2>
-                    <p>Наши материалы проходят тщательную редакционную проверку на соответствие техническим мануалам и логике работы агрегатов. Мы ценим понятную структуру подачи информации, чтобы вы быстро находили решение проблемы. Помните, что технические характеристики могут отличаться, поэтому перед сложным ремонтом всегда сверяйтесь с официальной документацией вашего устройства.</p>
-                </div>
-            </div>
-        </div>
+    <section class="sr-status" aria-label="Принципы справочника">
+      <div class="pb-container"><span>Пошаговые проверки</span><span>От простого к сложному</span><span>Что можно сделать самостоятельно</span></div>
     </section>
 
-            <!-- BLOCK 6: Latest articles -->
-            <section class="pb-hp-section" data-animate>
-                <h2 class="pb-hp-section-title">📰 Популярные материалы</h2>
-                <div class="pb-hp-articles-list">
-                    <a href="/articles/m/me/meshok-dlya-stirki-belya-v-stiralnoj-mashine-dlya-chego.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">📁 Другое</span>
-                <span class="pb-hp-article-meta">⏱ 10 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Мешок для стирки белья: зачем нужен и как правильно использовать</span>
-        </a>
-<a href="/articles/k/ka/kak-snyat-uplotnitelnuyu-rezinku-s-barabana-stiralnoj-indezit-mashiny-video.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">🛠️ Ремонт своими руками</span>
-                <span class="pb-hp-article-meta">⏱ 11 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Как снять уплотнительную резинку с барабана Indesit: видео-инструкция</span>
-        </a>
-<a href="/articles/k/ka/kak-postirat-perevuyu-podushku-v-stiralnoj-mashine-v-domashnikh-usloviyakh-i-vysushit.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">👕 Правила стирки вещей</span>
-                <span class="pb-hp-article-meta">⏱ 10 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Как постирать перьевую подушку в стиральной машине: пошаговая инструкция</span>
-        </a>
-<a href="/articles/k/ka/kak-otmyt-stiralnuyu-mashinu-iznutri-ot-gryazi-v-domashnikh-usloviyakh.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">✨ Чистка и уход</span>
-                <span class="pb-hp-article-meta">⏱ 12 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Как отмыть стиральную машину изнутри от грязи: полная инструкция</span>
-        </a>
-<a href="/articles/k/ka/kak-pochistit-stiralnuyu-mashinu-atlant.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">✨ Чистка и уход</span>
-                <span class="pb-hp-article-meta">⏱ 11 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Как почистить стиральную машину Атлант: полная инструкция</span>
-        </a>
-<a href="/articles/k/ka/kak-zamenit-rozetku-na-stiralnoj-mashine.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">🛠️ Ремонт своими руками</span>
-                <span class="pb-hp-article-meta">⏱ 11 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Замена розетки на стиральной машине: пошаговая инструкция</span>
-        </a>
-<a href="/articles/c/ch/chem-stirat-kurtki-v-stiralnoj-mashine.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">👕 Правила стирки вещей</span>
-                <span class="pb-hp-article-meta">⏱ 10 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Чем стирать куртки в стиральной машине: выбор средств и режимов</span>
-        </a>
-<a href="/articles/p/po/pochemu-pri-stirke-pishchit-stiralnaya-mashina.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">💧 Неисправности и причины</span>
-                <span class="pb-hp-article-meta">⏱ 9 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Почему пищит стиральная машина при стирке: причины и устранение</span>
-        </a>
-<a href="/articles/g/gd/gde-nakhoditsya-takhodatchik-u-stiralnoj-mashiny-lg.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">🛠️ Ремонт своими руками</span>
-                <span class="pb-hp-article-meta">⏱ 13 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Где находится таходатчик в стиральной машине LG: поиск и проверка</span>
-        </a>
-<a href="/articles/d/dl/dlya-chego-kladut-vlazhnuyu-salfetku-v-stiralnuyu-mashinu-pri-stirke.html" class="pb-hp-article-card">
-            <div class="pb-hp-article-card-top">
-                <span class="pb-hp-article-cat">👕 Правила стирки вещей</span>
-                <span class="pb-hp-article-meta">⏱ 11 мин</span>
-            </div>
-            <span class="pb-hp-article-title">Влажная салфетка в стиральной машине: мифы и реальность</span>
-        </a>
-
-                </div>
-            </section>
-
-            <!-- BLOCK 7: FAQ Teaser -->
-            <section class="pb-hp-section" data-animate>
-                <h2 class="pb-hp-section-title">❓ Частые вопросы</h2>
-                <div class="pb-hp-faq">
-                    <details class="pb-hp-faq-item"><summary>Как найти код ошибки для моей модели стиральной машины?</summary><div class="pb-hp-faq-answer">В разделе кодов ошибок выберите бренд производителя, затем найдите свою серию или модель в списке. Мы предоставляем подробную расшифровку каждого символа и алгоритм действий для сброса или устранения неисправности.</div></details>
-<details class="pb-hp-faq-item"><summary>Безопасно ли ремонтировать стиральную машину самостоятельно?</summary><div class="pb-hp-faq-answer">Большинство операций, таких как чистка фильтров или замена манжеты, безопасны при соблюдении техники безопасности. Однако работы, связанные с электрическими компонентами или герметичностью бака, требуют осторожности и отключения прибора от сети.</div></details>
-<details class="pb-hp-faq-item"><summary>Поможет ли регулярная чистка избежать дорогостоящего ремонта?</summary><div class="pb-hp-faq-answer">Да, своевременное удаление накипи и грязи значительно продлевает срок службы нагревательного элемента и подшипников. Профилактические меры позволяют избежать внезапных поломок и сохраняют эффективность стирки на высоком уровне.</div></details>
-<details class="pb-hp-faq-item"><summary>Где можно найти информацию о режимах стирки для деликатных тканей?</summary><div class="pb-hp-faq-answer">В категории режимы стирки мы подробно описываем назначение каждой программы и температурные ограничения. Это поможет вам правильно ухаживать за шерстью, шелком и другими требовательными материалами без риска их повреждения.</div></details>
-<details class="pb-hp-faq-item"><summary>Стоит ли покупать новую машину, если старая начала шуметь?</summary><div class="pb-hp-faq-answer">Не спешите с покупкой, так как шум часто свидетельствует об износе подшипников или попадании постороннего предмета. Наши руководства помогут диагностировать источник звука и часто позволяют устранить проблему заменой одной детали.</div></details>
-                </div>
-            </section>
-
-            <!-- BLOCK 8: CTA -->
-            <section class="pb-hp-section" data-animate>
-                <div class="pb-hp-cta">
-                    <div class="pb-hp-cta-stripe"></div>
-                    <h2>🚀 Верните технику к жизни прямо сейчас</h2>
-                    <p>Найдите причину поломки и устраните её самостоятельно с нашими подробными инструкциями. Экономьте семейный бюджет, избегая costly вызовов сервисных служб.</p>
-                </div>
-            </section>
-
-            <!-- BLOCK 9: Popular Tags -->
-            <section class="pb-hp-section" data-animate>
-                <h2 class="pb-hp-section-title">🏷️ Темы</h2>
-                <div class="pb-hp-tags">
-                    <span class="pb-hp-tag">чистка сливного фильтра</span> <span class="pb-hp-tag">замена подшипников барабана</span> <span class="pb-hp-tag">ошибка E10 расшифровка</span> <span class="pb-hp-tag">как снять накипь</span> <span class="pb-hp-tag">почему не сливает воду</span> <span class="pb-hp-tag">замена манжеты люка</span> <span class="pb-hp-tag">сильная вибрация при отжиме</span> <span class="pb-hp-tag">не греет воду причины</span> <span class="pb-hp-tag">сравнение Bosch и LG</span> <span class="pb-hp-tag">засорился насос что делать</span> <a href="/category/remont-svoimi-rukami/" class="pb-hp-tag">🛠️ Ремонт своими руками</a> <a href="/category/kody-oshibok/" class="pb-hp-tag">⚠️ Коды ошибок</a> <a href="/category/chistka-i-ukhod/" class="pb-hp-tag">✨ Чистка и уход</a> <a href="/category/ustanovka-i-podklyuchenie/" class="pb-hp-tag">🔌 Установка и подключение</a> <a href="/category/rezhimy-stirki/" class="pb-hp-tag">⏱️ Режимы стирки</a> <a href="/category/pravila-stirki-veshchej/" class="pb-hp-tag">👕 Правила стирки вещей</a> <a href="/category/neispravnosti-i-prichiny/" class="pb-hp-tag">💧 Неисправности и причины</a> <a href="/category/vybor-i-sravnenie/" class="pb-hp-tag">🏆 Выбор и сравнение</a> <a href="/category/drugoe/" class="pb-hp-tag">📁 Другое</a>
-                </div>
-            </section>
-
+    <section class="sr-section sr-scenarios">
+      <div class="pb-container">
+        <div class="sr-heading"><span>Выберите задачу</span><h2>Что нужно сделать со стиральной машиной?</h2><p>Начните с быстрой проверки, а затем переходите к подробной инструкции.</p></div>
+        <div class="sr-scenario-grid">
+          <a class="sr-scene sr-scene-large" href="/category/remont-svoimi-rukami/">
+            <img src="/static/img/home/02-diagnostics-multimeter.jpg" alt="Диагностика платы стиральной машины мультиметром" loading="lazy">
+            <span class="sr-scene-copy"><small>Диагностика и ремонт</small><strong>Найдите неисправный узел</strong><em>От внешнего осмотра до проверки деталей →</em></span>
+          </a>
+          <a class="sr-scene" href="/category/kody-oshibok/">
+            <img src="/static/img/home/03-error-codes-panel.jpg" alt="Панель стиральной машины с предупреждением" loading="lazy">
+            <span class="sr-scene-copy"><small>Дисплей</small><strong>Расшифруйте код ошибки</strong><em>Найти значение →</em></span>
+          </a>
+          <a class="sr-scene" href="/category/chistka-i-ukhod/">
+            <img src="/static/img/home/04-cleaning-and-care.jpg" alt="Чистка барабана стиральной машины" loading="lazy">
+            <span class="sr-scene-copy"><small>Профилактика</small><strong>Как устранить запах и загрязнения</strong><em>Порядок чистки →</em></span>
+          </a>
+          <a class="sr-scene" href="/category/ustanovka-i-podklyuchenie/">
+            <img src="/static/img/home/05-installation-leveling.jpg" alt="Выравнивание стиральной машины при установке" loading="lazy">
+            <span class="sr-scene-copy"><small>Монтаж</small><strong>Подключите и выровняйте</strong><em>Проверить установку →</em></span>
+          </a>
+          <a class="sr-scene" href="/category/pravila-stirki-veshchej/">
+            <img src="/static/img/home/06-laundry-care.jpg" alt="Сортировка вещей перед стиркой" loading="lazy">
+            <span class="sr-scene-copy"><small>Ткани и режимы</small><strong>Сохраните форму и цвет вещей</strong><em>Выбрать режим →</em></span>
+          </a>
         </div>
-    </main>
+      </div>
+    </section>
 
-    <footer class="pb-footer">
-        <div class="pb-container">
-            <div class="pb-footer-top">
-                <div class="pb-footer-brand">🧺 Стиралка Инфо</div>
-                <p class="pb-footer-desc">Полное руководство по ремонту, эксплуатации и выбору стиральных машин всех брендов.</p>
-            </div>
-            <div class="pb-footer-links">
-                <div class="pb-footer-cats"><a href="/category/remont-svoimi-rukami/">🛠️ Ремонт своими руками</a> · <a href="/category/kody-oshibok/">⚠️ Коды ошибок</a> · <a href="/category/chistka-i-ukhod/">✨ Чистка и уход</a> · <a href="/category/ustanovka-i-podklyuchenie/">🔌 Установка и подключение</a> · <a href="/category/rezhimy-stirki/">⏱️ Режимы стирки</a> · <a href="/category/pravila-stirki-veshchej/">👕 Правила стирки вещей</a></div>
-                <div class="pb-footer-info">
-                    <a href="/">Главная</a> · 
-                    <a href="/about.html">О проекте</a> · 
-                    <a href="/contact.html">Контакты</a> · 
-                    <a href="/privacy.html">Конфиденциальность</a>
-                </div>
-            </div>
-            <div class="pb-footer-bottom">
-                <p>© Стиралка Инфо. Все права защищены.</p>
-                <!--LiveInternet counter--><div style="margin-top:10px;"><a href="https://www.liveinternet.ru/click"
-                target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" 
-                title="LiveInternet: показано число посетителей за сегодня"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
-                alt=""/></a><script>(function(d,s){d.getElementById("licnt06C4").src=
-                "https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+
-                ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
-                (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
-                ";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet-->
-            </div>
+    <section class="sr-section sr-directory">
+      <div class="pb-container sr-directory-grid">
+        <div class="sr-directory-intro">
+          <span class="sr-kicker">Все направления</span>
+          <h2>Справочник по устройству, эксплуатации и выбору</h2>
+          <p>Если точный симптом пока непонятен, откройте нужное направление и двигайтесь по проверкам.</p>
+          <img src="/static/img/home/07-choosing-machine.jpg" alt="Сравнение стиральных машин разных размеров" loading="lazy">
         </div>
-    </footer>
-    <div id="cookie-consent" class="pb-cookie">
-        <div class="pb-cookie-inner">
-            <span>🍪 Мы используем файлы cookie для улучшения работы сайта.</span>
-            <button id="cookie-accept" class="pb-cookie-btn">Принять</button>
+        <div class="sr-index">
+          <a href="/category/remont-svoimi-rukami/"><b>01</b><span><strong>Ремонт своими руками</strong><small>Фильтр, насос, манжета, подшипники и электроника</small></span></a>
+          <a href="/category/kody-oshibok/"><b>02</b><span><strong>Коды ошибок</strong><small>Значения сигналов для популярных производителей</small></span></a>
+          <a href="/category/chistka-i-ukhod/"><b>03</b><span><strong>Чистка и уход</strong><small>Барабан, лоток, фильтр, накипь и запах</small></span></a>
+          <a href="/category/ustanovka-i-podklyuchenie/"><b>04</b><span><strong>Установка и подключение</strong><small>Вода, слив, электропитание и выравнивание</small></span></a>
+          <a href="/category/rezhimy-stirki/"><b>05</b><span><strong>Режимы стирки</strong><small>Температура, отжим и назначение программ</small></span></a>
+          <a href="/category/pravila-stirki-veshchej/"><b>06</b><span><strong>Правила стирки вещей</strong><small>Деликатные ткани, верхняя одежда и домашний текстиль</small></span></a>
+          <a href="/category/neispravnosti-i-prichiny/"><b>07</b><span><strong>Неисправности и причины</strong><small>Диагностика по звуку, протечке и этапу программы</small></span></a>
+          <a href="/category/vybor-i-sravnenie/"><b>08</b><span><strong>Выбор и сравнение</strong><small>Размер, загрузка, функции и расход ресурсов</small></span></a>
         </div>
+      </div>
+    </section>
+
+    <section class="sr-section sr-reading">
+      <div class="pb-container">
+        <div class="sr-heading sr-heading-row"><div><span>Часто читают</span><h2>Практические инструкции</h2></div><a href="/categories.html">Смотреть все разделы →</a></div>
+        <div class="sr-article-list">
+          <a href="/articles/k/ka/kak-otmyt-stiralnuyu-mashinu-iznutri-ot-gryazi-v-domashnikh-usloviyakh.html"><span>Чистка</span><strong>Как отмыть стиральную машину изнутри от грязи</strong><i>12 мин</i></a>
+          <a href="/articles/p/po/pochemu-pri-stirke-pishchit-stiralnaya-mashina.html"><span>Диагностика</span><strong>Почему машина пищит во время стирки</strong><i>9 мин</i></a>
+          <a href="/articles/k/ka/kak-snyat-uplotnitelnuyu-rezinku-s-barabana-stiralnoj-indezit-mashiny-video.html"><span>Ремонт</span><strong>Как снять уплотнительную манжету с барабана</strong><i>11 мин</i></a>
+          <a href="/articles/k/ka/kak-postirat-perevuyu-podushku-v-stiralnoj-mashine-v-domashnikh-usloviyakh-i-vysushit.html"><span>Уход за вещами</span><strong>Как постирать и правильно высушить перьевую подушку</strong><i>10 мин</i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sr-section sr-faq">
+      <div class="pb-container sr-faq-grid">
+        <div><span class="sr-kicker">Коротко о главном</span><h2>Перед началом работы</h2><p>Дождитесь остановки и остывания машины, выньте вилку из розетки, перекройте воду и безопасно слейте её остаток по инструкции вашей модели. Не вскрывайте электрику без квалификации: внутри есть острые кромки и тяжёлые узлы.</p></div>
+        <div class="sr-faq-list">
+          <details><summary>Можно ли ремонтировать машину самостоятельно?</summary><p>Без разборки корпуса обычно проверяют шланги и очищают доступный фильтр строго по инструкции модели. Работы с электрикой, баком и тяжёлыми узлами требуют квалификации и исправного инструмента.</p></details>
+          <details><summary>Почему машина не сливает воду?</summary><p>После полного отключения дайте воде остыть и слейте остаток через аварийный шланг или фильтр по инструкции модели, подготовив низкую ёмкость и тряпки. Затем проверяют сливной шланг и доступную часть фильтра; крыльчатку нельзя трогать при подключённой машине.</p></details>
+          <details><summary>Когда шум означает серьёзную поломку?</summary><p>Скрежет, металлический гул и сильный люфт барабана требуют остановки стирки. Равномерная вибрация часто связана с установкой, загрузкой или транспортировочными болтами.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <aside class="sr-disclaimer"><div class="pb-container"><strong>Независимый информационный сайт.</strong> Мы не являемся сервисным центром или представителем производителей. Материалы не заменяют руководство к конкретной модели.</div></aside>
+  </main>
+
+  <footer class="pb-footer sr-footer">
+    <div class="pb-container">
+      <div class="pb-footer-top"><div class="pb-footer-brand">◎ Стиралка Инфо</div><p class="pb-footer-desc">Понятные инструкции по ремонту, эксплуатации и выбору стиральных машин.</p></div>
+      <div class="pb-footer-links"><div class="pb-footer-info"><a href="/">Главная</a> · <a href="/about.html">О проекте</a> · <a href="/contact.html">Контакты</a> · <a href="/privacy.html">Конфиденциальность</a></div></div>
+      <div class="pb-footer-bottom"><p>Стиралка Инфо. Все права защищены.</p><!--LiveInternet counter--><div style="margin-top:10px"><a href="https://www.liveinternet.ru/click" target="_blank"><img id="licnt06C4" width="88" height="15" style="border:0" title="LiveInternet: показано число посетителей за сегодня" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" alt=""></a><script>(function(d,s){d.getElementById("licnt06C4").src="https://counter.yadro.ru/hit?t26.5;r"+escape(d.referrer)+((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+(s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+";h"+escape(d.title.substring(0,150))+";"+Math.random()})(document,screen)</script></div><!--/LiveInternet--></div>
     </div>
-    <script src="/static/js/main.js"></script>
-    <script>
-    document.getElementById('pbMenuBtn')?.addEventListener('click', () => {
-        document.getElementById('pbMainNav')?.classList.toggle('pb-nav-open');
+  </footer>
+  <div id="cookie-consent" class="pb-cookie"><div class="pb-cookie-inner"><span>Мы используем cookie для корректной работы сайта.</span><button id="cookie-accept" class="pb-cookie-btn">Принять</button></div></div>
+  <script src="/static/js/main.js"></script>
+  <script>
+    const menuButton = document.getElementById('pbMenuBtn');
+    const mainNav = document.getElementById('pbMainNav');
+    menuButton?.addEventListener('click', () => {
+      const opened = mainNav?.classList.toggle('pb-nav-open');
+      menuButton.setAttribute('aria-expanded', String(Boolean(opened)));
     });
-    (function() {
-        const popup = document.getElementById('cookie-consent');
-        const btn = document.getElementById('cookie-accept');
-        if (popup && btn && !localStorage.getItem('cookie-accepted')) {
-            setTimeout(() => popup.classList.add('pb-cookie-visible'), 1500);
-            btn.onclick = () => { localStorage.setItem('cookie-accepted','true'); popup.classList.remove('pb-cookie-visible'); };
-        }
-    })();
-    // Scroll animations
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('pb-visible');
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
-    </script>
-    <script src="/static/js/inject.js" defer></script>
+    document.querySelector('.sr-search-button')?.addEventListener('click', () => document.getElementById('globalSearchInput')?.focus());
+  </script>
+  <script src="/static/js/inject.js" defer></script>
 </body>
 </html>
